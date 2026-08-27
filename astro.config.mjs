@@ -13,7 +13,10 @@ const asset = (p) => `${BASE.replace(/\/$/, '')}/${p.replace(/^\//, '')}`;
 const SCOPE = BASE.endsWith('/') ? BASE : `${BASE}/`;
 
 export default defineConfig({
-  site: 'https://artemiopadilla.github.io',
+  // The account's Pages sites are served from its custom domain, not
+  // <user>.github.io — confirmed via `gh api .../pages` returning
+  // html_url: "http://artemiop.com/pokemon-pokopia-guide/".
+  site: 'https://artemiop.com',
   base: BASE,
   // English is the source language for this guide; Spanish lives under /es/.
   i18n: {
