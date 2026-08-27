@@ -1,0 +1,45 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import SectionHead from '@/components/common/SectionHead.astro';
+import { getLocalized } from '@/lib/content';
+import { useTranslations } from '@/i18n/utils';
+import type { Locale } from '@/i18n/ui';
+
+interface Props {
+  locale: Locale;
+}
+const { locale } = Astro.props;
+const t = useTranslations(locale);
+
+const milestones = (await getLocalized('milestones', locale)).sort(
+  (a, b) => a.data.order - b.data.order,
+);
+---
+
+<BaseLayout title={`${t('milestones.title')} · ${t('site.name')}`} lang={locale}>
+  <main id="main" class="mx-auto max-w-4xl px-5 py-14">
+    <SectionHead level="h1" title={t('milestones.title')} tight />
+    <p class="mb-6 text-sm text-muted-foreground">{t('milestones.note')}</p>
+    <ul class="grid grid-cols-1 gap-3">
+      {
+        milestones.map((m) => (
+          <li class="panel p-4" style="--panel-accent: var(--primary)">
+            <div class="mb-1.5 flex flex-wrap items-baseline gap-2">
+              <span class="rounded-full border border-primary/40 px-2 py-0.5 font-mono text-[11px] text-primary">
+                Lv. {m.data.level}
+              </span>
+              <h2 class="font-display text-base font-bold text-foreground">{m.data.title}</h2>
+            </div>
+            <p class="text-sm text-muted-foreground">
+              <strong class="text-foreground">{t('milestones.requirement')}:</strong>{' '}
+              {m.data.requirement}
+            </p>
+            <p class="mt-1 text-sm text-muted-foreground">
+              <strong class="text-foreground">{t('milestones.unlocks')}:</strong> {m.data.unlocks}
+            </p>
+          </li>
+        ))
+      }
+    </ul>
+  </main>
+</BaseLayout>

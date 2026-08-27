@@ -1,0 +1,38 @@
+[
+  {
+    "id": "eg-01",
+    "kind": "feature",
+    "name": "Palette Town",
+    "body": "Tres islas vacías reservadas para el juego libre una vez que tus zonas principales están en marcha — sin un trazado fijo de una ciudad anterior que respetar.",
+    "order": 1
+  },
+  {
+    "id": "eg-02",
+    "kind": "feature",
+    "name": "Islas en la Nube",
+    "body": "Sesiones de juego alojadas a través de Nintendo Switch Online. El Tangrowth estándar (no el Profesor) es la única especie del juego que requiere NSO para aparecer — solo se encuentra jugando en una Isla en la Nube. El propio Profesor Tangrowth no puede aparecer en Islas en la Nube, porque el tesoro que necesita su hábitat no se puede copiar con la Impresora 3D de un Centro Pokémon.",
+    "order": 2
+  },
+  {
+    "id": "eg-03",
+    "kind": "feature",
+    "name": "Islas de los Sueños",
+    "body": "Un sistema de islas independiente, mencionado junto a las Islas en la Nube como uno de los espacios de juego extendido del título.",
+    "order": 3
+  },
+  {
+    "id": "eg-04",
+    "kind": "feature",
+    "name": "Link Play",
+    "body": "Construcción cooperativa local/en línea: varios jugadores dan forma al mismo paraíso juntos.",
+    "order": 4
+  },
+  {
+    "id": "eg-05",
+    "kind": "expansion",
+    "name": "Bubbly Basin",
+    "body": "La zona del Pase de Expansión: una antigua Ciudad Celeste sumergida. Las Reliquias Perdidas Grandes Hundidas (un subconjunto propio de los Artefactos Antiguos) solo se encuentran aquí.",
+    "order": 5,
+    "requirement": "Requiere el movimiento Buceo para acceder"
+  }
+]

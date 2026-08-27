@@ -1,0 +1,50 @@
+[
+  {
+    "id": "rule-01",
+    "title": "You don’t catch Pokémon — you attract them",
+    "body": "There are no Poké Balls here. Every species has its own habitat preferences (terrain, decoration, lighting); build the right habitat and the right Pokémon shows up on its own.",
+    "order": 1
+  },
+  {
+    "id": "rule-02",
+    "title": "Ditto learns moves, not the player",
+    "body": "Befriending a Pokémon can teach Ditto (in human form) one of its moves — Bulbasaur’s Leafage to add greenery, Squirtle’s Water Gun to hydrate plants — and those moves become paradise-building tools.",
+    "order": 2
+  },
+  {
+    "id": "rule-03",
+    "title": "Assign specialties to speed up construction",
+    "body": "Befriended Pokémon can be assigned a specialty — Build, Crush, Bulldoze, Paint, Gather Honey, Collect — that puts them to work on specific paradise-building tasks instead of just wandering.",
+    "order": 3
+  },
+  {
+    "id": "rule-04",
+    "title": "Fulfill requests to raise Environment Level",
+    "body": "Residents make requests — usually for a specific piece of furniture or a habitat upgrade. Fulfilling one is how you raise an area’s Environment Level, which is tracked separately per area.",
+    "order": 4
+  },
+  {
+    "id": "rule-05",
+    "title": "Recipes come from more than one place",
+    "body": "New crafting recipes unlock through story progress, raising an area’s Environment Level, the Pokémon Center PC Shop (spend Life Coins), completing requests, and glowing water ripples that reset daily.",
+    "order": 5
+  },
+  {
+    "id": "rule-06",
+    "title": "Watch the clock and the sky",
+    "body": "A real-time day/night cycle and dynamic weather gate certain Pokémon and Highlight Reel photo ops — some only show up at night, others only in specific weather.",
+    "order": 6
+  },
+  {
+    "id": "rule-07",
+    "title": "Use Search when you know what you’re after",
+    "body": "The Search function helps you locate a specific target species once you know (or suspect) it’s attracted to a habitat you can build — much faster than wandering an area hoping for a spawn.",
+    "order": 7
+  },
+  {
+    "id": "rule-08",
+    "title": "Bring friends — Link Play is co-op, not competitive",
+    "body": "Link Play lets multiple players build in the same paradise together. It’s worth knowing before you invest hours arranging a layout solo that a friend might want to help shape.",
+    "order": 8
+  }
+]

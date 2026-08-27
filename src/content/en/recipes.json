@@ -1,0 +1,138 @@
+[
+  {
+    "id": "rec-01",
+    "name": "Storage box",
+    "category": "furniture",
+    "materials": ["1x Lumber"],
+    "unlockMethod": "Register 7 Pokémon in the Pokédex",
+    "order": 1
+  },
+  {
+    "id": "rec-02",
+    "name": "Big storage box",
+    "category": "furniture",
+    "materials": ["3x Pokémetal"],
+    "unlockMethod": "Register 30 Pokémon in the Pokédex",
+    "order": 2
+  },
+  {
+    "id": "rec-03",
+    "name": "Plain chest",
+    "category": "furniture",
+    "materials": ["1x Lumber", "1x Twine"],
+    "unlockMethod": "Available early game",
+    "order": 3
+  },
+  {
+    "id": "rec-04",
+    "name": "Log chair",
+    "category": "furniture",
+    "materials": ["1x Small log"],
+    "unlockMethod": "First use of the workbench",
+    "order": 4
+  },
+  {
+    "id": "rec-05",
+    "name": "Log table",
+    "category": "furniture",
+    "materials": ["1x Small log"],
+    "unlockMethod": "Available from the beginning",
+    "order": 5
+  },
+  {
+    "id": "rec-06",
+    "name": "Plain stool",
+    "category": "furniture",
+    "materials": ["1x Lumber", "1x Twine"],
+    "unlockMethod": "Available early game",
+    "order": 6
+  },
+  {
+    "id": "rec-07",
+    "name": "Iron chair",
+    "category": "furniture",
+    "materials": ["1x Iron ingot"],
+    "unlockMethod": "Iron found at Rocky Ridges",
+    "order": 7
+  },
+  {
+    "id": "rec-08",
+    "name": "Luxury chair",
+    "category": "furniture",
+    "materials": ["1x Limestone", "2x Gold ingot"],
+    "unlockMethod": "PC Shop",
+    "order": 8
+  },
+  {
+    "id": "rec-09",
+    "name": "Plain table",
+    "category": "furniture",
+    "materials": ["2x Lumber", "1x Twine"],
+    "unlockMethod": "Available early game",
+    "order": 9
+  },
+  {
+    "id": "rec-10",
+    "name": "Iron table",
+    "category": "furniture",
+    "materials": ["2x Iron ingot"],
+    "unlockMethod": "Iron found at Rocky Ridges",
+    "order": 10
+  },
+  {
+    "id": "rec-11",
+    "name": "Berry table",
+    "category": "furniture",
+    "materials": ["1x Aspear Berry", "1x Pokémetal", "1x Twine", "2x Copper ingot"],
+    "unlockMethod": "PC Shop",
+    "order": 11
+  },
+  {
+    "id": "rec-12",
+    "name": "Plain sofa",
+    "category": "furniture",
+    "materials": ["1x Lumber", "1x Fluff"],
+    "unlockMethod": "Available early game",
+    "order": 12
+  },
+  {
+    "id": "rec-13",
+    "name": "Antique sofa",
+    "category": "furniture",
+    "materials": ["2x Lumber", "2x Fluff", "2x Gold ingot"],
+    "unlockMethod": "PC Shop",
+    "order": 13
+  },
+  {
+    "id": "rec-14",
+    "name": "Antique table",
+    "category": "furniture",
+    "materials": ["2x Lumber", "1x Twine", "1x Iron ore"],
+    "unlockMethod": "PC Shop — Palette Town Lv. 5",
+    "order": 14
+  },
+  {
+    "id": "rec-15",
+    "name": "Gaming fridge",
+    "category": "utilities",
+    "materials": ["1x Pokémetal", "1x Gold ingot", "1x Glass"],
+    "unlockMethod": "PC Shop — Sparkling Skylands Lv. 10",
+    "order": 15
+  },
+  {
+    "id": "rec-16",
+    "name": "Stone fireplace",
+    "category": "outdoor",
+    "materials": ["2x Brick", "2x Stone", "2x Sturdy stick"],
+    "unlockMethod": "Register 120 Pokémon in the Pokédex",
+    "order": 16
+  },
+  {
+    "id": "rec-17",
+    "name": "Crystal ball",
+    "category": "misc",
+    "materials": ["3x Glass", "1x Twine"],
+    "unlockMethod": "Complete Poliwrath's request",
+    "order": 17
+  }
+]

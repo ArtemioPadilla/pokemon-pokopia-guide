@@ -1,0 +1,43 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import SectionHead from '@/components/common/SectionHead.astro';
+import ErrorBoundary from '@/components/islands/ErrorBoundary';
+import PokedexChecklist from '@/components/islands/PokedexChecklist';
+import { getLocalized } from '@/lib/content';
+import { useTranslations } from '@/i18n/utils';
+import type { Locale } from '@/i18n/ui';
+
+interface Props {
+  locale: Locale;
+}
+const { locale } = Astro.props;
+const t = useTranslations(locale);
+
+const pokedex = (await getLocalized('pokedex', locale))
+  .sort((a, b) => a.data.nationalNumber - b.data.nationalNumber)
+  .map((p) => ({
+    id: p.id,
+    nationalNumber: p.data.nationalNumber,
+    pokopiaNumber: p.data.pokopiaNumber,
+    name: p.data.name,
+    types: p.data.types,
+    generation: p.data.generation,
+    habitat: p.data.habitat,
+  }));
+---
+
+<BaseLayout title={`${t('pokedex.title')} · ${t('site.name')}`} lang={locale}>
+  <main id="main" class="mx-auto max-w-4xl px-5 py-14">
+    <SectionHead level="h1" title={t('pokedex.title')} tight />
+    <p class="mb-6 text-sm text-muted-foreground">{t('pokedex.note')}</p>
+    <ErrorBoundary client:load messageLabel={t('a11y.errorBoundaryMessage')}>
+      <PokedexChecklist
+        client:load
+        items={pokedex}
+        progressLabel={t('pokedex.progress')}
+        genLabel={t('pokedex.gen')}
+        habitatUnknownLabel={t('pokedex.habitatUnknown')}
+      />
+    </ErrorBoundary>
+  </main>
+</BaseLayout>

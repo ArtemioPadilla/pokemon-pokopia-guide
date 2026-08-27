@@ -1,0 +1,184 @@
+[
+  {
+    "id": "col-art-01",
+    "category": "artifact",
+    "name": "Pikachu Sofa",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Reliquia Perdida Grande"
+  },
+  {
+    "id": "col-art-02",
+    "category": "artifact",
+    "name": "Slowpoke rug",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Reliquia Perdida Grande"
+  },
+  {
+    "id": "col-art-03",
+    "category": "artifact",
+    "name": "Charizard rug",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Reliquia Perdida Grande"
+  },
+  {
+    "id": "col-art-04",
+    "category": "artifact",
+    "name": "Town map",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Reliquia Perdida Grande"
+  },
+  {
+    "id": "col-art-05",
+    "category": "artifact",
+    "name": "Model space shuttle",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Reliquia Perdida Grande"
+  },
+  {
+    "id": "col-art-06",
+    "category": "artifact",
+    "name": "Big Nugget",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Reliquia Perdida Grande"
+  },
+  {
+    "id": "col-art-07",
+    "category": "artifact",
+    "name": "Heart Scale",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Reliquia Perdida Pequeña (objeto equipable)"
+  },
+  {
+    "id": "col-art-08",
+    "category": "artifact",
+    "name": "Windup Inkay",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Reliquia Perdida Grande Hundida — solo en el Pase de Expansión Bubbly Basin"
+  },
+  {
+    "id": "col-rec-01",
+    "category": "record",
+    "name": "Road Closure Announcement",
+    "area": "Yermo Marchito",
+    "note": "Periódico"
+  },
+  {
+    "id": "col-rec-02",
+    "category": "record",
+    "name": "The Legendary Ninja Family",
+    "area": "Yermo Marchito",
+    "note": "Periódico"
+  },
+  {
+    "id": "col-rec-03",
+    "category": "record",
+    "name": "Kenan's Diary",
+    "area": "Yermo Marchito",
+    "note": "Diario"
+  },
+  {
+    "id": "col-rec-04",
+    "category": "record",
+    "name": "Message from the Poke Mart",
+    "area": "Yermo Marchito",
+    "note": "Revista"
+  },
+  {
+    "id": "col-rec-05",
+    "category": "record",
+    "name": "Recycling Slogan Contest (Youth)",
+    "area": "Playa Sombría",
+    "note": "Periódico"
+  },
+  {
+    "id": "col-rec-06",
+    "category": "record",
+    "name": "Sailor Dylan's diary",
+    "area": "Playa Sombría",
+    "note": "Diario"
+  },
+  {
+    "id": "col-rec-07",
+    "category": "record",
+    "name": "Interview for the Ages!",
+    "area": "Playa Sombría",
+    "note": "Revista"
+  },
+  {
+    "id": "col-rec-08",
+    "category": "record",
+    "name": "Artificial Hot Spring Now Open!",
+    "area": "Crestas Rocosas",
+    "note": "Periódico"
+  },
+  {
+    "id": "col-rec-09",
+    "category": "record",
+    "name": "You've Been Selected!",
+    "area": "Crestas Rocosas",
+    "note": "Carta"
+  },
+  {
+    "id": "col-rec-10",
+    "category": "record",
+    "name": "Dear Douglas",
+    "area": "Aún no localizado en las fuentes",
+    "note": "Carta — reportada en Dream Island"
+  },
+  {
+    "id": "col-photo-01",
+    "category": "photo",
+    "name": "Toasty Warm by the Campfire",
+    "area": "No depende de la zona (depende de una condición)",
+    "note": "Solo de noche"
+  },
+  {
+    "id": "col-photo-02",
+    "category": "photo",
+    "name": "A Gust of Wind to Get It Spinning",
+    "area": "No depende de la zona (depende de una condición)",
+    "note": "Requiere un Pokémon de tipo Volador"
+  },
+  {
+    "id": "col-photo-03",
+    "category": "photo",
+    "name": "Punching Past the Sound Barrier",
+    "area": "No depende de la zona (depende de una condición)",
+    "note": "Requiere a Hitmonchan"
+  },
+  {
+    "id": "col-photo-04",
+    "category": "photo",
+    "name": "A Graceful Dance Among Flowers",
+    "area": "No depende de la zona (depende de una condición)",
+    "note": "Requiere a Bellossom"
+  },
+  {
+    "id": "col-photo-05",
+    "category": "photo",
+    "name": "Anything for a Headache in Here?",
+    "area": "No depende de la zona (depende de una condición)",
+    "note": "Requiere a Psyduck"
+  },
+  {
+    "id": "col-photo-06",
+    "category": "photo",
+    "name": "Looking Pretty Swole",
+    "area": "No depende de la zona (depende de una condición)",
+    "note": "Requiere a Machamp"
+  },
+  {
+    "id": "col-photo-07",
+    "category": "photo",
+    "name": "Just Chillin'",
+    "area": "No depende de la zona (depende de una condición)",
+    "note": "Requiere un Pokémon de tipo Hielo"
+  },
+  {
+    "id": "col-photo-08",
+    "category": "photo",
+    "name": "It Just Needs a Good Smack, and—Oops!",
+    "area": "No depende de la zona (depende de una condición)",
+    "note": "Requiere al Profesor Tangrowth, Nivel de Entorno 5+"
+  }
+]

@@ -1,0 +1,388 @@
+@import 'tailwindcss';
+
+/* Self-hosted (not Google Fonts) so the service worker precaches the woff2
+ * files like any other static asset — the guide must keep its brand
+ * typography offline. Variable-weight builds cover every font-weight the
+ * site uses from one file per family. Baloo 2 (chunky rounded display) +
+ * Quicksand (soft rounded body) read as toy-like/paradise-building, the
+ * opposite of a leather-and-amber horror-guide or a stone-temple palette —
+ * JetBrains Mono carries labels/pills/nav, same role Special Elite played
+ * in the RE4 guide but without any typewriter/noir connotation. */
+@import '@fontsource-variable/baloo-2/wght.css';
+@import '@fontsource-variable/quicksand/wght.css';
+@import '@fontsource/jetbrains-mono/latin-500.css';
+
+/* Native cross-document View Transitions — Baseline Newly Available Oct 2025.
+ * No-op in older browsers. */
+@view-transition {
+  navigation: auto;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  ::view-transition-old(root),
+  ::view-transition-new(root) {
+    animation: none;
+  }
+}
+
+/* Dark applies under `.dark` — but NOT inside a `.light` island, same
+   opt-out pattern as the sibling guides (lets a gallery render true light +
+   true dark previews side-by-side on one page). */
+@variant dark (&:where(.dark, .dark *):not(:where(.light, .light *)));
+
+@layer base {
+  :root,
+  .light {
+    color-scheme: light;
+  }
+
+  .dark {
+    color-scheme: dark;
+  }
+
+  :root {
+    /* Palette: "paradise garden" — bright grass green + sky blue + sunny
+       amber on a soft mint-cream ground in light mode; the same hues glow
+       against a deep twilight-teal night sky in dark mode (Pokopia's
+       areas are rebuilt by day and still lived-in after dark). Every
+       neutral carries a hint of green/teal hue instead of true gray, so the
+       whole site reads as one warm, living material — same authoring
+       instinct as the sibling guides' amber-leather and cool-stone
+       palettes, applied to a toy-like sandbox instead. All pairs verified
+       ≥4.5:1 (text) / ≥3:1 (large text, focus ring) with a standalone
+       OKLCH→sRGB WCAG contrast script — see CLAUDE.md "Design & a11y". */
+    --background: light-dark(oklch(0.97 0.02 120), oklch(0.16 0.03 230));
+    --foreground: light-dark(oklch(0.28 0.04 150), oklch(0.92 0.02 140));
+    --card: light-dark(oklch(0.99 0.012 120), oklch(0.21 0.03 230));
+    --card-foreground: light-dark(oklch(0.28 0.04 150), oklch(0.92 0.02 140));
+    --popover: light-dark(oklch(0.99 0.012 120), oklch(0.21 0.03 230));
+    --popover-foreground: light-dark(oklch(0.28 0.04 150), oklch(0.92 0.02 140));
+    /* Brand: fresh grass green (paradise / cultivation motif). */
+    --primary: light-dark(oklch(0.5 0.16 145), oklch(0.78 0.17 145));
+    --primary-foreground: light-dark(oklch(0.99 0 0), oklch(0.15 0.03 145));
+    --secondary: light-dark(oklch(0.9 0.05 220), oklch(0.26 0.03 220));
+    --secondary-foreground: light-dark(oklch(0.28 0.04 150), oklch(0.92 0.02 140));
+    --muted: light-dark(oklch(0.93 0.02 130), oklch(0.22 0.025 225));
+    --muted-foreground: light-dark(oklch(0.45 0.03 150), oklch(0.68 0.03 140));
+    --accent: light-dark(oklch(0.88 0.09 80), oklch(0.28 0.06 75));
+    --accent-foreground: light-dark(oklch(0.32 0.08 70), oklch(0.9 0.06 75));
+    --destructive: light-dark(oklch(0.5 0.19 25), oklch(0.68 0.18 25));
+    --destructive-foreground: light-dark(oklch(0.99 0 0), oklch(0.15 0.02 25));
+    --border: light-dark(oklch(0.82 0.035 130), oklch(0.34 0.035 220));
+    --input: light-dark(oklch(0.8 0.035 130), oklch(0.36 0.035 220));
+    --ring: light-dark(oklch(0.5 0.16 145), oklch(0.78 0.17 145));
+    /* Area-pill semantic colors (quest/craft pills — pokemon uses
+       --primary, info uses --muted-foreground). Light-mode values are
+       deliberately darker than dark-mode (not a mechanical lightness flip)
+       because these render as small uppercase pill text — see the
+       contrast script results in CLAUDE.md. */
+    --pill-quest: light-dark(oklch(0.4 0.14 235), oklch(0.72 0.13 230));
+    --pill-craft: light-dark(oklch(0.46 0.15 55), oklch(0.78 0.15 65));
+    --chart-1: light-dark(oklch(0.6 0.16 145), oklch(0.78 0.17 145));
+    --chart-2: light-dark(oklch(0.62 0.12 220), oklch(0.72 0.13 220));
+    --chart-3: light-dark(oklch(0.72 0.15 80), oklch(0.8 0.15 75));
+    --chart-4: light-dark(oklch(0.58 0.19 25), oklch(0.7 0.18 25));
+    --chart-5: light-dark(oklch(0.58 0.18 320), oklch(0.72 0.18 320));
+    /* Bigger, softer corners than the sibling guides — everything here
+       should read as a rounded toy/plush object, not a carved ledger. */
+    --radius: 1.1rem;
+  }
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-pill-quest: var(--pill-quest);
+  --color-pill-craft: var(--pill-craft);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --radius-sm: calc(var(--radius) - 6px);
+  --radius-md: calc(var(--radius) - 3px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 6px);
+}
+
+@theme {
+  --font-sans: 'Quicksand Variable', ui-rounded, 'Segoe UI', sans-serif;
+  --font-display: 'Baloo 2 Variable', ui-rounded, 'Segoe UI', sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, 'SFMono-Regular', monospace;
+}
+
+@layer base {
+  body {
+    position: relative;
+    font-family: var(--font-sans);
+    font-size: 17px;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    background-color: var(--background);
+  }
+  /* Atmosphere: soft green/blue glows drifting near the top of the page,
+     like sunlight through leaves — present in both themes (dark mode gets
+     brighter, more saturated glows; light mode stays gentle). */
+  body::after {
+    content: '';
+    position: fixed;
+    inset: 0;
+    z-index: 0;
+    pointer-events: none;
+    background-image:
+      radial-gradient(
+        ellipse 1100px 550px at 15% -120px,
+        color-mix(in oklch, var(--primary) 16%, transparent),
+        transparent 60%
+      ),
+      radial-gradient(
+        ellipse 900px 500px at 100% 10%,
+        color-mix(in oklch, var(--secondary) 55%, transparent),
+        transparent 55%
+      );
+    background-attachment: fixed;
+  }
+  .dark body::after {
+    background-image:
+      radial-gradient(
+        ellipse 1100px 550px at 15% -120px,
+        color-mix(in oklch, var(--primary) 22%, transparent),
+        transparent 60%
+      ),
+      radial-gradient(
+        ellipse 900px 500px at 100% 10%,
+        color-mix(in oklch, var(--pill-quest) 20%, transparent),
+        transparent 55%
+      );
+  }
+  body > * {
+    position: relative;
+    z-index: 1;
+  }
+}
+
+@layer utilities {
+  /* Soft brand glow used as hero atmosphere (home page header). */
+  .glow-brand {
+    background: radial-gradient(
+      60% 50% at 50% 0%,
+      color-mix(in oklch, var(--primary) 22%, transparent),
+      transparent 70%
+    );
+  }
+  /* The one card treatment used everywhere: a plush, big-radius tile with a
+     soft drop shadow (toy/plush-object read) instead of the sibling
+     guides' inset-highlight leather panel. */
+  .panel {
+    position: relative;
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-left: 4px solid var(--panel-accent, var(--border));
+    border-radius: var(--radius-lg);
+    box-shadow:
+      0 2px 0 color-mix(in oklch, black 6%, transparent),
+      0 8px 20px -12px color-mix(in oklch, var(--foreground) 25%, transparent);
+    transition:
+      border-color 0.15s ease,
+      transform 0.15s ease,
+      box-shadow 0.15s ease;
+  }
+  a.panel:hover,
+  .panel[data-interactive]:hover {
+    border-color: color-mix(in oklch, var(--primary) 55%, var(--border));
+    transform: translateY(-1px);
+    box-shadow:
+      0 3px 0 color-mix(in oklch, black 8%, transparent),
+      0 10px 24px -12px color-mix(in oklch, var(--primary) 35%, transparent);
+  }
+  /* A faint dotted "garden bed" texture behind data tables. */
+  .ledger {
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    background-color: var(--card);
+    background-image: radial-gradient(
+      color-mix(in oklch, var(--foreground) 8%, transparent) 1px,
+      transparent 1px
+    );
+    background-size: 16px 16px;
+  }
+}
+
+/* A small CSS-only sprouting leaf — used next to the brand name (nav + hero)
+   and at the head of every section, the same "signature glyph" role the
+   sibling guides' .flame plays, reimagined as new growth instead of fire. */
+@layer utilities {
+  .sprout {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    position: relative;
+    flex: none;
+  }
+  .sprout::before,
+  .sprout::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 9px;
+    height: 13px;
+    border-radius: 0% 100% 40% 60% / 0% 100% 20% 80%;
+    background: linear-gradient(
+      160deg,
+      color-mix(in oklch, var(--primary) 85%, white 15%),
+      var(--primary)
+    );
+    transform-origin: bottom center;
+  }
+  .sprout::before {
+    left: 1px;
+    transform: rotate(-18deg);
+    animation: pokopia-sway 3.4s ease-in-out infinite;
+  }
+  .sprout::after {
+    right: 1px;
+    transform: rotate(18deg) scaleX(-1);
+    animation: pokopia-sway 3.4s ease-in-out infinite reverse;
+  }
+}
+@keyframes pokopia-sway {
+  0%,
+  100% {
+    transform: rotate(-18deg);
+  }
+  50% {
+    transform: rotate(-10deg);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .sprout::before,
+  .sprout::after {
+    animation: none;
+  }
+}
+
+/* Staggered hero entrance — CSS-only, respects reduced-motion. */
+@keyframes pokopia-rise {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes pokopia-float {
+  0%,
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-10px) rotate(2deg);
+  }
+}
+@keyframes pokopia-spin-slow {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.rise {
+  animation: pokopia-rise 0.7s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+.float-slow {
+  animation: pokopia-float 7s ease-in-out infinite;
+}
+.spin-slow {
+  animation: pokopia-spin-slow 40s linear infinite;
+}
+@media (prefers-reduced-motion: reduce) {
+  .rise,
+  .float-slow,
+  .spin-slow {
+    animation: none;
+  }
+}
+
+/* Area write-up markdown (rendered via <Content />). Hand-rolled to match
+   the design tokens — no typography plugin in this lean scaffold. */
+.prose-guide {
+  color: var(--foreground);
+  font-size: 0.9375rem;
+  line-height: 1.75;
+}
+.prose-guide h2 {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 1.85rem 0 0.85rem;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--primary);
+}
+.prose-guide h2::before {
+  content: '';
+  width: 14px;
+  height: 3px;
+  border-radius: 2px;
+  background: color-mix(in oklch, var(--primary) 55%, transparent);
+}
+.prose-guide h2:first-child {
+  margin-top: 0;
+}
+.prose-guide p {
+  margin-bottom: 0.9rem;
+}
+.prose-guide p:last-child {
+  margin-bottom: 0;
+}
+.prose-guide strong {
+  color: var(--foreground);
+  font-weight: 700;
+}
+.prose-guide em {
+  color: var(--muted-foreground);
+}
+.prose-guide ul {
+  list-style: disc;
+  padding-left: 1.25rem;
+  margin-bottom: 0.9rem;
+}
+.prose-guide li {
+  margin-bottom: 0.4rem;
+}
+.prose-guide li::marker {
+  color: var(--primary);
+}
+.prose-guide blockquote {
+  margin: 1rem 0;
+  padding: 0.75rem 1.1rem;
+  border: 1px dashed color-mix(in oklch, var(--primary) 45%, transparent);
+  background: color-mix(in oklch, var(--primary) 8%, var(--card));
+  border-radius: var(--radius-md);
+  color: var(--foreground);
+  font-size: 0.875rem;
+}
+.prose-guide blockquote p:last-child {
+  margin-bottom: 0;
+}

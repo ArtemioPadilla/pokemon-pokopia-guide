@@ -1,0 +1,50 @@
+[
+  {
+    "id": "ms-01",
+    "level": 1,
+    "title": "Booting up the PC (Withered Wasteland)",
+    "requirement": "Complete the opening tutorial and reach the broken-down Pokémon Center",
+    "unlocks": "The PC’s rating system activates and the Poké Life app unlocks",
+    "order": 1
+  },
+  {
+    "id": "ms-02",
+    "level": 2,
+    "title": "Bulbasaur’s request (Withered Wasteland)",
+    "requirement": "Build a Straw Bed (2 leaves) for Bulbasaur, after building the Pretty Flower Bed, the Tree-shaded Tall Grass, the Boulder-shaded Tall Grass, and an Exercise Resting Spot for Timburr and Hitmonchan",
+    "unlocks": "Withered Wasteland’s Environment Level rises to 2",
+    "order": 2
+  },
+  {
+    "id": "ms-03",
+    "level": 5,
+    "title": "Professor Tangrowth’s photo op",
+    "requirement": "Reach Environment Level 5+ in an area where Professor Tangrowth is present",
+    "unlocks": "Unlocks the \"It Just Needs a Good Smack, and—Oops!\" Highlight Reel photo challenge",
+    "order": 3
+  },
+  {
+    "id": "ms-04",
+    "level": 5,
+    "title": "Palette Town PC Shop, Level 5",
+    "requirement": "Raise Palette Town’s Environment Level to 5",
+    "unlocks": "The Antique table recipe becomes purchasable at the PC Shop",
+    "order": 4
+  },
+  {
+    "id": "ms-05",
+    "level": 10,
+    "title": "Sparkling Skylands PC Shop, Level 10",
+    "requirement": "Raise Sparkling Skylands’ Environment Level to 10",
+    "unlocks": "The Gaming fridge recipe becomes purchasable at the PC Shop",
+    "order": 5
+  },
+  {
+    "id": "ms-06",
+    "level": 0,
+    "title": "Pokédex registration: 120 entries",
+    "requirement": "Register 120 Pokémon in the Pokopia Pokédex (a separate progression axis from any single area’s Environment Level)",
+    "unlocks": "The Stone fireplace recipe unlocks",
+    "order": 6
+  }
+]

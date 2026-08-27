@@ -1,0 +1,48 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import SectionHead from '@/components/common/SectionHead.astro';
+import { getLocalized } from '@/lib/content';
+import { useTranslations } from '@/i18n/utils';
+import type { Locale } from '@/i18n/ui';
+
+interface Props {
+  locale: Locale;
+}
+const { locale } = Astro.props;
+const t = useTranslations(locale);
+
+const endgame = (await getLocalized('endgame', locale)).sort((a, b) => a.data.order - b.data.order);
+---
+
+<BaseLayout title={`${t('endgame.title')} · ${t('site.name')}`} lang={locale}>
+  <main id="main" class="mx-auto max-w-4xl px-5 py-14">
+    <SectionHead level="h1" title={t('endgame.title')} tight />
+    <p class="mb-6 text-sm text-muted-foreground">{t('endgame.note')}</p>
+    <ul class="grid grid-cols-1 gap-3">
+      {
+        endgame.map((e) => (
+          <li
+            class="panel p-4"
+            style={`--panel-accent: ${e.data.kind === 'expansion' ? 'var(--accent-foreground)' : 'var(--pill-quest)'}`}
+          >
+            <div class="mb-1.5 flex flex-wrap items-center gap-2">
+              <span class="rounded-full border border-border px-2 py-0.5 font-mono text-[11px] text-muted-foreground">
+                {e.data.kind === 'expansion'
+                  ? t('endgame.cat.expansion')
+                  : t('endgame.cat.feature')}
+              </span>
+              <h2 class="font-display text-base font-bold text-foreground">{e.data.name}</h2>
+            </div>
+            <p class="text-sm text-muted-foreground">{e.data.body}</p>
+            {e.data.kind === 'expansion' && e.data.requirement ? (
+              <p class="mt-1 text-sm text-muted-foreground">
+                <strong class="text-foreground">{t('endgame.requirement')}:</strong>{' '}
+                {e.data.requirement}
+              </p>
+            ) : null}
+          </li>
+        ))
+      }
+    </ul>
+  </main>
+</BaseLayout>

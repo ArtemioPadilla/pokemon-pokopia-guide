@@ -1,0 +1,55 @@
+---
+import { render, type CollectionEntry } from 'astro:content';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import SectionHead from '@/components/common/SectionHead.astro';
+import ErrorBoundary from '@/components/islands/ErrorBoundary';
+import SetCurrentAreaButton from '@/components/islands/SetCurrentAreaButton';
+import { useTranslations, localizedHref } from '@/i18n/utils';
+import { PILL_STYLE } from '@/lib/pills';
+import type { Locale } from '@/i18n/ui';
+
+interface Props {
+  locale: Locale;
+  area: CollectionEntry<'areas_en'> | CollectionEntry<'areas_es'>;
+}
+const { locale, area } = Astro.props;
+const t = useTranslations(locale);
+const { Content } = await render(area);
+---
+
+<BaseLayout title={`${area.data.title} · ${t('site.name')}`} lang={locale}>
+  <main id="main" class="mx-auto max-w-3xl px-5 py-14">
+    <a
+      href={localizedHref(locale, '/areas/')}
+      class="mb-4 inline-block font-mono text-xs text-muted-foreground hover:text-primary"
+    >
+      ← {t('areas.title')}
+    </a>
+    <SectionHead level="h1" title={area.data.title} tight />
+    <div class="mb-6 flex flex-wrap items-center justify-between gap-3">
+      <p class="text-sm text-muted-foreground">{t('areas.formerCity')}: {area.data.formerCity}</p>
+      <ErrorBoundary client:load messageLabel={t('a11y.errorBoundaryMessage')}>
+        <SetCurrentAreaButton
+          client:load
+          areaId={area.id}
+          label={t('areas.setCurrent')}
+          currentLabel={t('areas.isCurrent')}
+        />
+      </ErrorBoundary>
+    </div>
+    <div class="mb-6 flex flex-wrap gap-1.5">
+      {
+        area.data.pills.map((pill: (typeof area.data.pills)[number]) => (
+          <span
+            class={`rounded-full border px-2.5 py-1 font-mono text-[11px] ${PILL_STYLE[pill.type]}`}
+          >
+            {pill.label}
+          </span>
+        ))
+      }
+    </div>
+    <div class="prose-guide">
+      <Content />
+    </div>
+  </main>
+</BaseLayout>

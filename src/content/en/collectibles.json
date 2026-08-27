@@ -1,0 +1,184 @@
+[
+  {
+    "id": "col-art-01",
+    "category": "artifact",
+    "name": "Pikachu Sofa",
+    "area": "Not specified in available sources",
+    "note": "Large Lost Relic"
+  },
+  {
+    "id": "col-art-02",
+    "category": "artifact",
+    "name": "Slowpoke rug",
+    "area": "Not specified in available sources",
+    "note": "Large Lost Relic"
+  },
+  {
+    "id": "col-art-03",
+    "category": "artifact",
+    "name": "Charizard rug",
+    "area": "Not specified in available sources",
+    "note": "Large Lost Relic"
+  },
+  {
+    "id": "col-art-04",
+    "category": "artifact",
+    "name": "Town map",
+    "area": "Not specified in available sources",
+    "note": "Large Lost Relic"
+  },
+  {
+    "id": "col-art-05",
+    "category": "artifact",
+    "name": "Model space shuttle",
+    "area": "Not specified in available sources",
+    "note": "Large Lost Relic"
+  },
+  {
+    "id": "col-art-06",
+    "category": "artifact",
+    "name": "Big Nugget",
+    "area": "Not specified in available sources",
+    "note": "Large Lost Relic"
+  },
+  {
+    "id": "col-art-07",
+    "category": "artifact",
+    "name": "Heart Scale",
+    "area": "Not specified in available sources",
+    "note": "Small Lost Relic (held item)"
+  },
+  {
+    "id": "col-art-08",
+    "category": "artifact",
+    "name": "Windup Inkay",
+    "area": "Not specified in available sources",
+    "note": "Sunken Large Lost Relic — Bubbly Basin Expansion Pass only"
+  },
+  {
+    "id": "col-rec-01",
+    "category": "record",
+    "name": "Road Closure Announcement",
+    "area": "Withered Wasteland",
+    "note": "Newspaper"
+  },
+  {
+    "id": "col-rec-02",
+    "category": "record",
+    "name": "The Legendary Ninja Family",
+    "area": "Withered Wasteland",
+    "note": "Newspaper"
+  },
+  {
+    "id": "col-rec-03",
+    "category": "record",
+    "name": "Kenan's Diary",
+    "area": "Withered Wasteland",
+    "note": "Diary"
+  },
+  {
+    "id": "col-rec-04",
+    "category": "record",
+    "name": "Message from the Poke Mart",
+    "area": "Withered Wasteland",
+    "note": "Magazine"
+  },
+  {
+    "id": "col-rec-05",
+    "category": "record",
+    "name": "Recycling Slogan Contest (Youth)",
+    "area": "Bleak Beach",
+    "note": "Newspaper"
+  },
+  {
+    "id": "col-rec-06",
+    "category": "record",
+    "name": "Sailor Dylan's diary",
+    "area": "Bleak Beach",
+    "note": "Diary"
+  },
+  {
+    "id": "col-rec-07",
+    "category": "record",
+    "name": "Interview for the Ages!",
+    "area": "Bleak Beach",
+    "note": "Magazine"
+  },
+  {
+    "id": "col-rec-08",
+    "category": "record",
+    "name": "Artificial Hot Spring Now Open!",
+    "area": "Rocky Ridges",
+    "note": "Newspaper"
+  },
+  {
+    "id": "col-rec-09",
+    "category": "record",
+    "name": "You've Been Selected!",
+    "area": "Rocky Ridges",
+    "note": "Letter"
+  },
+  {
+    "id": "col-rec-10",
+    "category": "record",
+    "name": "Dear Douglas",
+    "area": "Not yet located in sources",
+    "note": "Letter — reported at Dream Island"
+  },
+  {
+    "id": "col-photo-01",
+    "category": "photo",
+    "name": "Toasty Warm by the Campfire",
+    "area": "Not area-specific (condition-based)",
+    "note": "Nighttime only"
+  },
+  {
+    "id": "col-photo-02",
+    "category": "photo",
+    "name": "A Gust of Wind to Get It Spinning",
+    "area": "Not area-specific (condition-based)",
+    "note": "Requires a Flying-type Pokémon"
+  },
+  {
+    "id": "col-photo-03",
+    "category": "photo",
+    "name": "Punching Past the Sound Barrier",
+    "area": "Not area-specific (condition-based)",
+    "note": "Requires Hitmonchan"
+  },
+  {
+    "id": "col-photo-04",
+    "category": "photo",
+    "name": "A Graceful Dance Among Flowers",
+    "area": "Not area-specific (condition-based)",
+    "note": "Requires Bellossom"
+  },
+  {
+    "id": "col-photo-05",
+    "category": "photo",
+    "name": "Anything for a Headache in Here?",
+    "area": "Not area-specific (condition-based)",
+    "note": "Requires Psyduck"
+  },
+  {
+    "id": "col-photo-06",
+    "category": "photo",
+    "name": "Looking Pretty Swole",
+    "area": "Not area-specific (condition-based)",
+    "note": "Requires Machamp"
+  },
+  {
+    "id": "col-photo-07",
+    "category": "photo",
+    "name": "Just Chillin'",
+    "area": "Not area-specific (condition-based)",
+    "note": "Requires an Ice-type Pokémon"
+  },
+  {
+    "id": "col-photo-08",
+    "category": "photo",
+    "name": "It Just Needs a Good Smack, and—Oops!",
+    "area": "Not area-specific (condition-based)",
+    "note": "Requires Professor Tangrowth, Environment Level 5+"
+  }
+]

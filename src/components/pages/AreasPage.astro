@@ -1,0 +1,58 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import SectionHead from '@/components/common/SectionHead.astro';
+import { getLocalized } from '@/lib/content';
+import { useTranslations, localizedHref } from '@/i18n/utils';
+import { PILL_STYLE } from '@/lib/pills';
+import type { Locale } from '@/i18n/ui';
+
+interface Props {
+  locale: Locale;
+}
+const { locale } = Astro.props;
+const t = useTranslations(locale);
+
+const areas = (await getLocalized('areas', locale)).sort((a, b) => a.data.order - b.data.order);
+---
+
+<BaseLayout title={`${t('areas.title')} · ${t('site.name')}`} lang={locale}>
+  <main id="main" class="mx-auto max-w-4xl px-5 py-14">
+    <SectionHead level="h1" title={t('areas.title')} tight />
+    <p class="mb-6 text-sm text-muted-foreground">{t('areas.note')}</p>
+    <ul class="grid grid-cols-1 gap-3 sm:grid-cols-2">
+      {
+        areas.map((area) => (
+          <li>
+            <a
+              href={localizedHref(locale, `/areas/${area.id}/`)}
+              data-interactive
+              class="panel block h-full p-4"
+              style="--panel-accent: var(--primary)"
+            >
+              <div class="mb-1 flex items-center justify-between gap-2">
+                <h2 class="font-display text-base font-bold text-foreground">{area.data.title}</h2>
+                <span class="rounded-full border border-border px-2 py-0.5 font-mono text-[10px] uppercase tracking-wide text-muted-foreground">
+                  {area.data.kind === 'expansion'
+                    ? t('areas.kind.expansion')
+                    : t('areas.kind.base')}
+                </span>
+              </div>
+              <p class="mb-2 text-xs text-muted-foreground">
+                {t('areas.formerCity')}: {area.data.formerCity}
+              </p>
+              <div class="flex flex-wrap gap-1.5">
+                {area.data.pills.map((pill: (typeof area.data.pills)[number]) => (
+                  <span
+                    class={`rounded-full border px-2 py-0.5 font-mono text-[10px] ${PILL_STYLE[pill.type]}`}
+                  >
+                    {pill.label}
+                  </span>
+                ))}
+              </div>
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </main>
+</BaseLayout>

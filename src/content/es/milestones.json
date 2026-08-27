@@ -1,0 +1,50 @@
+[
+  {
+    "id": "ms-01",
+    "level": 1,
+    "title": "Encender el PC (Yermo Marchito)",
+    "requirement": "Completar el tutorial inicial y llegar al Centro Pokémon en ruinas",
+    "unlocks": "Se activa el sistema de valoración del PC y se desbloquea la app Poké Life",
+    "order": 1
+  },
+  {
+    "id": "ms-02",
+    "level": 2,
+    "title": "La petición de Bulbasaur (Yermo Marchito)",
+    "requirement": "Construir una Cama de Paja (2 hojas) para Bulbasaur, tras construir el Parterre Bonito, la Hierba Alta a la Sombra de un Árbol, la Hierba Alta a la Sombra de una Roca y un Rincón de Ejercicio para Timburr y Hitmonchan",
+    "unlocks": "El Nivel de Entorno del Yermo Marchito sube a 2",
+    "order": 2
+  },
+  {
+    "id": "ms-03",
+    "level": 5,
+    "title": "La foto del Profesor Tangrowth",
+    "requirement": "Alcanzar el Nivel de Entorno 5+ en una zona donde esté presente el Profesor Tangrowth",
+    "unlocks": "Desbloquea el reto de foto del Carrete de Momentos \"It Just Needs a Good Smack, and—Oops!\"",
+    "order": 3
+  },
+  {
+    "id": "ms-04",
+    "level": 5,
+    "title": "Tienda del PC de Palette Town, Nivel 5",
+    "requirement": "Subir el Nivel de Entorno de Palette Town a 5",
+    "unlocks": "La receta de la Mesa antigua se puede comprar en la Tienda del PC",
+    "order": 4
+  },
+  {
+    "id": "ms-05",
+    "level": 10,
+    "title": "Tienda del PC de Sparkling Skylands, Nivel 10",
+    "requirement": "Subir el Nivel de Entorno de Sparkling Skylands a 10",
+    "unlocks": "La receta de la Nevera gaming se puede comprar en la Tienda del PC",
+    "order": 5
+  },
+  {
+    "id": "ms-06",
+    "level": 0,
+    "title": "Registro Pokédex: 120 entradas",
+    "requirement": "Registrar 120 Pokémon en la Pokédex de Pokopia (un eje de progresión aparte del Nivel de Entorno de una zona)",
+    "unlocks": "Se desbloquea la receta de la Chimenea de piedra",
+    "order": 6
+  }
+]

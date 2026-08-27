@@ -1,0 +1,44 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import SectionHead from '@/components/common/SectionHead.astro';
+import ErrorBoundary from '@/components/islands/ErrorBoundary';
+import CollectiblesChecklist from '@/components/islands/CollectiblesChecklist';
+import { getLocalized } from '@/lib/content';
+import { useTranslations } from '@/i18n/utils';
+import type { Locale } from '@/i18n/ui';
+
+interface Props {
+  locale: Locale;
+}
+const { locale } = Astro.props;
+const t = useTranslations(locale);
+
+const collectibles = (await getLocalized('collectibles', locale)).map((c) => ({
+  id: c.id,
+  category: c.data.category,
+  name: c.data.name,
+  area: c.data.area,
+  note: c.data.note,
+}));
+
+const categoryLabels: Record<string, string> = {
+  artifact: t('collectibles.cat.artifact'),
+  record: t('collectibles.cat.record'),
+  photo: t('collectibles.cat.photo'),
+};
+---
+
+<BaseLayout title={`${t('collectibles.title')} · ${t('site.name')}`} lang={locale}>
+  <main id="main" class="mx-auto max-w-4xl px-5 py-14">
+    <SectionHead level="h1" title={t('collectibles.title')} tight />
+    <p class="mb-6 text-sm text-muted-foreground">{t('collectibles.note')}</p>
+    <ErrorBoundary client:load messageLabel={t('a11y.errorBoundaryMessage')}>
+      <CollectiblesChecklist
+        client:load
+        items={collectibles}
+        progressLabel={t('collectibles.progress')}
+        categoryLabels={categoryLabels}
+      />
+    </ErrorBoundary>
+  </main>
+</BaseLayout>

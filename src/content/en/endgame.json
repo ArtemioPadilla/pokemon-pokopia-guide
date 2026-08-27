@@ -1,0 +1,38 @@
+[
+  {
+    "id": "eg-01",
+    "kind": "feature",
+    "name": "Palette Town",
+    "body": "Three vacant islands set aside for free-form play once your main areas are underway — no fixed former-city layout to work around.",
+    "order": 1
+  },
+  {
+    "id": "eg-02",
+    "kind": "feature",
+    "name": "Cloud Islands",
+    "body": "Play sessions hosted over Nintendo Switch Online. The standard (non-Professor) Tangrowth is the only species in the game that requires NSO to encounter — it only appears via Cloud Island play. Professor Tangrowth itself cannot appear on Cloud Islands, since the treasure trove its habitat needs can’t be copied by a Pokémon Center’s 3D Printer.",
+    "order": 2
+  },
+  {
+    "id": "eg-03",
+    "kind": "feature",
+    "name": "Dream Islands",
+    "body": "A separate island system referenced alongside Cloud Islands as one of the game’s extended-play spaces.",
+    "order": 3
+  },
+  {
+    "id": "eg-04",
+    "kind": "feature",
+    "name": "Link Play",
+    "body": "Local/online co-op building — multiple players shape the same paradise together.",
+    "order": 4
+  },
+  {
+    "id": "eg-05",
+    "kind": "expansion",
+    "name": "Bubbly Basin",
+    "body": "The Expansion Pass area: a submerged former Cerulean City. Sunken Large Lost Relics (a distinct Ancient Artifacts subset) are only found here.",
+    "order": 5,
+    "requirement": "Requires the Dive move to access"
+  }
+]

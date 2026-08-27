@@ -1,0 +1,123 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import SectionHead from '@/components/common/SectionHead.astro';
+import ErrorBoundary from '@/components/islands/ErrorBoundary';
+import HomeProgress from '@/components/islands/HomeProgress';
+import { getLocalized } from '@/lib/content';
+import { useTranslations, localizedHref } from '@/i18n/utils';
+import type { Locale } from '@/i18n/ui';
+
+interface Props {
+  locale: Locale;
+}
+const { locale } = Astro.props;
+const t = useTranslations(locale);
+
+const [rules, pokedex, collectibles, areas] = await Promise.all([
+  getLocalized('rules', locale),
+  getLocalized('pokedex', locale),
+  getLocalized('collectibles', locale),
+  getLocalized('areas', locale),
+]);
+
+const sortedRules = [...rules].sort((a, b) => a.data.order - b.data.order);
+const sortedAreas = [...areas].sort((a, b) => a.data.order - b.data.order);
+const areaOptions = sortedAreas.map((a) => ({ id: a.id, title: a.data.title }));
+
+const tags = [t('home.tagAreas'), t('home.tagPokedex'), t('home.tagRecipes'), t('home.tagLevels')];
+---
+
+<BaseLayout
+  title={`${t('site.name')} — ${t('site.tagline')}`}
+  description={t('site.tagline')}
+  lang={locale}
+>
+  <main id="main">
+    <section class="glow-brand px-5 pb-10 pt-14 sm:pt-20">
+      <div class="mx-auto max-w-4xl text-center">
+        <p class="rise mb-4 font-mono text-xs uppercase tracking-[0.15em] text-primary">
+          {t('site.tangrowthLine')}
+        </p>
+        <h1
+          class="rise font-display text-4xl font-extrabold tracking-tight text-foreground sm:text-5xl"
+          style="animation-delay:.05s"
+        >
+          {t('site.name')}
+        </h1>
+        <p class="rise mt-3 text-base text-muted-foreground sm:text-lg" style="animation-delay:.1s">
+          {t('site.tagline')}
+        </p>
+        <div
+          class="rise mt-6 flex flex-wrap items-center justify-center gap-2"
+          style="animation-delay:.15s"
+        >
+          {
+            tags.map((tag) => (
+              <span class="rounded-full border border-border bg-card px-3 py-1 font-mono text-xs text-muted-foreground">
+                {tag}
+              </span>
+            ))
+          }
+        </div>
+      </div>
+    </section>
+
+    <div class="mx-auto max-w-4xl px-5 pb-16">
+      <section class="mb-10">
+        <SectionHead title={t('home.progressTitle')} level="h2" />
+        <div class="panel p-5">
+          <ErrorBoundary client:load messageLabel={t('a11y.errorBoundaryMessage')}>
+            <HomeProgress
+              client:load
+              totalPokedex={pokedex.length}
+              totalCollectibles={collectibles.length}
+              areas={areaOptions}
+              pokedexLabel={t('home.pokedexProgress')}
+              collectiblesLabel={t('home.collectiblesProgress')}
+              areaLabel={t('home.currentArea')}
+              resetLabel={t('home.resetProgress')}
+              resetConfirmMessage={t('home.resetConfirm')}
+            />
+          </ErrorBoundary>
+        </div>
+      </section>
+
+      <section>
+        <SectionHead title={t('home.rulesTitle')} note={t('home.rulesNote')} level="h2" tight />
+        <ul class="mt-4 grid grid-cols-1 gap-3 sm:grid-cols-2">
+          {
+            sortedRules.map((rule) => (
+              <li class="panel p-4">
+                <h3 class="mb-1.5 font-display text-sm font-bold text-foreground">
+                  {rule.data.title}
+                </h3>
+                <p class="text-sm text-muted-foreground">{rule.data.body}</p>
+              </li>
+            ))
+          }
+        </ul>
+      </section>
+
+      <nav class="mt-12 grid grid-cols-2 gap-3 sm:grid-cols-3" aria-label={t('nav.home')}>
+        {
+          [
+            ['/areas/', t('nav.areas')],
+            ['/pokedex/', t('nav.pokedex')],
+            ['/recipes/', t('nav.recipes')],
+            ['/collectibles/', t('nav.collectibles')],
+            ['/milestones/', t('nav.milestones')],
+            ['/endgame/', t('nav.endgame')],
+          ].map(([path, label]) => (
+            <a
+              href={localizedHref(locale, path as string)}
+              data-interactive
+              class="panel flex items-center justify-center px-4 py-5 text-center font-display text-sm font-semibold text-foreground"
+            >
+              {label}
+            </a>
+          ))
+        }
+      </nav>
+    </div>
+  </main>
+</BaseLayout>

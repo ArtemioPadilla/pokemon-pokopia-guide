@@ -1,0 +1,50 @@
+[
+  {
+    "id": "rule-01",
+    "title": "No atrapas Pokémon: los atraes",
+    "body": "Aquí no hay Poké Balls. Cada especie tiene sus propias preferencias de hábitat (terreno, decoración, iluminación); construye el hábitat correcto y el Pokémon correcto aparecerá solo.",
+    "order": 1
+  },
+  {
+    "id": "rule-02",
+    "title": "Ditto aprende movimientos, no el jugador",
+    "body": "Hacerte amigo de un Pokémon puede enseñarle a Ditto (en forma humana) uno de sus movimientos — Leafage de Bulbasaur para añadir vegetación, Pistola Agua de Squirtle para regar plantas — y esos movimientos se vuelven herramientas para construir el paraíso.",
+    "order": 2
+  },
+  {
+    "id": "rule-03",
+    "title": "Asigna especialidades para acelerar la construcción",
+    "body": "Los Pokémon que hagas amigos pueden recibir una especialidad — Construir, Aplastar, Excavar, Pintar, Recolectar Miel, Recolectar — que los pone a trabajar en tareas concretas en lugar de solo deambular.",
+    "order": 3
+  },
+  {
+    "id": "rule-04",
+    "title": "Cumple peticiones para subir el Nivel de Entorno",
+    "body": "Los residentes hacen peticiones — normalmente un mueble concreto o una mejora de hábitat. Cumplirlas es cómo subes el Nivel de Entorno de una zona, que se registra por separado en cada zona.",
+    "order": 4
+  },
+  {
+    "id": "rule-05",
+    "title": "Las recetas salen de más de un sitio",
+    "body": "Las recetas nuevas se desbloquean al avanzar la historia, subir el Nivel de Entorno de una zona, la Tienda del PC del Centro Pokémon (con Monedas de Vida), completar peticiones y las ondas brillantes en el agua que se reinician cada día.",
+    "order": 5
+  },
+  {
+    "id": "rule-06",
+    "title": "Vigila el reloj y el cielo",
+    "body": "Un ciclo día/noche en tiempo real y clima dinámico condicionan la aparición de ciertos Pokémon y de algunas fotos del Carrete de Momentos — algunas solo aparecen de noche, otras solo con cierto clima.",
+    "order": 6
+  },
+  {
+    "id": "rule-07",
+    "title": "Usa Buscar cuando sepas lo que quieres",
+    "body": "La función Buscar te ayuda a localizar una especie objetivo concreta una vez que sabes (o sospechas) qué hábitat la atrae — mucho más rápido que recorrer una zona esperando que aparezca.",
+    "order": 7
+  },
+  {
+    "id": "rule-08",
+    "title": "Trae amigos: Link Play es cooperativo, no competitivo",
+    "body": "Link Play permite que varios jugadores construyan juntos en el mismo paraíso. Vale la pena saberlo antes de pasar horas organizando un diseño en solitario que un amigo querría ayudar a dar forma.",
+    "order": 8
+  }
+]
