@@ -60,63 +60,81 @@
     "category": "record",
     "name": "Road Closure Announcement",
     "area": "Withered Wasteland",
-    "note": "Newspaper"
+    "note": "Newspaper",
+    "x": 20,
+    "y": 70
   },
   {
     "id": "col-rec-02",
     "category": "record",
     "name": "The Legendary Ninja Family",
     "area": "Withered Wasteland",
-    "note": "Newspaper"
+    "note": "Newspaper",
+    "x": 80,
+    "y": 70
   },
   {
     "id": "col-rec-03",
     "category": "record",
     "name": "Kenan's Diary",
     "area": "Withered Wasteland",
-    "note": "Diary"
+    "note": "Diary",
+    "x": 15,
+    "y": 35
   },
   {
     "id": "col-rec-04",
     "category": "record",
     "name": "Message from the Poke Mart",
     "area": "Withered Wasteland",
-    "note": "Magazine"
+    "note": "Magazine",
+    "x": 85,
+    "y": 40
   },
   {
     "id": "col-rec-05",
     "category": "record",
     "name": "Recycling Slogan Contest (Youth)",
     "area": "Bleak Beach",
-    "note": "Newspaper"
+    "note": "Newspaper",
+    "x": 25,
+    "y": 70
   },
   {
     "id": "col-rec-06",
     "category": "record",
     "name": "Sailor Dylan's diary",
     "area": "Bleak Beach",
-    "note": "Diary"
+    "note": "Diary",
+    "x": 70,
+    "y": 55
   },
   {
     "id": "col-rec-07",
     "category": "record",
     "name": "Interview for the Ages!",
     "area": "Bleak Beach",
-    "note": "Magazine"
+    "note": "Magazine",
+    "x": 50,
+    "y": 30
   },
   {
     "id": "col-rec-08",
     "category": "record",
     "name": "Artificial Hot Spring Now Open!",
     "area": "Rocky Ridges",
-    "note": "Newspaper"
+    "note": "Newspaper",
+    "x": 60,
+    "y": 60
   },
   {
     "id": "col-rec-09",
     "category": "record",
     "name": "You've Been Selected!",
     "area": "Rocky Ridges",
-    "note": "Letter"
+    "note": "Letter",
+    "x": 30,
+    "y": 40
   },
   {
     "id": "col-rec-10",

@@ -60,63 +60,81 @@
     "category": "record",
     "name": "Road Closure Announcement",
     "area": "Yermo Marchito",
-    "note": "Periódico"
+    "note": "Periódico",
+    "x": 20,
+    "y": 70
   },
   {
     "id": "col-rec-02",
     "category": "record",
     "name": "The Legendary Ninja Family",
     "area": "Yermo Marchito",
-    "note": "Periódico"
+    "note": "Periódico",
+    "x": 80,
+    "y": 70
   },
   {
     "id": "col-rec-03",
     "category": "record",
     "name": "Kenan's Diary",
     "area": "Yermo Marchito",
-    "note": "Diario"
+    "note": "Diario",
+    "x": 15,
+    "y": 35
   },
   {
     "id": "col-rec-04",
     "category": "record",
     "name": "Message from the Poke Mart",
     "area": "Yermo Marchito",
-    "note": "Revista"
+    "note": "Revista",
+    "x": 85,
+    "y": 40
   },
   {
     "id": "col-rec-05",
     "category": "record",
     "name": "Recycling Slogan Contest (Youth)",
     "area": "Playa Sombría",
-    "note": "Periódico"
+    "note": "Periódico",
+    "x": 25,
+    "y": 70
   },
   {
     "id": "col-rec-06",
     "category": "record",
     "name": "Sailor Dylan's diary",
     "area": "Playa Sombría",
-    "note": "Diario"
+    "note": "Diario",
+    "x": 70,
+    "y": 55
   },
   {
     "id": "col-rec-07",
     "category": "record",
     "name": "Interview for the Ages!",
     "area": "Playa Sombría",
-    "note": "Revista"
+    "note": "Revista",
+    "x": 50,
+    "y": 30
   },
   {
     "id": "col-rec-08",
     "category": "record",
     "name": "Artificial Hot Spring Now Open!",
     "area": "Crestas Rocosas",
-    "note": "Periódico"
+    "note": "Periódico",
+    "x": 60,
+    "y": 60
   },
   {
     "id": "col-rec-09",
     "category": "record",
     "name": "You've Been Selected!",
     "area": "Crestas Rocosas",
-    "note": "Carta"
+    "note": "Carta",
+    "x": 30,
+    "y": 40
   },
   {
     "id": "col-rec-10",

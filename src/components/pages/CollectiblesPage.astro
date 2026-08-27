@@ -19,6 +19,8 @@ const collectibles = (await getLocalized('collectibles', locale)).map((c) => ({
   name: c.data.name,
   area: c.data.area,
   note: c.data.note,
+  x: c.data.x,
+  y: c.data.y,
 }));
 
 const categoryLabels: Record<string, string> = {
@@ -38,6 +40,12 @@ const categoryLabels: Record<string, string> = {
         items={collectibles}
         progressLabel={t('collectibles.progress')}
         categoryLabels={categoryLabels}
+        listLabel={t('map.list')}
+        mapLabel={t('map.map')}
+        viewGroupLabel={t('map.viewGroup')}
+        mapNote={t('map.note')}
+        checkedSuffix={t('map.checkedSuffix')}
+        uncheckedSuffix={t('map.uncheckedSuffix')}
       />
     </ErrorBoundary>
   </main>

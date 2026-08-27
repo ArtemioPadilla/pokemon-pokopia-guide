@@ -76,4 +76,43 @@ describe('content: en/es parity', () => {
     const numbers = en.map((e) => e.nationalNumber);
     expect(new Set(numbers).size).toBe(numbers.length);
   });
+
+  it.each(['en', 'es'] as const)(
+    '%s: recipes.materials is structured {name, quantity>=1} — not a bare string',
+    (locale) => {
+      const recipes = loadJson<{ id: string; materials: { name: string; quantity: number }[] }>(
+        locale,
+        'recipes',
+      );
+      for (const r of recipes) {
+        expect(r.materials.length).toBeGreaterThan(0);
+        for (const m of r.materials) {
+          expect(typeof m.name).toBe('string');
+          expect(m.name.length).toBeGreaterThan(0);
+          expect(Number.isInteger(m.quantity)).toBe(true);
+          expect(m.quantity).toBeGreaterThanOrEqual(1);
+        }
+      }
+    },
+  );
+
+  it.each(['en', 'es'] as const)(
+    '%s: pokedex/collectibles x/y map pins are only set in pairs, both within 0-100',
+    (locale) => {
+      for (const name of ['pokedex', 'collectibles'] as const) {
+        const entries = loadJson<{ id: string; x?: number; y?: number }>(locale, name);
+        for (const e of entries) {
+          expect(e.x === undefined).toBe(e.y === undefined);
+          if (e.x !== undefined) {
+            expect(e.x).toBeGreaterThanOrEqual(0);
+            expect(e.x).toBeLessThanOrEqual(100);
+          }
+          if (e.y !== undefined) {
+            expect(e.y).toBeGreaterThanOrEqual(0);
+            expect(e.y).toBeLessThanOrEqual(100);
+          }
+        }
+      }
+    },
+  );
 });

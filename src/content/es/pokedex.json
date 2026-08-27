@@ -8,7 +8,9 @@
     "pokopiaNumber": 1,
     "area": "Yermo Marchito",
     "habitat": "Cama de Paja (2 hojas) — la petición de Bulbasaur, sube el Nivel de Entorno a 2",
-    "note": "La primera misión con un Pokémon nombrado en la guía."
+    "note": "La primera misión con un Pokémon nombrado en la guía.",
+    "x": 32,
+    "y": 58
   },
   {
     "id": "poke-002",
@@ -257,7 +259,9 @@
     "types": ["Lucha"],
     "generation": 5,
     "area": "Yermo Marchito",
-    "habitat": "Hierba Alta a la Sombra de una Roca, detrás del Centro Pokémon"
+    "habitat": "Hierba Alta a la Sombra de una Roca, detrás del Centro Pokémon",
+    "x": 58,
+    "y": 24
   },
   {
     "id": "poke-107",
@@ -266,7 +270,9 @@
     "types": ["Lucha"],
     "generation": 1,
     "area": "Yermo Marchito",
-    "habitat": "Rincón de Ejercicio (saco de boxeo + banco)"
+    "habitat": "Rincón de Ejercicio (saco de boxeo + banco)",
+    "x": 72,
+    "y": 30
   },
   {
     "id": "poke-062",

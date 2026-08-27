@@ -22,7 +22,10 @@ const pokedex = (await getLocalized('pokedex', locale))
     name: p.data.name,
     types: p.data.types,
     generation: p.data.generation,
+    area: p.data.area,
     habitat: p.data.habitat,
+    x: p.data.x,
+    y: p.data.y,
   }));
 ---
 
@@ -37,6 +40,12 @@ const pokedex = (await getLocalized('pokedex', locale))
         progressLabel={t('pokedex.progress')}
         genLabel={t('pokedex.gen')}
         habitatUnknownLabel={t('pokedex.habitatUnknown')}
+        listLabel={t('map.list')}
+        mapLabel={t('map.map')}
+        viewGroupLabel={t('map.viewGroup')}
+        mapNote={t('map.note')}
+        checkedSuffix={t('map.checkedSuffix')}
+        uncheckedSuffix={t('map.uncheckedSuffix')}
       />
     </ErrorBoundary>
   </main>
