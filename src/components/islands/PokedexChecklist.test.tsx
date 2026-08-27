@@ -25,7 +25,10 @@ const items = [
     name: 'Bulbasaur',
     types: ['Grass', 'Poison'],
     generation: 1,
+    area: 'Withered Wasteland',
     habitat: 'Pretty Flower Bed',
+    x: 32,
+    y: 58,
   },
   { id: 'poke-025', nationalNumber: 25, name: 'Pikachu', types: ['Electric'], generation: 1 },
   {
@@ -95,6 +98,53 @@ describe('PokedexChecklist', () => {
       'aria-valuenow',
       '1',
     );
+  });
+
+  it('defaults to the list view, with the map view available via the toggle', async () => {
+    const { default: PokedexChecklist } = await import('./PokedexChecklist');
+    render(
+      <PokedexChecklist
+        items={items}
+        progressLabel="Pokédex"
+        genLabel="Gen"
+        habitatUnknownLabel="Unknown"
+      />,
+    );
+    // List view (checkboxes) is present without any interaction.
+    expect(screen.getByRole('checkbox', { name: /Bulbasaur/ })).toBeInTheDocument();
+    expect(screen.queryByRole('heading', { name: 'Withered Wasteland' })).not.toBeInTheDocument();
+  });
+
+  it('toggling a map pin updates the exact same store the list checkbox reads', async () => {
+    const user = userEvent.setup();
+    const { default: PokedexChecklist } = await import('./PokedexChecklist');
+    render(
+      <PokedexChecklist
+        items={items}
+        progressLabel="Pokédex"
+        genLabel="Gen"
+        habitatUnknownLabel="Unknown"
+        listLabel="List"
+        mapLabel="Map"
+        viewGroupLabel="View"
+      />,
+    );
+
+    await user.click(screen.getByRole('button', { name: 'Map' }));
+    const pin = screen.getByRole('button', { name: /Bulbasaur/ });
+    expect(pin).toHaveAttribute('aria-pressed', 'false');
+
+    await user.click(pin);
+    expect(pin).toHaveAttribute('aria-pressed', 'true');
+    expect(screen.getByRole('progressbar', { name: 'Pokédex' })).toHaveAttribute(
+      'aria-valuenow',
+      '1',
+    );
+
+    // Switching back to the list view shows the same item checked — same
+    // underlying `pokedexStore`, no separate map-only state.
+    await user.click(screen.getByRole('button', { name: 'List' }));
+    expect(screen.getByRole('checkbox', { name: /Bulbasaur/ })).toBeChecked();
   });
 
   it('falls back to the "habitat unknown" label when habitat is not set', async () => {

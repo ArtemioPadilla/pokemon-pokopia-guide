@@ -8,7 +8,9 @@
     "pokopiaNumber": 1,
     "area": "Withered Wasteland",
     "habitat": "Straw Bed (2 leaves) — Bulbasaur’s request, raises Environment Level to 2",
-    "note": "First named Pokémon quest in the walkthrough."
+    "note": "First named Pokémon quest in the walkthrough.",
+    "x": 32,
+    "y": 58
   },
   {
     "id": "poke-002",
@@ -257,7 +259,9 @@
     "types": ["Fighting"],
     "generation": 5,
     "area": "Withered Wasteland",
-    "habitat": "Boulder-shaded Tall Grass, behind the Pokémon Center"
+    "habitat": "Boulder-shaded Tall Grass, behind the Pokémon Center",
+    "x": 58,
+    "y": 24
   },
   {
     "id": "poke-107",
@@ -266,7 +270,9 @@
     "types": ["Fighting"],
     "generation": 1,
     "area": "Withered Wasteland",
-    "habitat": "Exercise Resting Spot (punching bag + bench)"
+    "habitat": "Exercise Resting Spot (punching bag + bench)",
+    "x": 72,
+    "y": 30
   },
   {
     "id": "poke-062",

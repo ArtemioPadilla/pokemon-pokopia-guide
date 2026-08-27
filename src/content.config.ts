@@ -44,7 +44,10 @@ const areasSchema = z.object({
 // numbered listing) — it is intentionally optional rather than guessed for
 // every entry, so a missing value here is honest, not a bug. `nationalNumber`,
 // `name`, `types`, and `generation` are standard, independently-verifiable
-// Pokémon facts and are always present. -----------------------------------
+// Pokémon facts and are always present. `x`/`y` (0-100, percent of the
+// area's schematic map viewBox) are set ONLY alongside a sourced `habitat`
+// description precise enough to place a pin — most entries have neither, and
+// that's the honest state, not a gap to paper over with a guessed position. -
 const pokedexSchema = z.object({
   nationalNumber: z.number(),
   pokopiaNumber: z.number().optional(),
@@ -54,25 +57,40 @@ const pokedexSchema = z.object({
   area: z.string().optional(),
   habitat: z.string().optional(),
   note: z.string().optional(),
+  x: z.number().min(0).max(100).optional(),
+  y: z.number().min(0).max(100).optional(),
 });
 
 // --- Collectibles: the SECOND checklist tracker (analog of RE4's
 // `treasures`) — Pokopia's three completionist collection systems:
 // Ancient Artifacts (lost relics), Human Records (environmental lore), and
-// the Highlight Reel (in-game photography challenges). -------------------
+// the Highlight Reel (in-game photography challenges). `x`/`y` mirror the
+// Pokédex fields above and are set only for entries whose `area` is a real,
+// confirmed area name (not one of the honest "not specified"/"not
+// area-specific" placeholder strings) — see the map note on the
+// Collectibles page for what that leaves unplaced. -------------------------
 const collectiblesSchema = z.object({
   category: z.enum(['artifact', 'record', 'photo']),
   name: z.string(),
   area: z.string(),
   note: z.string().optional(),
+  x: z.number().min(0).max(100).optional(),
+  y: z.number().min(0).max(100).optional(),
 });
 
 // --- Crafting recipes: reference table (analog of RE4's `weapons`/`gems`).
-// A curated cross-section of the 600+ in-game recipes, not exhaustive. ----
+// A curated cross-section of the 600+ in-game recipes, not exhaustive.
+// `materials` is structured (name + numeric quantity) rather than bare
+// "3x Glass" strings so RecipesPage can render a compact visual quantity
+// comparison per recipe instead of a flat joined string. ------------------
+const recipeMaterialSchema = z.object({
+  name: z.string(),
+  quantity: z.number().min(1),
+});
 const recipesSchema = z.object({
   name: z.string(),
   category: z.enum(['furniture', 'buildings', 'utilities', 'outdoor', 'blocks', 'misc']),
-  materials: z.array(z.string()).min(1),
+  materials: z.array(recipeMaterialSchema).min(1),
   unlockMethod: z.string(),
   order: z.number(),
 });

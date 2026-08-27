@@ -13,6 +13,7 @@ const t = useTranslations(locale);
 
 const recipes = (await getLocalized('recipes', locale)).sort((a, b) => a.data.order - b.data.order);
 const categories = [...new Set(recipes.map((r) => r.data.category))];
+type RecipeMaterial = (typeof recipes)[number]['data']['materials'][number];
 const categoryLabelKey = {
   furniture: 'recipes.cat.furniture',
   buildings: 'recipes.cat.buildings',
@@ -45,15 +46,41 @@ const categoryLabelKey = {
               <tbody>
                 {recipes
                   .filter((r) => r.data.category === cat)
-                  .map((r) => (
-                    <tr class="border-b border-border/60 last:border-0">
-                      <td class="px-3 py-2.5 font-medium text-foreground">{r.data.name}</td>
-                      <td class="px-3 py-2.5 text-muted-foreground">
-                        {r.data.materials.join(', ')}
-                      </td>
-                      <td class="px-3 py-2.5 text-muted-foreground">{r.data.unlockMethod}</td>
-                    </tr>
-                  ))}
+                  .map((r) => {
+                    const maxQty = Math.max(
+                      ...r.data.materials.map((m: RecipeMaterial) => m.quantity),
+                    );
+                    return (
+                      <tr class="border-b border-border/60 last:border-0">
+                        <td class="px-3 py-2.5 font-medium text-foreground">{r.data.name}</td>
+                        <td class="px-3 py-2.5">
+                          <div class="flex flex-col gap-1">
+                            {r.data.materials.map((m: RecipeMaterial) => (
+                              <div class="flex items-center gap-2">
+                                <span class="w-6 shrink-0 text-right font-mono text-[11px] text-primary">
+                                  {m.quantity}×
+                                </span>
+                                <span class="min-w-0 flex-1 truncate text-muted-foreground">
+                                  {m.name}
+                                </span>
+                                <span
+                                  class="h-1.5 w-14 shrink-0 overflow-hidden rounded-full bg-muted"
+                                  role="img"
+                                  aria-label={`${m.quantity} of ${maxQty} — relative amount of ${m.name} in this recipe`}
+                                >
+                                  <span
+                                    class="block h-full rounded-full bg-primary/70"
+                                    style={`width: ${Math.max(18, Math.round((m.quantity / maxQty) * 100))}%`}
+                                  />
+                                </span>
+                              </div>
+                            ))}
+                          </div>
+                        </td>
+                        <td class="px-3 py-2.5 text-muted-foreground">{r.data.unlockMethod}</td>
+                      </tr>
+                    );
+                  })}
               </tbody>
             </table>
           </div>
