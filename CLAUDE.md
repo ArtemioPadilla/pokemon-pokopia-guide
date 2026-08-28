@@ -74,7 +74,7 @@ per-item below.
   species entries, only filled in the number field on existing ones).
   `pokopiaNumber` is now confirmed for **80 of the 117** entries (up from
   31), sourced from Bulbapedia's `List of Pokémon by Pokédex number in
-  Pokémon Pokopia` — fetched in full (all 300 rows) and cross-verified
+Pokémon Pokopia` — fetched in full (all 300 rows) and cross-verified
   against independent, non-wiki sources at multiple points across the
   range (Serebii's per-species Pokopia pages, pokopiawiki.com,
   pokopiamap.com, pokopiadex.com, VideoGamesChronicle, Game8) before being
@@ -84,7 +84,7 @@ per-item below.
   300-row list — whether they're absent from the base Pokopia Dex
   entirely, or (a handful, e.g. Popplio, Krabby, Buizel, Feebas) belong to
   the Expansion Pass's separate 50-entry `List of Pokémon by Pokédex
-  (Basin) number` instead, was not run down this session; either way, a
+(Basin) number` instead, was not run down this session; either way, a
   guessed number would be worse than the honest gap, so none was added.
   One pre-existing data bug was fixed in passing: the entry with
   `nationalNumber: 921` was labeled "Wiglett," but 921 is Pawmi's real
