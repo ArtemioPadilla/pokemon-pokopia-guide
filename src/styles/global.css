@@ -78,40 +78,42 @@
        contrast script results in CLAUDE.md. */
     --pill-quest: light-dark(oklch(0.4 0.14 235), oklch(0.72 0.13 230));
     --pill-craft: light-dark(oklch(0.46 0.15 55), oklch(0.78 0.15 65));
-    /* Pokédex type badges — one token per canonical Pokémon type. v2: an
-       adversarial review of v1 found that deriving hue mechanically from
-       each type's canonical hex color clustered 6 types (normal/ground/
-       rock/electric/bug/grass) within 48° of each other, and solving each
-       type's L independently for the SAME contrast target erased the
-       lightness differentiation the canonicals had — Rock vs Ground and
-       Psychic vs Fairy rendered as visually indistinguishable. Hues here
-       are deliberately redistributed ~20° apart around the full wheel
-       (semantic family kept where possible: warm/earth tones 0-120°,
-       green/cyan 120-200°, blue/purple 200-300°, pink/magenta 300-360°),
-       verified computationally (OKLab pairwise distance, worst pair 0.031
-       vs v1's 0.004) rather than eyeballed. Contrast target raised to
-       ≥5:1 (was ≥4.5:1) for real margin above the AA floor — see
-       CLAUDE.md "Design & a11y". Text labels remain the primary
-       identifier; color is a supplementary cue, same principle as this
-       file's border-contrast note above. */
-    --type-fighting: light-dark(oklch(0.545 0.17 0), oklch(0.651 0.17 0));
-    --type-fire: light-dark(oklch(0.544 0.17 20), oklch(0.649 0.17 20));
+    /* Pokédex type badges — one token per canonical Pokémon type.
+       v3: a second adversarial review of v2 found that 6 of v2's chroma
+       values (ground/electric/bug/grass/water/dragon) exceeded what's
+       renderable in sRGB at their given lightness — browsers silently
+       gamut-clip them, and Dragon's clip (0.21 requested → ~0.115
+       renderable) brought it visually next to Flying at only 5° hue
+       apart, a new near-collision of the same severity v2 was supposed
+       to fix. v3 computes each token's ACTUAL in-gamut chroma via
+       hue-preserving binary search (not idealized/unclipped OKLab math)
+       before picking L, widens Dragon away from Flying (245°→272° vs
+       v2's 240°/245°), and verifies pairwise OKLab distance on the real
+       rendered colors, not the requested ones — worst pair (ice vs
+       steel, both pale cool neutrals) is 0.029 in both themes, checked
+       against every one of the 153 type pairs, not just the previously-
+       flagged ones. Still ≥5:1 against both --background and --card in
+       both themes. Text labels remain the primary identifier; color is
+       a supplementary cue, same principle as this file's border-
+       contrast note above — see CLAUDE.md "Design & a11y". */
+    --type-fighting: light-dark(oklch(0.546 0.18 0), oklch(0.652 0.18 0));
+    --type-fire: light-dark(oklch(0.545 0.18 20), oklch(0.65 0.18 20));
     --type-rock: light-dark(oklch(0.536 0.13 40), oklch(0.641 0.13 40));
-    --type-ground: light-dark(oklch(0.532 0.14 60), oklch(0.638 0.14 60));
-    --type-electric: light-dark(oklch(0.526 0.16 80), oklch(0.632 0.16 80));
-    --type-bug: light-dark(oklch(0.519 0.16 100), oklch(0.625 0.16 100));
-    --type-grass: light-dark(oklch(0.511 0.17 120), oklch(0.618 0.17 120));
+    --type-ground: light-dark(oklch(0.531 0.11 60), oklch(0.636 0.11 60));
+    --type-electric: light-dark(oklch(0.526 0.1 80), oklch(0.631 0.1 80));
+    --type-bug: light-dark(oklch(0.521 0.1 100), oklch(0.627 0.1 100));
+    --type-grass: light-dark(oklch(0.517 0.11 120), oklch(0.622 0.11 120));
     --type-normal: light-dark(oklch(0.518 0.055 135), oklch(0.623 0.055 135));
-    --type-ice: light-dark(oklch(0.512 0.09 185), oklch(0.617 0.09 185));
+    --type-ice: light-dark(oklch(0.512 0.085 185), oklch(0.618 0.085 185));
     --type-steel: light-dark(oklch(0.514 0.08 205), oklch(0.62 0.08 205));
-    --type-water: light-dark(oklch(0.497 0.15 225), oklch(0.608 0.15 225));
-    --type-flying: light-dark(oklch(0.521 0.12 245), oklch(0.626 0.12 245));
-    --type-dragon: light-dark(oklch(0.5 0.21 240), oklch(0.608 0.21 240));
-    --type-ghost: light-dark(oklch(0.526 0.13 260), oklch(0.631 0.13 260));
+    --type-water: light-dark(oklch(0.516 0.098 225), oklch(0.62 0.117 225));
+    --type-flying: light-dark(oklch(0.521 0.13 245), oklch(0.626 0.13 245));
+    --type-dragon: light-dark(oklch(0.537 0.2 272), oklch(0.64 0.193 272));
+    --type-ghost: light-dark(oklch(0.536 0.13 300), oklch(0.641 0.13 300));
     --type-dark: light-dark(oklch(0.525 0.05 280), oklch(0.631 0.05 280));
-    --type-poison: light-dark(oklch(0.541 0.17 300), oklch(0.646 0.17 300));
-    --type-psychic: light-dark(oklch(0.547 0.19 320), oklch(0.652 0.19 320));
-    --type-fairy: light-dark(oklch(0.541 0.14 340), oklch(0.646 0.14 340));
+    --type-poison: light-dark(oklch(0.545 0.18 320), oklch(0.65 0.18 320));
+    --type-psychic: light-dark(oklch(0.548 0.19 340), oklch(0.653 0.19 340));
+    --type-fairy: light-dark(oklch(0.543 0.15 355), oklch(0.648 0.15 355));
     --chart-1: light-dark(oklch(0.6 0.16 145), oklch(0.78 0.17 145));
     --chart-2: light-dark(oklch(0.62 0.12 220), oklch(0.72 0.13 220));
     --chart-3: light-dark(oklch(0.72 0.15 80), oklch(0.8 0.15 75));
