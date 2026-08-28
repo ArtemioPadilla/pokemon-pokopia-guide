@@ -777,21 +777,21 @@
     "id": "col-rec-12",
     "category": "record",
     "name": "Celadon Department Store Reopens",
-    "area": "No especificado en las fuentes disponibles",
+    "area": "Sparkling Skylands",
     "note": "Periódico"
   },
   {
     "id": "col-rec-13",
     "category": "record",
     "name": "Big Bargain Sale!",
-    "area": "No especificado en las fuentes disponibles",
+    "area": "Sparkling Skylands",
     "note": "Periódico"
   },
   {
     "id": "col-rec-14",
     "category": "record",
     "name": "Katie's Journal",
-    "area": "No especificado en las fuentes disponibles",
+    "area": "Crestas Rocosas",
     "note": "Diario"
   },
   {
@@ -805,7 +805,7 @@
     "id": "col-rec-16",
     "category": "record",
     "name": "Hacker's confessions #6",
-    "area": "No especificado en las fuentes disponibles",
+    "area": "Sparkling Skylands",
     "note": "Diario"
   },
   {
@@ -826,14 +826,14 @@
     "id": "col-rec-19",
     "category": "record",
     "name": "Professor's Diary #3",
-    "area": "No especificado en las fuentes disponibles",
+    "area": "Playa Sombría",
     "note": "Diario"
   },
   {
     "id": "col-rec-20",
     "category": "record",
     "name": "Professor's Diary #4",
-    "area": "No especificado en las fuentes disponibles",
+    "area": "Crestas Rocosas",
     "note": "Diario"
   },
   {
@@ -854,7 +854,7 @@
     "id": "col-rec-23",
     "category": "record",
     "name": "Chef's diary",
-    "area": "No especificado en las fuentes disponibles",
+    "area": "Crestas Rocosas",
     "note": "Diario"
   },
   {
@@ -924,7 +924,7 @@
     "id": "col-rec-33",
     "category": "record",
     "name": "Bug Love (September Issue)",
-    "area": "No especificado en las fuentes disponibles",
+    "area": "Crestas Rocosas",
     "note": "Revista"
   },
   {
@@ -938,7 +938,7 @@
     "id": "col-rec-35",
     "category": "record",
     "name": "Alola! (May Issue)",
-    "area": "No especificado en las fuentes disponibles",
+    "area": "Dream Island",
     "note": "Revista"
   },
   {
@@ -980,21 +980,21 @@
     "id": "col-rec-41",
     "category": "record",
     "name": "Team R Grunt's journal #7",
-    "area": "No especificado en las fuentes disponibles",
+    "area": "Sparkling Skylands",
     "note": "Revista"
   },
   {
     "id": "col-rec-42",
     "category": "record",
     "name": "Team R Grunt's journal #8",
-    "area": "No especificado en las fuentes disponibles",
+    "area": "Yermo Marchito",
     "note": "Revista"
   },
   {
     "id": "col-rec-43",
     "category": "record",
     "name": "Poke Life Dev Diary #1",
-    "area": "No especificado en las fuentes disponibles",
+    "area": "Yermo Marchito",
     "note": "Revista"
   },
   {
@@ -1078,7 +1078,7 @@
     "id": "col-rec-55",
     "category": "record",
     "name": "Peculiar pattern",
-    "area": "No especificado en las fuentes disponibles",
+    "area": "Dream Island",
     "note": "Foto"
   },
   {
@@ -1318,5 +1318,698 @@
     "category": "photo",
     "name": "DJ Droppin' the Beats!",
     "area": "No depende de la zona (depende de una condición)"
+  },
+  {
+    "id": "col-rec-56",
+    "category": "record",
+    "name": "Hacker's confessions #2",
+    "area": "Playa Sombría",
+    "note": "Diario"
+  },
+  {
+    "id": "col-rec-57",
+    "category": "record",
+    "name": "Hacker's confessions #3",
+    "area": "Playa Sombría",
+    "note": "Diario"
+  },
+  {
+    "id": "col-rec-58",
+    "category": "record",
+    "name": "Hacker's confessions #4",
+    "area": "Yermo Marchito",
+    "note": "Diario"
+  },
+  {
+    "id": "col-rec-59",
+    "category": "record",
+    "name": "Hacker's confessions #5",
+    "area": "Crestas Rocosas",
+    "note": "Diario"
+  },
+  {
+    "id": "col-rec-60",
+    "category": "record",
+    "name": "All Smiles Update",
+    "area": "Bubbly Basin",
+    "note": "Carta"
+  },
+  {
+    "id": "col-rec-61",
+    "category": "record",
+    "name": "Dear Elena",
+    "area": "Yermo Marchito",
+    "note": "Carta"
+  },
+  {
+    "id": "col-rec-62",
+    "category": "record",
+    "name": "Heya, Kaz!",
+    "area": "Crestas Rocosas",
+    "note": "Carta"
+  },
+  {
+    "id": "col-rec-63",
+    "category": "record",
+    "name": "Hi, Dad!",
+    "area": "Dream Island",
+    "note": "Carta"
+  },
+  {
+    "id": "col-rec-64",
+    "category": "record",
+    "name": "I need your advice..",
+    "area": "Dream Island",
+    "note": "Carta"
+  },
+  {
+    "id": "col-rec-65",
+    "category": "record",
+    "name": "I wanna go swimming!",
+    "area": "Dream Island",
+    "note": "Carta"
+  },
+  {
+    "id": "col-rec-66",
+    "category": "record",
+    "name": "Post from July 30, 6:00 p.m.",
+    "area": "Playa Sombría",
+    "note": "Carta"
+  },
+  {
+    "id": "col-rec-67",
+    "category": "record",
+    "name": "Post from July 30: 6:00pm",
+    "area": "Playa Sombría",
+    "note": "Carta"
+  },
+  {
+    "id": "col-rec-68",
+    "category": "record",
+    "name": "Post from October 25, 2:00 p.m.",
+    "area": "Bubbly Basin",
+    "note": "Carta"
+  },
+  {
+    "id": "col-rec-69",
+    "category": "record",
+    "name": "R&D Deep Dive (February Issue)",
+    "area": "Dream Island",
+    "note": "Carta"
+  },
+  {
+    "id": "col-rec-70",
+    "category": "record",
+    "name": "Alola! (January Issue)",
+    "area": "Dream Island",
+    "note": "Revista"
+  },
+  {
+    "id": "col-rec-71",
+    "category": "record",
+    "name": "Angler Monthly (Special Edition)",
+    "area": "Dream Island",
+    "note": "Revista"
+  },
+  {
+    "id": "col-rec-72",
+    "category": "record",
+    "name": "Archeology Magazine #12",
+    "area": "Dream Island",
+    "note": "Revista"
+  },
+  {
+    "id": "col-rec-73",
+    "category": "record",
+    "name": "Bird Pokémon Montly (Anniv. Issue)",
+    "area": "Dream Island",
+    "note": "Revista"
+  },
+  {
+    "id": "col-rec-74",
+    "category": "record",
+    "name": "Black Belt Weekly (Vol. 48)",
+    "area": "Sparkling Skylands",
+    "note": "Revista"
+  },
+  {
+    "id": "col-rec-75",
+    "category": "record",
+    "name": "Career Monthly (Vol. 111)",
+    "area": "Dream Island",
+    "note": "Revista"
+  },
+  {
+    "id": "col-rec-76",
+    "category": "record",
+    "name": "Cerulean City Press Release",
+    "area": "Bubbly Basin",
+    "note": "Revista"
+  },
+  {
+    "id": "col-rec-77",
+    "category": "record",
+    "name": "Comfy Living (Vol. 11)",
+    "area": "Bubbly Basin",
+    "note": "Revista"
+  },
+  {
+    "id": "col-rec-78",
+    "category": "record",
+    "name": "Comfy Living (Vol. 2)",
+    "area": "Dream Island",
+    "note": "Revista"
+  },
+  {
+    "id": "col-rec-79",
+    "category": "record",
+    "name": "Comfy Living (Vol. 36)",
+    "area": "Dream Island",
+    "note": "Revista"
+  },
+  {
+    "id": "col-rec-80",
+    "category": "record",
+    "name": "Comfy Living (Vol. 866)",
+    "area": "Crestas Rocosas",
+    "note": "Revista"
+  },
+  {
+    "id": "col-rec-81",
+    "category": "record",
+    "name": "DELUXE Alola! (February Issue)",
+    "area": "Dream Island",
+    "note": "Revista"
+  },
+  {
+    "id": "col-rec-82",
+    "category": "record",
+    "name": "Dowsing Digest",
+    "area": "Bubbly Basin",
+    "note": "Revista"
+  },
+  {
+    "id": "col-rec-83",
+    "category": "record",
+    "name": "Galaxy Monthly (Survey Results)",
+    "area": "Bubbly Basin",
+    "note": "Revista"
+  },
+  {
+    "id": "col-rec-84",
+    "category": "record",
+    "name": "Gym Leader Monthly (June Issue)",
+    "area": "Dream Island",
+    "note": "Revista"
+  },
+  {
+    "id": "col-rec-85",
+    "category": "record",
+    "name": "Gym Leader Monthly (March Issue)",
+    "area": "Dream Island",
+    "note": "Revista"
+  },
+  {
+    "id": "col-rec-86",
+    "category": "record",
+    "name": "Hearthome Journal",
+    "area": "Playa Sombría",
+    "note": "Revista"
+  },
+  {
+    "id": "col-rec-87",
+    "category": "record",
+    "name": "Information wanted",
+    "area": "Dream Island",
+    "note": "Revista"
+  },
+  {
+    "id": "col-rec-88",
+    "category": "record",
+    "name": "Island Monthly (May Issue)",
+    "area": "Dream Island",
+    "note": "Revista"
+  },
+  {
+    "id": "col-rec-89",
+    "category": "record",
+    "name": "Kanto Montly (February Issue)",
+    "area": "Bubbly Basin",
+    "note": "Revista"
+  },
+  {
+    "id": "col-rec-90",
+    "category": "record",
+    "name": "Message from the Game Corner",
+    "area": "Sparkling Skylands",
+    "note": "Revista"
+  },
+  {
+    "id": "col-rec-91",
+    "category": "record",
+    "name": "Music & Living (September Issue)",
+    "area": "Dream Island",
+    "note": "Revista"
+  },
+  {
+    "id": "col-rec-92",
+    "category": "record",
+    "name": "New Bark Bulletin (February)",
+    "area": "Dream Island",
+    "note": "Revista"
+  },
+  {
+    "id": "col-rec-93",
+    "category": "record",
+    "name": "Opthalmology Journal (Spring)",
+    "area": "Crestas Rocosas",
+    "note": "Revista"
+  },
+  {
+    "id": "col-rec-94",
+    "category": "record",
+    "name": "Pocket World Weekly #18",
+    "area": "Dream Island",
+    "note": "Revista"
+  },
+  {
+    "id": "col-rec-95",
+    "category": "record",
+    "name": "Pocket World Weekly #38",
+    "area": "Dream Island",
+    "note": "Revista"
+  },
+  {
+    "id": "col-rec-96",
+    "category": "record",
+    "name": "Pocket World Weekly #76",
+    "area": "Playa Sombría",
+    "note": "Revista"
+  },
+  {
+    "id": "col-rec-97",
+    "category": "record",
+    "name": "Poké Life Dev Diary #3",
+    "area": "Playa Sombría",
+    "note": "Revista"
+  },
+  {
+    "id": "col-rec-98",
+    "category": "record",
+    "name": "Poké Life Dev Diary #5",
+    "area": "Sparkling Skylands",
+    "note": "Revista"
+  },
+  {
+    "id": "col-rec-99",
+    "category": "record",
+    "name": "Poké TV (July Issue)",
+    "area": "Dream Island",
+    "note": "Revista"
+  },
+  {
+    "id": "col-rec-100",
+    "category": "record",
+    "name": "PokéQuiz! Question 34",
+    "area": "Dream Island",
+    "note": "Revista"
+  },
+  {
+    "id": "col-rec-101",
+    "category": "record",
+    "name": "PokéWeek (Issue 122)",
+    "area": "Dream Island",
+    "note": "Revista"
+  },
+  {
+    "id": "col-rec-102",
+    "category": "record",
+    "name": "PokéWeek (Issue 146)",
+    "area": "Dream Island - Starmie",
+    "note": "Revista"
+  },
+  {
+    "id": "col-rec-103",
+    "category": "record",
+    "name": "PokéWeek (Issue 37)",
+    "area": "Dream Island - Starmie",
+    "note": "Revista"
+  },
+  {
+    "id": "col-rec-104",
+    "category": "record",
+    "name": "Pokémon Breeder Monthly #37",
+    "area": "Dream Island",
+    "note": "Revista"
+  },
+  {
+    "id": "col-rec-105",
+    "category": "record",
+    "name": "Pokémon Fitness Monthly (Sept.)",
+    "area": "Bubbly Basin",
+    "note": "Revista"
+  },
+  {
+    "id": "col-rec-106",
+    "category": "record",
+    "name": "Saffron City Press Release",
+    "area": "Dream Island",
+    "note": "Revista"
+  },
+  {
+    "id": "col-rec-107",
+    "category": "record",
+    "name": "Seize the Week (Vol. 8)",
+    "area": "Crestas Rocosas",
+    "note": "Revista"
+  },
+  {
+    "id": "col-rec-108",
+    "category": "record",
+    "name": "Selection of Pokémon Scare Tactics",
+    "area": "Dream Island - Starmie",
+    "note": "Revista"
+  },
+  {
+    "id": "col-rec-109",
+    "category": "record",
+    "name": "Sevii Islands Bulletin",
+    "area": "Bubbly Basin",
+    "note": "Revista"
+  },
+  {
+    "id": "col-rec-110",
+    "category": "record",
+    "name": "Team R Grunt's journal #1",
+    "area": "Yermo Marchito",
+    "note": "Revista"
+  },
+  {
+    "id": "col-rec-111",
+    "category": "record",
+    "name": "The PokéBlock Party Returns",
+    "area": "Dream Island - Starmie",
+    "note": "Revista"
+  },
+  {
+    "id": "col-rec-112",
+    "category": "record",
+    "name": "This Week in Lilycove City",
+    "area": "Dream Island - Starmie",
+    "note": "Revista"
+  },
+  {
+    "id": "col-rec-113",
+    "category": "record",
+    "name": "Bike Catalog",
+    "area": "Bubbly Basin",
+    "note": "Periódico"
+  },
+  {
+    "id": "col-rec-114",
+    "category": "record",
+    "name": "Comfort Café Now Open!",
+    "area": "Bubbly Basin",
+    "note": "Periódico"
+  },
+  {
+    "id": "col-rec-115",
+    "category": "record",
+    "name": "Get Gems at Cerulean Jewelers!",
+    "area": "Bubbly Basin",
+    "note": "Periódico"
+  },
+  {
+    "id": "col-rec-116",
+    "category": "record",
+    "name": "March Issue Preview",
+    "area": "Dream Island",
+    "note": "Periódico"
+  },
+  {
+    "id": "col-rec-117",
+    "category": "record",
+    "name": "New Product Announcement",
+    "area": "Dream Island - Starmie",
+    "note": "Periódico"
+  },
+  {
+    "id": "col-rec-118",
+    "category": "record",
+    "name": "New Products in Stock!",
+    "area": "Bubbly Basin",
+    "note": "Periódico"
+  },
+  {
+    "id": "col-rec-119",
+    "category": "record",
+    "name": "Pool Open to the Public",
+    "area": "Bubbly Basin",
+    "note": "Periódico"
+  },
+  {
+    "id": "col-rec-120",
+    "category": "record",
+    "name": "Request to Residents",
+    "area": "Bubbly Basin",
+    "note": "Periódico"
+  },
+  {
+    "id": "col-rec-121",
+    "category": "record",
+    "name": "Sabrina Sets Sights on Big Screen!",
+    "area": "Sparkling Skylands",
+    "note": "Periódico"
+  },
+  {
+    "id": "col-rec-122",
+    "category": "record",
+    "name": "Subsea Power Grid in Development",
+    "area": "Bubbly Basin",
+    "note": "Periódico"
+  },
+  {
+    "id": "col-rec-123",
+    "category": "record",
+    "name": "TV Schedule: April 12 (Tuesday)",
+    "area": "Dream Island",
+    "note": "Periódico"
+  },
+  {
+    "id": "col-rec-124",
+    "category": "record",
+    "name": "This Week's Must-See Highlights",
+    "area": "Sparkling Skylands",
+    "note": "Periódico"
+  },
+  {
+    "id": "col-rec-125",
+    "category": "record",
+    "name": "Weather Report (December 4)",
+    "area": "Dream Island",
+    "note": "Periódico"
+  },
+  {
+    "id": "col-rec-126",
+    "category": "record",
+    "name": "Found: Wimpod",
+    "area": "Bubbly Basin",
+    "note": "Nota"
+  },
+  {
+    "id": "col-rec-127",
+    "category": "record",
+    "name": "Grunt's journal (brainstorming)",
+    "area": "Yermo Marchito",
+    "note": "Nota"
+  },
+  {
+    "id": "col-rec-128",
+    "category": "record",
+    "name": "New Summer Menu Ideas",
+    "area": "Bubbly Basin",
+    "note": "Nota"
+  },
+  {
+    "id": "col-rec-129",
+    "category": "record",
+    "name": "Observation notes",
+    "area": "Sparkling Skylands",
+    "note": "Nota"
+  },
+  {
+    "id": "col-rec-130",
+    "category": "record",
+    "name": "Schedule Management Notes",
+    "area": "Dream Island",
+    "note": "Nota"
+  },
+  {
+    "id": "col-rec-131",
+    "category": "record",
+    "name": "Shopping list",
+    "area": "Dream Island",
+    "note": "Nota"
+  },
+  {
+    "id": "col-rec-132",
+    "category": "record",
+    "name": "Someone's journal #2",
+    "area": "Playa Sombría",
+    "note": "Nota"
+  },
+  {
+    "id": "col-rec-133",
+    "category": "record",
+    "name": "Someone's journal #3",
+    "area": "Crestas Rocosas",
+    "note": "Nota"
+  },
+  {
+    "id": "col-rec-134",
+    "category": "record",
+    "name": "Someone's journal #4",
+    "area": "Sparkling Skylands",
+    "note": "Nota"
+  },
+  {
+    "id": "col-rec-135",
+    "category": "record",
+    "name": "Survey Notes #1 (Team Member B)",
+    "area": "Bubbly Basin",
+    "note": "Nota"
+  },
+  {
+    "id": "col-rec-136",
+    "category": "record",
+    "name": "Survey Notes #2 (Team Member B)",
+    "area": "Bubbly Basin",
+    "note": "Nota"
+  },
+  {
+    "id": "col-rec-137",
+    "category": "record",
+    "name": "Survey Notes (Team Member A)",
+    "area": "Bubbly Basin",
+    "note": "Nota"
+  },
+  {
+    "id": "col-rec-138",
+    "category": "record",
+    "name": "Taylor's diary",
+    "area": "Bubbly Basin",
+    "note": "Nota"
+  },
+  {
+    "id": "col-rec-139",
+    "category": "record",
+    "name": "Tomorrow's meals",
+    "area": "Crestas Rocosas",
+    "note": "Nota"
+  },
+  {
+    "id": "col-rec-140",
+    "category": "record",
+    "name": "Daily Porygon2 notes",
+    "area": "Sparkling Skylands",
+    "note": "Papel"
+  },
+  {
+    "id": "col-rec-141",
+    "category": "record",
+    "name": "New Plan Proposal (name TBD)",
+    "area": "Dream Island",
+    "note": "Papel"
+  },
+  {
+    "id": "col-rec-142",
+    "category": "record",
+    "name": "Project Cancellation Proposal",
+    "area": "Crestas Rocosas",
+    "note": "Papel"
+  },
+  {
+    "id": "col-rec-143",
+    "category": "record",
+    "name": "Shellos report",
+    "area": "Yermo Marchito",
+    "note": "Papel"
+  },
+  {
+    "id": "col-rec-144",
+    "category": "record",
+    "name": "Photo #2",
+    "area": "Yermo Marchito",
+    "note": "Foto"
+  },
+  {
+    "id": "col-rec-145",
+    "category": "record",
+    "name": "Photo #5",
+    "area": "Crestas Rocosas",
+    "note": "Foto"
+  },
+  {
+    "id": "col-rec-146",
+    "category": "record",
+    "name": "Photo #6",
+    "area": "Sparkling Skylands",
+    "note": "Foto"
+  },
+  {
+    "id": "col-rec-147",
+    "category": "record",
+    "name": "Photo #7",
+    "area": "Sparkling Skylands",
+    "note": "Foto"
+  },
+  {
+    "id": "col-rec-148",
+    "category": "record",
+    "name": "Photo #8",
+    "area": "Dream Island",
+    "note": "Foto"
+  },
+  {
+    "id": "col-rec-149",
+    "category": "record",
+    "name": "Treasure Map #1",
+    "area": "Bubbly Basin",
+    "note": "Mapa del tesoro"
+  },
+  {
+    "id": "col-rec-150",
+    "category": "record",
+    "name": "Treasure Map #2",
+    "area": "Bubbly Basin",
+    "note": "Mapa del tesoro"
+  },
+  {
+    "id": "col-rec-151",
+    "category": "record",
+    "name": "Treasure Map #3",
+    "area": "Bubbly Basin",
+    "note": "Mapa del tesoro"
+  },
+  {
+    "id": "col-rec-152",
+    "category": "record",
+    "name": "Treasure Map #4",
+    "area": "Bubbly Basin",
+    "note": "Mapa del tesoro"
+  },
+  {
+    "id": "col-rec-153",
+    "category": "record",
+    "name": "Treasure Map #5",
+    "area": "Bubbly Basin",
+    "note": "Mapa del tesoro"
+  },
+  {
+    "id": "col-rec-154",
+    "category": "record",
+    "name": "Treasure Map #6",
+    "area": "Bubbly Basin",
+    "note": "Mapa del tesoro"
   }
 ]
