@@ -2011,5 +2011,19 @@
     "name": "Treasure Map #6",
     "area": "Bubbly Basin",
     "note": "Treasure Map"
+  },
+  {
+    "id": "col-rec-155",
+    "category": "record",
+    "name": "Comfy Living (Vol. 30)",
+    "area": "Bubbly Basin",
+    "note": "Magazine"
+  },
+  {
+    "id": "col-rec-156",
+    "category": "record",
+    "name": "PokéWeek (Issue 46)",
+    "area": "Dream Island - Starmie",
+    "note": "Magazine"
   }
 ]
