@@ -11,6 +11,7 @@ interface PokedexItem {
   id: string;
   nationalNumber: number;
   pokopiaNumber?: number;
+  basinNumber?: number;
   name: string;
   types: string[];
   generation: number;
@@ -114,6 +115,7 @@ export default function PokedexChecklist({
                       <span className="mr-1.5 font-mono text-xs text-primary">
                         #{String(item.nationalNumber).padStart(3, '0')}
                         {item.pokopiaNumber ? ` · Pokopia #${item.pokopiaNumber}` : ''}
+                        {item.basinNumber ? ` · Basin #${item.basinNumber}` : ''}
                       </span>
                       {item.name}
                       <span className="ml-1.5 inline-flex gap-1 align-middle">

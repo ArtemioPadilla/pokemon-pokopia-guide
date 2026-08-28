@@ -140,8 +140,8 @@
     "id": "col-rec-10",
     "category": "record",
     "name": "Dear Douglas",
-    "area": "Not yet located in sources",
-    "note": "Letter — reported at Dream Island"
+    "area": "Dream Island",
+    "note": "Letter"
   },
   {
     "id": "col-photo-01",
@@ -198,5 +198,1125 @@
     "name": "It Just Needs a Good Smack, and—Oops!",
     "area": "Not area-specific (condition-based)",
     "note": "Requires Professor Tangrowth, Environment Level 5+"
+  },
+  {
+    "id": "col-art-09",
+    "category": "artifact",
+    "name": "Polygonal shelf",
+    "area": "Not specified in available sources",
+    "note": "Large Lost Relic — A stylish, eye-catching shelf. Looks hard to use but still functions as a shelf just fine."
+  },
+  {
+    "id": "col-art-10",
+    "category": "artifact",
+    "name": "Mysterious pedestal",
+    "area": "Not specified in available sources",
+    "note": "Large Lost Relic — Looks like it originally had something on top of it..."
+  },
+  {
+    "id": "col-art-11",
+    "category": "artifact",
+    "name": "Avalugg table",
+    "area": "Not specified in available sources",
+    "note": "Large Lost Relic — A solid table with cracks in it. It looks just like a resting Avalugg."
+  },
+  {
+    "id": "col-art-12",
+    "category": "artifact",
+    "name": "Naptime bed",
+    "area": "Not specified in available sources",
+    "note": "Large Lost Relic — Kick back right on top of Snorlax's belly. It feels so comfy you could snooze through the whole day."
+  },
+  {
+    "id": "col-art-13",
+    "category": "artifact",
+    "name": "Wiggly mirror",
+    "area": "Not specified in available sources",
+    "note": "Large Lost Relic — Look into the mirror to change your transformation and perfect your look!"
+  },
+  {
+    "id": "col-art-14",
+    "category": "artifact",
+    "name": "Pitcher-plant pot",
+    "area": "Not specified in available sources",
+    "note": "Large Lost Relic — A flower vase with a pink lip that resembles a Pokemon's mouth. It emanates a faintly sweet aroma."
+  },
+  {
+    "id": "col-art-15",
+    "category": "artifact",
+    "name": "Munna bank",
+    "area": "Not specified in available sources",
+    "note": "Large Lost Relic — An especially heavy money box. It feels like it's full of coins."
+  },
+  {
+    "id": "col-art-16",
+    "category": "artifact",
+    "name": "Bouncy blue bathtub",
+    "area": "Not specified in available sources",
+    "note": "Large Lost Relic — A bathtub that lets you experience waves and bubbles, even without a single drop of water inside."
+  },
+  {
+    "id": "col-art-17",
+    "category": "artifact",
+    "name": "Arcade machine",
+    "area": "Not specified in available sources",
+    "note": "Large Lost Relic — A game machine from a facility somewhere. It looks brand-new, so it probably can still be turned on."
+  },
+  {
+    "id": "col-art-18",
+    "category": "artifact",
+    "name": "Funky diffuser",
+    "area": "Not specified in available sources",
+    "note": "Large Lost Relic — The symbol on it looks dangerous, but it doesn't seem like this will actually spew out poison gas..."
+  },
+  {
+    "id": "col-art-19",
+    "category": "artifact",
+    "name": "Gold Teeth",
+    "area": "Not specified in available sources",
+    "note": "Large Lost Relic — Their lustrous golden shine hasn't changed at all. Maybe someone dropped them long ago?"
+  },
+  {
+    "id": "col-art-20",
+    "category": "artifact",
+    "name": "Repel",
+    "area": "Not specified in available sources",
+    "note": "Large Lost Relic — When you press the spray cap, a weird scent spritzes out and permeates the area."
+  },
+  {
+    "id": "col-art-21",
+    "category": "artifact",
+    "name": "Boo-in-the-box",
+    "area": "Not specified in available sources",
+    "note": "Large Lost Relic — Open the box, and—BOING!—out pops the Gengar!"
+  },
+  {
+    "id": "col-art-22",
+    "category": "artifact",
+    "name": "Wobbuffet wobbler",
+    "area": "Not specified in available sources",
+    "note": "Large Lost Relic — An exceptionally durable Wobbuffet doll. It gets back up no matter how many times you knock it over."
+  },
+  {
+    "id": "col-art-23",
+    "category": "artifact",
+    "name": "Mysterious statue",
+    "area": "Not specified in available sources",
+    "note": "Large Lost Relic — Doesn't seem like anyone knows exactly what this is a statue of..."
+  },
+  {
+    "id": "col-art-24",
+    "category": "artifact",
+    "name": "Fiery Magby statue",
+    "area": "Not specified in available sources",
+    "note": "Large Lost Relic — If you place a switch nearby and activate it, Magby will shoot fire out of their mouth! Fwooosh!"
+  },
+  {
+    "id": "col-art-25",
+    "category": "artifact",
+    "name": "Gym emblem statue",
+    "area": "Not specified in available sources",
+    "note": "Large Lost Relic — This stone statue makes you feel pumped up. Would look great placed on a pedestal."
+  },
+  {
+    "id": "col-art-26",
+    "category": "artifact",
+    "name": "Spacesuit",
+    "area": "Not specified in available sources",
+    "note": "Large Lost Relic — Clothing designed for living in outer space. Keeps the wearer safe even in an airless environment."
+  },
+  {
+    "id": "col-art-27",
+    "category": "artifact",
+    "name": "Spaceship",
+    "area": "Not specified in available sources",
+    "note": "Large Lost Relic — A vehicle meant for traveling to outer space. Hermetically sealed so air doesn't escape."
+  },
+  {
+    "id": "col-art-28",
+    "category": "artifact",
+    "name": "Rowlet clock",
+    "area": "Not specified in available sources",
+    "note": "Large Lost Relic — A wall clock shaped like a small house. Rowlet will pop out to let you know what time it is!"
+  },
+  {
+    "id": "col-art-29",
+    "category": "artifact",
+    "name": "Castform weather charm",
+    "area": "Not specified in available sources",
+    "note": "Large Lost Relic — A reversible Castform doll. Rumor has it, when the doll changes form, the weather changes too!"
+  },
+  {
+    "id": "col-art-30",
+    "category": "artifact",
+    "name": "Eerie candle",
+    "area": "Not specified in available sources",
+    "note": "Large Lost Relic — Fwoosh! This candle glows with a bluish flame when lit. It's small enough to fit on top of a desk."
+  },
+  {
+    "id": "col-art-31",
+    "category": "artifact",
+    "name": "Garden ornament",
+    "area": "Not specified in available sources",
+    "note": "Large Lost Relic — This decoration looks like Maushold spending quality time on a log."
+  },
+  {
+    "id": "col-art-32",
+    "category": "artifact",
+    "name": "Bike",
+    "area": "Not specified in available sources",
+    "note": "Large Lost Relic — A cool bicycle that looks high-end. It sparkles as if it's brand new."
+  },
+  {
+    "id": "col-art-33",
+    "category": "artifact",
+    "name": "Horsea fountain",
+    "area": "Not specified in available sources",
+    "note": "Large Lost Relic — Installing this near water should raise their humidity of its surroundings."
+  },
+  {
+    "id": "col-art-34",
+    "category": "artifact",
+    "name": "Fishing rod",
+    "area": "Not specified in available sources",
+    "note": "Large Lost Relic — A must-have item for fishing up Pokemon. Set one by the water and wait patiently for a bite!"
+  },
+  {
+    "id": "col-art-35",
+    "category": "artifact",
+    "name": "Raichu sign",
+    "area": "Not specified in available sources",
+    "note": "Large Lost Relic — A sign depicting Raichu discharging electricity. When powered up, the neon lighting glows brightly."
+  },
+  {
+    "id": "col-art-36",
+    "category": "artifact",
+    "name": "Photo cutout board",
+    "area": "Not specified in available sources",
+    "note": "Large Lost Relic — Put your face through the hole to become Plusle or Minun!"
+  },
+  {
+    "id": "col-art-37",
+    "category": "artifact",
+    "name": "Red meteor lamp",
+    "area": "Not specified in available sources",
+    "note": "Large Lost Relic — When powered on, this sparkles like a shooting star and instantly gives its surroundings a mystical vibe."
+  },
+  {
+    "id": "col-art-38",
+    "category": "artifact",
+    "name": "Orange meteor lamp",
+    "area": "Not specified in available sources",
+    "note": "Large Lost Relic — When powered on, this sparkles like a shooting star and instantly gives its surroundings a mystical vibe."
+  },
+  {
+    "id": "col-art-39",
+    "category": "artifact",
+    "name": "Yellow meteor lamp",
+    "area": "Not specified in available sources",
+    "note": "Large Lost Relic — When powered on, this sparkles like a shooting star and instantly gives its surroundings a mystical vibe."
+  },
+  {
+    "id": "col-art-40",
+    "category": "artifact",
+    "name": "Green meteor lamp",
+    "area": "Not specified in available sources",
+    "note": "Large Lost Relic — When powered on, this sparkles like a shooting star and instantly gives its surroundings a mystical vibe."
+  },
+  {
+    "id": "col-art-41",
+    "category": "artifact",
+    "name": "Blue meteor lamp",
+    "area": "Not specified in available sources",
+    "note": "Large Lost Relic — When powered on, this sparkles like a shooting star and instantly gives its surroundings a mystical vibe."
+  },
+  {
+    "id": "col-art-42",
+    "category": "artifact",
+    "name": "Indigo meteor lamp",
+    "area": "Not specified in available sources",
+    "note": "Large Lost Relic — When powered on, this sparkles like a shooting star and instantly gives its surroundings a mystical vibe."
+  },
+  {
+    "id": "col-art-43",
+    "category": "artifact",
+    "name": "Violet meteor lamp",
+    "area": "Not specified in available sources",
+    "note": "Large Lost Relic — When powered on, this sparkles like a shooting star and instantly gives its surroundings a mystical vibe."
+  },
+  {
+    "id": "col-art-44",
+    "category": "artifact",
+    "name": "Seedot lamp",
+    "area": "Not specified in available sources",
+    "note": "Large Lost Relic — When mounted to a wall, this looks just like a Seedot hanging from a branch!"
+  },
+  {
+    "id": "col-art-45",
+    "category": "artifact",
+    "name": "Nugget",
+    "area": "Not specified in available sources",
+    "note": "Small Lost Relic — It's made of pure gold that gives off a lustrous gleam. Try hanging it up in a frame!"
+  },
+  {
+    "id": "col-art-46",
+    "category": "artifact",
+    "name": "Silver Bottle Cap",
+    "area": "Not specified in available sources",
+    "note": "Small Lost Relic — A lovely silver bottle cap. Try hanging it up in a frame!"
+  },
+  {
+    "id": "col-art-47",
+    "category": "artifact",
+    "name": "Gold Bottle Cap",
+    "area": "Not specified in available sources",
+    "note": "Small Lost Relic — A lovely gold bottle cap. Try hanging it up in a frame!"
+  },
+  {
+    "id": "col-art-48",
+    "category": "artifact",
+    "name": "Rare Bone",
+    "area": "Not specified in available sources",
+    "note": "Small Lost Relic — An extremely old and valuable bone. Try hanging it up in a frame!"
+  },
+  {
+    "id": "col-art-49",
+    "category": "artifact",
+    "name": "Miracle Seed",
+    "area": "Not specified in available sources",
+    "note": "Small Lost Relic — A seed imbued with life force. Try hanging it up in a frame!"
+  },
+  {
+    "id": "col-art-50",
+    "category": "artifact",
+    "name": "Hard Stone",
+    "area": "Not specified in available sources",
+    "note": "Small Lost Relic — An unbreakable stone. Try hanging it up in a frame!"
+  },
+  {
+    "id": "col-art-51",
+    "category": "artifact",
+    "name": "Mystic Water",
+    "area": "Not specified in available sources",
+    "note": "Small Lost Relic — A teardrop-shaped gem. Try hanging it up in a frame!"
+  },
+  {
+    "id": "col-art-52",
+    "category": "artifact",
+    "name": "Metal Coat",
+    "area": "Not specified in available sources",
+    "note": "Small Lost Relic — A special metallic coating. Try hanging it up in a frame!"
+  },
+  {
+    "id": "col-art-53",
+    "category": "artifact",
+    "name": "Twisted Spoon",
+    "area": "Not specified in available sources",
+    "note": "Small Lost Relic — A spoon imbued with telekinetic energy. Try hanging it up in a frame!"
+  },
+  {
+    "id": "col-art-54",
+    "category": "artifact",
+    "name": "Silver Powder",
+    "area": "Not specified in available sources",
+    "note": "Small Lost Relic — A shiny silver powder. Try hanging it up in a frame!"
+  },
+  {
+    "id": "col-art-55",
+    "category": "artifact",
+    "name": "Black Glasses",
+    "area": "Not specified in available sources",
+    "note": "Small Lost Relic — A pair of shady-looking glasses. Try hanging them up in a frame!"
+  },
+  {
+    "id": "col-art-56",
+    "category": "artifact",
+    "name": "Black Belt",
+    "area": "Not specified in available sources",
+    "note": "Small Lost Relic — A thin black belt. Try hanging it up in a frame!"
+  },
+  {
+    "id": "col-art-57",
+    "category": "artifact",
+    "name": "Silk Scarf",
+    "area": "Not specified in available sources",
+    "note": "Small Lost Relic — A sumptuous scarf. Try hanging it up in a frame!"
+  },
+  {
+    "id": "col-art-58",
+    "category": "artifact",
+    "name": "Sharp Beak",
+    "area": "Not specified in available sources",
+    "note": "Small Lost Relic — A long, sharp beak. Try hanging it up in a frame!"
+  },
+  {
+    "id": "col-art-59",
+    "category": "artifact",
+    "name": "Poison Barb",
+    "area": "Not specified in available sources",
+    "note": "Small Lost Relic — A small poisonous barb. Try hanging it up in a frame!"
+  },
+  {
+    "id": "col-art-60",
+    "category": "artifact",
+    "name": "Never-Melt Ice",
+    "area": "Not specified in available sources",
+    "note": "Small Lost Relic — A heat-repelling piece of ice. Try hanging it up in a frame!"
+  },
+  {
+    "id": "col-art-61",
+    "category": "artifact",
+    "name": "Spell Tag",
+    "area": "Not specified in available sources",
+    "note": "Small Lost Relic — A sinister, eerie tag. Try hanging it up in a frame!"
+  },
+  {
+    "id": "col-art-62",
+    "category": "artifact",
+    "name": "Charcoal",
+    "area": "Not specified in available sources",
+    "note": "Small Lost Relic — Charcoal made by burning wood. Try hanging it up in a frame!"
+  },
+  {
+    "id": "col-art-63",
+    "category": "artifact",
+    "name": "Soft Sand",
+    "area": "Not specified in available sources",
+    "note": "Small Lost Relic — Loose, silky sand. Try hanging it up in a frame!"
+  },
+  {
+    "id": "col-art-64",
+    "category": "artifact",
+    "name": "Fairy Feather",
+    "area": "Not specified in available sources",
+    "note": "Small Lost Relic — A feather that gleams faintly when hit by light. Try hanging it up in a frame!"
+  },
+  {
+    "id": "col-art-65",
+    "category": "artifact",
+    "name": "Dragon Fang",
+    "area": "Not specified in available sources",
+    "note": "Small Lost Relic — A hard, sharp fang. Try hanging it up in a frame!"
+  },
+  {
+    "id": "col-art-66",
+    "category": "artifact",
+    "name": "Leftovers",
+    "area": "Not specified in available sources",
+    "note": "Small Lost Relic — Someone's leftover food. Try hanging it up in a frame!"
+  },
+  {
+    "id": "col-art-67",
+    "category": "artifact",
+    "name": "Black Sludge",
+    "area": "Not specified in available sources",
+    "note": "Small Lost Relic — Sludge with a repulsive odor. Try hanging it up in a frame!"
+  },
+  {
+    "id": "col-art-68",
+    "category": "artifact",
+    "name": "Lucky Egg",
+    "area": "Not specified in available sources",
+    "note": "Small Lost Relic — A round, white egg. Try hanging it up in a frame!"
+  },
+  {
+    "id": "col-art-69",
+    "category": "artifact",
+    "name": "Destiny Knot",
+    "area": "Not specified in available sources",
+    "note": "Small Lost Relic — A long, thin, bright-red string. Try hanging it up in a frame!"
+  },
+  {
+    "id": "col-art-70",
+    "category": "artifact",
+    "name": "Life Orb",
+    "area": "Not specified in available sources",
+    "note": "Small Lost Relic — A beautiful red orb. Try hanging it up in a frame!"
+  },
+  {
+    "id": "col-art-71",
+    "category": "artifact",
+    "name": "Iron Ball",
+    "area": "Not specified in available sources",
+    "note": "Small Lost Relic — A round, black iron ball. Try hanging it up in a frame!"
+  },
+  {
+    "id": "col-art-72",
+    "category": "artifact",
+    "name": "Metal Powder",
+    "area": "Not specified in available sources",
+    "note": "Small Lost Relic — An extremely fine, yet hard metal powder. Try hanging it up in a frame!"
+  },
+  {
+    "id": "col-art-73",
+    "category": "artifact",
+    "name": "Big Root",
+    "area": "Not specified in available sources",
+    "note": "Small Lost Relic — The root of some plant. Try hanging it up in a frame!"
+  },
+  {
+    "id": "col-art-74",
+    "category": "artifact",
+    "name": "Adrenaline Orb",
+    "area": "Not specified in available sources",
+    "note": "Small Lost Relic — A round, blue ball. Try hanging it up in a frame!"
+  },
+  {
+    "id": "col-art-75",
+    "category": "artifact",
+    "name": "Weakness Policy",
+    "area": "Not specified in available sources",
+    "note": "Small Lost Relic — A piece of paper with clean, neat writing on it. Try hanging it up in a frame!"
+  },
+  {
+    "id": "col-art-76",
+    "category": "artifact",
+    "name": "Terrain Extender",
+    "area": "Not specified in available sources",
+    "note": "Small Lost Relic — A spray that looks like it could be dispersed over a wide area. Try hanging it up in a frame!"
+  },
+  {
+    "id": "col-art-77",
+    "category": "artifact",
+    "name": "Wide Lens",
+    "area": "Not specified in available sources",
+    "note": "Small Lost Relic — A lens that never gets cloudy. Try hanging it up in a frame!"
+  },
+  {
+    "id": "col-art-78",
+    "category": "artifact",
+    "name": "Throat Spray",
+    "area": "Not specified in available sources",
+    "note": "Small Lost Relic — A spray that provides relief for tired throats. Try hanging it up in a frame!"
+  },
+  {
+    "id": "col-art-79",
+    "category": "artifact",
+    "name": "Light Clay",
+    "area": "Not specified in available sources",
+    "note": "Small Lost Relic — Yellowish-green clay. Try hanging it up in a frame!"
+  },
+  {
+    "id": "col-art-80",
+    "category": "artifact",
+    "name": "Loaded Dice",
+    "area": "Not specified in available sources",
+    "note": "Small Lost Relic — Dice that always rolls a good number. Try hanging it up in a frame!"
+  },
+  {
+    "id": "col-art-81",
+    "category": "artifact",
+    "name": "Sticky Barb",
+    "area": "Not specified in available sources",
+    "note": "Small Lost Relic — A prickly object that easily latches on to things. Try hanging it up in a frame!"
+  },
+  {
+    "id": "col-art-82",
+    "category": "artifact",
+    "name": "Quick Claw",
+    "area": "Not specified in available sources",
+    "note": "Small Lost Relic — A light, sharp claw. Try hanging it up in a frame!"
+  },
+  {
+    "id": "col-art-83",
+    "category": "artifact",
+    "name": "Lagging Tail",
+    "area": "Not specified in available sources",
+    "note": "Small Lost Relic — A tremendously heavy tail of smething. Try hanging it up in a frame!"
+  },
+  {
+    "id": "col-art-84",
+    "category": "artifact",
+    "name": "Flame Orb",
+    "area": "Not specified in available sources",
+    "note": "Small Lost Relic — A bizarre orb that always gives off heat. Try hanging it up in a frame!"
+  },
+  {
+    "id": "col-art-85",
+    "category": "artifact",
+    "name": "Ability Shield",
+    "area": "Not specified in available sources",
+    "note": "Small Lost Relic — A cute and rather unique-looking shield. Try hanging it up in a frame!"
+  },
+  {
+    "id": "col-art-86",
+    "category": "artifact",
+    "name": "Room Service",
+    "area": "Not specified in available sources",
+    "note": "Small Lost Relic — A luxurious cart with a metal cloche. Try hanging it up in a frame!"
+  },
+  {
+    "id": "col-art-87",
+    "category": "artifact",
+    "name": "Ring Target",
+    "area": "Not specified in available sources",
+    "note": "Small Lost Relic — A target with distinctive black and white rings. Try hanging it up in a frame!"
+  },
+  {
+    "id": "col-art-88",
+    "category": "artifact",
+    "name": "Clear Amulet",
+    "area": "Not specified in available sources",
+    "note": "Small Lost Relic — An amulet that always stays clear and sparkling. Try hanging it up in a frame!"
+  },
+  {
+    "id": "col-art-89",
+    "category": "artifact",
+    "name": "Zoom Lens",
+    "area": "Not specified in available sources",
+    "note": "Small Lost Relic — A lens that never gets cloudy. Try hanging it up in a frame!"
+  },
+  {
+    "id": "col-rec-11",
+    "category": "record",
+    "name": "Vermilion Ranks No. 1 for 4th Year!",
+    "area": "Bleak Beach",
+    "note": "Newspaper"
+  },
+  {
+    "id": "col-rec-12",
+    "category": "record",
+    "name": "Celadon Department Store Reopens",
+    "area": "Not specified in available sources",
+    "note": "Newspaper"
+  },
+  {
+    "id": "col-rec-13",
+    "category": "record",
+    "name": "Big Bargain Sale!",
+    "area": "Not specified in available sources",
+    "note": "Newspaper"
+  },
+  {
+    "id": "col-rec-14",
+    "category": "record",
+    "name": "Katie's Journal",
+    "area": "Not specified in available sources",
+    "note": "Diary"
+  },
+  {
+    "id": "col-rec-15",
+    "category": "record",
+    "name": "Hacker's confessions #1",
+    "area": "Bleak Beach",
+    "note": "Diary"
+  },
+  {
+    "id": "col-rec-16",
+    "category": "record",
+    "name": "Hacker's confessions #6",
+    "area": "Not specified in available sources",
+    "note": "Diary"
+  },
+  {
+    "id": "col-rec-17",
+    "category": "record",
+    "name": "Professor's Diary #1",
+    "area": "Withered Wasteland",
+    "note": "Diary"
+  },
+  {
+    "id": "col-rec-18",
+    "category": "record",
+    "name": "Professor's Diary #2",
+    "area": "Withered Wasteland",
+    "note": "Diary"
+  },
+  {
+    "id": "col-rec-19",
+    "category": "record",
+    "name": "Professor's Diary #3",
+    "area": "Not specified in available sources",
+    "note": "Diary"
+  },
+  {
+    "id": "col-rec-20",
+    "category": "record",
+    "name": "Professor's Diary #4",
+    "area": "Not specified in available sources",
+    "note": "Diary"
+  },
+  {
+    "id": "col-rec-21",
+    "category": "record",
+    "name": "Professor's Diary #5",
+    "area": "Sparkling Skylands",
+    "note": "Diary"
+  },
+  {
+    "id": "col-rec-22",
+    "category": "record",
+    "name": "Professor's Diary #6",
+    "area": "Sparkling Skylands",
+    "note": "Diary"
+  },
+  {
+    "id": "col-rec-23",
+    "category": "record",
+    "name": "Chef's diary",
+    "area": "Not specified in available sources",
+    "note": "Diary"
+  },
+  {
+    "id": "col-rec-24",
+    "category": "record",
+    "name": "A Surprise in the Garden",
+    "area": "Withered Wasteland",
+    "note": "Magazine"
+  },
+  {
+    "id": "col-rec-25",
+    "category": "record",
+    "name": "Selection of Pokemon Greetings",
+    "area": "Withered Wasteland",
+    "note": "Magazine"
+  },
+  {
+    "id": "col-rec-26",
+    "category": "record",
+    "name": "This Year's Top Trend!",
+    "area": "Withered Wasteland",
+    "note": "Magazine"
+  },
+  {
+    "id": "col-rec-27",
+    "category": "record",
+    "name": "Unmasking the True Misty!",
+    "area": "Withered Wasteland",
+    "note": "Magazine"
+  },
+  {
+    "id": "col-rec-28",
+    "category": "record",
+    "name": "Recruiting New Members!",
+    "area": "Bleak Beach",
+    "note": "Magazine"
+  },
+  {
+    "id": "col-rec-29",
+    "category": "record",
+    "name": "Unmasking the True Lt. Surge!",
+    "area": "Bleak Beach",
+    "note": "Magazine"
+  },
+  {
+    "id": "col-rec-30",
+    "category": "record",
+    "name": "Contest Winner!",
+    "area": "Bleak Beach",
+    "note": "Magazine"
+  },
+  {
+    "id": "col-rec-31",
+    "category": "record",
+    "name": "Solo Nighttime Strollers, Beware!",
+    "area": "Bleak Beach",
+    "note": "Magazine"
+  },
+  {
+    "id": "col-rec-32",
+    "category": "record",
+    "name": "Enjoy an Extravagant Voyage",
+    "area": "Bleak Beach",
+    "note": "Magazine"
+  },
+  {
+    "id": "col-rec-33",
+    "category": "record",
+    "name": "Bug Love (September Issue)",
+    "area": "Not specified in available sources",
+    "note": "Magazine"
+  },
+  {
+    "id": "col-rec-34",
+    "category": "record",
+    "name": "Gym Leader Monthly (July Issue)",
+    "area": "Rocky Ridges",
+    "note": "Magazine"
+  },
+  {
+    "id": "col-rec-35",
+    "category": "record",
+    "name": "Alola! (May Issue)",
+    "area": "Not specified in available sources",
+    "note": "Magazine"
+  },
+  {
+    "id": "col-rec-36",
+    "category": "record",
+    "name": "Team R Grunt's journal #2",
+    "area": "Bleak Beach",
+    "note": "Magazine"
+  },
+  {
+    "id": "col-rec-37",
+    "category": "record",
+    "name": "Team R Grunt's journal #3",
+    "area": "Bleak Beach",
+    "note": "Magazine"
+  },
+  {
+    "id": "col-rec-38",
+    "category": "record",
+    "name": "Team R Grunt's journal #4",
+    "area": "Rocky Ridges",
+    "note": "Magazine"
+  },
+  {
+    "id": "col-rec-39",
+    "category": "record",
+    "name": "Team R Grunt's journal #5",
+    "area": "Rocky Ridges",
+    "note": "Magazine"
+  },
+  {
+    "id": "col-rec-40",
+    "category": "record",
+    "name": "Team R Grunt's journal #6",
+    "area": "Sparkling Skylands",
+    "note": "Magazine"
+  },
+  {
+    "id": "col-rec-41",
+    "category": "record",
+    "name": "Team R Grunt's journal #7",
+    "area": "Not specified in available sources",
+    "note": "Magazine"
+  },
+  {
+    "id": "col-rec-42",
+    "category": "record",
+    "name": "Team R Grunt's journal #8",
+    "area": "Not specified in available sources",
+    "note": "Magazine"
+  },
+  {
+    "id": "col-rec-43",
+    "category": "record",
+    "name": "Poke Life Dev Diary #1",
+    "area": "Not specified in available sources",
+    "note": "Magazine"
+  },
+  {
+    "id": "col-rec-44",
+    "category": "record",
+    "name": "Poke Life Dev Diary #2",
+    "area": "Rocky Ridges",
+    "note": "Magazine"
+  },
+  {
+    "id": "col-rec-45",
+    "category": "record",
+    "name": "Poke Life Dev Diary #4",
+    "area": "Rocky Ridges",
+    "note": "Magazine"
+  },
+  {
+    "id": "col-rec-46",
+    "category": "record",
+    "name": "Improving Your Quality of Life",
+    "area": "Withered Wasteland",
+    "note": "Note"
+  },
+  {
+    "id": "col-rec-47",
+    "category": "record",
+    "name": "How to Open a Shop",
+    "area": "Bleak Beach",
+    "note": "Note"
+  },
+  {
+    "id": "col-rec-48",
+    "category": "record",
+    "name": "Someone's Journal #1",
+    "area": "Withered Wasteland",
+    "note": "Note"
+  },
+  {
+    "id": "col-rec-49",
+    "category": "record",
+    "name": "To my fishing fanatic big bro",
+    "area": "Withered Wasteland",
+    "note": "Letter"
+  },
+  {
+    "id": "col-rec-50",
+    "category": "record",
+    "name": "To my fishing fanatic little bro",
+    "area": "Bleak Beach",
+    "note": "Letter"
+  },
+  {
+    "id": "col-rec-51",
+    "category": "record",
+    "name": "To Harry",
+    "area": "Rocky Ridges",
+    "note": "Letter"
+  },
+  {
+    "id": "col-rec-52",
+    "category": "record",
+    "name": "Photo #1",
+    "area": "Withered Wasteland",
+    "note": "Photo"
+  },
+  {
+    "id": "col-rec-53",
+    "category": "record",
+    "name": "Photo #3",
+    "area": "Bleak Beach",
+    "note": "Photo"
+  },
+  {
+    "id": "col-rec-54",
+    "category": "record",
+    "name": "Photo #4",
+    "area": "Rocky Ridges",
+    "note": "Photo"
+  },
+  {
+    "id": "col-rec-55",
+    "category": "record",
+    "name": "Peculiar pattern",
+    "area": "Not specified in available sources",
+    "note": "Photo"
+  },
+  {
+    "id": "col-photo-09",
+    "category": "photo",
+    "name": "Spacious Slumber Party",
+    "area": "Not area-specific (condition-based)",
+    "note": "Nighttime only"
+  },
+  {
+    "id": "col-photo-10",
+    "category": "photo",
+    "name": "Greetings from Beyond the Grave",
+    "area": "Not area-specific (condition-based)",
+    "note": "Needs: Gravestone, Slender candle; Nighttime only"
+  },
+  {
+    "id": "col-photo-11",
+    "category": "photo",
+    "name": "Drawn to the Light",
+    "area": "Not area-specific (condition-based)",
+    "note": "Needs: Mushroom streetlight"
+  },
+  {
+    "id": "col-photo-12",
+    "category": "photo",
+    "name": "Fun in the Sand",
+    "area": "Not area-specific (condition-based)",
+    "note": "Needs: Sandbox"
+  },
+  {
+    "id": "col-photo-13",
+    "category": "photo",
+    "name": "Found Some Delicious... Trash?",
+    "area": "Not area-specific (condition-based)",
+    "note": "Needs: Small garbage can"
+  },
+  {
+    "id": "col-photo-14",
+    "category": "photo",
+    "name": "Nothing Like a Quick Dip!",
+    "area": "Not area-specific (condition-based)",
+    "note": "Needs: Shower, Sprinkler"
+  },
+  {
+    "id": "col-photo-15",
+    "category": "photo",
+    "name": "Stacking Blocks, Psychic Style",
+    "area": "Not area-specific (condition-based)",
+    "note": "Requires a Psychic-type Pokémon; Needs: Toy blocks"
+  },
+  {
+    "id": "col-photo-16",
+    "category": "photo",
+    "name": "Battin' Around the Old Yarn",
+    "area": "Not area-specific (condition-based)",
+    "note": "Needs: Knitting supplies"
+  },
+  {
+    "id": "col-photo-17",
+    "category": "photo",
+    "name": "A Cool, Gentle Breeze",
+    "area": "Not area-specific (condition-based)",
+    "note": "Needs: Fan"
+  },
+  {
+    "id": "col-photo-18",
+    "category": "photo",
+    "name": "Roost and Rest",
+    "area": "Not area-specific (condition-based)",
+    "note": "Requires a Flying-type Pokémon; Needs: Perch"
+  },
+  {
+    "id": "col-photo-19",
+    "category": "photo",
+    "name": "This Is the Life",
+    "area": "Not area-specific (condition-based)",
+    "note": "Requires any Pokémon except Fire, Ground, or Rock-types"
+  },
+  {
+    "id": "col-photo-20",
+    "category": "photo",
+    "name": "Dance Around the Bonfire!",
+    "area": "Not area-specific (condition-based)",
+    "note": "Requires a Pokémon with the Hype specialty; Needs: Bonfire"
+  },
+  {
+    "id": "col-photo-21",
+    "category": "photo",
+    "name": "Let's Get Some Paint on This Canvas",
+    "area": "Not area-specific (condition-based)",
+    "note": "Needs: Blank canvas"
+  },
+  {
+    "id": "col-photo-22",
+    "category": "photo",
+    "name": "I Can See Your Future...",
+    "area": "Not area-specific (condition-based)",
+    "note": "Needs: Simple cushion, Crystal ball"
+  },
+  {
+    "id": "col-photo-23",
+    "category": "photo",
+    "name": "Sweet Dreams with a Mossy Pillow",
+    "area": "Not area-specific (condition-based)",
+    "note": "Needs: Moss, Mossy boulder"
+  },
+  {
+    "id": "col-photo-24",
+    "category": "photo",
+    "name": "Open It Up, and—Boo!",
+    "area": "Not area-specific (condition-based)",
+    "note": "Needs: Boo-in-the-box"
+  },
+  {
+    "id": "col-photo-25",
+    "category": "photo",
+    "name": "Crazy for Coins",
+    "area": "Not area-specific (condition-based)",
+    "note": "Needs: Munna bank"
+  },
+  {
+    "id": "col-photo-26",
+    "category": "photo",
+    "name": "Like Clockwork",
+    "area": "Not area-specific (condition-based)",
+    "note": "Needs: Rowlet clock"
+  },
+  {
+    "id": "col-photo-27",
+    "category": "photo",
+    "name": "Funky Fume Diffusion",
+    "area": "Not area-specific (condition-based)",
+    "note": "Needs: Funky diffuser"
+  },
+  {
+    "id": "col-photo-28",
+    "category": "photo",
+    "name": "Martial Arts Training Montage",
+    "area": "Not area-specific (condition-based)"
+  },
+  {
+    "id": "col-photo-29",
+    "category": "photo",
+    "name": "Squishy Cheeks and Paws",
+    "area": "Not area-specific (condition-based)"
+  },
+  {
+    "id": "col-photo-30",
+    "category": "photo",
+    "name": "The Skyland Specialists",
+    "area": "Not area-specific (condition-based)"
+  },
+  {
+    "id": "col-photo-31",
+    "category": "photo",
+    "name": "Creepy Catapult Time",
+    "area": "Not area-specific (condition-based)"
+  },
+  {
+    "id": "col-photo-32",
+    "category": "photo",
+    "name": "Psychic Siblings!",
+    "area": "Not area-specific (condition-based)"
+  },
+  {
+    "id": "col-photo-33",
+    "category": "photo",
+    "name": "Eevee's Friends",
+    "area": "Not area-specific (condition-based)",
+    "note": "Requires 2 Pokémon from Eevee's evolution line"
+  },
+  {
+    "id": "col-photo-34",
+    "category": "photo",
+    "name": "It's Like Looking in a Mirror!",
+    "area": "Not area-specific (condition-based)"
+  },
+  {
+    "id": "col-photo-35",
+    "category": "photo",
+    "name": "Some Shared Genes",
+    "area": "Not area-specific (condition-based)"
+  },
+  {
+    "id": "col-photo-36",
+    "category": "photo",
+    "name": "Brought Together by a Sweet Scent",
+    "area": "Not area-specific (condition-based)"
+  },
+  {
+    "id": "col-photo-37",
+    "category": "photo",
+    "name": "No, My Horns Are Better!",
+    "area": "Not area-specific (condition-based)"
+  },
+  {
+    "id": "col-photo-38",
+    "category": "photo",
+    "name": "A Plus-and-Minus Cheering Squad!",
+    "area": "Not area-specific (condition-based)"
+  },
+  {
+    "id": "col-photo-39",
+    "category": "photo",
+    "name": "Donning Different Armor",
+    "area": "Not area-specific (condition-based)"
+  },
+  {
+    "id": "col-photo-40",
+    "category": "photo",
+    "name": "Step Right Up, Step Right Up!",
+    "area": "Not area-specific (condition-based)",
+    "note": "Requires a Pokémon with the Trade specialty; Needs: Cash register, Any desk; Requires the Working the register Habitat"
+  },
+  {
+    "id": "col-photo-41",
+    "category": "photo",
+    "name": "A Hypnotizing Lullaby",
+    "area": "Not area-specific (condition-based)"
+  },
+  {
+    "id": "col-photo-42",
+    "category": "photo",
+    "name": "A Cook's Gotta Eat Too!",
+    "area": "Not area-specific (condition-based)"
+  },
+  {
+    "id": "col-photo-43",
+    "category": "photo",
+    "name": "A Head Full of Blooming Flowers",
+    "area": "Bleak Beach",
+    "note": "Photo op only appears after waking up Mosslax in Bleak Beach"
+  },
+  {
+    "id": "col-photo-44",
+    "category": "photo",
+    "name": "DJ Droppin' the Beats!",
+    "area": "Not area-specific (condition-based)"
   }
 ]
