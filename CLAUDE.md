@@ -149,7 +149,12 @@ Special`, etc.) — recipe _names_ stay English in both locales, matching
 - **Collectibles: 188 total** (up from 26) — **89 of 89 known Artifacts**
   (up from 8 of an estimated 83; Game8's own Large + Small Lost Relic
   lists turned out to total 86, not 83 — the "83" figure was itself an
-  imprecise web-search summary, corrected here against the real page),
+  imprecise web-search summary, corrected here against the real page).
+  Naming/materials/rarity for all 89 come straight from Game8, but
+  **`area` is unset ("Not specified in available sources") for all 89 —
+  Game8's Lost Relic lists don't give a location field at all**, unlike
+  Records below where it's only some entries. Worth a dedicated pass if
+  another source turns up with Artifact locations.
   **55 Human Records** (up from 10; Game8's own records page is marked
   "work in progress" and doesn't give a location for every entry, so
   several intentionally still read "Not specified in available sources"),
