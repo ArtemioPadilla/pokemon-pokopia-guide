@@ -1,0 +1,70 @@
+name: Content correction
+description: Report wrong, outdated, or missing game data (Pokédex, recipes, areas, collectibles, milestones)
+labels: ['content']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping keep the guide accurate! **Tip:** the "Report an
+        issue" button on the live site will pre-fill most of this for you.
+
+  - type: dropdown
+    id: collection
+    attributes:
+      label: Which part of the guide?
+      options:
+        - Pokopia Pokédex
+        - Areas
+        - Recipes
+        - Collectibles (Artifacts / Records / Highlight Reel)
+        - Milestones
+        - Beyond Day One (endgame)
+        - Rules / tips
+        - Something else
+    validations:
+      required: true
+
+  - type: input
+    id: entry
+    attributes:
+      label: Entry name or ID
+      placeholder: e.g. "Bulbasaur", "poke-001", "Withered Wasteland"
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What's wrong?
+      placeholder: What does the guide currently say, and what's incorrect about it?
+    validations:
+      required: true
+
+  - type: textarea
+    id: correction
+    attributes:
+      label: Correct value
+      placeholder: What should it say instead?
+    validations:
+      required: true
+
+  - type: input
+    id: source
+    attributes:
+      label: Source
+      description: A link (Bulbapedia, Serebii, Game8, a screenshot, etc.) or "in-game, confirmed myself"
+      placeholder: https://...
+    validations:
+      required: true
+
+  - type: dropdown
+    id: locale
+    attributes:
+      label: Which locale is affected?
+      options:
+        - Both (en + es)
+        - English only
+        - Spanish only
+      default: 0
+    validations:
+      required: false

@@ -1,5 +1,6 @@
 ---
 import '../styles/global.css';
+import FeedbackFAB from '../components/common/FeedbackFAB.astro';
 import SiteHeader from '../components/common/SiteHeader.astro';
 import { withBase } from '../lib/href';
 import { swapLocaleHref, useTranslations } from '@/i18n/utils';
@@ -65,6 +66,7 @@ const ensureSlash = (p: string) => (p.endsWith('/') ? p : `${p}/`);
         {t('footer.sources')}
       </p>
     </footer>
+    <FeedbackFAB lang={lang} />
     <script is:inline src={withBase('/registerSW.js')} defer></script>
   </body>
 </html>
