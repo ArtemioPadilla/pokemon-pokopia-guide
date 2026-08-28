@@ -160,12 +160,22 @@ habitat` category + confirmed area list) in a Next.js RSC data chunk
   **50 Basin-exclusive entries** (`basinNumber`, no `pokopiaNumber`) are
   unchanged — Basin coverage wasn't revisited beyond a quick sanity check
   that the existing 50 still matches Bulbapedia's Basin list structurally.
-  `habitat` is confirmed for **301 of 352** entries (the 220 session-4
-  entries plus the 81 already confirmed as of session 3) — the removal of
-  30 always-habitat-less entries in session 6 raised the *proportion* with
-  `habitat` even though the raw numerator didn't change. Session 3's
-  original context on the Basin dex and the 76-species Serebii habitat
-  pass is preserved below for provenance.
+  `habitat` is confirmed for **348 of 352** entries (up from 301 as of
+  session 6: the 220 session-4 entries + 81 confirmed as of session 3 +
+  47 more from session 7, see "Sources consulted — session 7" below) — the
+  removal of 30 always-habitat-less entries in session 6 raised the
+  *proportion* with `habitat` even though the raw numerator didn't change
+  that session. Session 3's original context on the Basin dex and the
+  76-species Serebii habitat pass is preserved below for provenance.
+  Session 7 closed almost all of the remaining 51-entry habitat gap (49
+  Basin species + Wooper + the 2 Event species): 47 resolved via
+  Serebii.net per-species pages (a source that turned out to cover Basin/
+  Event species too, not just the main 300-dex, once the right slugs were
+  tried), leaving only Phione, Manaphy, Frillish, and Jellicent honestly
+  unresolved with an explanatory `note` each — see "Sources consulted —
+  session 7" below for the full account, including a reliability finding
+  that pokopiawiki.com's Basin-dex habitat data is a uniform placeholder
+  (not real per-species data, unlike its main-dex section).
 
 - **Pokédex (session 3 context, preserved):** session 3 added 45 brand
   new entries, all 50 species from Bulbapedia's `List of Pokémon by
@@ -406,9 +416,13 @@ contradiction — crossed the line from "unresolved gap" to "shaky addition
 that should be removed," per this repo's own "honest gap over guessed
 value" rule. If a genuinely new source ever turns up naming any of these
 30 as confirmed-in-Pokopia, re-add it with that citation rather than
-assuming session 6 was wrong to remove it. Wooper's still-missing habitat
-(its Serebii page 404s under every slug tried, per session 3) is a
-smaller, separate gap. `x`/`y` map-pin placement for the 220 species
+assuming session 6 was wrong to remove it. Wooper's habitat gap was closed
+in session 7 via Serebii's `paldeanwooper` slug (the plain `wooper` slug
+still 404s, per session 3) — see "Sources consulted — session 7" below,
+including a flagged name/typing discrepancy this session didn't resolve.
+Only 4 entries now lack `habitat` at all: Phione, Manaphy, Frillish, and
+Jellicent, each with an explanatory `note` rather than a silent gap.
+`x`/`y` map-pin placement for the 220 species
 session 4 added is also still open: none of them have a pin, since
 neither Bulbapedia's table nor pokopiawiki.com's dataset gives
 schematic-map coordinates, only a named-area list.
@@ -430,6 +444,83 @@ Artifacts (Game8, Serebii, pokopiawiki, pokopiamap, pokopiadex) has now
 been checked and none tracks Lost Relic locations. Unless a genuinely new
 source surfaces, this is complete as far as this guide's sourcing can
 take it — an honest, permanent gap rather than a to-do.
+
+### Sources consulted — session 1
+
+### Sources consulted — session 7 (Basin/Event/Wooper habitat, the last 51-gap species)
+
+Tasked with closing the `habitat` gap on the 51 entries that had none: 49
+Bubbly Basin species (`basinNumber` 2–50, everything except Corsola/
+Shellder), Wooper (`pokopiaNumber` 117, individual Serebii page 404s), and
+the 2 Event species (Sableye, Feebas). Re-fetched pokopiawiki.com's
+`/pokedex` page fresh (same Next.js RSC `initialPokemon` extraction method
+as session 4) and confirmed the 363-entry dataset session 4's report
+described: 300 main-dex + 47 `B-`-prefixed Basin entries + 6
+`E-`-prefixed Event entries. Matched all 51 target species by name (not
+number, since Basin/Event use different numbering fields). Before trusting
+this data in bulk the way session 4 did for the main dex, checked its
+uniformity: **all 47 `B-`-prefixed entries have `ideal_habitat: "Water"`
+and `locations: ["Bubbly Basin"]` with zero variation across the entire
+set** — a placeholder/template default, not real per-species data (the
+main-dex 300 entries do vary: Bright/Dark/Warm/Humid/etc.). This is a
+genuine reliability finding worth recording: pokopiawiki's Basin-dex
+section isn't actually populated per-species, unlike its main-dex section.
+It was **not used** for any of the 51.
+
+Pivoted to Serebii.net's per-species Pokopia pages instead (the same
+source session 3 used for the original 76-species habitat pull), after
+discovering — by checking every one of the 51 names against the standard
+`pokemonpokopia/pokedex/<slug>.shtml` URL pattern — that **48 of 51
+actually have live pages** (200, not 404), including species this file
+previously assumed were basin-only stubs. This directly extends session
+3's method to the Basin/Event species, which turned out to be well
+covered by Serebii after all; only the plain `wooper` slug from prior
+sessions had actually been tried. Fetched all 48 as raw HTML (not a
+summarizing fetch) and parsed the "Habitats & Locations" table directly
+from markup (habitat name(s), per-habitat rarity, and confirmed area
+list), same discipline as session 3. **46 of the 48 parsed cleanly**
+(Alomomola, Barboach, Brionne, Bruxish, Buizel, Carvanha, Chewtle,
+Chinchou, Cloyster, Corphish, Crawdaunt, Croconaw, Dhelmise, Drednaw,
+Feebas, Feraligatr, Finneon, Floatzel, Golisopod, Horsea, Inkay, Kingdra,
+Lanturn, Lumineon, Luvdisc, Malamar, Mareanie, Marshtomp, Mudkip,
+Pincurchin, Popplio, Primarina, Sableye, Seadra, Sharpedo, Starmie,
+Staryu, Stunfisk, Swampert, Totodile, Toxapex, Veluza, Whiscash, Wiglett,
+Wimpod, Wugtrio); **Phione and Manaphy's pages have an "Ideal Habitat"
+category (Warm / Cool respectively) but no "Habitats & Locations" table at
+all** — consistent with both being obtained via story/trade events rather
+than a placed habitat (Manaphy's story role — teaching Ditto to Dive — was
+already documented in this file's Bubbly Basin walkthrough before this
+session), so no `habitat` was added for either, just an explanatory `note`.
+
+**Wooper** doesn't resolve under the plain `wooper` slug (confirmed
+404 again), but a new slug guess — `paldeanwooper` — returns 200, and its
+page title reads "Paldean Wooper," matching pokopiawiki's `id: "117"`
+entry (also titled "Paldean Wooper," not plain Wooper) and independently
+agreeing on height (0.4m) and weight (8.5kg) — two sources landing on
+identical physical stats is treated as strong reliability corroboration
+for the habitat data itself ("Marshy tall grass," Common, confirmed in
+Bleak Beach + Cloud Island), which was added. This file's existing
+name/typing for this entry ("Wooper," Water/Ground — the standard, not
+Paldean, form) was **not** changed, since re-verifying typing was outside
+this session's scope, but a `note` flags the discrepancy rather than
+silently ignoring or silently "fixing" it.
+
+**Frillish and Jellicent** are the only 2 of the 51 that stayed
+unresolved: no per-species Serebii page exists under any slug tried
+(`frillish`, `frillishf`, `frillishm`, `jellicent`, `jellicentf`,
+`jellicentm` — all 404, consistent with them being one gender-locked
+species pair rather than each having a distinct page), and pokopiawiki's
+only data for them is the same unreliable Basin-wide "Water"/"Bubbly
+Basin" placeholder ruled out above. A `note` documents the dead end
+explicitly rather than leaving a bare gap with no explanation.
+
+**Final result: 47 of 51 resolved** (348 of 352 entries now have
+`habitat`, up from 301/352). The 4 that remain (Phione, Manaphy, Frillish,
+Jellicent) each carry an explanatory `note` instead of a guessed value —
+an honest gap, not an unexplained one. In passing, the stale
+"Confirmed as an early Bubbly Basin resident..." placeholder `note` on
+Horsea and Staryu (added when this file only knew they existed, not their
+habitat) was removed now that both have real sourced `habitat` data.
 
 ### Sources consulted — session 1
 

@@ -40,7 +40,7 @@ export const ui = {
     'areas.pill.info': 'Info',
     'pokedex.title': 'The Pokopia Pokédex',
     'pokedex.note':
-      'a curated, verified subset — see the TODO on the home page for full-300 coverage status',
+      'all 300 base Pokédex slots, plus 50 Bubbly Basin and 2 Event-exclusive species (352 total)',
     'pokedex.progress': 'entries logged',
     'pokedex.gen': 'Gen',
     'pokedex.pokopiaNo': 'Pokopia #',
@@ -121,7 +121,7 @@ export const ui = {
     'areas.pill.info': 'Info',
     'pokedex.title': 'La Pokédex de Pokopia',
     'pokedex.note':
-      'un subconjunto curado y verificado — ver el TODO en Inicio sobre la cobertura de las 300 especies',
+      'las 300 casillas base de la Pokédex, más 50 especies de Bubbly Basin y 2 exclusivas de eventos (352 en total)',
     'pokedex.progress': 'entradas registradas',
     'pokedex.gen': 'Gen',
     'pokedex.pokopiaNo': 'Pokopia n.º',

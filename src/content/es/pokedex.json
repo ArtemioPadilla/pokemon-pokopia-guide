@@ -570,7 +570,8 @@
     "types": ["Agua", "Hielo"],
     "generation": 1,
     "basinNumber": 2,
-    "area": "Bubbly Basin"
+    "area": "Bubbly Basin",
+    "habitat": "Hábitat Parterre de Flores Ondulantes y Algas — Rareza: Común"
   },
   {
     "id": "poke-092",
@@ -727,7 +728,7 @@
     "generation": 1,
     "basinNumber": 3,
     "area": "Bubbly Basin",
-    "note": "Confirmado como habitante temprano de Bubbly Basin; esta guía aún no ha encontrado una fuente para su hábitat específico."
+    "habitat": "Hábitat Congregación de Coral — Rareza: Común"
   },
   {
     "id": "poke-117",
@@ -736,7 +737,8 @@
     "types": ["Agua"],
     "generation": 1,
     "basinNumber": 4,
-    "area": "Bubbly Basin"
+    "area": "Bubbly Basin",
+    "habitat": "Hábitat Congregación de Coral — Rareza: Común"
   },
   {
     "id": "poke-120",
@@ -746,7 +748,7 @@
     "generation": 1,
     "basinNumber": 6,
     "area": "Bubbly Basin",
-    "note": "Confirmado como habitante temprano de Bubbly Basin; esta guía aún no ha encontrado una fuente para su hábitat específico."
+    "habitat": "Hábitat Parterre de Flores Ondulantes — Rareza: Común"
   },
   {
     "id": "poke-121",
@@ -755,7 +757,8 @@
     "types": ["Agua", "Psíquico"],
     "generation": 1,
     "basinNumber": 7,
-    "area": "Bubbly Basin"
+    "area": "Bubbly Basin",
+    "habitat": "Hábitat Gimnasio de la Sirena — Rareza: Raro"
   },
   {
     "id": "poke-122",
@@ -1007,7 +1010,8 @@
     "types": ["Agua"],
     "generation": 2,
     "basinNumber": 8,
-    "area": "Bubbly Basin"
+    "area": "Bubbly Basin",
+    "habitat": "Hierba Alta de la Cuenca (Común) o Muelle de Canoas (Común) o Bañera Burbujeante (Común) (hábitat)"
   },
   {
     "id": "poke-159",
@@ -1016,7 +1020,8 @@
     "types": ["Agua"],
     "generation": 2,
     "basinNumber": 9,
-    "area": "Bubbly Basin"
+    "area": "Bubbly Basin",
+    "habitat": "Excavación en las Rocas Chimenea (Común) o Muelle de Canoas (Común) (hábitat)"
   },
   {
     "id": "poke-160",
@@ -1025,7 +1030,8 @@
     "types": ["Agua"],
     "generation": 2,
     "basinNumber": 10,
-    "area": "Bubbly Basin"
+    "area": "Bubbly Basin",
+    "habitat": "Hierba Alta de la Cuenca (Muy raro) o Saco de Boxeo Mordible (Raro) (hábitat)"
   },
   {
     "id": "poke-163",
@@ -1079,7 +1085,8 @@
     "types": ["Agua", "Eléctrico"],
     "generation": 2,
     "basinNumber": 11,
-    "area": "Bubbly Basin"
+    "area": "Bubbly Basin",
+    "habitat": "Hábitat Relajación Esponjosa — Rareza: Común"
   },
   {
     "id": "poke-171",
@@ -1088,7 +1095,8 @@
     "types": ["Agua", "Eléctrico"],
     "generation": 2,
     "basinNumber": 12,
-    "area": "Bubbly Basin"
+    "area": "Bubbly Basin",
+    "habitat": "Hábitat Zona de Nostalgia — Rareza: Raro"
   },
   {
     "id": "poke-172",
@@ -1195,7 +1203,9 @@
     "name": "Wooper",
     "types": ["Agua", "Tierra"],
     "generation": 2,
-    "pokopiaNumber": 117
+    "pokopiaNumber": 117,
+    "habitat": "Hábitat Hierba Alta Pantanosa — Rareza: Común (confirmado en Playa Sombría, Cloud Island)",
+    "note": "La página individual de Serebii para esta entrada Pokopia #117 vive bajo el slug \"paldeanwooper\" (el slug \"wooper\" simple sigue devolviendo 404) y el título de esa página es \"Paldean Wooper\" — coincidiendo con el dataset masivo de pokopiawiki.com, que también etiqueta el id 117 como \"Paldean Wooper\" en vez de Wooper normal. Ambas fuentes coinciden de forma independiente en la altura (0.4m) y el peso (8.5kg), así que los datos de hábitat en sí son fiables, pero el nombre/tipo existente de esta guía (\"Wooper\", Agua/Tierra) no se ha reverificado frente a la posibilidad de que esta entrada sea en realidad la forma regional de Paldea (normalmente Veneno/Tierra) — se deja anotado aquí en vez de renombrarlo en silencio."
   },
   {
     "id": "poke-196",
@@ -1295,7 +1305,8 @@
     "types": ["Agua", "Dragón"],
     "generation": 2,
     "basinNumber": 5,
-    "area": "Bubbly Basin"
+    "area": "Bubbly Basin",
+    "habitat": "Congregación de Coral (Muy raro) o Puesto de Maquillaje Marino (Raro) (hábitat)"
   },
   {
     "id": "poke-233",
@@ -1466,7 +1477,8 @@
     "types": ["Agua"],
     "generation": 3,
     "basinNumber": 14,
-    "area": "Bubbly Basin"
+    "area": "Bubbly Basin",
+    "habitat": "Hierba Alta de la Cuenca (Común) o Relajación Esponjosa (Común) (hábitat)"
   },
   {
     "id": "poke-259",
@@ -1475,7 +1487,8 @@
     "types": ["Agua", "Tierra"],
     "generation": 3,
     "basinNumber": 15,
-    "area": "Bubbly Basin"
+    "area": "Bubbly Basin",
+    "habitat": "Rocas Chimenea Escalofriantes (Raro) o Hora de Jugar con Barro (Común) (hábitat)"
   },
   {
     "id": "poke-260",
@@ -1484,7 +1497,8 @@
     "types": ["Agua", "Tierra"],
     "generation": 3,
     "basinNumber": 16,
-    "area": "Bubbly Basin"
+    "area": "Bubbly Basin",
+    "habitat": "Hierba Alta de la Cuenca y Coral (Muy raro) o Spa de Barro (Raro) (hábitat)"
   },
   {
     "id": "poke-270",
@@ -1592,7 +1606,8 @@
     "types": ["Siniestro", "Fantasma"],
     "generation": 3,
     "eventNumber": 4,
-    "note": "Pokédex de Eventos #4 (eventpokedex.shtml de Serebii.net — una pestaña de Pokédex separada en el juego para Pokémon exclusivos de Eventos Especiales), corroborado por pokopiawiki.com (id E-004) y la lista de Pokédex de Eventos de pokopiadex.com."
+    "note": "Pokédex de Eventos #4 (eventpokedex.shtml de Serebii.net — una pestaña de Pokédex separada en el juego para Pokémon exclusivos de Eventos Especiales), corroborado por pokopiawiki.com (id E-004) y la lista de Pokédex de Eventos de pokopiadex.com.",
+    "habitat": "Hábitat Set de Caza del Tesoro — Rareza: Común (confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island)"
   },
   {
     "id": "poke-303",
@@ -1664,7 +1679,8 @@
     "types": ["Agua", "Siniestro"],
     "generation": 3,
     "basinNumber": 17,
-    "area": "Bubbly Basin"
+    "area": "Bubbly Basin",
+    "habitat": "Hábitat Algas y Redes — Rareza: Común"
   },
   {
     "id": "poke-319",
@@ -1673,7 +1689,8 @@
     "types": ["Agua", "Siniestro"],
     "generation": 3,
     "basinNumber": 18,
-    "area": "Bubbly Basin"
+    "area": "Bubbly Basin",
+    "habitat": "Hábitat Excavación en las Rocas Chimenea — Rareza: Común"
   },
   {
     "id": "poke-324",
@@ -1754,7 +1771,8 @@
     "types": ["Agua", "Tierra"],
     "generation": 3,
     "basinNumber": 19,
-    "area": "Bubbly Basin"
+    "area": "Bubbly Basin",
+    "habitat": "Discurso en la Arena (Común) o Rincón de Descanso Oceánico (Común) o Hora de Jugar con Barro (Común) (hábitat)"
   },
   {
     "id": "poke-340",
@@ -1763,7 +1781,8 @@
     "types": ["Agua", "Tierra"],
     "generation": 3,
     "basinNumber": 20,
-    "area": "Bubbly Basin"
+    "area": "Bubbly Basin",
+    "habitat": "Hábitat Área de Descanso Preciosa — Rareza: Raro"
   },
   {
     "id": "poke-341",
@@ -1772,7 +1791,8 @@
     "types": ["Agua"],
     "generation": 3,
     "basinNumber": 21,
-    "area": "Bubbly Basin"
+    "area": "Bubbly Basin",
+    "habitat": "Hierba Alta Arenosa de la Cuenca (Común) o Rincón de Excavación Arenoso (Común) (hábitat)"
   },
   {
     "id": "poke-342",
@@ -1781,7 +1801,8 @@
     "types": ["Agua", "Siniestro"],
     "generation": 3,
     "basinNumber": 22,
-    "area": "Bubbly Basin"
+    "area": "Bubbly Basin",
+    "habitat": "Hábitat Rincón de Excavación Arenoso — Rareza: Raro"
   },
   {
     "id": "poke-349",
@@ -1790,7 +1811,8 @@
     "types": ["Agua"],
     "generation": 3,
     "eventNumber": 6,
-    "note": "Pokédex de Eventos #6 según eventpokedex.shtml de Serebii.net (orden: Hoppip, Skiploom, Jumpluff, Sableye, Jirachi, Feebas, Milotic). pokopiawiki.com lo indica como E-005 — su conjunto de datos parece omitir a Jirachi de la lista de 7 entradas, desplazando en uno cada entrada posterior a Sableye; se usa el número de Serebii porque su página transcribe directamente la columna \"No.\" de la pestaña del propio juego."
+    "note": "Pokédex de Eventos #6 según eventpokedex.shtml de Serebii.net (orden: Hoppip, Skiploom, Jumpluff, Sableye, Jirachi, Feebas, Milotic). pokopiawiki.com lo indica como E-005 — su conjunto de datos parece omitir a Jirachi de la lista de 7 entradas, desplazando en uno cada entrada posterior a Sableye; se usa el número de Serebii porque su página transcribe directamente la columna \"No.\" de la pestaña del propio juego.",
+    "habitat": "Hábitat Playa Emocionante — Rareza: Común"
   },
   {
     "id": "poke-355",
@@ -1826,7 +1848,8 @@
     "types": ["Agua"],
     "generation": 3,
     "basinNumber": 23,
-    "area": "Bubbly Basin"
+    "area": "Bubbly Basin",
+    "habitat": "Parterre de Flores Ondulantes y Coral (Común) o Cofre del Tesoro y Joyas Brillantes (Común) o Relajación Esponjosa (Común) (hábitat)"
   },
   {
     "id": "poke-374",
@@ -1970,7 +1993,8 @@
     "types": ["Agua"],
     "generation": 4,
     "basinNumber": 24,
-    "area": "Bubbly Basin"
+    "area": "Bubbly Basin",
+    "habitat": "Hierba Alta de la Cuenca (Raro) o Rincón para Hacer Batidos (Común) (hábitat)"
   },
   {
     "id": "poke-419",
@@ -1979,7 +2003,8 @@
     "types": ["Agua"],
     "generation": 4,
     "basinNumber": 25,
-    "area": "Bubbly Basin"
+    "area": "Bubbly Basin",
+    "habitat": "Hábitat Tienda Marina — Rareza: Común (confirmado en Cloud Island, Bubbly Basin)"
   },
   {
     "id": "poke-422",
@@ -2107,7 +2132,8 @@
     "types": ["Agua"],
     "generation": 4,
     "basinNumber": 26,
-    "area": "Bubbly Basin"
+    "area": "Bubbly Basin",
+    "habitat": "Parterre de Flores Ondulantes (Raro) o Rincón de Musgo Marino (Común) (hábitat)"
   },
   {
     "id": "poke-457",
@@ -2116,7 +2142,8 @@
     "types": ["Agua"],
     "generation": 4,
     "basinNumber": 27,
-    "area": "Bubbly Basin"
+    "area": "Bubbly Basin",
+    "habitat": "Parterre de Flores Ondulantes y Algas (Raro) o Rincón de Musgo Marino (Raro) (hábitat)"
   },
   {
     "id": "poke-462",
@@ -2216,7 +2243,8 @@
     "types": ["Agua"],
     "generation": 4,
     "basinNumber": 49,
-    "area": "Bubbly Basin"
+    "area": "Bubbly Basin",
+    "note": "La página individual de Serebii confirma una categoría de Hábitat Ideal (\"Cálido\") pero no incluye ninguna tabla de hábitat/ubicación/rareza de aparición — a diferencia de todas las demás especies revisadas en esta sesión. Es coherente con que Phione sea un Pokémon Mítico obtenido mediante un evento de historia/intercambio en vez de encontrarse en un hábitat colocable (ver Manaphy, abajo, que muestra el mismo vacío y ya está confirmado en el recorrido de Bubbly Basin de esta guía como el Pokémon que enseña Buceo, no una aparición de hábitat). El dataset de pokopiawiki.com indica \"Water\" y \"Bubbly Basin\" para Phione, pero ese mismo par genérico aparece en las 47 entradas de la Pokédex de la Cuenca de su dataset sin ninguna variación — un valor de relleno, no datos confirmados por especie — así que no se usó."
   },
   {
     "id": "poke-490",
@@ -2225,7 +2253,8 @@
     "types": ["Agua"],
     "generation": 4,
     "basinNumber": 50,
-    "area": "Bubbly Basin"
+    "area": "Bubbly Basin",
+    "note": "La página individual de Serebii confirma una categoría de Hábitat Ideal (\"Fresco\") pero no incluye ninguna tabla de hábitat/ubicación/rareza de aparición, lo cual coincide con el contenido ya existente del recorrido de Bubbly Basin de esta guía: Manaphy es un encuentro de historia (enseña a Ditto a Bucear), no un Pokémon que se encuentre mediante un hábitat colocado. El dataset de pokopiawiki.com indica \"Water\"/\"Bubbly Basin\" para Manaphy, pero ese mismo par idéntico aparece en las 47 entradas de la Pokédex de la Cuenca de su dataset sin ninguna variación — un valor de relleno, no datos confirmados por especie — así que no se usó."
   },
   {
     "id": "poke-495",
@@ -2372,7 +2401,8 @@
     "types": ["Agua", "Fantasma"],
     "generation": 5,
     "basinNumber": 28,
-    "area": "Bubbly Basin"
+    "area": "Bubbly Basin",
+    "note": "Confirmado como habitante de Bubbly Basin, pero no se encontró una fuente genuina de hábitat por especie: las páginas individuales de Serebii para Pokopia devuelven 404 con cada slug probado (frillish/frillishf/frillishm/jellicent/jellicentf/jellicentm), y aunque el dataset masivo de pokopiawiki.com sí incluye un id para esta especie, sus campos \"ideal_habitat\" (\"Water\") y \"locations\" (\"Bubbly Basin\") son idénticos en las 47 entradas de la Pokédex de la Cuenca de ese dataset, sin ninguna variación — un valor de relleno, no datos confirmados por especie — así que no se usó. Sigue siendo un vacío honesto."
   },
   {
     "id": "poke-593",
@@ -2381,7 +2411,8 @@
     "types": ["Agua", "Fantasma"],
     "generation": 5,
     "basinNumber": 29,
-    "area": "Bubbly Basin"
+    "area": "Bubbly Basin",
+    "note": "Confirmado como habitante de Bubbly Basin, pero no se encontró una fuente genuina de hábitat por especie: las páginas individuales de Serebii para Pokopia devuelven 404 con cada slug probado (frillish/frillishf/frillishm/jellicent/jellicentf/jellicentm), y aunque el dataset masivo de pokopiawiki.com sí incluye un id para esta especie, sus campos \"ideal_habitat\" (\"Water\") y \"locations\" (\"Bubbly Basin\") son idénticos en las 47 entradas de la Pokédex de la Cuenca de ese dataset, sin ninguna variación — un valor de relleno, no datos confirmados por especie — así que no se usó. Sigue siendo un vacío honesto."
   },
   {
     "id": "poke-594",
@@ -2390,7 +2421,8 @@
     "types": ["Agua"],
     "generation": 5,
     "basinNumber": 30,
-    "area": "Bubbly Basin"
+    "area": "Bubbly Basin",
+    "habitat": "Hábitat Tesoros del Océano — Rareza: Raro"
   },
   {
     "id": "poke-607",
@@ -2453,7 +2485,8 @@
     "types": ["Tierra", "Eléctrico"],
     "generation": 5,
     "basinNumber": 31,
-    "area": "Bubbly Basin"
+    "area": "Bubbly Basin",
+    "habitat": "Parterre de Flores Ondulantes (Común) o Algas y Redes (Raro) (hábitat)"
   },
   {
     "id": "poke-636",
@@ -2507,7 +2540,8 @@
     "types": ["Siniestro", "Psíquico"],
     "generation": 6,
     "basinNumber": 32,
-    "area": "Bubbly Basin"
+    "area": "Bubbly Basin",
+    "habitat": "Hábitat Hora de Jugar con Barro — Rareza: Raro"
   },
   {
     "id": "poke-687",
@@ -2516,7 +2550,8 @@
     "types": ["Siniestro", "Psíquico"],
     "generation": 6,
     "basinNumber": 33,
-    "area": "Bubbly Basin"
+    "area": "Bubbly Basin",
+    "habitat": "Hábitat Patas Arriba — Rareza: Raro"
   },
   {
     "id": "poke-696",
@@ -2660,7 +2695,8 @@
     "types": ["Agua"],
     "generation": 7,
     "basinNumber": 34,
-    "area": "Bubbly Basin"
+    "area": "Bubbly Basin",
+    "habitat": "Parterre de Flores Ondulantes (Común) o Escenario Burbujeante (Común) (hábitat)"
   },
   {
     "id": "poke-729",
@@ -2669,7 +2705,8 @@
     "types": ["Agua"],
     "generation": 7,
     "basinNumber": 35,
-    "area": "Bubbly Basin"
+    "area": "Bubbly Basin",
+    "habitat": "Hábitat Escenario Burbujeante — Rareza: Raro"
   },
   {
     "id": "poke-730",
@@ -2678,7 +2715,8 @@
     "types": ["Agua", "Hada"],
     "generation": 7,
     "basinNumber": 36,
-    "area": "Bubbly Basin"
+    "area": "Bubbly Basin",
+    "habitat": "Hábitat Concierto Elegante — Rareza: Raro"
   },
   {
     "id": "poke-736",
@@ -2714,7 +2752,8 @@
     "types": ["Veneno", "Agua"],
     "generation": 7,
     "basinNumber": 37,
-    "area": "Bubbly Basin"
+    "area": "Bubbly Basin",
+    "habitat": "Hábitat Parterre de Flores Ondulantes y Coral — Rareza: Común"
   },
   {
     "id": "poke-748",
@@ -2723,7 +2762,8 @@
     "types": ["Veneno", "Agua"],
     "generation": 7,
     "basinNumber": 38,
-    "area": "Bubbly Basin"
+    "area": "Bubbly Basin",
+    "habitat": "Hábitat Cofre del Tesoro y Joyas Brillantes — Rareza: Raro"
   },
   {
     "id": "poke-767",
@@ -2732,7 +2772,8 @@
     "types": ["Bicho", "Agua"],
     "generation": 7,
     "basinNumber": 39,
-    "area": "Bubbly Basin"
+    "area": "Bubbly Basin",
+    "habitat": "Hábitat Tesoro Descartado — Rareza: Común"
   },
   {
     "id": "poke-768",
@@ -2741,7 +2782,8 @@
     "types": ["Bicho", "Agua"],
     "generation": 7,
     "basinNumber": 40,
-    "area": "Bubbly Basin"
+    "area": "Bubbly Basin",
+    "habitat": "Parterre de Flores Ondulantes y Coral (Muy raro) o Tesoro Descartado (Raro) (hábitat)"
   },
   {
     "id": "poke-778",
@@ -2759,7 +2801,8 @@
     "types": ["Agua", "Psíquico"],
     "generation": 7,
     "basinNumber": 41,
-    "area": "Bubbly Basin"
+    "area": "Bubbly Basin",
+    "habitat": "Hábitat Rincón de Musgo Volcánico — Rareza: Común"
   },
   {
     "id": "poke-781",
@@ -2768,7 +2811,8 @@
     "types": ["Fantasma", "Planta"],
     "generation": 7,
     "basinNumber": 42,
-    "area": "Bubbly Basin"
+    "area": "Bubbly Basin",
+    "habitat": "Hábitat Jugando a los Marineros — Rareza: Raro"
   },
   {
     "id": "poke-813",
@@ -2849,7 +2893,8 @@
     "types": ["Agua"],
     "generation": 8,
     "basinNumber": 43,
-    "area": "Bubbly Basin"
+    "area": "Bubbly Basin",
+    "habitat": "Hábitat Rincón para Hacer Batidos — Rareza: Común"
   },
   {
     "id": "poke-834",
@@ -2858,7 +2903,8 @@
     "types": ["Agua", "Roca"],
     "generation": 8,
     "basinNumber": 44,
-    "area": "Bubbly Basin"
+    "area": "Bubbly Basin",
+    "habitat": "Hábitat Muelle de Canoas — Rareza: Común"
   },
   {
     "id": "poke-837",
@@ -2922,7 +2968,8 @@
     "types": ["Eléctrico"],
     "generation": 8,
     "basinNumber": 45,
-    "area": "Bubbly Basin"
+    "area": "Bubbly Basin",
+    "habitat": "Hábitat Rocas Chimenea Escalofriantes — Rareza: Común"
   },
   {
     "id": "poke-885",
@@ -3102,7 +3149,8 @@
     "types": ["Agua"],
     "generation": 9,
     "basinNumber": 46,
-    "area": "Bubbly Basin"
+    "area": "Bubbly Basin",
+    "habitat": "Hábitat Discurso en la Arena — Rareza: Común"
   },
   {
     "id": "poke-961",
@@ -3111,7 +3159,8 @@
     "types": ["Agua"],
     "generation": 9,
     "basinNumber": 47,
-    "area": "Bubbly Basin"
+    "area": "Bubbly Basin",
+    "habitat": "Hábitat Escenario Brillante para Tres — Rareza: Raro"
   },
   {
     "id": "poke-969",
@@ -3138,7 +3187,8 @@
     "types": ["Agua", "Psíquico"],
     "generation": 9,
     "basinNumber": 48,
-    "area": "Bubbly Basin"
+    "area": "Bubbly Basin",
+    "habitat": "Hábitat Rincón de Musgo Marino — Rareza: Común"
   },
   {
     "id": "poke-978",

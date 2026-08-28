@@ -570,7 +570,8 @@
     "types": ["Water", "Ice"],
     "generation": 1,
     "basinNumber": 2,
-    "area": "Bubbly Basin"
+    "area": "Bubbly Basin",
+    "habitat": "Swaying flower bed and seaweed habitat — Rarity: Common"
   },
   {
     "id": "poke-092",
@@ -727,7 +728,7 @@
     "generation": 1,
     "basinNumber": 3,
     "area": "Bubbly Basin",
-    "note": "Confirmed as an early Bubbly Basin resident; this guide hasn't sourced its specific habitat structure yet."
+    "habitat": "Coral congregation habitat — Rarity: Common"
   },
   {
     "id": "poke-117",
@@ -736,7 +737,8 @@
     "types": ["Water"],
     "generation": 1,
     "basinNumber": 4,
-    "area": "Bubbly Basin"
+    "area": "Bubbly Basin",
+    "habitat": "Coral congregation habitat — Rarity: Common"
   },
   {
     "id": "poke-120",
@@ -746,7 +748,7 @@
     "generation": 1,
     "basinNumber": 6,
     "area": "Bubbly Basin",
-    "note": "Confirmed as an early Bubbly Basin resident; this guide hasn't sourced its specific habitat structure yet."
+    "habitat": "Swaying flower bed habitat — Rarity: Common"
   },
   {
     "id": "poke-121",
@@ -755,7 +757,8 @@
     "types": ["Water", "Psychic"],
     "generation": 1,
     "basinNumber": 7,
-    "area": "Bubbly Basin"
+    "area": "Bubbly Basin",
+    "habitat": "Mermaid's Gym habitat — Rarity: Rare"
   },
   {
     "id": "poke-122",
@@ -1007,7 +1010,8 @@
     "types": ["Water"],
     "generation": 2,
     "basinNumber": 8,
-    "area": "Bubbly Basin"
+    "area": "Bubbly Basin",
+    "habitat": "Basin tall grass (Common) or Canoe dock (Common) or Bubbly bathtub (Common) habitat"
   },
   {
     "id": "poke-159",
@@ -1016,7 +1020,8 @@
     "types": ["Water"],
     "generation": 2,
     "basinNumber": 9,
-    "area": "Bubbly Basin"
+    "area": "Bubbly Basin",
+    "habitat": "Chimney rocks dig site (Common) or Canoe dock (Common) habitat"
   },
   {
     "id": "poke-160",
@@ -1025,7 +1030,8 @@
     "types": ["Water"],
     "generation": 2,
     "basinNumber": 10,
-    "area": "Bubbly Basin"
+    "area": "Bubbly Basin",
+    "habitat": "Basin tall grass (Very Rare) or Biteable punching bag (Rare) habitat"
   },
   {
     "id": "poke-163",
@@ -1079,7 +1085,8 @@
     "types": ["Water", "Electric"],
     "generation": 2,
     "basinNumber": 11,
-    "area": "Bubbly Basin"
+    "area": "Bubbly Basin",
+    "habitat": "Fluffy relaxation habitat — Rarity: Common"
   },
   {
     "id": "poke-171",
@@ -1088,7 +1095,8 @@
     "types": ["Water", "Electric"],
     "generation": 2,
     "basinNumber": 12,
-    "area": "Bubbly Basin"
+    "area": "Bubbly Basin",
+    "habitat": "Nostalgia zone habitat — Rarity: Rare"
   },
   {
     "id": "poke-172",
@@ -1195,7 +1203,9 @@
     "name": "Wooper",
     "types": ["Water", "Ground"],
     "generation": 2,
-    "pokopiaNumber": 117
+    "pokopiaNumber": 117,
+    "habitat": "Marshy tall grass habitat — Rarity: Common (confirmed in Bleak Beach, Cloud Island)",
+    "note": "Serebii's per-species page for this Pokopia #117 slot lives under the slug \"paldeanwooper\" (the plain \"wooper\" slug still 404s) and its own page title reads \"Paldean Wooper\" — matching pokopiawiki.com's bulk dataset, which also labels id 117 \"Paldean Wooper\" rather than plain Wooper. Both sources independently agree on height (0.4m) and weight (8.5kg), so the habitat data itself is trustworthy, but this repo's existing name/typing (\"Wooper\", Water/Ground) hasn't been re-verified against the possibility this slot is actually the Paldean regional form (normally Poison/Ground) — flagged here rather than silently renamed."
   },
   {
     "id": "poke-196",
@@ -1295,7 +1305,8 @@
     "types": ["Water", "Dragon"],
     "generation": 2,
     "basinNumber": 5,
-    "area": "Bubbly Basin"
+    "area": "Bubbly Basin",
+    "habitat": "Coral congregation (Very Rare) or Marine makeup stand (Rare) habitat"
   },
   {
     "id": "poke-233",
@@ -1466,7 +1477,8 @@
     "types": ["Water"],
     "generation": 3,
     "basinNumber": 14,
-    "area": "Bubbly Basin"
+    "area": "Bubbly Basin",
+    "habitat": "Basin tall grass (Common) or Fluffy relaxation (Common) habitat"
   },
   {
     "id": "poke-259",
@@ -1475,7 +1487,8 @@
     "types": ["Water", "Ground"],
     "generation": 3,
     "basinNumber": 15,
-    "area": "Bubbly Basin"
+    "area": "Bubbly Basin",
+    "habitat": "Creepy chimney rocks (Rare) or Muddy playtime (Common) habitat"
   },
   {
     "id": "poke-260",
@@ -1484,7 +1497,8 @@
     "types": ["Water", "Ground"],
     "generation": 3,
     "basinNumber": 16,
-    "area": "Bubbly Basin"
+    "area": "Bubbly Basin",
+    "habitat": "Basin tall grass and coral (Very Rare) or Muddy spa (Rare) habitat"
   },
   {
     "id": "poke-270",
@@ -1592,7 +1606,8 @@
     "types": ["Dark", "Ghost"],
     "generation": 3,
     "eventNumber": 4,
-    "note": "Event Pokédex #4 (Serebii.net's eventpokedex.shtml — a separate in-game Pokédex tab for Special-Event-only Pokémon), corroborated by pokopiawiki.com (id E-004) and pokopiadex.com's Event Pokédex list."
+    "note": "Event Pokédex #4 (Serebii.net's eventpokedex.shtml — a separate in-game Pokédex tab for Special-Event-only Pokémon), corroborated by pokopiawiki.com (id E-004) and pokopiadex.com's Event Pokédex list.",
+    "habitat": "Treasure-hunting set habitat — Rarity: Common (confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island)"
   },
   {
     "id": "poke-303",
@@ -1664,7 +1679,8 @@
     "types": ["Water", "Dark"],
     "generation": 3,
     "basinNumber": 17,
-    "area": "Bubbly Basin"
+    "area": "Bubbly Basin",
+    "habitat": "Seaweed and netting habitat — Rarity: Common"
   },
   {
     "id": "poke-319",
@@ -1673,7 +1689,8 @@
     "types": ["Water", "Dark"],
     "generation": 3,
     "basinNumber": 18,
-    "area": "Bubbly Basin"
+    "area": "Bubbly Basin",
+    "habitat": "Chimney rocks dig site habitat — Rarity: Common"
   },
   {
     "id": "poke-324",
@@ -1754,7 +1771,8 @@
     "types": ["Water", "Ground"],
     "generation": 3,
     "basinNumber": 19,
-    "area": "Bubbly Basin"
+    "area": "Bubbly Basin",
+    "habitat": "Sandy speech (Common) or Ocean rest spot (Common) or Muddy playtime (Common) habitat"
   },
   {
     "id": "poke-340",
@@ -1763,7 +1781,8 @@
     "types": ["Water", "Ground"],
     "generation": 3,
     "basinNumber": 20,
-    "area": "Bubbly Basin"
+    "area": "Bubbly Basin",
+    "habitat": "Gorgeous Sleeping Area habitat — Rarity: Rare"
   },
   {
     "id": "poke-341",
@@ -1772,7 +1791,8 @@
     "types": ["Water"],
     "generation": 3,
     "basinNumber": 21,
-    "area": "Bubbly Basin"
+    "area": "Bubbly Basin",
+    "habitat": "Sandy basin tall grass (Common) or Sandy digging spot (Common) habitat"
   },
   {
     "id": "poke-342",
@@ -1781,7 +1801,8 @@
     "types": ["Water", "Dark"],
     "generation": 3,
     "basinNumber": 22,
-    "area": "Bubbly Basin"
+    "area": "Bubbly Basin",
+    "habitat": "Sandy digging spot habitat — Rarity: Rare"
   },
   {
     "id": "poke-349",
@@ -1790,7 +1811,8 @@
     "types": ["Water"],
     "generation": 3,
     "eventNumber": 6,
-    "note": "Event Pokédex #6 per Serebii.net's eventpokedex.shtml (order: Hoppip, Skiploom, Jumpluff, Sableye, Jirachi, Feebas, Milotic). pokopiawiki.com lists it as E-005 — its dataset appears to omit Jirachi from the 7-entry list, shifting every entry after Sableye down by one; Serebii's number is used since its page directly transcribes the in-game tab's own \"No.\" column."
+    "note": "Event Pokédex #6 per Serebii.net's eventpokedex.shtml (order: Hoppip, Skiploom, Jumpluff, Sableye, Jirachi, Feebas, Milotic). pokopiawiki.com lists it as E-005 — its dataset appears to omit Jirachi from the 7-entry list, shifting every entry after Sableye down by one; Serebii's number is used since its page directly transcribes the in-game tab's own \"No.\" column.",
+    "habitat": "Exciting beach habitat — Rarity: Common"
   },
   {
     "id": "poke-355",
@@ -1826,7 +1848,8 @@
     "types": ["Water"],
     "generation": 3,
     "basinNumber": 23,
-    "area": "Bubbly Basin"
+    "area": "Bubbly Basin",
+    "habitat": "Swaying flower bed and coral (Common) or Treasure chest and sparkling jewels (Common) or Fluffy relaxation (Common) habitat"
   },
   {
     "id": "poke-374",
@@ -1970,7 +1993,8 @@
     "types": ["Water"],
     "generation": 4,
     "basinNumber": 24,
-    "area": "Bubbly Basin"
+    "area": "Bubbly Basin",
+    "habitat": "Basin tall grass (Rare) or Smoothie-making spot (Common) habitat"
   },
   {
     "id": "poke-419",
@@ -1979,7 +2003,8 @@
     "types": ["Water"],
     "generation": 4,
     "basinNumber": 25,
-    "area": "Bubbly Basin"
+    "area": "Bubbly Basin",
+    "habitat": "Marine shop habitat — Rarity: Common (confirmed in Cloud Island, Bubbly Basin)"
   },
   {
     "id": "poke-422",
@@ -2107,7 +2132,8 @@
     "types": ["Water"],
     "generation": 4,
     "basinNumber": 26,
-    "area": "Bubbly Basin"
+    "area": "Bubbly Basin",
+    "habitat": "Swaying flower bed (Rare) or Marine mossy rest spot (Common) habitat"
   },
   {
     "id": "poke-457",
@@ -2116,7 +2142,8 @@
     "types": ["Water"],
     "generation": 4,
     "basinNumber": 27,
-    "area": "Bubbly Basin"
+    "area": "Bubbly Basin",
+    "habitat": "Swaying flower bed and seaweed (Rare) or Marine mossy rest spot (Rare) habitat"
   },
   {
     "id": "poke-462",
@@ -2216,7 +2243,8 @@
     "types": ["Water"],
     "generation": 4,
     "basinNumber": 49,
-    "area": "Bubbly Basin"
+    "area": "Bubbly Basin",
+    "note": "Serebii's per-species page confirms an Ideal Habitat category (\"Warm\") but lists no placeable spawn habitat/location/rarity table at all — unlike every other species checked this session. Consistent with Phione being a Mythical obtained through a story/trade event rather than found in a placed habitat (see Manaphy, below, which shows the same gap and is already confirmed in this guide's Bubbly Basin walkthrough as the Pokémon that teaches Dive, not a habitat spawn). pokopiawiki.com's dataset lists \"Water\" and \"Bubbly Basin\" for Phione, but that same generic pairing appears on all 47 Basin-dex entries in its dataset with zero variation — a placeholder, not confirmed per-species data — so it wasn't used."
   },
   {
     "id": "poke-490",
@@ -2225,7 +2253,8 @@
     "types": ["Water"],
     "generation": 4,
     "basinNumber": 50,
-    "area": "Bubbly Basin"
+    "area": "Bubbly Basin",
+    "note": "Serebii's per-species page confirms an Ideal Habitat category (\"Cool\") but lists no placeable spawn habitat/location/rarity table at all, matching this guide's existing Bubbly Basin walkthrough content: Manaphy is a story encounter (teaches Ditto to Dive), not a Pokémon found via a placed habitat. pokopiawiki.com's dataset lists \"Water\"/\"Bubbly Basin\" for Manaphy, but that identical pairing appears on all 47 Basin-dex entries in its dataset with zero variation — a placeholder, not confirmed per-species data — so it wasn't used."
   },
   {
     "id": "poke-495",
@@ -2372,7 +2401,8 @@
     "types": ["Water", "Ghost"],
     "generation": 5,
     "basinNumber": 28,
-    "area": "Bubbly Basin"
+    "area": "Bubbly Basin",
+    "note": "Confirmed as a Bubbly Basin resident, but no genuine per-species habitat source was found: Serebii's per-species Pokopia pages 404 under every slug tried (frillish/frillishf/frillishm/jellicent/jellicentf/jellicentm), and while pokopiawiki.com's bulk dataset does list an id for this species, its \"ideal_habitat\" (\"Water\") and \"locations\" (\"Bubbly Basin\") fields are identical across all 47 Basin-dex entries in that dataset with zero variation — a placeholder default, not confirmed per-species data — so it wasn't used. Still an honest gap."
   },
   {
     "id": "poke-593",
@@ -2381,7 +2411,8 @@
     "types": ["Water", "Ghost"],
     "generation": 5,
     "basinNumber": 29,
-    "area": "Bubbly Basin"
+    "area": "Bubbly Basin",
+    "note": "Confirmed as a Bubbly Basin resident, but no genuine per-species habitat source was found: Serebii's per-species Pokopia pages 404 under every slug tried (frillish/frillishf/frillishm/jellicent/jellicentf/jellicentm), and while pokopiawiki.com's bulk dataset does list an id for this species, its \"ideal_habitat\" (\"Water\") and \"locations\" (\"Bubbly Basin\") fields are identical across all 47 Basin-dex entries in that dataset with zero variation — a placeholder default, not confirmed per-species data — so it wasn't used. Still an honest gap."
   },
   {
     "id": "poke-594",
@@ -2390,7 +2421,8 @@
     "types": ["Water"],
     "generation": 5,
     "basinNumber": 30,
-    "area": "Bubbly Basin"
+    "area": "Bubbly Basin",
+    "habitat": "Ocean treasures habitat — Rarity: Rare"
   },
   {
     "id": "poke-607",
@@ -2453,7 +2485,8 @@
     "types": ["Ground", "Electric"],
     "generation": 5,
     "basinNumber": 31,
-    "area": "Bubbly Basin"
+    "area": "Bubbly Basin",
+    "habitat": "Swaying flower bed (Common) or Seaweed and netting (Rare) habitat"
   },
   {
     "id": "poke-636",
@@ -2507,7 +2540,8 @@
     "types": ["Dark", "Psychic"],
     "generation": 6,
     "basinNumber": 32,
-    "area": "Bubbly Basin"
+    "area": "Bubbly Basin",
+    "habitat": "Muddy playtime habitat — Rarity: Rare"
   },
   {
     "id": "poke-687",
@@ -2516,7 +2550,8 @@
     "types": ["Dark", "Psychic"],
     "generation": 6,
     "basinNumber": 33,
-    "area": "Bubbly Basin"
+    "area": "Bubbly Basin",
+    "habitat": "Topsy-turvy habitat — Rarity: Rare"
   },
   {
     "id": "poke-696",
@@ -2660,7 +2695,8 @@
     "types": ["Water"],
     "generation": 7,
     "basinNumber": 34,
-    "area": "Bubbly Basin"
+    "area": "Bubbly Basin",
+    "habitat": "Swaying flower bed (Common) or Bubbly stage (Common) habitat"
   },
   {
     "id": "poke-729",
@@ -2669,7 +2705,8 @@
     "types": ["Water"],
     "generation": 7,
     "basinNumber": 35,
-    "area": "Bubbly Basin"
+    "area": "Bubbly Basin",
+    "habitat": "Bubbly stage habitat — Rarity: Rare"
   },
   {
     "id": "poke-730",
@@ -2678,7 +2715,8 @@
     "types": ["Water", "Fairy"],
     "generation": 7,
     "basinNumber": 36,
-    "area": "Bubbly Basin"
+    "area": "Bubbly Basin",
+    "habitat": "Elegant concert habitat — Rarity: Rare"
   },
   {
     "id": "poke-736",
@@ -2714,7 +2752,8 @@
     "types": ["Poison", "Water"],
     "generation": 7,
     "basinNumber": 37,
-    "area": "Bubbly Basin"
+    "area": "Bubbly Basin",
+    "habitat": "Swaying flower bed and coral habitat — Rarity: Common"
   },
   {
     "id": "poke-748",
@@ -2723,7 +2762,8 @@
     "types": ["Poison", "Water"],
     "generation": 7,
     "basinNumber": 38,
-    "area": "Bubbly Basin"
+    "area": "Bubbly Basin",
+    "habitat": "Treasure chest and sparkling jewels habitat — Rarity: Rare"
   },
   {
     "id": "poke-767",
@@ -2732,7 +2772,8 @@
     "types": ["Bug", "Water"],
     "generation": 7,
     "basinNumber": 39,
-    "area": "Bubbly Basin"
+    "area": "Bubbly Basin",
+    "habitat": "Discarded treasure habitat — Rarity: Common"
   },
   {
     "id": "poke-768",
@@ -2741,7 +2782,8 @@
     "types": ["Bug", "Water"],
     "generation": 7,
     "basinNumber": 40,
-    "area": "Bubbly Basin"
+    "area": "Bubbly Basin",
+    "habitat": "Swaying flower bed and coral (Very Rare) or Discarded treasure (Rare) habitat"
   },
   {
     "id": "poke-778",
@@ -2759,7 +2801,8 @@
     "types": ["Water", "Psychic"],
     "generation": 7,
     "basinNumber": 41,
-    "area": "Bubbly Basin"
+    "area": "Bubbly Basin",
+    "habitat": "Molten mossy rest spot habitat — Rarity: Common"
   },
   {
     "id": "poke-781",
@@ -2768,7 +2811,8 @@
     "types": ["Ghost", "Grass"],
     "generation": 7,
     "basinNumber": 42,
-    "area": "Bubbly Basin"
+    "area": "Bubbly Basin",
+    "habitat": "Playing sailor habitat — Rarity: Rare"
   },
   {
     "id": "poke-813",
@@ -2849,7 +2893,8 @@
     "types": ["Water"],
     "generation": 8,
     "basinNumber": 43,
-    "area": "Bubbly Basin"
+    "area": "Bubbly Basin",
+    "habitat": "Smoothie-making spot habitat — Rarity: Common"
   },
   {
     "id": "poke-834",
@@ -2858,7 +2903,8 @@
     "types": ["Water", "Rock"],
     "generation": 8,
     "basinNumber": 44,
-    "area": "Bubbly Basin"
+    "area": "Bubbly Basin",
+    "habitat": "Canoe dock habitat — Rarity: Common"
   },
   {
     "id": "poke-837",
@@ -2922,7 +2968,8 @@
     "types": ["Electric"],
     "generation": 8,
     "basinNumber": 45,
-    "area": "Bubbly Basin"
+    "area": "Bubbly Basin",
+    "habitat": "Creepy chimney rocks habitat — Rarity: Common"
   },
   {
     "id": "poke-885",
@@ -3102,7 +3149,8 @@
     "types": ["Water"],
     "generation": 9,
     "basinNumber": 46,
-    "area": "Bubbly Basin"
+    "area": "Bubbly Basin",
+    "habitat": "Sandy speech habitat — Rarity: Common"
   },
   {
     "id": "poke-961",
@@ -3111,7 +3159,8 @@
     "types": ["Water"],
     "generation": 9,
     "basinNumber": 47,
-    "area": "Bubbly Basin"
+    "area": "Bubbly Basin",
+    "habitat": "Glowing stage for three habitat — Rarity: Rare"
   },
   {
     "id": "poke-969",
@@ -3138,7 +3187,8 @@
     "types": ["Water", "Psychic"],
     "generation": 9,
     "basinNumber": 48,
-    "area": "Bubbly Basin"
+    "area": "Bubbly Basin",
+    "habitat": "Marine mossy rest spot habitat — Rarity: Common"
   },
   {
     "id": "poke-978",

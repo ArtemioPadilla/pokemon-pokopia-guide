@@ -17,7 +17,7 @@ context: ${REPO_URL}/blob/main/CLAUDE.md
 
 - [Home](/): paradise-building basics and your progress summary
 - [Areas](/areas/): the 5 base areas + the Expansion Pass area, one write-up each
-- [Pokédex](/pokedex/): checklist tracker for the curated Pokopia Pokédex subset
+- [Pokédex](/pokedex/): checklist tracker for the Pokopia Pokédex (352 entries: all 300 base slots, 50 Bubbly Basin, 2 Event-exclusive)
 - [Recipes](/recipes/): crafting recipe reference (materials + unlock method)
 - [Collectibles](/collectibles/): checklist tracker for Ancient Artifacts, Human Records, and the Highlight Reel
 - [Milestones](/milestones/): Environment Level progression reference
