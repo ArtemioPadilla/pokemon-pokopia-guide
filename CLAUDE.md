@@ -38,9 +38,13 @@ review coverage (see "Sources" below):
   weapons/gems reference tables.
 - **Three named collection systems** — Ancient Artifacts (86 relics: 40
   Large + 46 Small Lost Relics, confirmed via Game8 as of session 3;
-  supersedes the original "83" estimate), Human Records (126 documents,
-  per Game8 — session 3 individually confirmed 55 of these), and the
-  Highlight Reel (44 photo challenges confirmed via Game8 as of session 3) — the second completionist checklist, playing the role RE4's
+  supersedes the original "83" estimate), Human Records (154 individually
+  confirmed documents as of session 4 — the earlier "126" figure was
+  itself an unreliable estimate that doesn't appear anywhere on the
+  current Game8 source page and has been dropped, see "Coverage TODO"
+  below), and the Highlight Reel (44 photo challenges confirmed via
+  Game8 as of session 3) — the second completionist checklist, playing
+  the role RE4's
   treasures do.
 - **Professor Tangrowth's guidance and Environment Level milestones** —
   a light reference (not a walkthrough) of what's confirmed to unlock at
@@ -221,27 +225,66 @@ pokemonpokopia/locations/<slug>.jpg`) as a decorative hero image on their
   patterns (`Register N Pokémon`, `Shop – Area Lv. N`, `Daily Shop
 Special`, etc.) — recipe _names_ stay English in both locales, matching
   the existing convention already used for the first 17.
-- **Collectibles: 188 total** (up from 26) — **89 of 89 known Artifacts**
-  (up from 8 of an estimated 83; Game8's own Large + Small Lost Relic
-  lists turned out to total 86, not 83 — the "83" figure was itself an
-  imprecise web-search summary, corrected here against the real page).
-  Naming/materials/rarity for all 89 come straight from Game8, but
-  **`area` is unset ("Not specified in available sources") for all 89 —
-  Game8's Lost Relic lists don't give a location field at all**, unlike
-  Records below where it's only some entries. Worth a dedicated pass if
-  another source turns up with Artifact locations.
-  **55 Human Records** (up from 10; Game8's own records page is marked
-  "work in progress" and doesn't give a location for every entry, so
-  several intentionally still read "Not specified in available sources"),
+- **Collectibles: 287 total** (up from 188 as of session 3; 26 originally)
+  — **89 of 89 known Artifacts** (up from 8 of an estimated 83; Game8's
+  own Large + Small Lost Relic lists turned out to total 86, not 83 — the
+  "83" figure was itself an imprecise web-search summary, corrected here
+  against the real page). Naming/materials/rarity for all 89 come
+  straight from Game8, but **`area` is unset ("Not specified in available
+  sources") for all 89 — Game8's Lost Relic lists don't give a location
+  field at all**, unlike Records below. Worth a dedicated pass if another
+  source turns up with Artifact locations — not revisited in session 4.
+  **154 Human Records** (up from 55 as of session 3 — see "Human Records
+  — session 4" below for the full story of that jump and why this file's
+  old "126 total" estimate has been dropped rather than kept as a target),
   and **44 Highlight Reel photos** (up from 8; Game8's list numbers 44
-  entries as of this session, still not confirmed as the game's true
-  total). All new entries are real, individually named items fetched
-  directly from Game8's list pages (`584647`/`586921`/`588466` for
-  Artifacts, `584648` for Records, `586026` for Highlight Reel) via raw
-  HTML parsing, same reasoning as the recipes pull above. One existing
-  entry got a genuine correction in passing: "Dear Douglas"'s `area` went
+  entries as of session 3, still not confirmed as the game's true total,
+  and not revisited in session 4). One existing entry got a genuine
+  correction in passing back in session 3: "Dear Douglas"'s `area` went
   from the honest placeholder "not yet located in sources" to the real
   confirmed "Dream Island" once Game8's page listed it.
+- **Human Records — session 4:** re-checked Game8's records page (still
+  marked "work in progress," last-updated banner reads March 13, 2026)
+  and found it has genuinely grown since session 3: 64 individually named
+  documents now (up from whatever it had when session 3 pulled 55), of
+  which 18 are still marked "Currently under investigation!" (Game8 knows
+  the document exists but not its map location). Diffing that fresh pull
+  against the collection surfaced **9 new records** Game8 hadn't listed
+  before. Far more significantly, Serebii.net turned out to have its own
+  Human Records page (`/pokemonpokopia/humanrecords.shtml`) that neither
+  this file nor any prior session had checked — **163 rows** (153 after
+  merging a handful of literal row-duplicates in Serebii's own table),
+  every single one with a confirmed location, including a `reward` column
+  Game8 doesn't have. Diffed against the collection with an
+  accent/punctuation/case-insensitive normalizer (to correctly treat
+  "Kenan's Diary" / "Kenan's diary" as the same record instead of a false
+  new find), Serebii alone accounted for **98 genuinely new** records once
+  two Serebii-side typos were caught and folded back into existing
+  entries instead of added as duplicates ("Perculiar pattern" → the
+  already-present "Peculiar pattern"; "Gym Leader Montly (July Issue)" →
+  the already-present "...Monthly..."). One more new record ("Post from
+  July 30, 6:00 p.m.") came from the raw Game8 diff and wasn't present in
+  Serebii under a normalizer-matchable name. Final count: 55 pre-existing
+  - 98 from Serebii + 1 from Game8 = **154 total records**. Serebii's data
+    was also used to **resolve all 13
+    previously-`"Not specified in available sources"` entries** left over
+    from session 3's Game8-only pull (e.g. "Celadon Department Store
+    Reopens" → Sparkling Skylands, "Peculiar pattern" → Dream Island) — so
+    **0 of the 154 records now have an unresolved `area`**, a first for
+    this collection type. pokopiamap.com's `/human-records` URL returned
+    200 but is a soft-404 (the site's homepage nav, no records content) —
+    checked and ruled out rather than silently skipped. pokopiawiki.com has
+    no records page at all (`/records`, `/human-records`,
+    `/guides/human-records` all 404). Given Serebii's page alone yielded
+    154 individually verified, located records — well above this file's
+    old "126" estimate, which never appeared anywhere in Game8's actual
+    page text and was likely an imprecise web-search artifact from an
+    earlier session — **that "126" figure is retired**; there's no evidence
+    it was ever the game's true total, and 154 is itself just "confirmed so
+    far," not a ceiling. `x`/`y` map pins were not attempted for the new
+    154 total (neither Game8 nor Serebii gives schematic-map coordinates,
+    only named areas), matching the pre-existing convention for most
+    Records entries.
 - **Milestones**: Environment Level is a **per-area** stat (confirmed by
   Serebii — "environment level in each area"), not a single global 1–10
   scale. The milestones list mixes area-level-gated and Pokédex-count-gated
@@ -261,6 +304,16 @@ tractable target. `x`/`y` map-pin placement for the 220 species session 4
 added is a smaller, well-scoped remaining gap: none of them have a pin,
 since neither Bulbapedia's table nor pokopiawiki.com's dataset gives
 schematic-map coordinates, only a named-area list.
+
+On Human Records specifically (session 4): 154 individually verified
+records is a strong number, but "still growing" is the honest framing,
+not "complete" — Game8's page is still explicitly marked
+work-in-progress, and Serebii's own page doesn't claim to be exhaustive
+either. Artifacts didn't get the same cross-source check this session (only
+Game8 was ever consulted for those) — `serebii.net/pokemonpokopia/
+lostrelics.shtml` exists (confirmed reachable, not yet fetched/parsed)
+and is the most promising next target given how much more Serebii's
+Records page turned up versus Game8 alone for this task.
 
 ### Sources consulted — session 1
 
@@ -326,6 +379,34 @@ Highlight Reel list (586026) — all fetched as raw HTML and parsed
 programmatically (Game8's tables are large and paginated in practice;
 a summarizing fetch could not be trusted to enumerate every row).
 
+### Sources consulted — session 4 (Human Records)
+
+Game8.co's Human Records page (archive 584648, re-fetched — still marked
+work-in-progress, last-updated banner March 13, 2026), fetched as raw
+HTML and parsed by pairing each record's name row with its following
+location/status row (`<tr rowspan="2">` structure) — 64 records, 46 with
+a confirmed location and 18 marked "Currently under investigation!".
+Serebii.net's `/pokemonpokopia/humanrecords.shtml`, fetched as raw HTML
+and parsed as a single flat table with inline category-header rows
+("Newspaper", "Diary Entries", "Magazines", "Notes", "Letters", "Papers",
+"Photos", "Treasure Maps") — 163 rows, deduplicated to 153 unique records
+by name after merging a handful of literal repeat rows (a "Perculiar
+pattern" Dream Island photo repeated identically 10 times, which reads as
+one repeatable collectible rather than 10 distinct ones, and one
+"Comfy Living (Vol. 11)" row split across two near-identical rows). Every
+Serebii row had a non-empty location, unlike Game8's page. Diffed against
+both the existing collection and each other using an accent/case/
+punctuation-insensitive name normalizer, with a manual `difflib`
+close-match pass afterward specifically to catch same-record spelling
+variants a strict normalizer would miss (this is how the "Perculiar
+pattern"/"Peculiar pattern" and "Gym Leader Montly"/"...Monthly..."
+Serebii-side typos were caught and folded into existing entries instead
+of being added as false-new duplicates). pokopiamap.com's `/human-records`
+URL was checked and found to be a soft-404 (returns the site's generic
+homepage nav, not records content) — ruled out rather than silently
+skipped. pokopiawiki.com has no records page under any guessed path
+(`/records`, `/human-records`, `/guides/human-records`, `/collectibles`,
+`/artifacts` — all 404).
 ### Sources consulted — session 4 (base Pokédex completion)
 
 **Base Pokédex numbering:** Bulbapedia's `List of Pokémon by Pokédex
