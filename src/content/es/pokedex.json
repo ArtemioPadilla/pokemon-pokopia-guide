@@ -2244,7 +2244,8 @@
     "generation": 4,
     "basinNumber": 49,
     "area": "Bubbly Basin",
-    "note": "La página individual de Serebii confirma una categoría de Hábitat Ideal (\"Cálido\") pero no incluye ninguna tabla de hábitat/ubicación/rareza de aparición — a diferencia de todas las demás especies revisadas en esta sesión. Es coherente con que Phione sea un Pokémon Mítico obtenido mediante un evento de historia/intercambio en vez de encontrarse en un hábitat colocable (ver Manaphy, abajo, que muestra el mismo vacío y ya está confirmado en el recorrido de Bubbly Basin de esta guía como el Pokémon que enseña Buceo, no una aparición de hábitat). El dataset de pokopiawiki.com indica \"Water\" y \"Bubbly Basin\" para Phione, pero ese mismo par genérico aparece en las 47 entradas de la Pokédex de la Cuenca de su dataset sin ninguna variación — un valor de relleno, no datos confirmados por especie — así que no se usó."
+    "habitat": "No se obtiene de un hábitat salvaje colocado, y tampoco forma parte de la búsqueda de Buceo de Manaphy — la página \"Legendary & Mythical Pokémon\" de Serebii lo incluye en cambio bajo un mecanismo de \"Dream Islands\": usar un Muñeco de Starmie al iniciar una excursión a una Isla de los Sueños da una probabilidad (no una garantía) de que esa isla presente a Phione, el mismo sistema de muñecos usado para Raikou/Entei/Suicune/Mewtwo.",
+    "note": "Confirmado mediante la página legendary.shtml de Serebii (\"Several of the Legendary Pokémon can be obtained by going through various Dream Islands... Starmie Doll: Phione... Once you have spoken to the Pokémon, you will be able to bring them back to the region and set them up in a home\") — una página que las sesiones anteriores de esta guía no habían consultado. La página individual de Serebii para Phione sigue mostrando solo una categoría de Hábitat Ideal (\"Cálido\"), sin tabla de hábitat de aparición, que fue lo que originalmente señaló que no era una aparición salvaje."
   },
   {
     "id": "poke-490",
@@ -2254,7 +2255,8 @@
     "generation": 4,
     "basinNumber": 50,
     "area": "Bubbly Basin",
-    "note": "La página individual de Serebii confirma una categoría de Hábitat Ideal (\"Fresco\") pero no incluye ninguna tabla de hábitat/ubicación/rareza de aparición, lo cual coincide con el contenido ya existente del recorrido de Bubbly Basin de esta guía: Manaphy es un encuentro de historia (enseña a Ditto a Bucear), no un Pokémon que se encuentre mediante un hábitat colocado. El dataset de pokopiawiki.com indica \"Water\"/\"Bubbly Basin\" para Manaphy, pero ese mismo par idéntico aparece en las 47 entradas de la Pokédex de la Cuenca de su dataset sin ninguna variación — un valor de relleno, no datos confirmados por especie — así que no se usó."
+    "habitat": "No es un hábitat salvaje colocado — se obtiene mediante la búsqueda argumental de Bubbly Basin: Manaphy le enseña a Ditto a Bucear al principio (ya documentado en el recorrido de Bubbly Basin de esta guía), y luego reaparece viviendo dentro del Templo Oceánico una vez completada la solicitud posterior \"Construye el hermoso edificio\".",
+    "note": "Confirmado mediante la propia página \"Important Requests\" de Serebii: \"Once the temple is built, you can enter it where you will find that Manaphy has appeared inside and will stay in the area after thanking for the prior help in Bleak Beach.\" Corroborado de forma independiente por el resumen de la trama de la página de Bulbapedia sobre Bubbly Basin (DLC) (\"the Manaphy who taught Ditto to use Dive is found inside the temple, having come to rest there\"). La página individual de Serebii para Manaphy sigue mostrando solo una categoría de Hábitat Ideal (\"Fresco\"), sin tabla de hábitat de aparición — coherente con un encuentro de historia, no una colocación salvaje."
   },
   {
     "id": "poke-495",
@@ -2402,7 +2404,8 @@
     "generation": 5,
     "basinNumber": 28,
     "area": "Bubbly Basin",
-    "note": "Confirmado como habitante de Bubbly Basin, pero no se encontró una fuente genuina de hábitat por especie: las páginas individuales de Serebii para Pokopia devuelven 404 con cada slug probado (frillish/frillishf/frillishm/jellicent/jellicentf/jellicentm), y aunque el dataset masivo de pokopiawiki.com sí incluye un id para esta especie, sus campos \"ideal_habitat\" (\"Water\") y \"locations\" (\"Bubbly Basin\") son idénticos en las 47 entradas de la Pokédex de la Cuenca de ese dataset, sin ninguna variación — un valor de relleno, no datos confirmados por especie — así que no se usó. Sigue siendo un vacío honesto."
+    "habitat": "Hábitat Jugando a los Marineros o Tesoros del Océano — Rareza: Común",
+    "note": "Los 6 slugs probados anteriormente (frillish/frillishf/frillishm/jellicent/jellicentf/jellicentm) siguen devolviendo 404 — los slugs reales de Serebii resultaron ser frillishmaleform/frillishfemaleform, el mismo patrón de sufijo \"-form\" ya usado para otras especies con formas alternativas en este dataset (p. ej. Tatsugiri). Ambas formas de género muestran datos de hábitat idénticos. También confirmado en la página \"Important Requests\" de Serebii: Frillish es uno de los seis Pokémon nombrados que se reclutan para la solicitud \"Construye el hermoso edificio\" de Bubbly Basin (se encuentra cerca de una cueva al norte, y se le envía con una Máquina Zahorí a recuperar un Muñeco de Starmie en la Cueva Cerúlea)."
   },
   {
     "id": "poke-593",
@@ -2412,7 +2415,8 @@
     "generation": 5,
     "basinNumber": 29,
     "area": "Bubbly Basin",
-    "note": "Confirmado como habitante de Bubbly Basin, pero no se encontró una fuente genuina de hábitat por especie: las páginas individuales de Serebii para Pokopia devuelven 404 con cada slug probado (frillish/frillishf/frillishm/jellicent/jellicentf/jellicentm), y aunque el dataset masivo de pokopiawiki.com sí incluye un id para esta especie, sus campos \"ideal_habitat\" (\"Water\") y \"locations\" (\"Bubbly Basin\") son idénticos en las 47 entradas de la Pokédex de la Cuenca de ese dataset, sin ninguna variación — un valor de relleno, no datos confirmados por especie — así que no se usó. Sigue siendo un vacío honesto."
+    "habitat": "Hábitat Merienda Marina — Rareza: Raro",
+    "note": "Los 6 slugs probados anteriormente (frillish/frillishf/frillishm/jellicent/jellicentf/jellicentm) siguen devolviendo 404 — los slugs reales de Serebii resultaron ser jellicentmaleform/jellicentfemaleform, el mismo patrón de sufijo \"-form\" ya usado para otras especies con formas alternativas en este dataset. Ambas formas de género muestran datos de hábitat idénticos."
   },
   {
     "id": "poke-594",

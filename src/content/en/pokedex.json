@@ -2244,7 +2244,8 @@
     "generation": 4,
     "basinNumber": 49,
     "area": "Bubbly Basin",
-    "note": "Serebii's per-species page confirms an Ideal Habitat category (\"Warm\") but lists no placeable spawn habitat/location/rarity table at all — unlike every other species checked this session. Consistent with Phione being a Mythical obtained through a story/trade event rather than found in a placed habitat (see Manaphy, below, which shows the same gap and is already confirmed in this guide's Bubbly Basin walkthrough as the Pokémon that teaches Dive, not a habitat spawn). pokopiawiki.com's dataset lists \"Water\" and \"Bubbly Basin\" for Phione, but that same generic pairing appears on all 47 Basin-dex entries in its dataset with zero variation — a placeholder, not confirmed per-species data — so it wasn't used."
+    "habitat": "Not found via a placed wild habitat, and not part of Manaphy's Dive questline either — Serebii's \"Legendary & Mythical Pokémon\" page instead lists Phione under a \"Dream Islands\" mechanic: using a Starmie Doll when starting a Dream Island trip gives a chance (not a guarantee) that the island features Phione, the same doll-based system used for Raikou/Entei/Suicune/Mewtwo.",
+    "note": "Confirmed via Serebii's legendary.shtml page (\"Several of the Legendary Pokémon can be obtained by going through various Dream Islands... Starmie Doll: Phione... Once you have spoken to the Pokémon, you will be able to bring them back to the region and set them up in a home\") — a page this guide's prior sessions hadn't fetched. Phione's own per-species Serebii page still shows only an Ideal Habitat category (\"Warm\"), no spawn-habitat table, which is what originally flagged it as non-wild."
   },
   {
     "id": "poke-490",
@@ -2254,7 +2255,8 @@
     "generation": 4,
     "basinNumber": 50,
     "area": "Bubbly Basin",
-    "note": "Serebii's per-species page confirms an Ideal Habitat category (\"Cool\") but lists no placeable spawn habitat/location/rarity table at all, matching this guide's existing Bubbly Basin walkthrough content: Manaphy is a story encounter (teaches Ditto to Dive), not a Pokémon found via a placed habitat. pokopiawiki.com's dataset lists \"Water\"/\"Bubbly Basin\" for Manaphy, but that identical pairing appears on all 47 Basin-dex entries in its dataset with zero variation — a placeholder, not confirmed per-species data — so it wasn't used."
+    "habitat": "Not a placed wild habitat — obtained through Bubbly Basin's story questline: Manaphy teaches Ditto to Dive at the very start (already documented in this guide's Bubbly Basin walkthrough), then reappears living inside the Ocean Temple once the later \"Build the Beautiful Building\" request is completed.",
+    "note": "Confirmed via Serebii's own \"Important Requests\" page: \"Once the temple is built, you can enter it where you will find that Manaphy has appeared inside and will stay in the area after thanking for the prior help in Bleak Beach.\" Corroborated independently by Bulbapedia's Bubbly Basin (DLC) plot summary (\"the Manaphy who taught Ditto to use Dive is found inside the temple, having come to rest there\"). Manaphy's own per-species Serebii page still shows only an Ideal Habitat category (\"Cool\"), no spawn-habitat table — consistent with a story encounter, not a wild placement."
   },
   {
     "id": "poke-495",
@@ -2402,7 +2404,8 @@
     "generation": 5,
     "basinNumber": 28,
     "area": "Bubbly Basin",
-    "note": "Confirmed as a Bubbly Basin resident, but no genuine per-species habitat source was found: Serebii's per-species Pokopia pages 404 under every slug tried (frillish/frillishf/frillishm/jellicent/jellicentf/jellicentm), and while pokopiawiki.com's bulk dataset does list an id for this species, its \"ideal_habitat\" (\"Water\") and \"locations\" (\"Bubbly Basin\") fields are identical across all 47 Basin-dex entries in that dataset with zero variation — a placeholder default, not confirmed per-species data — so it wasn't used. Still an honest gap."
+    "habitat": "Playing sailor or Ocean treasures habitat — Rarity: Common",
+    "note": "The 6 slugs tried previously (frillish/frillishf/frillishm/jellicent/jellicentf/jellicentm) all still 404 — the real Serebii slugs turned out to be frillishmaleform/frillishfemaleform, the same \"-form\" suffix pattern already used for other alternate-form species in this dataset (e.g. Tatsugiri). Both gender forms list identical habitat data. Also confirmed on Serebii's \"Important Requests\" page: Frillish is one of six named Pokémon recruited for Bubbly Basin's \"Build the Beautiful Building\" request (found near a cave to the north, sent with a Dowsing Machine to retrieve a Starmie Doll from the Cerulean Cave)."
   },
   {
     "id": "poke-593",
@@ -2412,7 +2415,8 @@
     "generation": 5,
     "basinNumber": 29,
     "area": "Bubbly Basin",
-    "note": "Confirmed as a Bubbly Basin resident, but no genuine per-species habitat source was found: Serebii's per-species Pokopia pages 404 under every slug tried (frillish/frillishf/frillishm/jellicent/jellicentf/jellicentm), and while pokopiawiki.com's bulk dataset does list an id for this species, its \"ideal_habitat\" (\"Water\") and \"locations\" (\"Bubbly Basin\") fields are identical across all 47 Basin-dex entries in that dataset with zero variation — a placeholder default, not confirmed per-species data — so it wasn't used. Still an honest gap."
+    "habitat": "Marine teatime habitat — Rarity: Rare",
+    "note": "The 6 slugs tried previously (frillish/frillishf/frillishm/jellicent/jellicentf/jellicentm) all still 404 — the real Serebii slugs turned out to be jellicentmaleform/jellicentfemaleform, the same \"-form\" suffix pattern already used for other alternate-form species in this dataset. Both gender forms list identical habitat data."
   },
   {
     "id": "poke-594",
