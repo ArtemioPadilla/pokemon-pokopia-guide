@@ -1,0 +1,121 @@
+---
+/**
+ * Locale-neutral offline fallback page.
+ *
+ * This is the `navigateFallback` target configured in astro.config.mjs's
+ * VitePWA workbox settings — the page workbox serves for any offline
+ * navigation that isn't already in the precache (e.g. a page the visitor
+ * never loaded while online). It intentionally does NOT reuse BaseLayout:
+ * BaseLayout is single-locale per render (it takes a `lang` prop and
+ * renders that locale's strings only), but this page has no way to know
+ * which locale the offline visitor was reading — so it greets in both
+ * languages and links into each locale's real homepage, rather than
+ * silently guessing one (which is exactly the bug this page fixes: an
+ * /es/ visitor going offline used to be bounced straight to the English
+ * homepage, and vice versa).
+ *
+ * Deliberately self-contained (inline styles only, no global.css import,
+ * no external font/JS requests) so it renders correctly even in the
+ * worst-case offline scenario where nothing else has been cached yet.
+ */
+import { withBase } from '@/lib/href';
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Offline — Sin conexión | Pokopia Guide</title>
+    <link rel="icon" type="image/svg+xml" href={withBase('/favicon.svg')} />
+    <meta name="theme-color" content="#f4fbef" />
+    <style>
+      :root {
+        color-scheme: light dark;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem 1.25rem;
+        font-family:
+          system-ui,
+          -apple-system,
+          'Segoe UI',
+          sans-serif;
+        background: #f4fbef;
+        color: #1c2b18;
+      }
+      @media (prefers-color-scheme: dark) {
+        body {
+          background: #0e1a12;
+          color: #eaf3e4;
+        }
+        a.home {
+          background: #4fae63;
+        }
+        hr {
+          border-top-color: rgba(255, 255, 255, 0.12);
+        }
+      }
+      main {
+        max-width: 30rem;
+        width: 100%;
+        text-align: center;
+      }
+      h1 {
+        font-size: 1.4rem;
+        margin: 0 0 0.5rem;
+      }
+      p {
+        margin: 0.25rem 0 1rem;
+        line-height: 1.5;
+      }
+      a.home {
+        display: inline-block;
+        margin-top: 0.25rem;
+        padding: 0.6rem 1.4rem;
+        border-radius: 999px;
+        background: #3f8f4f;
+        color: #fff;
+        text-decoration: none;
+        font-weight: 600;
+      }
+      a.home:hover,
+      a.home:focus-visible {
+        opacity: 0.9;
+      }
+      hr {
+        border: none;
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+        margin: 1.75rem 0;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section lang="en">
+        <h1>You're offline</h1>
+        <p>
+          This page hasn't been saved for offline use yet. Reconnect, or head back to a page
+          you've already visited.
+        </p>
+        <a class="home" href={withBase('/')}>Go to the homepage</a>
+      </section>
+      <hr />
+      <section lang="es">
+        <h1>Sin conexión</h1>
+        <p>
+          Esta página aún no se ha guardado para uso sin conexión. Reconéctate o vuelve a una
+          página que ya hayas visitado.
+        </p>
+        <a class="home" href={withBase('/es/')}>Ir al inicio</a>
+      </section>
+    </main>
+  </body>
+</html>
