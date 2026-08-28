@@ -39,6 +39,7 @@ export const ui = {
     'areas.pill.pokemon': 'Pokémon',
     'areas.pill.info': 'Info',
     'pokedex.title': 'The Pokopia Pokédex',
+    'pokedex.deviceTitle': 'Pokédex',
     'pokedex.note':
       'all 300 base Pokédex slots, plus 50 Bubbly Basin and 2 Event-exclusive species (352 total)',
     'pokedex.progress': 'entries logged',
@@ -46,6 +47,8 @@ export const ui = {
     'pokedex.pokopiaNo': 'Pokopia #',
     'pokedex.nationalNo': 'Nat. #',
     'pokedex.habitatUnknown': 'Habitat not yet verified from sources',
+    'pokedex.search': 'Search by name…',
+    'pokedex.hoverHint': 'Hover or focus an entry to see its details',
     'map.list': 'List',
     'map.map': 'Map',
     'map.viewGroup': 'View',
@@ -120,6 +123,7 @@ export const ui = {
     'areas.pill.pokemon': 'Pokémon',
     'areas.pill.info': 'Info',
     'pokedex.title': 'La Pokédex de Pokopia',
+    'pokedex.deviceTitle': 'Pokédex',
     'pokedex.note':
       'las 300 casillas base de la Pokédex, más 50 especies de Bubbly Basin y 2 exclusivas de eventos (352 en total)',
     'pokedex.progress': 'entradas registradas',
@@ -127,6 +131,8 @@ export const ui = {
     'pokedex.pokopiaNo': 'Pokopia n.º',
     'pokedex.nationalNo': 'Nac. n.º',
     'pokedex.habitatUnknown': 'Hábitat aún no verificado en las fuentes',
+    'pokedex.search': 'Buscar por nombre…',
+    'pokedex.hoverHint': 'Pasa el cursor o enfoca una entrada para ver sus detalles',
     'map.list': 'Lista',
     'map.map': 'Mapa',
     'map.viewGroup': 'Vista',

@@ -48,3 +48,12 @@ export function typeBadgeClass(typeName: string): string {
   const key = TYPE_KEY[typeName.toLowerCase()];
   return key ? TYPE_BADGE_CLASS[key] : FALLBACK_CLASS;
 }
+
+/** The raw `--type-*` custom-property name for a type, for callers that need
+ * an inline-style color (e.g. a small swatch dot) rather than a Tailwind
+ * class — inline styles aren't subject to the static-scanning limitation
+ * above, so this is safe to build dynamically. */
+export function typeColorVar(typeName: string): string {
+  const key = TYPE_KEY[typeName.toLowerCase()];
+  return key ? `--type-${key}` : '--muted-foreground';
+}
