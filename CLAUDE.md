@@ -654,11 +654,18 @@ Litten, Grookey, Sobble, Fuecoco, Quaxly) — Grookey additionally shows up
 in the article's own comment section as a reader-named "not in the game
 yet" example. That's 15 of the 30 explicitly contradicted by name or by
 exhaustive-list construction. (3) One contradictory source was found and
-discounted: `pokopia.center`'s "complete Pokédex" listicle claims several
-of these 30 (including Togepi) ARE in the game, but on inspection it gives
-no dex numbers at all, cites no source, and its own disclaimer identifies
-it as an "independent, unofficial fan site" — a generic SEO listicle, not
-a structured primary source, and it directly conflicts with Bulbapedia's
+discounted, but not lightly: `pokopia.center`'s "complete Pokédex" listicle
+names 10 of these 30 as present (Togepi, Chikorita, Treecko, Turtwig,
+Chimchar, Oshawott, Fennekin, Wooloo, Fuecoco, Quaxly), with specific-
+sounding detail per species (e.g. "Togepi requires a Fairy habitat that
+many players build") — a real, non-trivial contradiction, not just an
+absence of data. It's discounted anyway because it gives no dex numbers at
+all, cites no source of its own, and its own disclaimer identifies it as an
+"independent, unofficial fan site" — weighed against four independently-
+fetched structured sources (Bulbapedia's 3 official dex tables, Serebii's
+per-species 404s, pokopiawiki.com's live embedded dataset) plus TheGamer's
+dedicated investigative piece, all agreeing the other way. It directly
+conflicts with Bulbapedia's
 authoritative 300-row numbered table (already fetched in full in session 4
 and used as this repo's ground truth for `pokopiaNumber`) and with
 Serebii's site-wide 367-row dex dropdown (session 5) — both of which
