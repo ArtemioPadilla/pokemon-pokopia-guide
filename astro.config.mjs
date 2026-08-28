@@ -53,8 +53,18 @@ export default defineConfig({
         ],
       },
       workbox: {
-        globPatterns: ['**/*.{js,css,html,svg,png,ico,webp,woff2}'],
-        navigateFallback: SCOPE,
+        // 'webmanifest' so both the English (this file, below) and Spanish
+        // (src/pages/manifest.es.webmanifest.ts) manifests are themselves
+        // available offline, not just the pages that link to them.
+        globPatterns: ['**/*.{js,css,html,svg,png,ico,webp,woff2,webmanifest}'],
+        // A dedicated, locale-neutral offline page — NOT the homepage.
+        // navigateFallback is a single static path (generateSW can't branch
+        // on the current locale at runtime), so pointing it at SCOPE would
+        // always bounce an offline visitor to the English homepage
+        // regardless of whether they were reading an /es/ page. offline/
+        // greets in both languages and links into each locale's real
+        // homepage instead of guessing one. See src/pages/offline.astro.
+        navigateFallback: `${SCOPE}offline/`,
       },
       experimental: { directoryAndTrailingSlashHandler: true },
     }),

@@ -49,7 +49,10 @@ const ensureSlash = (p: string) => (p.endsWith('/') ? p : `${p}/`);
     />
     <link rel="icon" type="image/svg+xml" href={withBase('/favicon.svg')} />
     <link rel="apple-touch-icon" href={withBase('/apple-touch-icon.png')} />
-    <link rel="manifest" href={withBase('/manifest.webmanifest')} />
+    <link
+      rel="manifest"
+      href={withBase(lang === 'es' ? '/manifest.es.webmanifest' : '/manifest.webmanifest')}
+    />
     <meta name="theme-color" content="#f4fbef" />
   </head>
   <body class="relative min-h-screen bg-background text-foreground antialiased">
