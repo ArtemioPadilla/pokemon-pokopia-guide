@@ -160,22 +160,27 @@ habitat` category + confirmed area list) in a Next.js RSC data chunk
   **50 Basin-exclusive entries** (`basinNumber`, no `pokopiaNumber`) are
   unchanged — Basin coverage wasn't revisited beyond a quick sanity check
   that the existing 50 still matches Bulbapedia's Basin list structurally.
-  `habitat` is confirmed for **348 of 352** entries (up from 301 as of
+  `habitat` is confirmed for **all 352 of 352** entries (up from 301 as of
   session 6: the 220 session-4 entries + 81 confirmed as of session 3 +
-  47 more from session 7, see "Sources consulted — session 7" below) — the
-  removal of 30 always-habitat-less entries in session 6 raised the
-  *proportion* with `habitat` even though the raw numerator didn't change
-  that session. Session 3's original context on the Basin dex and the
-  76-species Serebii habitat pass is preserved below for provenance.
-  Session 7 closed almost all of the remaining 51-entry habitat gap (49
-  Basin species + Wooper + the 2 Event species): 47 resolved via
-  Serebii.net per-species pages (a source that turned out to cover Basin/
-  Event species too, not just the main 300-dex, once the right slugs were
-  tried), leaving only Phione, Manaphy, Frillish, and Jellicent honestly
-  unresolved with an explanatory `note` each — see "Sources consulted —
-  session 7" below for the full account, including a reliability finding
-  that pokopiawiki.com's Basin-dex habitat data is a uniform placeholder
-  (not real per-species data, unlike its main-dex section).
+  47 more from session 7 + the final 4 from session 8, see "Sources
+  consulted — session 7" and "session 8" below) — the removal of 30
+  always-habitat-less entries in session 6 raised the *proportion* with
+  `habitat` even though the raw numerator didn't change that session.
+  Session 3's original context on the Basin dex and the 76-species Serebii
+  habitat pass is preserved below for provenance. Session 7 closed almost
+  all of the remaining 51-entry habitat gap (49 Basin species + Wooper +
+  the 2 Event species): 47 resolved via Serebii.net per-species pages (a
+  source that turned out to cover Basin/Event species too, not just the
+  main 300-dex, once the right slugs were tried), leaving only Phione,
+  Manaphy, Frillish, and Jellicent honestly unresolved with an explanatory
+  `note` each — see "Sources consulted — session 7" below for the full
+  account, including a reliability finding that pokopiawiki.com's
+  Basin-dex habitat data is a uniform placeholder (not real per-species
+  data, unlike its main-dex section). **Session 8 closed all 4 remaining
+  entries** — 2 as genuine reframed game-mechanic facts (Phione and
+  Manaphy aren't habitat-spawned at all) and 2 as real per-species habitat
+  data that a wrong slug guess had hidden since session 7 (Frillish and
+  Jellicent) — see "Sources consulted — session 8" below.
 
 - **Pokédex (session 3 context, preserved):** session 3 added 45 brand
   new entries, all 50 species from Bulbapedia's `List of Pokémon by
@@ -443,9 +448,19 @@ assuming session 6 was wrong to remove it. Wooper's habitat gap was closed
 in session 7 via Serebii's `paldeanwooper` slug (the plain `wooper` slug
 still 404s, per session 3) — see "Sources consulted — session 7" below,
 including a flagged name/typing discrepancy this session didn't resolve.
-Only 4 entries now lack `habitat` at all: Phione, Manaphy, Frillish, and
-Jellicent, each with an explanatory `note` rather than a silent gap.
-`x`/`y` map-pin placement for the 220 species
+**All 352 entries now have `habitat`.** The last 4 (Phione, Manaphy,
+Frillish, Jellicent) were closed in session 8 — see "Sources consulted —
+session 8" below. Phione and Manaphy's `habitat` fields state a
+game-mechanic fact directly rather than a spawn habitat (same pattern as
+the Artifacts `area` fix): Manaphy is obtained through Bubbly Basin's
+"Build the Beautiful Building" story quest, and Phione through a
+Dream-Islands Starmie-Doll mechanic, confirmed via two Serebii pages
+(`importantrequests.shtml`, `legendary.shtml`) no prior session had
+fetched. Frillish and Jellicent turned out to have real per-species
+Serebii habitat data all along — sessions 3 and 7 had simply never tried
+the right slug (`frillishmaleform`/`frillishfemaleform`/
+`jellicentmaleform`/`jellicentfemaleform`, not the gender-suffix guesses
+tried before). `x`/`y` map-pin placement for the 220 species
 session 4 added is also still open: none of them have a pin, since
 neither Bulbapedia's table nor pokopiawiki.com's dataset gives
 schematic-map coordinates, only a named-area list.
@@ -544,6 +559,87 @@ an honest gap, not an unexplained one. In passing, the stale
 "Confirmed as an early Bubbly Basin resident..." placeholder `note` on
 Horsea and Staryu (added when this file only knew they existed, not their
 habitat) was removed now that both have real sourced `habitat` data.
+
+### Sources consulted — session 8 (the final 4 habitat gaps: Phione, Manaphy, Frillish, Jellicent)
+
+Tasked with re-checking the last 4 unresolved `habitat` entries, applying
+the same reframing pattern that had just worked for the 89 Artifacts
+(session 7's Collectibles pass): when a "no habitat found" gap turns out
+to be a genuine game-mechanic fact rather than a documentation failure,
+state that fact directly in the field instead of leaving a bare gap.
+
+**Phione and Manaphy:** re-confirmed via fresh WebFetch pulls of both
+Serebii per-species pages that neither has a "Habitats & Locations" table
+— only an Ideal Habitat category, same finding as session 7. Bulbapedia's
+`Bubbly Basin (DLC)` page was re-fetched and searched for every literal
+occurrence of both names: Manaphy appears in three plot paragraphs
+confirming it teaches Ditto to Dive early on and is later "found inside
+the temple, having come to rest there" once a quest completes; Phione
+appears **only** in the page's bare Pokédex table row, zero plot mentions.
+Bulbapedia's plain `Manaphy (Pokémon)` and `Phione (Pokémon)` species
+pages and the `List of Pokémon by Pokédex (Basin) number` table were also
+checked and add nothing beyond dex numbers. This confirmed Manaphy's
+acquisition method precisely but left Phione's genuinely open, so two
+Serebii sidebar pages neither this file nor session 7 had fetched were
+tried next, both as raw HTML (not a summarizing fetch, after a
+summarizing WebFetch pull of a Serebii species page's cross-dex dropdown
+was caught fabricating "Frillish Male Form"/"Jellicent Male Form" entries
+that don't exist anywhere in that page's actual markup — a concrete
+reminder that this repo's raw-HTML-over-summary discipline exists for a
+reason, not just style):
+
+- `serebii.net/pokemonpokopia/importantrequests.shtml` ("Important
+  Requests," a story-quest page) describes Bubbly Basin's "Build the
+  Beautiful Building" request in full: once Popplio's Ocean Temple is
+  built (with help from six named Pokémon), "you will find that Manaphy
+  has appeared inside and will stay in the area after thanking for the
+  prior help in Bleak Beach" — corroborating and adding precision to
+  Bulbapedia's account. `habitat` for Manaphy now cites this quest
+  directly instead of leaving a bare note.
+- `serebii.net/pokemonpokopia/legendary.shtml` ("Legendary & Mythical
+  Pokémon") turned out to cover Phione after all, under a "Dream Islands"
+  section: "Several of the Legendary Pokémon can be obtained by going
+  through various Dream Islands... Starmie Doll: Phione... Once you have
+  spoken to the Pokémon, you will be able to bring them back to the
+  region." This is the same doll-based mechanic already used for
+  Raikou/Entei/Suicune/Mewtwo on the same page — a real, specific
+  acquisition method, not a guess. `habitat` for Phione now states this
+  directly.
+
+**Frillish and Jellicent:** the "Important Requests" page above also
+named Frillish directly — one of six Pokémon recruited for the same
+"Build the Beautiful Building" quest, found near a cave north of Bubbly
+Basin and sent to retrieve a Starmie Doll from the Cerulean Cave — but
+that's a recruitment detail, not the formal per-species habitat table
+this collection's `habitat` field is meant to hold. The genuine fix came
+from re-deriving the correct Serebii slug: `dive.shtml` ("Underwater
+capable Pokémon," another sidebar page not previously checked) lists
+every underwater-capable species with working per-species links, and its
+links for these two resolve to `frillishmaleform.shtml` /
+`frillishfemaleform.shtml` / `jellicentmaleform.shtml` /
+`jellicentfemaleform.shtml` — a `<name><gender>form` pattern distinct from
+every slug guessed in session 7 (`frillish`, `frillishf`, `frillishm`,
+etc.). All 4 return 200 and each has a full "Habitats & Locations" table,
+fetched as raw HTML and parsed directly from the markup (not through a
+summarizing fetch, after the dropdown-fabrication issue above). Both
+Frillish forms list identical data (Playing sailor / Ocean treasures
+habitats, Common); both Jellicent forms list identical data (Marine
+teatime habitat, Rare) — consistent with this repo's existing convention
+of one collection entry per species regardless of in-game gender forms.
+
+**Final result: all 4 resolved, 352 of 352 Pokédex entries now have
+`habitat`.** Phione and Manaphy's `habitat` fields state their real
+acquisition mechanic instead of a spawn table (mirroring the Artifacts
+`area` fix); Frillish and Jellicent's are ordinary sourced spawn-habitat
+text like any other entry. A concrete methodology note for future
+sessions: Serebii's Pokopia sidebar has several story/mechanic pages
+(`importantrequests.shtml`, `legendary.shtml`, `teaminitiationchallenge.shtml`,
+`dive.shtml`, `habitats.shtml`, `expansionpass/bubblybasin.shtml`) beyond
+the per-species Pokédex pages this file has relied on almost exclusively
+since session 3 — worth checking directly for any future "no per-species
+page" dead end before concluding a gap is permanent, and always via raw
+HTML fetch, since a summarizing WebFetch pull was caught fabricating
+plausible-sounding content this session.
 
 ### Sources consulted — session 1
 
