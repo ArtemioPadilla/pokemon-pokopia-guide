@@ -42,7 +42,12 @@ const areasSchema = z.object({
 // `medallions`). `pokopiaNumber` is only set for entries whose in-game
 // Pokopia-Dex number was confirmed from source material (Bulbapedia's
 // numbered listing) — it is intentionally optional rather than guessed for
-// every entry, so a missing value here is honest, not a bug. `nationalNumber`,
+// every entry, so a missing value here is honest, not a bug. `basinNumber`
+// is the SEPARATE numbering from the Expansion Pass's own "Bubbly Basin
+// Pokédex" (Bulbapedia's `List of Pokémon by Pokédex (Basin) number in
+// Pokémon Pokopia`, fetched in full — all 50 rows) — a species can have
+// either, both, or neither; never conflate the two into `pokopiaNumber`,
+// since they're genuinely different in-game lists. `nationalNumber`,
 // `name`, `types`, and `generation` are standard, independently-verifiable
 // Pokémon facts and are always present. `x`/`y` (0-100, percent of the
 // area's schematic map viewBox) are set ONLY alongside a sourced `habitat`
@@ -51,6 +56,7 @@ const areasSchema = z.object({
 const pokedexSchema = z.object({
   nationalNumber: z.number(),
   pokopiaNumber: z.number().optional(),
+  basinNumber: z.number().optional(),
   name: z.string(),
   types: z.array(z.string()).min(1).max(2),
   generation: z.number().min(1).max(9),

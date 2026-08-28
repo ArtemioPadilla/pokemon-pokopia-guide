@@ -140,8 +140,8 @@
     "id": "col-rec-10",
     "category": "record",
     "name": "Dear Douglas",
-    "area": "Aún no localizado en las fuentes",
-    "note": "Carta — reportada en Dream Island"
+    "area": "Dream Island",
+    "note": "Carta"
   },
   {
     "id": "col-photo-01",
@@ -198,5 +198,1125 @@
     "name": "It Just Needs a Good Smack, and—Oops!",
     "area": "No depende de la zona (depende de una condición)",
     "note": "Requiere al Profesor Tangrowth, Nivel de Entorno 5+"
+  },
+  {
+    "id": "col-art-09",
+    "category": "artifact",
+    "name": "Polygonal shelf",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Reliquia Perdida Grande"
+  },
+  {
+    "id": "col-art-10",
+    "category": "artifact",
+    "name": "Mysterious pedestal",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Reliquia Perdida Grande"
+  },
+  {
+    "id": "col-art-11",
+    "category": "artifact",
+    "name": "Avalugg table",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Reliquia Perdida Grande"
+  },
+  {
+    "id": "col-art-12",
+    "category": "artifact",
+    "name": "Naptime bed",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Reliquia Perdida Grande"
+  },
+  {
+    "id": "col-art-13",
+    "category": "artifact",
+    "name": "Wiggly mirror",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Reliquia Perdida Grande"
+  },
+  {
+    "id": "col-art-14",
+    "category": "artifact",
+    "name": "Pitcher-plant pot",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Reliquia Perdida Grande"
+  },
+  {
+    "id": "col-art-15",
+    "category": "artifact",
+    "name": "Munna bank",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Reliquia Perdida Grande"
+  },
+  {
+    "id": "col-art-16",
+    "category": "artifact",
+    "name": "Bouncy blue bathtub",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Reliquia Perdida Grande"
+  },
+  {
+    "id": "col-art-17",
+    "category": "artifact",
+    "name": "Arcade machine",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Reliquia Perdida Grande"
+  },
+  {
+    "id": "col-art-18",
+    "category": "artifact",
+    "name": "Funky diffuser",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Reliquia Perdida Grande"
+  },
+  {
+    "id": "col-art-19",
+    "category": "artifact",
+    "name": "Gold Teeth",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Reliquia Perdida Grande"
+  },
+  {
+    "id": "col-art-20",
+    "category": "artifact",
+    "name": "Repel",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Reliquia Perdida Grande"
+  },
+  {
+    "id": "col-art-21",
+    "category": "artifact",
+    "name": "Boo-in-the-box",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Reliquia Perdida Grande"
+  },
+  {
+    "id": "col-art-22",
+    "category": "artifact",
+    "name": "Wobbuffet wobbler",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Reliquia Perdida Grande"
+  },
+  {
+    "id": "col-art-23",
+    "category": "artifact",
+    "name": "Mysterious statue",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Reliquia Perdida Grande"
+  },
+  {
+    "id": "col-art-24",
+    "category": "artifact",
+    "name": "Fiery Magby statue",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Reliquia Perdida Grande"
+  },
+  {
+    "id": "col-art-25",
+    "category": "artifact",
+    "name": "Gym emblem statue",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Reliquia Perdida Grande"
+  },
+  {
+    "id": "col-art-26",
+    "category": "artifact",
+    "name": "Spacesuit",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Reliquia Perdida Grande"
+  },
+  {
+    "id": "col-art-27",
+    "category": "artifact",
+    "name": "Spaceship",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Reliquia Perdida Grande"
+  },
+  {
+    "id": "col-art-28",
+    "category": "artifact",
+    "name": "Rowlet clock",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Reliquia Perdida Grande"
+  },
+  {
+    "id": "col-art-29",
+    "category": "artifact",
+    "name": "Castform weather charm",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Reliquia Perdida Grande"
+  },
+  {
+    "id": "col-art-30",
+    "category": "artifact",
+    "name": "Eerie candle",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Reliquia Perdida Grande"
+  },
+  {
+    "id": "col-art-31",
+    "category": "artifact",
+    "name": "Garden ornament",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Reliquia Perdida Grande"
+  },
+  {
+    "id": "col-art-32",
+    "category": "artifact",
+    "name": "Bike",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Reliquia Perdida Grande"
+  },
+  {
+    "id": "col-art-33",
+    "category": "artifact",
+    "name": "Horsea fountain",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Reliquia Perdida Grande"
+  },
+  {
+    "id": "col-art-34",
+    "category": "artifact",
+    "name": "Fishing rod",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Reliquia Perdida Grande"
+  },
+  {
+    "id": "col-art-35",
+    "category": "artifact",
+    "name": "Raichu sign",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Reliquia Perdida Grande"
+  },
+  {
+    "id": "col-art-36",
+    "category": "artifact",
+    "name": "Photo cutout board",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Reliquia Perdida Grande"
+  },
+  {
+    "id": "col-art-37",
+    "category": "artifact",
+    "name": "Red meteor lamp",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Reliquia Perdida Grande"
+  },
+  {
+    "id": "col-art-38",
+    "category": "artifact",
+    "name": "Orange meteor lamp",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Reliquia Perdida Grande"
+  },
+  {
+    "id": "col-art-39",
+    "category": "artifact",
+    "name": "Yellow meteor lamp",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Reliquia Perdida Grande"
+  },
+  {
+    "id": "col-art-40",
+    "category": "artifact",
+    "name": "Green meteor lamp",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Reliquia Perdida Grande"
+  },
+  {
+    "id": "col-art-41",
+    "category": "artifact",
+    "name": "Blue meteor lamp",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Reliquia Perdida Grande"
+  },
+  {
+    "id": "col-art-42",
+    "category": "artifact",
+    "name": "Indigo meteor lamp",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Reliquia Perdida Grande"
+  },
+  {
+    "id": "col-art-43",
+    "category": "artifact",
+    "name": "Violet meteor lamp",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Reliquia Perdida Grande"
+  },
+  {
+    "id": "col-art-44",
+    "category": "artifact",
+    "name": "Seedot lamp",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Reliquia Perdida Grande"
+  },
+  {
+    "id": "col-art-45",
+    "category": "artifact",
+    "name": "Nugget",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Reliquia Perdida Pequeña"
+  },
+  {
+    "id": "col-art-46",
+    "category": "artifact",
+    "name": "Silver Bottle Cap",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Reliquia Perdida Pequeña"
+  },
+  {
+    "id": "col-art-47",
+    "category": "artifact",
+    "name": "Gold Bottle Cap",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Reliquia Perdida Pequeña"
+  },
+  {
+    "id": "col-art-48",
+    "category": "artifact",
+    "name": "Rare Bone",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Reliquia Perdida Pequeña"
+  },
+  {
+    "id": "col-art-49",
+    "category": "artifact",
+    "name": "Miracle Seed",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Reliquia Perdida Pequeña"
+  },
+  {
+    "id": "col-art-50",
+    "category": "artifact",
+    "name": "Hard Stone",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Reliquia Perdida Pequeña"
+  },
+  {
+    "id": "col-art-51",
+    "category": "artifact",
+    "name": "Mystic Water",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Reliquia Perdida Pequeña"
+  },
+  {
+    "id": "col-art-52",
+    "category": "artifact",
+    "name": "Metal Coat",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Reliquia Perdida Pequeña"
+  },
+  {
+    "id": "col-art-53",
+    "category": "artifact",
+    "name": "Twisted Spoon",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Reliquia Perdida Pequeña"
+  },
+  {
+    "id": "col-art-54",
+    "category": "artifact",
+    "name": "Silver Powder",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Reliquia Perdida Pequeña"
+  },
+  {
+    "id": "col-art-55",
+    "category": "artifact",
+    "name": "Black Glasses",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Reliquia Perdida Pequeña"
+  },
+  {
+    "id": "col-art-56",
+    "category": "artifact",
+    "name": "Black Belt",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Reliquia Perdida Pequeña"
+  },
+  {
+    "id": "col-art-57",
+    "category": "artifact",
+    "name": "Silk Scarf",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Reliquia Perdida Pequeña"
+  },
+  {
+    "id": "col-art-58",
+    "category": "artifact",
+    "name": "Sharp Beak",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Reliquia Perdida Pequeña"
+  },
+  {
+    "id": "col-art-59",
+    "category": "artifact",
+    "name": "Poison Barb",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Reliquia Perdida Pequeña"
+  },
+  {
+    "id": "col-art-60",
+    "category": "artifact",
+    "name": "Never-Melt Ice",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Reliquia Perdida Pequeña"
+  },
+  {
+    "id": "col-art-61",
+    "category": "artifact",
+    "name": "Spell Tag",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Reliquia Perdida Pequeña"
+  },
+  {
+    "id": "col-art-62",
+    "category": "artifact",
+    "name": "Charcoal",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Reliquia Perdida Pequeña"
+  },
+  {
+    "id": "col-art-63",
+    "category": "artifact",
+    "name": "Soft Sand",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Reliquia Perdida Pequeña"
+  },
+  {
+    "id": "col-art-64",
+    "category": "artifact",
+    "name": "Fairy Feather",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Reliquia Perdida Pequeña"
+  },
+  {
+    "id": "col-art-65",
+    "category": "artifact",
+    "name": "Dragon Fang",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Reliquia Perdida Pequeña"
+  },
+  {
+    "id": "col-art-66",
+    "category": "artifact",
+    "name": "Leftovers",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Reliquia Perdida Pequeña"
+  },
+  {
+    "id": "col-art-67",
+    "category": "artifact",
+    "name": "Black Sludge",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Reliquia Perdida Pequeña"
+  },
+  {
+    "id": "col-art-68",
+    "category": "artifact",
+    "name": "Lucky Egg",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Reliquia Perdida Pequeña"
+  },
+  {
+    "id": "col-art-69",
+    "category": "artifact",
+    "name": "Destiny Knot",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Reliquia Perdida Pequeña"
+  },
+  {
+    "id": "col-art-70",
+    "category": "artifact",
+    "name": "Life Orb",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Reliquia Perdida Pequeña"
+  },
+  {
+    "id": "col-art-71",
+    "category": "artifact",
+    "name": "Iron Ball",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Reliquia Perdida Pequeña"
+  },
+  {
+    "id": "col-art-72",
+    "category": "artifact",
+    "name": "Metal Powder",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Reliquia Perdida Pequeña"
+  },
+  {
+    "id": "col-art-73",
+    "category": "artifact",
+    "name": "Big Root",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Reliquia Perdida Pequeña"
+  },
+  {
+    "id": "col-art-74",
+    "category": "artifact",
+    "name": "Adrenaline Orb",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Reliquia Perdida Pequeña"
+  },
+  {
+    "id": "col-art-75",
+    "category": "artifact",
+    "name": "Weakness Policy",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Reliquia Perdida Pequeña"
+  },
+  {
+    "id": "col-art-76",
+    "category": "artifact",
+    "name": "Terrain Extender",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Reliquia Perdida Pequeña"
+  },
+  {
+    "id": "col-art-77",
+    "category": "artifact",
+    "name": "Wide Lens",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Reliquia Perdida Pequeña"
+  },
+  {
+    "id": "col-art-78",
+    "category": "artifact",
+    "name": "Throat Spray",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Reliquia Perdida Pequeña"
+  },
+  {
+    "id": "col-art-79",
+    "category": "artifact",
+    "name": "Light Clay",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Reliquia Perdida Pequeña"
+  },
+  {
+    "id": "col-art-80",
+    "category": "artifact",
+    "name": "Loaded Dice",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Reliquia Perdida Pequeña"
+  },
+  {
+    "id": "col-art-81",
+    "category": "artifact",
+    "name": "Sticky Barb",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Reliquia Perdida Pequeña"
+  },
+  {
+    "id": "col-art-82",
+    "category": "artifact",
+    "name": "Quick Claw",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Reliquia Perdida Pequeña"
+  },
+  {
+    "id": "col-art-83",
+    "category": "artifact",
+    "name": "Lagging Tail",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Reliquia Perdida Pequeña"
+  },
+  {
+    "id": "col-art-84",
+    "category": "artifact",
+    "name": "Flame Orb",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Reliquia Perdida Pequeña"
+  },
+  {
+    "id": "col-art-85",
+    "category": "artifact",
+    "name": "Ability Shield",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Reliquia Perdida Pequeña"
+  },
+  {
+    "id": "col-art-86",
+    "category": "artifact",
+    "name": "Room Service",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Reliquia Perdida Pequeña"
+  },
+  {
+    "id": "col-art-87",
+    "category": "artifact",
+    "name": "Ring Target",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Reliquia Perdida Pequeña"
+  },
+  {
+    "id": "col-art-88",
+    "category": "artifact",
+    "name": "Clear Amulet",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Reliquia Perdida Pequeña"
+  },
+  {
+    "id": "col-art-89",
+    "category": "artifact",
+    "name": "Zoom Lens",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Reliquia Perdida Pequeña"
+  },
+  {
+    "id": "col-rec-11",
+    "category": "record",
+    "name": "Vermilion Ranks No. 1 for 4th Year!",
+    "area": "Playa Sombría",
+    "note": "Periódico"
+  },
+  {
+    "id": "col-rec-12",
+    "category": "record",
+    "name": "Celadon Department Store Reopens",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Periódico"
+  },
+  {
+    "id": "col-rec-13",
+    "category": "record",
+    "name": "Big Bargain Sale!",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Periódico"
+  },
+  {
+    "id": "col-rec-14",
+    "category": "record",
+    "name": "Katie's Journal",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Diario"
+  },
+  {
+    "id": "col-rec-15",
+    "category": "record",
+    "name": "Hacker's confessions #1",
+    "area": "Playa Sombría",
+    "note": "Diario"
+  },
+  {
+    "id": "col-rec-16",
+    "category": "record",
+    "name": "Hacker's confessions #6",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Diario"
+  },
+  {
+    "id": "col-rec-17",
+    "category": "record",
+    "name": "Professor's Diary #1",
+    "area": "Yermo Marchito",
+    "note": "Diario"
+  },
+  {
+    "id": "col-rec-18",
+    "category": "record",
+    "name": "Professor's Diary #2",
+    "area": "Yermo Marchito",
+    "note": "Diario"
+  },
+  {
+    "id": "col-rec-19",
+    "category": "record",
+    "name": "Professor's Diary #3",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Diario"
+  },
+  {
+    "id": "col-rec-20",
+    "category": "record",
+    "name": "Professor's Diary #4",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Diario"
+  },
+  {
+    "id": "col-rec-21",
+    "category": "record",
+    "name": "Professor's Diary #5",
+    "area": "Sparkling Skylands",
+    "note": "Diario"
+  },
+  {
+    "id": "col-rec-22",
+    "category": "record",
+    "name": "Professor's Diary #6",
+    "area": "Sparkling Skylands",
+    "note": "Diario"
+  },
+  {
+    "id": "col-rec-23",
+    "category": "record",
+    "name": "Chef's diary",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Diario"
+  },
+  {
+    "id": "col-rec-24",
+    "category": "record",
+    "name": "A Surprise in the Garden",
+    "area": "Yermo Marchito",
+    "note": "Revista"
+  },
+  {
+    "id": "col-rec-25",
+    "category": "record",
+    "name": "Selection of Pokemon Greetings",
+    "area": "Yermo Marchito",
+    "note": "Revista"
+  },
+  {
+    "id": "col-rec-26",
+    "category": "record",
+    "name": "This Year's Top Trend!",
+    "area": "Yermo Marchito",
+    "note": "Revista"
+  },
+  {
+    "id": "col-rec-27",
+    "category": "record",
+    "name": "Unmasking the True Misty!",
+    "area": "Yermo Marchito",
+    "note": "Revista"
+  },
+  {
+    "id": "col-rec-28",
+    "category": "record",
+    "name": "Recruiting New Members!",
+    "area": "Playa Sombría",
+    "note": "Revista"
+  },
+  {
+    "id": "col-rec-29",
+    "category": "record",
+    "name": "Unmasking the True Lt. Surge!",
+    "area": "Playa Sombría",
+    "note": "Revista"
+  },
+  {
+    "id": "col-rec-30",
+    "category": "record",
+    "name": "Contest Winner!",
+    "area": "Playa Sombría",
+    "note": "Revista"
+  },
+  {
+    "id": "col-rec-31",
+    "category": "record",
+    "name": "Solo Nighttime Strollers, Beware!",
+    "area": "Playa Sombría",
+    "note": "Revista"
+  },
+  {
+    "id": "col-rec-32",
+    "category": "record",
+    "name": "Enjoy an Extravagant Voyage",
+    "area": "Playa Sombría",
+    "note": "Revista"
+  },
+  {
+    "id": "col-rec-33",
+    "category": "record",
+    "name": "Bug Love (September Issue)",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Revista"
+  },
+  {
+    "id": "col-rec-34",
+    "category": "record",
+    "name": "Gym Leader Monthly (July Issue)",
+    "area": "Crestas Rocosas",
+    "note": "Revista"
+  },
+  {
+    "id": "col-rec-35",
+    "category": "record",
+    "name": "Alola! (May Issue)",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Revista"
+  },
+  {
+    "id": "col-rec-36",
+    "category": "record",
+    "name": "Team R Grunt's journal #2",
+    "area": "Playa Sombría",
+    "note": "Revista"
+  },
+  {
+    "id": "col-rec-37",
+    "category": "record",
+    "name": "Team R Grunt's journal #3",
+    "area": "Playa Sombría",
+    "note": "Revista"
+  },
+  {
+    "id": "col-rec-38",
+    "category": "record",
+    "name": "Team R Grunt's journal #4",
+    "area": "Crestas Rocosas",
+    "note": "Revista"
+  },
+  {
+    "id": "col-rec-39",
+    "category": "record",
+    "name": "Team R Grunt's journal #5",
+    "area": "Crestas Rocosas",
+    "note": "Revista"
+  },
+  {
+    "id": "col-rec-40",
+    "category": "record",
+    "name": "Team R Grunt's journal #6",
+    "area": "Sparkling Skylands",
+    "note": "Revista"
+  },
+  {
+    "id": "col-rec-41",
+    "category": "record",
+    "name": "Team R Grunt's journal #7",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Revista"
+  },
+  {
+    "id": "col-rec-42",
+    "category": "record",
+    "name": "Team R Grunt's journal #8",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Revista"
+  },
+  {
+    "id": "col-rec-43",
+    "category": "record",
+    "name": "Poke Life Dev Diary #1",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Revista"
+  },
+  {
+    "id": "col-rec-44",
+    "category": "record",
+    "name": "Poke Life Dev Diary #2",
+    "area": "Crestas Rocosas",
+    "note": "Revista"
+  },
+  {
+    "id": "col-rec-45",
+    "category": "record",
+    "name": "Poke Life Dev Diary #4",
+    "area": "Crestas Rocosas",
+    "note": "Revista"
+  },
+  {
+    "id": "col-rec-46",
+    "category": "record",
+    "name": "Improving Your Quality of Life",
+    "area": "Yermo Marchito",
+    "note": "Nota"
+  },
+  {
+    "id": "col-rec-47",
+    "category": "record",
+    "name": "How to Open a Shop",
+    "area": "Playa Sombría",
+    "note": "Nota"
+  },
+  {
+    "id": "col-rec-48",
+    "category": "record",
+    "name": "Someone's Journal #1",
+    "area": "Yermo Marchito",
+    "note": "Nota"
+  },
+  {
+    "id": "col-rec-49",
+    "category": "record",
+    "name": "To my fishing fanatic big bro",
+    "area": "Yermo Marchito",
+    "note": "Carta"
+  },
+  {
+    "id": "col-rec-50",
+    "category": "record",
+    "name": "To my fishing fanatic little bro",
+    "area": "Playa Sombría",
+    "note": "Carta"
+  },
+  {
+    "id": "col-rec-51",
+    "category": "record",
+    "name": "To Harry",
+    "area": "Crestas Rocosas",
+    "note": "Carta"
+  },
+  {
+    "id": "col-rec-52",
+    "category": "record",
+    "name": "Photo #1",
+    "area": "Yermo Marchito",
+    "note": "Foto"
+  },
+  {
+    "id": "col-rec-53",
+    "category": "record",
+    "name": "Photo #3",
+    "area": "Playa Sombría",
+    "note": "Foto"
+  },
+  {
+    "id": "col-rec-54",
+    "category": "record",
+    "name": "Photo #4",
+    "area": "Crestas Rocosas",
+    "note": "Foto"
+  },
+  {
+    "id": "col-rec-55",
+    "category": "record",
+    "name": "Peculiar pattern",
+    "area": "No especificado en las fuentes disponibles",
+    "note": "Foto"
+  },
+  {
+    "id": "col-photo-09",
+    "category": "photo",
+    "name": "Spacious Slumber Party",
+    "area": "No depende de la zona (depende de una condición)",
+    "note": "Solo de noche"
+  },
+  {
+    "id": "col-photo-10",
+    "category": "photo",
+    "name": "Greetings from Beyond the Grave",
+    "area": "No depende de la zona (depende de una condición)",
+    "note": "Necesita: Gravestone, Slender candle; Solo de noche"
+  },
+  {
+    "id": "col-photo-11",
+    "category": "photo",
+    "name": "Drawn to the Light",
+    "area": "No depende de la zona (depende de una condición)",
+    "note": "Necesita: Mushroom streetlight"
+  },
+  {
+    "id": "col-photo-12",
+    "category": "photo",
+    "name": "Fun in the Sand",
+    "area": "No depende de la zona (depende de una condición)",
+    "note": "Necesita: Sandbox"
+  },
+  {
+    "id": "col-photo-13",
+    "category": "photo",
+    "name": "Found Some Delicious... Trash?",
+    "area": "No depende de la zona (depende de una condición)",
+    "note": "Necesita: Small garbage can"
+  },
+  {
+    "id": "col-photo-14",
+    "category": "photo",
+    "name": "Nothing Like a Quick Dip!",
+    "area": "No depende de la zona (depende de una condición)",
+    "note": "Necesita: Shower, Sprinkler"
+  },
+  {
+    "id": "col-photo-15",
+    "category": "photo",
+    "name": "Stacking Blocks, Psychic Style",
+    "area": "No depende de la zona (depende de una condición)",
+    "note": "Requiere un Pokémon de tipo Psíquico; Necesita: Toy blocks"
+  },
+  {
+    "id": "col-photo-16",
+    "category": "photo",
+    "name": "Battin' Around the Old Yarn",
+    "area": "No depende de la zona (depende de una condición)",
+    "note": "Necesita: Knitting supplies"
+  },
+  {
+    "id": "col-photo-17",
+    "category": "photo",
+    "name": "A Cool, Gentle Breeze",
+    "area": "No depende de la zona (depende de una condición)",
+    "note": "Necesita: Fan"
+  },
+  {
+    "id": "col-photo-18",
+    "category": "photo",
+    "name": "Roost and Rest",
+    "area": "No depende de la zona (depende de una condición)",
+    "note": "Requiere un Pokémon de tipo Volador; Necesita: Perch"
+  },
+  {
+    "id": "col-photo-19",
+    "category": "photo",
+    "name": "This Is the Life",
+    "area": "No depende de la zona (depende de una condición)",
+    "note": "Requiere cualquier Pokémon excepto de tipo Fuego, Tierra, or Roca-types"
+  },
+  {
+    "id": "col-photo-20",
+    "category": "photo",
+    "name": "Dance Around the Bonfire!",
+    "area": "No depende de la zona (depende de una condición)",
+    "note": "Requiere un Pokémon con la especialidad Hype; Necesita: Bonfire"
+  },
+  {
+    "id": "col-photo-21",
+    "category": "photo",
+    "name": "Let's Get Some Paint on This Canvas",
+    "area": "No depende de la zona (depende de una condición)",
+    "note": "Necesita: Blank canvas"
+  },
+  {
+    "id": "col-photo-22",
+    "category": "photo",
+    "name": "I Can See Your Future...",
+    "area": "No depende de la zona (depende de una condición)",
+    "note": "Necesita: Simple cushion, Crystal ball"
+  },
+  {
+    "id": "col-photo-23",
+    "category": "photo",
+    "name": "Sweet Dreams with a Mossy Pillow",
+    "area": "No depende de la zona (depende de una condición)",
+    "note": "Necesita: Moss, Mossy boulder"
+  },
+  {
+    "id": "col-photo-24",
+    "category": "photo",
+    "name": "Open It Up, and—Boo!",
+    "area": "No depende de la zona (depende de una condición)",
+    "note": "Necesita: Boo-in-the-box"
+  },
+  {
+    "id": "col-photo-25",
+    "category": "photo",
+    "name": "Crazy for Coins",
+    "area": "No depende de la zona (depende de una condición)",
+    "note": "Necesita: Munna bank"
+  },
+  {
+    "id": "col-photo-26",
+    "category": "photo",
+    "name": "Like Clockwork",
+    "area": "No depende de la zona (depende de una condición)",
+    "note": "Necesita: Rowlet clock"
+  },
+  {
+    "id": "col-photo-27",
+    "category": "photo",
+    "name": "Funky Fume Diffusion",
+    "area": "No depende de la zona (depende de una condición)",
+    "note": "Necesita: Funky diffuser"
+  },
+  {
+    "id": "col-photo-28",
+    "category": "photo",
+    "name": "Martial Arts Training Montage",
+    "area": "No depende de la zona (depende de una condición)"
+  },
+  {
+    "id": "col-photo-29",
+    "category": "photo",
+    "name": "Squishy Cheeks and Paws",
+    "area": "No depende de la zona (depende de una condición)"
+  },
+  {
+    "id": "col-photo-30",
+    "category": "photo",
+    "name": "The Skyland Specialists",
+    "area": "No depende de la zona (depende de una condición)"
+  },
+  {
+    "id": "col-photo-31",
+    "category": "photo",
+    "name": "Creepy Catapult Time",
+    "area": "No depende de la zona (depende de una condición)"
+  },
+  {
+    "id": "col-photo-32",
+    "category": "photo",
+    "name": "Psychic Siblings!",
+    "area": "No depende de la zona (depende de una condición)"
+  },
+  {
+    "id": "col-photo-33",
+    "category": "photo",
+    "name": "Eevee's Friends",
+    "area": "No depende de la zona (depende de una condición)",
+    "note": "Requiere 2 Pokémon de la línea evolutiva de Eevee"
+  },
+  {
+    "id": "col-photo-34",
+    "category": "photo",
+    "name": "It's Like Looking in a Mirror!",
+    "area": "No depende de la zona (depende de una condición)"
+  },
+  {
+    "id": "col-photo-35",
+    "category": "photo",
+    "name": "Some Shared Genes",
+    "area": "No depende de la zona (depende de una condición)"
+  },
+  {
+    "id": "col-photo-36",
+    "category": "photo",
+    "name": "Brought Together by a Sweet Scent",
+    "area": "No depende de la zona (depende de una condición)"
+  },
+  {
+    "id": "col-photo-37",
+    "category": "photo",
+    "name": "No, My Horns Are Better!",
+    "area": "No depende de la zona (depende de una condición)"
+  },
+  {
+    "id": "col-photo-38",
+    "category": "photo",
+    "name": "A Plus-and-Minus Cheering Squad!",
+    "area": "No depende de la zona (depende de una condición)"
+  },
+  {
+    "id": "col-photo-39",
+    "category": "photo",
+    "name": "Donning Different Armor",
+    "area": "No depende de la zona (depende de una condición)"
+  },
+  {
+    "id": "col-photo-40",
+    "category": "photo",
+    "name": "Step Right Up, Step Right Up!",
+    "area": "No depende de la zona (depende de una condición)",
+    "note": "Requiere un Pokémon con la especialidad Trade; Necesita: Cash register, Any desk; Requires the Working the register Habitat"
+  },
+  {
+    "id": "col-photo-41",
+    "category": "photo",
+    "name": "A Hypnotizing Lullaby",
+    "area": "No depende de la zona (depende de una condición)"
+  },
+  {
+    "id": "col-photo-42",
+    "category": "photo",
+    "name": "A Cook's Gotta Eat Too!",
+    "area": "No depende de la zona (depende de una condición)"
+  },
+  {
+    "id": "col-photo-43",
+    "category": "photo",
+    "name": "A Head Full of Blooming Flowers",
+    "area": "Playa Sombría",
+    "note": "Photo op only appears after waking up Mosslax in Bleak Beach"
+  },
+  {
+    "id": "col-photo-44",
+    "category": "photo",
+    "name": "DJ Droppin' the Beats!",
+    "area": "No depende de la zona (depende de una condición)"
   }
 ]

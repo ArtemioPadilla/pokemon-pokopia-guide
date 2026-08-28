@@ -18,7 +18,8 @@
     "name": "Ivysaur",
     "types": ["Grass", "Poison"],
     "generation": 1,
-    "pokopiaNumber": 2
+    "pokopiaNumber": 2,
+    "habitat": "Field of Flowers or Bench with greenery habitat — Rarity: Rare"
   },
   {
     "id": "poke-003",
@@ -26,7 +27,8 @@
     "name": "Venusaur",
     "types": ["Grass", "Poison"],
     "generation": 1,
-    "pokopiaNumber": 3
+    "pokopiaNumber": 3,
+    "habitat": "Field of Flowers or Garden Terrace habitat — Rarity: Rare"
   },
   {
     "id": "poke-004",
@@ -34,7 +36,8 @@
     "name": "Charmander",
     "types": ["Fire"],
     "generation": 1,
-    "pokopiaNumber": 4
+    "pokopiaNumber": 4,
+    "habitat": "Tall Grass habitat — Rarity: Common"
   },
   {
     "id": "poke-005",
@@ -42,7 +45,8 @@
     "name": "Charmeleon",
     "types": ["Fire"],
     "generation": 1,
-    "pokopiaNumber": 5
+    "pokopiaNumber": 5,
+    "habitat": "Campsite habitat — Rarity: Common"
   },
   {
     "id": "poke-006",
@@ -50,7 +54,8 @@
     "name": "Charizard",
     "types": ["Fire", "Flying"],
     "generation": 1,
-    "pokopiaNumber": 6
+    "pokopiaNumber": 6,
+    "habitat": "Tall Grass (Very Rare) or Berry-feast Campsite (Rare) habitat"
   },
   {
     "id": "poke-007",
@@ -58,7 +63,8 @@
     "name": "Squirtle",
     "types": ["Water"],
     "generation": 1,
-    "pokopiaNumber": 7
+    "pokopiaNumber": 7,
+    "habitat": "Tall Grass or Hydrated tall grass habitat — Rarity: Common"
   },
   {
     "id": "poke-008",
@@ -66,7 +72,8 @@
     "name": "Wartortle",
     "types": ["Water"],
     "generation": 1,
-    "pokopiaNumber": 8
+    "pokopiaNumber": 8,
+    "habitat": "Hydrated tall grass habitat — Rarity: Rare"
   },
   {
     "id": "poke-009",
@@ -74,7 +81,8 @@
     "name": "Blastoise",
     "types": ["Water"],
     "generation": 1,
-    "pokopiaNumber": 9
+    "pokopiaNumber": 9,
+    "habitat": "Hydrated tall grass (Very Rare) or Floating in the shade (Rare) habitat"
   },
   {
     "id": "poke-016",
@@ -82,7 +90,8 @@
     "name": "Pidgey",
     "types": ["Normal", "Flying"],
     "generation": 1,
-    "pokopiaNumber": 10
+    "pokopiaNumber": 10,
+    "habitat": "Elevated tall grass or Pretty flower bed habitat — Rarity: Common"
   },
   {
     "id": "poke-017",
@@ -90,7 +99,8 @@
     "name": "Pidgeotto",
     "types": ["Normal", "Flying"],
     "generation": 1,
-    "pokopiaNumber": 11
+    "pokopiaNumber": 11,
+    "habitat": "Elevated tall grass or Pretty flower bed habitat — Rarity: Rare"
   },
   {
     "id": "poke-018",
@@ -98,7 +108,26 @@
     "name": "Pidgeot",
     "types": ["Normal", "Flying"],
     "generation": 1,
-    "pokopiaNumber": 12
+    "pokopiaNumber": 12,
+    "habitat": "Luxury chirp-chirp meal habitat — Rarity: Common"
+  },
+  {
+    "id": "poke-025",
+    "nationalNumber": 25,
+    "name": "Pikachu",
+    "types": ["Electric"],
+    "generation": 1,
+    "pokopiaNumber": 79,
+    "habitat": "Picnic Set habitat — Rarity: Rare (confirmed in Palette Town, Cloud Island)"
+  },
+  {
+    "id": "poke-039",
+    "nationalNumber": 39,
+    "name": "Jigglypuff",
+    "types": ["Normal", "Fairy"],
+    "generation": 1,
+    "pokopiaNumber": 152,
+    "habitat": "Flower garden stump stage or Recital stage habitat — Rarity: Common"
   },
   {
     "id": "poke-043",
@@ -106,7 +135,8 @@
     "name": "Oddish",
     "types": ["Grass", "Poison"],
     "generation": 1,
-    "pokopiaNumber": 13
+    "pokopiaNumber": 13,
+    "habitat": "Tall Grass habitat — Rarity: Common"
   },
   {
     "id": "poke-044",
@@ -114,7 +144,8 @@
     "name": "Gloom",
     "types": ["Grass", "Poison"],
     "generation": 1,
-    "pokopiaNumber": 14
+    "pokopiaNumber": 14,
+    "habitat": "Tropical vibes habitat — Rarity: Common"
   },
   {
     "id": "poke-045",
@@ -122,15 +153,8 @@
     "name": "Vileplume",
     "types": ["Grass", "Poison"],
     "generation": 1,
-    "pokopiaNumber": 15
-  },
-  {
-    "id": "poke-182",
-    "nationalNumber": 182,
-    "name": "Bellossom",
-    "types": ["Grass"],
-    "generation": 2,
-    "pokopiaNumber": 16
+    "pokopiaNumber": 15,
+    "habitat": "Chansey Resting area habitat — Rarity: Rare"
   },
   {
     "id": "poke-046",
@@ -138,7 +162,8 @@
     "name": "Paras",
     "types": ["Bug", "Grass"],
     "generation": 1,
-    "pokopiaNumber": 17
+    "pokopiaNumber": 17,
+    "habitat": "Elevated flower bed or Flower garden habitat — Rarity: Common"
   },
   {
     "id": "poke-047",
@@ -146,7 +171,8 @@
     "name": "Parasect",
     "types": ["Bug", "Grass"],
     "generation": 1,
-    "pokopiaNumber": 18
+    "pokopiaNumber": 18,
+    "habitat": "Elevated flower bed or Flower garden habitat — Rarity: Rare"
   },
   {
     "id": "poke-048",
@@ -154,7 +180,8 @@
     "name": "Venonat",
     "types": ["Bug", "Poison"],
     "generation": 1,
-    "pokopiaNumber": 19
+    "pokopiaNumber": 19,
+    "habitat": "Illuminated tall grass or Illuminated bench habitat — Rarity: Common"
   },
   {
     "id": "poke-049",
@@ -162,119 +189,35 @@
     "name": "Venomoth",
     "types": ["Bug", "Poison"],
     "generation": 1,
-    "pokopiaNumber": 20
+    "pokopiaNumber": 20,
+    "habitat": "Illuminated tall grass or Illuminated bench habitat — Rarity: Rare"
   },
   {
-    "id": "poke-069",
-    "nationalNumber": 69,
-    "name": "Bellsprout",
-    "types": ["Grass", "Poison"],
+    "id": "poke-052",
+    "nationalNumber": 52,
+    "name": "Meowth",
+    "types": ["Normal"],
     "generation": 1,
-    "pokopiaNumber": 21
+    "pokopiaNumber": 84,
+    "habitat": "Resting spot or Working the register habitat — Rarity: Common"
   },
   {
-    "id": "poke-070",
-    "nationalNumber": 70,
-    "name": "Weepinbell",
-    "types": ["Grass", "Poison"],
+    "id": "poke-054",
+    "nationalNumber": 54,
+    "name": "Psyduck",
+    "types": ["Water"],
     "generation": 1,
-    "pokopiaNumber": 22
+    "pokopiaNumber": 86,
+    "habitat": "Hot-spring shower habitat — Rarity: Common"
   },
   {
-    "id": "poke-071",
-    "nationalNumber": 71,
-    "name": "Victreebel",
-    "types": ["Grass", "Poison"],
+    "id": "poke-058",
+    "nationalNumber": 58,
+    "name": "Growlithe",
+    "types": ["Fire"],
     "generation": 1,
-    "pokopiaNumber": 23
-  },
-  {
-    "id": "poke-079",
-    "nationalNumber": 79,
-    "name": "Slowpoke",
-    "types": ["Water", "Psychic"],
-    "generation": 1,
-    "pokopiaNumber": 24
-  },
-  {
-    "id": "poke-080",
-    "nationalNumber": 80,
-    "name": "Slowbro",
-    "types": ["Water", "Psychic"],
-    "generation": 1,
-    "pokopiaNumber": 25
-  },
-  {
-    "id": "poke-199",
-    "nationalNumber": 199,
-    "name": "Slowking",
-    "types": ["Water", "Psychic"],
-    "generation": 2,
-    "pokopiaNumber": 26
-  },
-  {
-    "id": "poke-081",
-    "nationalNumber": 81,
-    "name": "Magnemite",
-    "types": ["Electric", "Steel"],
-    "generation": 1,
-    "pokopiaNumber": 27
-  },
-  {
-    "id": "poke-082",
-    "nationalNumber": 82,
-    "name": "Magneton",
-    "types": ["Electric", "Steel"],
-    "generation": 1,
-    "pokopiaNumber": 28
-  },
-  {
-    "id": "poke-462",
-    "nationalNumber": 462,
-    "name": "Magnezone",
-    "types": ["Electric", "Steel"],
-    "generation": 4,
-    "pokopiaNumber": 29
-  },
-  {
-    "id": "poke-095",
-    "nationalNumber": 95,
-    "name": "Onix",
-    "types": ["Rock", "Ground"],
-    "generation": 1,
-    "pokopiaNumber": 30
-  },
-  {
-    "id": "poke-208",
-    "nationalNumber": 208,
-    "name": "Steelix",
-    "types": ["Steel", "Ground"],
-    "generation": 2,
-    "pokopiaNumber": 31
-  },
-  {
-    "id": "poke-532",
-    "nationalNumber": 532,
-    "name": "Timburr",
-    "types": ["Fighting"],
-    "generation": 5,
-    "area": "Withered Wasteland",
-    "habitat": "Boulder-shaded Tall Grass, behind the Pokémon Center",
-    "x": 58,
-    "y": 24,
-    "pokopiaNumber": 65
-  },
-  {
-    "id": "poke-107",
-    "nationalNumber": 107,
-    "name": "Hitmonchan",
-    "types": ["Fighting"],
-    "generation": 1,
-    "area": "Withered Wasteland",
-    "habitat": "Exercise Resting Spot (punching bag + bench)",
-    "x": 72,
-    "y": 30,
-    "pokopiaNumber": 36
+    "pokopiaNumber": 88,
+    "habitat": "Perpetual mess or Resort meal prep habitat — Rarity: Common"
   },
   {
     "id": "poke-062",
@@ -283,56 +226,8 @@
     "types": ["Water", "Fighting"],
     "generation": 1,
     "note": "Fulfilling Poliwrath’s request unlocks the Crystal Ball recipe.",
-    "pokopiaNumber": 211
-  },
-  {
-    "id": "poke-465",
-    "nationalNumber": 465,
-    "name": "Tangrowth",
-    "types": ["Grass"],
-    "generation": 4,
-    "note": "The standard (non-Professor) Tangrowth is the only species that requires Nintendo Switch Online to encounter — it only appears via Cloud Island play.",
-    "pokopiaNumber": 41
-  },
-  {
-    "id": "poke-025",
-    "nationalNumber": 25,
-    "name": "Pikachu",
-    "types": ["Electric"],
-    "generation": 1,
-    "pokopiaNumber": 79
-  },
-  {
-    "id": "poke-039",
-    "nationalNumber": 39,
-    "name": "Jigglypuff",
-    "types": ["Normal", "Fairy"],
-    "generation": 1,
-    "pokopiaNumber": 152
-  },
-  {
-    "id": "poke-052",
-    "nationalNumber": 52,
-    "name": "Meowth",
-    "types": ["Normal"],
-    "generation": 1,
-    "pokopiaNumber": 84
-  },
-  {
-    "id": "poke-054",
-    "nationalNumber": 54,
-    "name": "Psyduck",
-    "types": ["Water"],
-    "generation": 1,
-    "pokopiaNumber": 86
-  },
-  {
-    "id": "poke-058",
-    "nationalNumber": 58,
-    "name": "Growlithe",
-    "types": ["Fire"],
-    "generation": 1,
-    "pokopiaNumber": 88
+    "pokopiaNumber": 211,
+    "habitat": "Sewer hole inspection or Dojo training habitat — Rarity: Common"
   },
   {
     "id": "poke-063",
@@ -340,7 +235,8 @@
     "name": "Abra",
     "types": ["Psychic"],
     "generation": 1,
-    "pokopiaNumber": 213
+    "pokopiaNumber": 213,
+    "habitat": "Surging psychic power or Fortune-teller's table habitat — Rarity: Common"
   },
   {
     "id": "poke-066",
@@ -348,7 +244,35 @@
     "name": "Machop",
     "types": ["Fighting"],
     "generation": 1,
-    "pokopiaNumber": 156
+    "pokopiaNumber": 156,
+    "habitat": "Boulder-shaded Tall Grass habitat — Rarity: Common (confirmed in Palette Town, Cloud Island)"
+  },
+  {
+    "id": "poke-069",
+    "nationalNumber": 69,
+    "name": "Bellsprout",
+    "types": ["Grass", "Poison"],
+    "generation": 1,
+    "pokopiaNumber": 21,
+    "habitat": "Tree-shaded tall grass habitat — Rarity: Common"
+  },
+  {
+    "id": "poke-070",
+    "nationalNumber": 70,
+    "name": "Weepinbell",
+    "types": ["Grass", "Poison"],
+    "generation": 1,
+    "pokopiaNumber": 22,
+    "habitat": "Flowery table (Rare) or Irresistible scent and glow (Common) habitat"
+  },
+  {
+    "id": "poke-071",
+    "nationalNumber": 71,
+    "name": "Victreebel",
+    "types": ["Grass", "Poison"],
+    "generation": 1,
+    "pokopiaNumber": 23,
+    "habitat": "Flowery table (Very Rare) or Irresistible scent and glow (Rare) habitat"
   },
   {
     "id": "poke-074",
@@ -356,7 +280,63 @@
     "name": "Geodude",
     "types": ["Rock", "Ground"],
     "generation": 1,
-    "pokopiaNumber": 159
+    "pokopiaNumber": 159,
+    "habitat": "Tall Grass habitat — Rarity: Common (confirmed in Palette Town, Cloud Island)"
+  },
+  {
+    "id": "poke-079",
+    "nationalNumber": 79,
+    "name": "Slowpoke",
+    "types": ["Water", "Psychic"],
+    "generation": 1,
+    "pokopiaNumber": 24,
+    "habitat": "Seaside Tall Grass habitat — Rarity: Common"
+  },
+  {
+    "id": "poke-080",
+    "nationalNumber": 80,
+    "name": "Slowbro",
+    "types": ["Water", "Psychic"],
+    "generation": 1,
+    "pokopiaNumber": 25,
+    "habitat": "Seaside Tall Grass (Very Rare) or Bed with a plush (Rare) or Fishing pond (Rare) habitat"
+  },
+  {
+    "id": "poke-081",
+    "nationalNumber": 81,
+    "name": "Magnemite",
+    "types": ["Electric", "Steel"],
+    "generation": 1,
+    "pokopiaNumber": 27,
+    "habitat": "Factory Storage habitat — Rarity: Common"
+  },
+  {
+    "id": "poke-082",
+    "nationalNumber": 82,
+    "name": "Magneton",
+    "types": ["Electric", "Steel"],
+    "generation": 1,
+    "pokopiaNumber": 28,
+    "habitat": "Trash can central (Rare) or Mini Game Corner (Common) habitat"
+  },
+  {
+    "id": "poke-090",
+    "nationalNumber": 90,
+    "name": "Shellder",
+    "types": ["Water"],
+    "generation": 1,
+    "basinNumber": 1,
+    "area": "Bubbly Basin",
+    "habitat": "Seabed Tall Grass ×4, Small Coral ×1, Tall Coral ×1 — shared habitat with Corsola"
+  },
+  {
+    "id": "poke-091",
+    "nationalNumber": 91,
+    "name": "Cloyster",
+    "types": ["Water", "Ice"],
+    "generation": 1,
+    "basinNumber": 2,
+    "area": "Bubbly Basin"
   },
   {
     "id": "poke-092",
@@ -364,7 +344,17 @@
     "name": "Gastly",
     "types": ["Ghost", "Poison"],
     "generation": 1,
-    "pokopiaNumber": 93
+    "pokopiaNumber": 93,
+    "habitat": "Spooky study habitat — Rarity: Common"
+  },
+  {
+    "id": "poke-095",
+    "nationalNumber": 95,
+    "name": "Onix",
+    "types": ["Rock", "Ground"],
+    "generation": 1,
+    "pokopiaNumber": 30,
+    "habitat": "Smooth tall grass habitat — Rarity: Common"
   },
   {
     "id": "poke-098",
@@ -379,7 +369,8 @@
     "name": "Voltorb",
     "types": ["Electric"],
     "generation": 1,
-    "pokopiaNumber": 96
+    "pokopiaNumber": 96,
+    "habitat": "Park bench or Playing pirate habitat — Rarity: Common"
   },
   {
     "id": "poke-102",
@@ -387,7 +378,8 @@
     "name": "Exeggcute",
     "types": ["Grass", "Psychic"],
     "generation": 1,
-    "pokopiaNumber": 98
+    "pokopiaNumber": 98,
+    "habitat": "Tropical vibes or Shaded beach habitat — Rarity: Common"
   },
   {
     "id": "poke-104",
@@ -395,7 +387,58 @@
     "name": "Cubone",
     "types": ["Ground"],
     "generation": 1,
-    "pokopiaNumber": 32
+    "pokopiaNumber": 32,
+    "habitat": "Grave with flowers habitat — Rarity: Common"
+  },
+  {
+    "id": "poke-107",
+    "nationalNumber": 107,
+    "name": "Hitmonchan",
+    "types": ["Fighting"],
+    "generation": 1,
+    "area": "Withered Wasteland",
+    "habitat": "Exercise Resting Spot (punching bag + bench)",
+    "x": 72,
+    "y": 30,
+    "pokopiaNumber": 36
+  },
+  {
+    "id": "poke-116",
+    "nationalNumber": 116,
+    "name": "Horsea",
+    "types": ["Water"],
+    "generation": 1,
+    "basinNumber": 3,
+    "area": "Bubbly Basin",
+    "note": "Confirmed as an early Bubbly Basin resident; this guide hasn't sourced its specific habitat structure yet."
+  },
+  {
+    "id": "poke-117",
+    "nationalNumber": 117,
+    "name": "Seadra",
+    "types": ["Water"],
+    "generation": 1,
+    "basinNumber": 4,
+    "area": "Bubbly Basin"
+  },
+  {
+    "id": "poke-120",
+    "nationalNumber": 120,
+    "name": "Staryu",
+    "types": ["Water"],
+    "generation": 1,
+    "basinNumber": 6,
+    "area": "Bubbly Basin",
+    "note": "Confirmed as an early Bubbly Basin resident; this guide hasn't sourced its specific habitat structure yet."
+  },
+  {
+    "id": "poke-121",
+    "nationalNumber": 121,
+    "name": "Starmie",
+    "types": ["Water", "Psychic"],
+    "generation": 1,
+    "basinNumber": 7,
+    "area": "Bubbly Basin"
   },
   {
     "id": "poke-131",
@@ -403,7 +446,8 @@
     "name": "Lapras",
     "types": ["Water", "Ice"],
     "generation": 1,
-    "pokopiaNumber": 106
+    "pokopiaNumber": 106,
+    "habitat": "Tropical seaside habitat — Rarity: Common"
   },
   {
     "id": "poke-133",
@@ -411,7 +455,8 @@
     "name": "Eevee",
     "types": ["Normal"],
     "generation": 1,
-    "pokopiaNumber": 280
+    "pokopiaNumber": 280,
+    "habitat": "Pretty flower bed habitat — Rarity: Common"
   },
   {
     "id": "poke-143",
@@ -419,7 +464,8 @@
     "name": "Snorlax",
     "types": ["Normal"],
     "generation": 1,
-    "pokopiaNumber": 108
+    "pokopiaNumber": 108,
+    "habitat": "Tree-shaded snoozing Snorlax or Good old-fashioned antiques habitat — Rarity: Common (confirmed in Palette Town, Cloud Island)"
   },
   {
     "id": "poke-147",
@@ -427,7 +473,8 @@
     "name": "Dratini",
     "types": ["Dragon"],
     "generation": 1,
-    "pokopiaNumber": 221
+    "pokopiaNumber": 221,
+    "habitat": "Hydrated fluffy flower bed or Simple bathroom habitat — Rarity: Common"
   },
   {
     "id": "poke-152",
@@ -442,14 +489,35 @@
     "name": "Cyndaquil",
     "types": ["Fire"],
     "generation": 2,
-    "pokopiaNumber": 224
+    "pokopiaNumber": 224,
+    "habitat": "Concrete pipe secret base habitat — Rarity: Common"
   },
   {
     "id": "poke-158",
     "nationalNumber": 158,
     "name": "Totodile",
     "types": ["Water"],
-    "generation": 2
+    "generation": 2,
+    "basinNumber": 8,
+    "area": "Bubbly Basin"
+  },
+  {
+    "id": "poke-159",
+    "nationalNumber": 159,
+    "name": "Croconaw",
+    "types": ["Water"],
+    "generation": 2,
+    "basinNumber": 9,
+    "area": "Bubbly Basin"
+  },
+  {
+    "id": "poke-160",
+    "nationalNumber": 160,
+    "name": "Feraligatr",
+    "types": ["Water"],
+    "generation": 2,
+    "basinNumber": 10,
+    "area": "Bubbly Basin"
   },
   {
     "id": "poke-163",
@@ -457,7 +525,26 @@
     "name": "Hoothoot",
     "types": ["Normal", "Flying"],
     "generation": 2,
-    "pokopiaNumber": 48
+    "pokopiaNumber": 48,
+    "habitat": "Elevated tall grass or Pretty flower bed or Gently lit bed habitat — Rarity: Common"
+  },
+  {
+    "id": "poke-170",
+    "nationalNumber": 170,
+    "name": "Chinchou",
+    "types": ["Water", "Electric"],
+    "generation": 2,
+    "basinNumber": 11,
+    "area": "Bubbly Basin"
+  },
+  {
+    "id": "poke-171",
+    "nationalNumber": 171,
+    "name": "Lanturn",
+    "types": ["Water", "Electric"],
+    "generation": 2,
+    "basinNumber": 12,
+    "area": "Bubbly Basin"
   },
   {
     "id": "poke-172",
@@ -465,7 +552,8 @@
     "name": "Pichu",
     "types": ["Electric"],
     "generation": 2,
-    "pokopiaNumber": 78
+    "pokopiaNumber": 78,
+    "habitat": "Picnic Set habitat — Rarity: Common (confirmed in Withered Wasteland, Cloud Island)"
   },
   {
     "id": "poke-175",
@@ -475,12 +563,22 @@
     "generation": 2
   },
   {
+    "id": "poke-182",
+    "nationalNumber": 182,
+    "name": "Bellossom",
+    "types": ["Grass"],
+    "generation": 2,
+    "pokopiaNumber": 16,
+    "habitat": "Chansey Resting area habitat — Rarity: Rare"
+  },
+  {
     "id": "poke-183",
     "nationalNumber": 183,
     "name": "Marill",
     "types": ["Water", "Fairy"],
     "generation": 2,
-    "pokopiaNumber": 115
+    "pokopiaNumber": 115,
+    "habitat": "Hydrated yellow tall grass (Rare) or Dock (Common) habitat"
   },
   {
     "id": "poke-185",
@@ -488,7 +586,8 @@
     "name": "Sudowoodo",
     "types": ["Rock"],
     "generation": 2,
-    "pokopiaNumber": 166
+    "pokopiaNumber": 166,
+    "habitat": "Tree-shaded red tall grass (Rare) or House party (Common) habitat"
   },
   {
     "id": "poke-194",
@@ -504,7 +603,26 @@
     "name": "Murkrow",
     "types": ["Dark", "Flying"],
     "generation": 2,
-    "pokopiaNumber": 167
+    "pokopiaNumber": 167,
+    "habitat": "Elevated red tall grass or Tree-shaded graceful flower bed habitat — Rarity: Common"
+  },
+  {
+    "id": "poke-199",
+    "nationalNumber": 199,
+    "name": "Slowking",
+    "types": ["Water", "Psychic"],
+    "generation": 2,
+    "pokopiaNumber": 26,
+    "habitat": "Seaside Tall Grass (Very Rare) or Bed with a plush (Rare) or Fishing pond (Rare) habitat"
+  },
+  {
+    "id": "poke-208",
+    "nationalNumber": 208,
+    "name": "Steelix",
+    "types": ["Steel", "Ground"],
+    "generation": 2,
+    "pokopiaNumber": 31,
+    "habitat": "Clink-clang iron construction habitat — Rarity: Common"
   },
   {
     "id": "poke-218",
@@ -514,12 +632,32 @@
     "generation": 2
   },
   {
+    "id": "poke-222",
+    "nationalNumber": 222,
+    "name": "Corsola",
+    "types": ["Water", "Rock"],
+    "generation": 2,
+    "basinNumber": 13,
+    "area": "Bubbly Basin",
+    "habitat": "Seabed Tall Grass ×4, Small Coral ×1, Tall Coral ×1 — shared habitat with Shellder"
+  },
+  {
+    "id": "poke-230",
+    "nationalNumber": 230,
+    "name": "Kingdra",
+    "types": ["Water", "Dragon"],
+    "generation": 2,
+    "basinNumber": 5,
+    "area": "Bubbly Basin"
+  },
+  {
     "id": "poke-246",
     "nationalNumber": 246,
     "name": "Larvitar",
     "types": ["Rock", "Ground"],
     "generation": 2,
-    "pokopiaNumber": 169
+    "pokopiaNumber": 169,
+    "habitat": "Mossy rest spot habitat — Rarity: Common"
   },
   {
     "id": "poke-252",
@@ -534,14 +672,35 @@
     "name": "Torchic",
     "types": ["Fire"],
     "generation": 3,
-    "pokopiaNumber": 120
+    "pokopiaNumber": 120,
+    "habitat": "Chirp-chirp meal or Resort meal prep habitat — Rarity: Common"
   },
   {
     "id": "poke-258",
     "nationalNumber": 258,
     "name": "Mudkip",
     "types": ["Water"],
-    "generation": 3
+    "generation": 3,
+    "basinNumber": 14,
+    "area": "Bubbly Basin"
+  },
+  {
+    "id": "poke-259",
+    "nationalNumber": 259,
+    "name": "Marshtomp",
+    "types": ["Water", "Ground"],
+    "generation": 3,
+    "basinNumber": 15,
+    "area": "Bubbly Basin"
+  },
+  {
+    "id": "poke-260",
+    "nationalNumber": 260,
+    "name": "Swampert",
+    "types": ["Water", "Ground"],
+    "generation": 3,
+    "basinNumber": 16,
+    "area": "Bubbly Basin"
   },
   {
     "id": "poke-278",
@@ -549,7 +708,8 @@
     "name": "Wingull",
     "types": ["Water", "Flying"],
     "generation": 3,
-    "pokopiaNumber": 123
+    "pokopiaNumber": 123,
+    "habitat": "Elevated yellow tall grass or Windy Flower Bed habitat — Rarity: Common"
   },
   {
     "id": "poke-280",
@@ -557,7 +717,8 @@
     "name": "Ralts",
     "types": ["Psychic", "Fairy"],
     "generation": 3,
-    "pokopiaNumber": 231
+    "pokopiaNumber": 231,
+    "habitat": "Study Area habitat — Rarity: Common"
   },
   {
     "id": "poke-302",
@@ -567,12 +728,67 @@
     "generation": 3
   },
   {
+    "id": "poke-318",
+    "nationalNumber": 318,
+    "name": "Carvanha",
+    "types": ["Water", "Dark"],
+    "generation": 3,
+    "basinNumber": 17,
+    "area": "Bubbly Basin"
+  },
+  {
+    "id": "poke-319",
+    "nationalNumber": 319,
+    "name": "Sharpedo",
+    "types": ["Water", "Dark"],
+    "generation": 3,
+    "basinNumber": 18,
+    "area": "Bubbly Basin"
+  },
+  {
     "id": "poke-328",
     "nationalNumber": 328,
     "name": "Trapinch",
     "types": ["Ground"],
     "generation": 3,
-    "pokopiaNumber": 237
+    "pokopiaNumber": 237,
+    "habitat": "Pink tall grass habitat — Rarity: Common"
+  },
+  {
+    "id": "poke-339",
+    "nationalNumber": 339,
+    "name": "Barboach",
+    "types": ["Water", "Ground"],
+    "generation": 3,
+    "basinNumber": 19,
+    "area": "Bubbly Basin"
+  },
+  {
+    "id": "poke-340",
+    "nationalNumber": 340,
+    "name": "Whiscash",
+    "types": ["Water", "Ground"],
+    "generation": 3,
+    "basinNumber": 20,
+    "area": "Bubbly Basin"
+  },
+  {
+    "id": "poke-341",
+    "nationalNumber": 341,
+    "name": "Corphish",
+    "types": ["Water"],
+    "generation": 3,
+    "basinNumber": 21,
+    "area": "Bubbly Basin"
+  },
+  {
+    "id": "poke-342",
+    "nationalNumber": 342,
+    "name": "Crawdaunt",
+    "types": ["Water", "Dark"],
+    "generation": 3,
+    "basinNumber": 22,
+    "area": "Bubbly Basin"
   },
   {
     "id": "poke-349",
@@ -582,12 +798,22 @@
     "generation": 3
   },
   {
+    "id": "poke-370",
+    "nationalNumber": 370,
+    "name": "Luvdisc",
+    "types": ["Water"],
+    "generation": 3,
+    "basinNumber": 23,
+    "area": "Bubbly Basin"
+  },
+  {
     "id": "poke-374",
     "nationalNumber": 374,
     "name": "Beldum",
     "types": ["Steel", "Psychic"],
     "generation": 3,
-    "pokopiaNumber": 245
+    "pokopiaNumber": 245,
+    "habitat": "Cycling rest stop habitat — Rarity: Common"
   },
   {
     "id": "poke-387",
@@ -609,7 +835,8 @@
     "name": "Piplup",
     "types": ["Water"],
     "generation": 4,
-    "pokopiaNumber": 128
+    "pokopiaNumber": 128,
+    "habitat": "Hydrated yellow tall grass habitat — Rarity: Common"
   },
   {
     "id": "poke-408",
@@ -617,7 +844,8 @@
     "name": "Cranidos",
     "types": ["Rock"],
     "generation": 4,
-    "pokopiaNumber": 272
+    "pokopiaNumber": 272,
+    "habitat": "Skull Fossil display habitat — Rarity: Common"
   },
   {
     "id": "poke-415",
@@ -625,14 +853,26 @@
     "name": "Combee",
     "types": ["Bug", "Flying"],
     "generation": 4,
-    "pokopiaNumber": 57
+    "pokopiaNumber": 57,
+    "habitat": "Pretty flower bed habitat — Rarity: Common"
   },
   {
     "id": "poke-418",
     "nationalNumber": 418,
     "name": "Buizel",
     "types": ["Water"],
-    "generation": 4
+    "generation": 4,
+    "basinNumber": 24,
+    "area": "Bubbly Basin"
+  },
+  {
+    "id": "poke-419",
+    "nationalNumber": 419,
+    "name": "Floatzel",
+    "types": ["Water"],
+    "generation": 4,
+    "basinNumber": 25,
+    "area": "Bubbly Basin"
   },
   {
     "id": "poke-438",
@@ -640,7 +880,8 @@
     "name": "Bonsly",
     "types": ["Rock"],
     "generation": 4,
-    "pokopiaNumber": 165
+    "pokopiaNumber": 165,
+    "habitat": "Tree-shaded red tall grass habitat — Rarity: Common"
   },
   {
     "id": "poke-446",
@@ -648,7 +889,8 @@
     "name": "Munchlax",
     "types": ["Normal"],
     "generation": 4,
-    "pokopiaNumber": 107
+    "pokopiaNumber": 107,
+    "habitat": "Bed with a plush (Rare) or Tree-shaded snoozing Snorlax (Common) habitat (confirmed in Palette Town, Cloud Island)"
   },
   {
     "id": "poke-447",
@@ -656,7 +898,63 @@
     "name": "Riolu",
     "types": ["Fighting"],
     "generation": 4,
-    "pokopiaNumber": 180
+    "pokopiaNumber": 180,
+    "habitat": "Red tall grass or Box to the rhythm habitat — Rarity: Common"
+  },
+  {
+    "id": "poke-456",
+    "nationalNumber": 456,
+    "name": "Finneon",
+    "types": ["Water"],
+    "generation": 4,
+    "basinNumber": 26,
+    "area": "Bubbly Basin"
+  },
+  {
+    "id": "poke-457",
+    "nationalNumber": 457,
+    "name": "Lumineon",
+    "types": ["Water"],
+    "generation": 4,
+    "basinNumber": 27,
+    "area": "Bubbly Basin"
+  },
+  {
+    "id": "poke-462",
+    "nationalNumber": 462,
+    "name": "Magnezone",
+    "types": ["Electric", "Steel"],
+    "generation": 4,
+    "pokopiaNumber": 29,
+    "habitat": "Trash can central (Very Rare) or Mini Game Corner (Rare) habitat"
+  },
+  {
+    "id": "poke-465",
+    "nationalNumber": 465,
+    "name": "Tangrowth",
+    "types": ["Grass"],
+    "generation": 4,
+    "note": "The standard (non-Professor) Tangrowth is the only species that requires Nintendo Switch Online to encounter — it only appears via Cloud Island play.",
+    "pokopiaNumber": 41,
+    "habitat": "Bench with greenery habitat — Rarity: Common (confirmed in Cloud Island)"
+  },
+  {
+    "id": "poke-489",
+    "nationalNumber": 489,
+    "name": "Phione",
+    "types": ["Water"],
+    "generation": 4,
+    "basinNumber": 49,
+    "area": "Bubbly Basin"
+  },
+  {
+    "id": "poke-490",
+    "nationalNumber": 490,
+    "name": "Manaphy",
+    "types": ["Water"],
+    "generation": 4,
+    "basinNumber": 50,
+    "area": "Bubbly Basin"
   },
   {
     "id": "poke-495",
@@ -664,7 +962,8 @@
     "name": "Snivy",
     "types": ["Grass"],
     "generation": 5,
-    "pokopiaNumber": 248
+    "pokopiaNumber": 248,
+    "habitat": "Playland habitat — Rarity: Common"
   },
   {
     "id": "poke-498",
@@ -681,6 +980,18 @@
     "generation": 5
   },
   {
+    "id": "poke-532",
+    "nationalNumber": 532,
+    "name": "Timburr",
+    "types": ["Fighting"],
+    "generation": 5,
+    "area": "Withered Wasteland",
+    "habitat": "Boulder-shaded Tall Grass, behind the Pokémon Center",
+    "x": 58,
+    "y": 24,
+    "pokopiaNumber": 65
+  },
+  {
     "id": "poke-540",
     "nationalNumber": 540,
     "name": "Sewaddle",
@@ -695,6 +1006,33 @@
     "generation": 5
   },
   {
+    "id": "poke-592",
+    "nationalNumber": 592,
+    "name": "Frillish",
+    "types": ["Water", "Ghost"],
+    "generation": 5,
+    "basinNumber": 28,
+    "area": "Bubbly Basin"
+  },
+  {
+    "id": "poke-593",
+    "nationalNumber": 593,
+    "name": "Jellicent",
+    "types": ["Water", "Ghost"],
+    "generation": 5,
+    "basinNumber": 29,
+    "area": "Bubbly Basin"
+  },
+  {
+    "id": "poke-594",
+    "nationalNumber": 594,
+    "name": "Alomomola",
+    "types": ["Water"],
+    "generation": 5,
+    "basinNumber": 30,
+    "area": "Bubbly Basin"
+  },
+  {
     "id": "poke-595",
     "nationalNumber": 595,
     "name": "Joltik",
@@ -707,7 +1045,17 @@
     "name": "Axew",
     "types": ["Dragon"],
     "generation": 5,
-    "pokopiaNumber": 71
+    "pokopiaNumber": 71,
+    "habitat": "Lumberjack's workplace or Cozy log handicrafts habitat — Rarity: Common"
+  },
+  {
+    "id": "poke-618",
+    "nationalNumber": 618,
+    "name": "Stunfisk",
+    "types": ["Ground", "Electric"],
+    "generation": 5,
+    "basinNumber": 31,
+    "area": "Bubbly Basin"
   },
   {
     "id": "poke-650",
@@ -729,7 +1077,8 @@
     "name": "Froakie",
     "types": ["Water"],
     "generation": 6,
-    "pokopiaNumber": 251
+    "pokopiaNumber": 251,
+    "habitat": "Hydrated pink tall grass habitat — Rarity: Common"
   },
   {
     "id": "poke-659",
@@ -746,12 +1095,31 @@
     "generation": 6
   },
   {
+    "id": "poke-686",
+    "nationalNumber": 686,
+    "name": "Inkay",
+    "types": ["Dark", "Psychic"],
+    "generation": 6,
+    "basinNumber": 32,
+    "area": "Bubbly Basin"
+  },
+  {
+    "id": "poke-687",
+    "nationalNumber": 687,
+    "name": "Malamar",
+    "types": ["Dark", "Psychic"],
+    "generation": 6,
+    "basinNumber": 33,
+    "area": "Bubbly Basin"
+  },
+  {
     "id": "poke-702",
     "nationalNumber": 702,
     "name": "Dedenne",
     "types": ["Electric", "Fairy"],
     "generation": 6,
-    "pokopiaNumber": 254
+    "pokopiaNumber": 254,
+    "habitat": "Tire Park habitat — Rarity: Common (confirmed in Sparkling Skylands, Cloud Island)"
   },
   {
     "id": "poke-704",
@@ -759,7 +1127,8 @@
     "name": "Goomy",
     "types": ["Dragon"],
     "generation": 6,
-    "pokopiaNumber": 74
+    "pokopiaNumber": 74,
+    "habitat": "Tree-shaded flower bed or Rain Dance site habitat — Rarity: Common"
   },
   {
     "id": "poke-722",
@@ -767,7 +1136,8 @@
     "name": "Rowlet",
     "types": ["Grass", "Flying"],
     "generation": 7,
-    "pokopiaNumber": 185
+    "pokopiaNumber": 185,
+    "habitat": "Fresh Veggie Field habitat — Rarity: Common (confirmed in Palette Town, Cloud Island)"
   },
   {
     "id": "poke-725",
@@ -781,7 +1151,27 @@
     "nationalNumber": 728,
     "name": "Popplio",
     "types": ["Water"],
-    "generation": 7
+    "generation": 7,
+    "basinNumber": 34,
+    "area": "Bubbly Basin"
+  },
+  {
+    "id": "poke-729",
+    "nationalNumber": 729,
+    "name": "Brionne",
+    "types": ["Water"],
+    "generation": 7,
+    "basinNumber": 35,
+    "area": "Bubbly Basin"
+  },
+  {
+    "id": "poke-730",
+    "nationalNumber": 730,
+    "name": "Primarina",
+    "types": ["Water", "Fairy"],
+    "generation": 7,
+    "basinNumber": 36,
+    "area": "Bubbly Basin"
   },
   {
     "id": "poke-731",
@@ -798,6 +1188,24 @@
     "generation": 7
   },
   {
+    "id": "poke-747",
+    "nationalNumber": 747,
+    "name": "Mareanie",
+    "types": ["Poison", "Water"],
+    "generation": 7,
+    "basinNumber": 37,
+    "area": "Bubbly Basin"
+  },
+  {
+    "id": "poke-748",
+    "nationalNumber": 748,
+    "name": "Toxapex",
+    "types": ["Poison", "Water"],
+    "generation": 7,
+    "basinNumber": 38,
+    "area": "Bubbly Basin"
+  },
+  {
     "id": "poke-749",
     "nationalNumber": 749,
     "name": "Mudbray",
@@ -812,6 +1220,42 @@
     "generation": 7
   },
   {
+    "id": "poke-767",
+    "nationalNumber": 767,
+    "name": "Wimpod",
+    "types": ["Bug", "Water"],
+    "generation": 7,
+    "basinNumber": 39,
+    "area": "Bubbly Basin"
+  },
+  {
+    "id": "poke-768",
+    "nationalNumber": 768,
+    "name": "Golisopod",
+    "types": ["Bug", "Water"],
+    "generation": 7,
+    "basinNumber": 40,
+    "area": "Bubbly Basin"
+  },
+  {
+    "id": "poke-779",
+    "nationalNumber": 779,
+    "name": "Bruxish",
+    "types": ["Water", "Psychic"],
+    "generation": 7,
+    "basinNumber": 41,
+    "area": "Bubbly Basin"
+  },
+  {
+    "id": "poke-781",
+    "nationalNumber": 781,
+    "name": "Dhelmise",
+    "types": ["Ghost", "Grass"],
+    "generation": 7,
+    "basinNumber": 42,
+    "area": "Bubbly Basin"
+  },
+  {
     "id": "poke-810",
     "nationalNumber": 810,
     "name": "Grookey",
@@ -824,7 +1268,8 @@
     "name": "Scorbunny",
     "types": ["Fire"],
     "generation": 8,
-    "pokopiaNumber": 188
+    "pokopiaNumber": 188,
+    "habitat": "Red tall grass habitat — Rarity: Common"
   },
   {
     "id": "poke-816",
@@ -839,7 +1284,8 @@
     "name": "Skwovet",
     "types": ["Normal"],
     "generation": 8,
-    "pokopiaNumber": 191
+    "pokopiaNumber": 191,
+    "habitat": "Tree-shaded tall grass habitat — Rarity: Common (confirmed in Palette Town, Cloud Island)"
   },
   {
     "id": "poke-831",
@@ -849,12 +1295,31 @@
     "generation": 8
   },
   {
+    "id": "poke-833",
+    "nationalNumber": 833,
+    "name": "Chewtle",
+    "types": ["Water"],
+    "generation": 8,
+    "basinNumber": 43,
+    "area": "Bubbly Basin"
+  },
+  {
+    "id": "poke-834",
+    "nationalNumber": 834,
+    "name": "Drednaw",
+    "types": ["Water", "Rock"],
+    "generation": 8,
+    "basinNumber": 44,
+    "area": "Bubbly Basin"
+  },
+  {
     "id": "poke-837",
     "nationalNumber": 837,
     "name": "Rolycoly",
     "types": ["Rock"],
     "generation": 8,
-    "pokopiaNumber": 193
+    "pokopiaNumber": 193,
+    "habitat": "Railroad crossing habitat — Rarity: Common"
   },
   {
     "id": "poke-840",
@@ -864,12 +1329,22 @@
     "generation": 8
   },
   {
+    "id": "poke-871",
+    "nationalNumber": 871,
+    "name": "Pincurchin",
+    "types": ["Electric"],
+    "generation": 8,
+    "basinNumber": 45,
+    "area": "Bubbly Basin"
+  },
+  {
     "id": "poke-906",
     "nationalNumber": 906,
     "name": "Sprigatito",
     "types": ["Grass"],
     "generation": 9,
-    "pokopiaNumber": 263
+    "pokopiaNumber": 263,
+    "habitat": "Tree-shaded pink tall grass or Interrogation desk habitat — Rarity: Common"
   },
   {
     "id": "poke-909",
@@ -911,6 +1386,26 @@
     "nationalNumber": 960,
     "name": "Wiglett",
     "types": ["Water"],
-    "generation": 9
+    "generation": 9,
+    "basinNumber": 46,
+    "area": "Bubbly Basin"
+  },
+  {
+    "id": "poke-961",
+    "nationalNumber": 961,
+    "name": "Wugtrio",
+    "types": ["Water"],
+    "generation": 9,
+    "basinNumber": 47,
+    "area": "Bubbly Basin"
+  },
+  {
+    "id": "poke-976",
+    "nationalNumber": 976,
+    "name": "Veluza",
+    "types": ["Water", "Psychic"],
+    "generation": 9,
+    "basinNumber": 48,
+    "area": "Bubbly Basin"
   }
 ]
