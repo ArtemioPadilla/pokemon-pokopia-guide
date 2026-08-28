@@ -1625,7 +1625,9 @@
     "nationalNumber": 302,
     "name": "Sableye",
     "types": ["Dark", "Ghost"],
-    "generation": 3
+    "generation": 3,
+    "eventNumber": 4,
+    "note": "Event Pokédex #4 (Serebii.net's eventpokedex.shtml — a separate in-game Pokédex tab for Special-Event-only Pokémon), corroborated by pokopiawiki.com (id E-004) and pokopiadex.com's Event Pokédex list."
   },
   {
     "id": "poke-303",
@@ -1821,7 +1823,9 @@
     "nationalNumber": 349,
     "name": "Feebas",
     "types": ["Water"],
-    "generation": 3
+    "generation": 3,
+    "eventNumber": 6,
+    "note": "Event Pokédex #6 per Serebii.net's eventpokedex.shtml (order: Hoppip, Skiploom, Jumpluff, Sableye, Jirachi, Feebas, Milotic). pokopiawiki.com lists it as E-005 — its dataset appears to omit Jirachi from the 7-entry list, shifting every entry after Sableye down by one; Serebii's number is used since its page directly transcribes the in-game tab's own \"No.\" column."
   },
   {
     "id": "poke-355",

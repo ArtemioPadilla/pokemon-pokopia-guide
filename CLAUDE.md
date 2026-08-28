@@ -125,11 +125,14 @@ habitat` category + confirmed area list) in a Next.js RSC data chunk
   — confirmed independently by both Bulbapedia and pokopiawiki, so kept
   as-is rather than "corrected" to plain Rotom typing.
 
-  The **32 base-dex "gap" entries** (no `pokopiaNumber`, not
-  Basin-exclusive) are **unchanged** — none of them appear in the
-  re-fetched 300-row table either, so they remain an honest, unresolved
-  gap; whatever originally justified adding them (an area-walkthrough
-  mention, most likely) doesn't include a dex number. The **50
+  Of the **32 base-dex "gap" entries** (no `pokopiaNumber`, not
+  Basin-exclusive), session 5 resolved **2**: Sableye and Feebas turned
+  out to belong to a **third, previously-undocumented Pokopia dex
+  system** — see "Pokédex — session 5 (Event Pokédex discovery)" below.
+  The other **30 remain an honest, unresolved gap** after a genuine,
+  multi-source attempt in session 5 (see that section) — whatever
+  originally justified adding them doesn't include any dex number found
+  so far, in any of the game's three known Pokédex systems. The **50
   Basin-exclusive entries** (`basinNumber`, no `pokopiaNumber`) are also
   unchanged this session — Basin coverage wasn't revisited beyond a
   quick sanity check that the existing 50 still matches Bulbapedia's
@@ -230,10 +233,22 @@ Special`, etc.) — recipe _names_ stay English in both locales, matching
   own Large + Small Lost Relic lists turned out to total 86, not 83 — the
   "83" figure was itself an imprecise web-search summary, corrected here
   against the real page). Naming/materials/rarity for all 89 come
-  straight from Game8, but **`area` is unset ("Not specified in available
-  sources") for all 89 — Game8's Lost Relic lists don't give a location
-  field at all**, unlike Records below. Worth a dedicated pass if another
-  source turns up with Artifact locations — not revisited in session 4.
+  straight from Game8, but **`area` is still unset ("Not specified in
+  available sources") for all 89 — checked again in session 5, still a
+  genuine source wall.** Session 4 flagged `serebii.net/pokemonpokopia/
+  lostrelics.shtml` as a promising next target; session 5 fetched it as
+  raw HTML and found it has the exact same structural gap as Game8's
+  page — its "List of Lost Relic Items" table has only three columns
+  (Picture / Name / Description), no location field at all, confirmed by
+  the string "location" not appearing anywhere in the page's raw HTML.
+  Session 5 also checked all 6 of Serebii's per-area location pages
+  (`locations/<slug>.shtml`) for any incidental relic-location mention —
+  none of the 6 mention "relic" even once — and confirmed pokopiawiki.com,
+  pokopiamap.com, and pokopiadex.com all 404 on every guessed
+  lost-relics/artifacts URL path. Unlike Human Records, where Serebii
+  turned out to have data Game8 lacked, no source found so far tracks
+  *where* a Lost Relic is found — only what it is. This is now a
+  well-documented dead end, not an unexplored lead.
   **154 Human Records** (up from 55 as of session 3 — see "Human Records
   — session 4" below for the full story of that jump and why this file's
   old "126 total" estimate has been dropped rather than kept as a target),
@@ -285,6 +300,57 @@ Special`, etc.) — recipe _names_ stay English in both locales, matching
     154 total (neither Game8 nor Serebii gives schematic-map coordinates,
     only named areas), matching the pre-existing convention for most
     Records entries.
+- **Pokédex — session 5 (Event Pokédex discovery + the 32 gap entries):**
+  tasked with re-checking the 32 unnumbered "gap" entries against sources
+  not yet tried for this specific question. Serebii.net's per-species
+  Pokopia pages (`pokemonpokopia/pokedex/<name>.shtml`) turned out to embed
+  a site-wide `<select>` jump-menu listing **every** entry across **all
+  three** of the game's in-game Pokédex tabs, in order — a fact this repo
+  hadn't previously used, since prior sessions only pulled Bulbapedia's own
+  numbered tables. Fetching that dropdown from any one species page
+  (`sableye.shtml`'s copy was used) surfaced a **third, previously
+  undocumented numbering system**: Serebii's own `eventpokedex.shtml`
+  confirms the game has a dedicated "PokéDex (Event)" tab — "a second
+  Pokédex which can be tabbed between which keeps track of all Pokémon
+  that are obtained only via Special Events" — with its own 7-entry
+  `No.` column (Hoppip #1, Skiploom #2, Jumpluff #3, **Sableye #4**,
+  Jirachi #5, **Feebas #6**, Milotic #7). Two of the 32 gap species —
+  Sableye and Feebas — are on that list, so the schema gained a new
+  optional `eventNumber` field (parallel to `basinNumber`, never
+  conflated with either other numbering) and both entries were updated.
+  Corroborated independently by pokopiadex.com's own `/pokedex/event`
+  page (same 7 names, same order) and pokopiamap.com (its `/pokedex/
+event-5` page is Jirachi, matching Serebii's Event #5, and it has
+  standalone event pages for `sableye-event` and
+  `fetch-scales-for-feebas`). One genuine cross-source discrepancy:
+  pokopiawiki.com's own embedded dataset (the same RSC-chunk extraction
+  method from session 4) lists only 6 Event entries, `E-001`–`E-006`,
+  **omitting Jirachi** — which shifts Feebas to `E-005` there instead of
+  Serebii's `#006`. Sableye is unaffected (`E-004` either way, since the
+  omission happens after it in list order). Feebas's entry keeps
+  Serebii's number with a `note` documenting the discrepancy rather than
+  silently picking one, per this repo's "honest gap over guessed value"
+  rule applied to a numbering *conflict*, not just a numbering *absence*.
+
+  The remaining **30 of 32** gap species (Krabby, Chikorita, Togepi,
+  Slugma, Treecko, Turtwig, Chimchar, Tepig, Oshawott, Sewaddle,
+  Deerling, Joltik, Chespin, Fennekin, Bunnelby, Skiddo, Litten, Pikipek,
+  Yungoos, Mudbray, Comfey, Grookey, Sobble, Wooloo, Applin, Fuecoco,
+  Quaxly, Lechonk, Tarountula, Nymble) got a genuine, multi-source
+  attempt and stayed unresolved: none has an individual Serebii Pokopia
+  page (all 30 return HTTP 404 under the standard slug), none appears
+  anywhere in Serebii's own 367-row cross-dex dropdown (all 300 main +
+  7 Event + ~50 Basin entries, checked programmatically, not by eye),
+  none appears in pokopiawiki.com's full 363-entry embedded dataset (the
+  same dataset already used for habitat in session 4, re-checked here for
+  a dex number instead), and none appears anywhere in pokopiadex.com's
+  main Pokédex page, its `/pokedex/dlc` (Basin) page, or its
+  `/pokedex/event` page, nor in pokopiamap.com's main Pokédex page. Six
+  independent checks across four sites, zero hits — this reads as a real
+  source wall for these 30, not an unexplored lead. `x`/`y` map-pin
+  placement for the 220 species session 4 added remains a smaller,
+  separate, well-scoped gap (unchanged this session).
+
 - **Milestones**: Environment Level is a **per-area** stat (confirmed by
   Serebii — "environment level in each area"), not a single global 1–10
   scale. The milestones list mixes area-level-gated and Pokédex-count-gated
@@ -292,28 +358,40 @@ Special`, etc.) — recipe _names_ stay English in both locales, matching
   Not revisited this session.
 
 If you're picking this project back up next: the base 300-entry Pokopia
-Pokédex is now **fully numbered** (300/300 `pokopiaNumber` slots filled)
-and every one of those 300 has a `habitat`, so the next Pokédex gap isn't
-"missing species" anymore — it's the **32 still-unnumbered "gap" entries**
-(no `pokopiaNumber`, not Basin-exclusive either; unchanged since session 3,
-still not found in either Bulbapedia numbered list) and Wooper's still-
-missing habitat (its Serebii page 404s under every slug tried, per session
-3). A dedicated pass on those 32 — perhaps starting from whatever
-originally justified adding them without a number — is the next most
-tractable target. `x`/`y` map-pin placement for the 220 species session 4
-added is a smaller, well-scoped remaining gap: none of them have a pin,
-since neither Bulbapedia's table nor pokopiawiki.com's dataset gives
-schematic-map coordinates, only a named-area list.
+Pokédex is **fully numbered** (300/300 `pokopiaNumber` slots filled) and
+every one of those 300 has a `habitat`. Of the original 32 unnumbered
+"gap" entries, 2 (Sableye, Feebas) turned out to belong to a third,
+previously-undocumented in-game "Event Pokédex" and now carry
+`eventNumber` — see "Pokédex — session 5" above for the full story,
+including a genuine cross-source discrepancy on Feebas's exact number
+that's documented in its `note` rather than silently resolved. The other
+**30 remain genuinely unresolved** after six independent checks across
+four sites in session 5 turned up nothing — this looks like a real wall,
+not a shallow attempt; the next person picking this up should look for a
+*type* of source not yet tried (e.g. a datamine/patch-notes community
+resource) rather than re-checking Serebii/pokopiawiki/pokopiadex/
+pokopiamap again. Wooper's still-missing habitat (its Serebii page 404s
+under every slug tried, per session 3) is a smaller, separate gap.
+`x`/`y` map-pin placement for the 220 species session 4 added is also
+still open: none of them have a pin, since neither Bulbapedia's table nor
+pokopiawiki.com's dataset gives schematic-map coordinates, only a
+named-area list.
 
 On Human Records specifically (session 4): 154 individually verified
 records is a strong number, but "still growing" is the honest framing,
 not "complete" — Game8's page is still explicitly marked
 work-in-progress, and Serebii's own page doesn't claim to be exhaustive
-either. Artifacts didn't get the same cross-source check this session (only
-Game8 was ever consulted for those) — `serebii.net/pokemonpokopia/
-lostrelics.shtml` exists (confirmed reachable, not yet fetched/parsed)
-and is the most promising next target given how much more Serebii's
-Records page turned up versus Game8 alone for this task.
+either.
+
+On Artifacts specifically (session 5): the `serebii.net/pokemonpokopia/
+lostrelics.shtml` lead flagged at the end of session 4 was checked and
+turned out to be a dead end — see the Collectibles bullet above for the
+full account. All 89 Artifacts still have `area: "Not specified in
+available sources"`; every source this guide has ever tried for
+Artifacts (Game8, Serebii, pokopiawiki, pokopiamap, pokopiadex) has now
+been checked and none tracks Lost Relic locations. Unless a genuinely new
+source surfaces, this is complete as far as this guide's sourcing can
+take it — an honest, permanent gap rather than a to-do.
 
 ### Sources consulted — session 1
 
@@ -439,6 +517,40 @@ sourced back in session 2 from Nintendo Life/GameRant), and for 192 names
 also session 2) — three independent hits on facts this session didn't
 already know, which is why the dataset was trusted in bulk rather than
 re-verified species-by-species.
+
+### Sources consulted — session 5 (Artifact locations + the 32 gap Pokédex entries)
+
+**Artifacts:** `serebii.net/pokemonpokopia/lostrelics.shtml`, fetched as
+raw HTML (not a summarizing fetch). Its "List of Lost Relic Items" table
+has exactly three columns — Picture, Name, Description — confirmed by
+checking the raw markup directly and by the string "location" not
+appearing anywhere in the page. Also checked, all raw HTML: Serebii's 6
+per-area location pages (`pokemonpokopia/locations/<slug>.shtml` for all
+6 areas — "relic" appears zero times across all 6); `pokopiawiki.com`,
+`pokopiamap.com`, and `pokopiadex.com` on every guessed
+lost-relics/artifacts URL path (all 404).
+
+**The 32 gap Pokédex entries:** Serebii.net's per-species Pokopia pages
+(`pokemonpokopia/pokedex/<name>.shtml`), fetched individually for all 32
+— 30 returned 404, Sableye and Feebas returned 200. Those two pages'
+embedded site-wide jump-menu (`<SELECT NAME="SelectURL">`, present on
+every species page) was parsed in full (367 `<option>` rows) and turned
+out to enumerate all three of the game's Pokédex tabs back-to-back: the
+main 300-entry dex, a 7-entry "Event" dex, and the 50-entry Basin dex —
+confirmed against `eventpokedex.shtml` itself, which spells out that the
+game has a dedicated Event Pokédex tab. The same 367-row parse was used
+to confirm none of the other 30 gap species appear under any of the
+three systems (zero regex hits by name, not just an eyeball check).
+Cross-checked against pokopiawiki.com's `/pokedex` page (same RSC-chunk
+extraction method as session 4 — `initialPokemon` JSON, 363 entries this
+time including 6 `E-`-prefixed Event entries), pokopiadex.com's
+`/pokedex`, `/pokedex/dlc`, and `/pokedex/event` pages (fetched as raw
+HTML, `aria-label` attributes parsed for per-card species names), and
+pokopiamap.com's `/sitemap.xml` (a genuine XML sitemap, unlike
+pokopiadex.com's, which 404s under that path) plus its `/pokedex` page —
+all four sources agree on the Event dex's 7-species membership and
+confirm zero of the other 30 species appear anywhere in any of these
+sites' Pokopia coverage.
 
 ## Design & a11y
 
