@@ -12,6 +12,7 @@ interface PokedexItem {
   nationalNumber: number;
   pokopiaNumber?: number;
   basinNumber?: number;
+  eventNumber?: number;
   name: string;
   types: string[];
   generation: number;
@@ -116,6 +117,7 @@ export default function PokedexChecklist({
                         #{String(item.nationalNumber).padStart(3, '0')}
                         {item.pokopiaNumber ? ` · Pokopia #${item.pokopiaNumber}` : ''}
                         {item.basinNumber ? ` · Basin #${item.basinNumber}` : ''}
+                        {item.eventNumber ? ` · Event #${item.eventNumber}` : ''}
                       </span>
                       {item.name}
                       <span className="ml-1.5 inline-flex gap-1 align-middle">

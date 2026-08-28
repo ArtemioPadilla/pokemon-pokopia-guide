@@ -47,16 +47,26 @@ const areasSchema = z.object({
 // Pokédex" (Bulbapedia's `List of Pokémon by Pokédex (Basin) number in
 // Pokémon Pokopia`, fetched in full — all 50 rows) — a species can have
 // either, both, or neither; never conflate the two into `pokopiaNumber`,
-// since they're genuinely different in-game lists. `nationalNumber`,
-// `name`, `types`, and `generation` are standard, independently-verifiable
-// Pokémon facts and are always present. `x`/`y` (0-100, percent of the
-// area's schematic map viewBox) are set ONLY alongside a sourced `habitat`
-// description precise enough to place a pin — most entries have neither, and
-// that's the honest state, not a gap to paper over with a guessed position. -
+// since they're genuinely different in-game lists. `eventNumber` is a THIRD,
+// separate numbering discovered in session 5: the game has its own in-game
+// "PokéDex (Event)" tab (confirmed via Serebii.net's `eventpokedex.shtml`,
+// whose intro text reads "the game has got a second Pokédex which can be
+// tabbed between which keeps track of all Pokémon that are obtained only via
+// Special Events") — a small 7-species list (Hoppip, Skiploom, Jumpluff,
+// Sableye, Jirachi, Feebas, Milotic) independent from both `pokopiaNumber`
+// and `basinNumber`. Only set where sourced; see the `note` field on the
+// affected entries for a cross-source discrepancy on Feebas's exact number.
+// `nationalNumber`, `name`, `types`, and `generation` are standard,
+// independently-verifiable Pokémon facts and are always present. `x`/`y`
+// (0-100, percent of the area's schematic map viewBox) are set ONLY
+// alongside a sourced `habitat` description precise enough to place a pin —
+// most entries have neither, and that's the honest state, not a gap to paper
+// over with a guessed position. -----------------------------------------
 const pokedexSchema = z.object({
   nationalNumber: z.number(),
   pokopiaNumber: z.number().optional(),
   basinNumber: z.number().optional(),
+  eventNumber: z.number().optional(),
   name: z.string(),
   types: z.array(z.string()).min(1).max(2),
   generation: z.number().min(1).max(9),
