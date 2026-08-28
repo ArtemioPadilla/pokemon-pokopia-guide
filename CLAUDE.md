@@ -525,8 +525,14 @@ raw HTML (not a summarizing fetch). Its "List of Lost Relic Items" table
 has exactly three columns — Picture, Name, Description — confirmed by
 checking the raw markup directly and by the string "location" not
 appearing anywhere in the page. Also checked, all raw HTML: Serebii's 6
-per-area location pages (`pokemonpokopia/locations/<slug>.shtml` for all
-6 areas — "relic" appears zero times across all 6); `pokopiawiki.com`,
+per-area location pages (`pokemonpokopia/locations/<slug>.shtml`) — each
+one does have a "Treasure Found in Area" table linking to the generic
+`items/largelostrelic.shtml` / `items/smalllostrelic.shtml` category
+pages, but that link is identical and undifferentiated across all 6
+areas (unlike the dolls/fossils on the same table, which do vary by
+area), so it gives no per-item or per-area signal for any of the 89
+individually-named relics — a dead end in substance even though "relic"
+isn't literally absent from those pages. Also checked: `pokopiawiki.com`,
 `pokopiamap.com`, and `pokopiadex.com` on every guessed
 lost-relics/artifacts URL path (all 404).
 
