@@ -78,29 +78,40 @@
        contrast script results in CLAUDE.md. */
     --pill-quest: light-dark(oklch(0.4 0.14 235), oklch(0.72 0.13 230));
     --pill-craft: light-dark(oklch(0.46 0.15 55), oklch(0.78 0.15 65));
-    /* Pokédex type badges — one token per canonical Pokémon type, hue chosen
-       to evoke the type's traditional color (fire=red-orange, water=blue,
-       etc.) while L is solved per-theme for ≥4.5:1 against both --background
-       and --card (computed with the same OKLCH→sRGB WCAG script as every
-       other token here, not eyeballed — see CLAUDE.md "Design & a11y"). */
-    --type-normal: light-dark(oklch(0.544 0.06 107.9), oklch(0.6 0.06 107.9));
-    --type-fire: light-dark(oklch(0.56 0.16 51.6), oklch(0.616 0.16 51.6));
-    --type-water: light-dark(oklch(0.552 0.14 265.5), oklch(0.608 0.14 265.5));
-    --type-electric: light-dark(oklch(0.546 0.15 93.7), oklch(0.602 0.15 93.7));
-    --type-grass: light-dark(oklch(0.534 0.16 136.6), oklch(0.588 0.16 136.6));
-    --type-ice: light-dark(oklch(0.536 0.09 196), oklch(0.592 0.09 196));
-    --type-fighting: light-dark(oklch(0.564 0.15 28.2), oklch(0.62 0.15 28.2));
-    --type-poison: light-dark(oklch(0.566 0.15 327.7), oklch(0.622 0.15 327.7));
-    --type-ground: light-dark(oklch(0.548 0.11 89.8), oklch(0.604 0.11 89.8));
-    --type-flying: light-dark(oklch(0.558 0.13 294.1), oklch(0.614 0.13 294.1));
-    --type-psychic: light-dark(oklch(0.57 0.18 5.6), oklch(0.626 0.18 5.6));
-    --type-bug: light-dark(oklch(0.538 0.15 116), oklch(0.594 0.15 116));
-    --type-rock: light-dark(oklch(0.546 0.11 95.9), oklch(0.602 0.11 95.9));
-    --type-ghost: light-dark(oklch(0.558 0.11 300.1), oklch(0.612 0.11 300.1));
-    --type-dragon: light-dark(oklch(0.566 0.2 287.3), oklch(0.62 0.2 287.3));
-    --type-dark: light-dark(oklch(0.55 0.05 55.2), oklch(0.606 0.05 55.2));
-    --type-steel: light-dark(oklch(0.55 0.05 285.6), oklch(0.606 0.05 285.6));
-    --type-fairy: light-dark(oklch(0.562 0.12 5.2), oklch(0.618 0.12 5.2));
+    /* Pokédex type badges — one token per canonical Pokémon type. v2: an
+       adversarial review of v1 found that deriving hue mechanically from
+       each type's canonical hex color clustered 6 types (normal/ground/
+       rock/electric/bug/grass) within 48° of each other, and solving each
+       type's L independently for the SAME contrast target erased the
+       lightness differentiation the canonicals had — Rock vs Ground and
+       Psychic vs Fairy rendered as visually indistinguishable. Hues here
+       are deliberately redistributed ~20° apart around the full wheel
+       (semantic family kept where possible: warm/earth tones 0-120°,
+       green/cyan 120-200°, blue/purple 200-300°, pink/magenta 300-360°),
+       verified computationally (OKLab pairwise distance, worst pair 0.031
+       vs v1's 0.004) rather than eyeballed. Contrast target raised to
+       ≥5:1 (was ≥4.5:1) for real margin above the AA floor — see
+       CLAUDE.md "Design & a11y". Text labels remain the primary
+       identifier; color is a supplementary cue, same principle as this
+       file's border-contrast note above. */
+    --type-fighting: light-dark(oklch(0.545 0.17 0), oklch(0.651 0.17 0));
+    --type-fire: light-dark(oklch(0.544 0.17 20), oklch(0.649 0.17 20));
+    --type-rock: light-dark(oklch(0.536 0.13 40), oklch(0.641 0.13 40));
+    --type-ground: light-dark(oklch(0.532 0.14 60), oklch(0.638 0.14 60));
+    --type-electric: light-dark(oklch(0.526 0.16 80), oklch(0.632 0.16 80));
+    --type-bug: light-dark(oklch(0.519 0.16 100), oklch(0.625 0.16 100));
+    --type-grass: light-dark(oklch(0.511 0.17 120), oklch(0.618 0.17 120));
+    --type-normal: light-dark(oklch(0.518 0.055 135), oklch(0.623 0.055 135));
+    --type-ice: light-dark(oklch(0.512 0.09 185), oklch(0.617 0.09 185));
+    --type-steel: light-dark(oklch(0.514 0.08 205), oklch(0.62 0.08 205));
+    --type-water: light-dark(oklch(0.497 0.15 225), oklch(0.608 0.15 225));
+    --type-flying: light-dark(oklch(0.521 0.12 245), oklch(0.626 0.12 245));
+    --type-dragon: light-dark(oklch(0.5 0.21 240), oklch(0.608 0.21 240));
+    --type-ghost: light-dark(oklch(0.526 0.13 260), oklch(0.631 0.13 260));
+    --type-dark: light-dark(oklch(0.525 0.05 280), oklch(0.631 0.05 280));
+    --type-poison: light-dark(oklch(0.541 0.17 300), oklch(0.646 0.17 300));
+    --type-psychic: light-dark(oklch(0.547 0.19 320), oklch(0.652 0.19 320));
+    --type-fairy: light-dark(oklch(0.541 0.14 340), oklch(0.646 0.14 340));
     --chart-1: light-dark(oklch(0.6 0.16 145), oklch(0.78 0.17 145));
     --chart-2: light-dark(oklch(0.62 0.12 220), oklch(0.72 0.13 220));
     --chart-3: light-dark(oklch(0.72 0.15 80), oklch(0.8 0.15 75));
