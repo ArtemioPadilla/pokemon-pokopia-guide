@@ -77,48 +77,53 @@ function WitheredWasteland() {
   return (
     <>
       <rect x="0" y="0" width="100" height="100" fill="var(--muted)" />
-      {/* Drought cracks across the ground */}
-      <g stroke="var(--border)" strokeWidth="0.6" fill="none" opacity="0.8">
-        <path d="M5 15 L14 22 L10 33 L20 38" />
-        <path d="M85 10 L78 20 L88 28" />
-        <path d="M8 80 L18 74 L15 62 L26 58" />
-        <path d="M92 85 L82 78 L90 68" />
-        <path d="M40 90 L48 82 L42 74" />
-      </g>
-      {/* Worn path leading to the Pokémon Center */}
+      {/* Worn path leading to the Pokémon Center — a filled dirt trail, not a
+          floating stroked line, so it reads as ground rather than a stick */}
       <path
-        d="M50 100 C 48 85, 52 70, 50 58"
-        stroke="var(--border)"
-        strokeWidth="4"
-        fill="none"
-        opacity="0.55"
+        d="M44 100 C 42 82, 46 66, 47 58 L53 58 C 54 66, 58 82, 56 100 Z"
+        fill="var(--border)"
+        opacity="0.4"
       />
-      {/* Boulders behind the Center, shading Timburr's Tall Grass */}
+      {/* Drought cracks radiating from the path, across the open ground */}
+      <g stroke="var(--border)" strokeWidth="0.6" fill="none" opacity="0.7">
+        <path d="M40 90 L30 84 L34 74 L24 68" />
+        <path d="M60 88 L70 82 L66 72 L76 66" />
+        <path d="M42 70 L34 64" />
+        <path d="M58 68 L66 62" />
+        <path d="M12 30 L20 36 L16 46" />
+        <path d="M88 26 L80 32 L84 42" />
+      </g>
+      {/* Boulder + Tall Grass cluster, tucked directly beside the Center so
+          it reads as one plaza instead of a stray patch up in empty space */}
       <g fill="var(--muted-foreground)" opacity="0.55">
-        <circle cx="53" cy="20" r="5.5" />
-        <circle cx="61" cy="17" r="4" />
+        <circle cx="30" cy="52" r="5.5" />
+        <circle cx="23" cy="56" r="3.6" />
       </g>
-      <g fill="var(--primary)" opacity="0.6">
-        <ellipse cx="58" cy="27" rx="7" ry="3.2" />
-        <ellipse cx="52" cy="30" rx="4" ry="2" />
+      <g fill="var(--primary)" opacity="0.65">
+        <ellipse cx="27" cy="61" rx="7.5" ry="3.4" />
+        <ellipse cx="34" cy="59" rx="4.5" ry="2.2" />
       </g>
-      {/* Exercise Resting Spot: bench + punching bag */}
+      {/* Exercise Resting Spot: bench + punching bag, mirrored on the other
+          side of the Center at the same ground level */}
       <g>
-        <rect x="68" y="31" width="9" height="2.4" rx="1" fill="var(--secondary)" />
-        <circle cx="74" cy="24" r="3.4" fill="var(--accent)" />
-        <line x1="74" y1="20.6" x2="74" y2="17" stroke="var(--border)" strokeWidth="0.8" />
+        <ellipse cx="72" cy="62" rx="10" ry="3.2" fill="var(--border)" opacity="0.3" />
+        <rect x="66" y="58" width="10" height="2.6" rx="1" fill="var(--secondary)" />
+        <circle cx="73" cy="51" r="3.6" fill="var(--accent)" />
+        <line x1="73" y1="47.4" x2="73" y2="58" stroke="var(--border)" strokeWidth="0.8" />
       </g>
-      {/* Pretty Flower Bed near the starting point */}
-      <g fill="var(--accent)" opacity="0.75">
-        <circle cx="30" cy="55" r="2.2" />
-        <circle cx="34" cy="59" r="2" />
-        <circle cx="29" cy="61" r="1.6" />
+      {/* Pretty Flower Bed, at the foot of the path where it opens onto the
+          plaza — no longer stranded off in an empty corner */}
+      <g fill="var(--accent)" opacity="0.8">
+        <circle cx="38" cy="78" r="2.4" />
+        <circle cx="43" cy="82" r="2" />
+        <circle cx="36" cy="83" r="1.7" />
       </g>
-      {/* The broken-down Pokémon Center */}
+      {/* The broken-down Pokémon Center, centered where the path arrives */}
       <g>
+        <ellipse cx="50" cy="59" rx="17" ry="3" fill="var(--border)" opacity="0.3" />
         <rect
           x="41"
-          y="49"
+          y="45"
           width="18"
           height="13"
           rx="1.2"
@@ -126,8 +131,8 @@ function WitheredWasteland() {
           stroke="var(--border)"
           strokeWidth="0.7"
         />
-        <path d="M39 49 L50 41 L61 49 Z" fill="var(--destructive)" opacity="0.75" />
-        <rect x="48" y="55" width="4" height="7" fill="var(--border)" opacity="0.7" />
+        <path d="M39 45 L50 37 L61 45 Z" fill="var(--destructive)" opacity="0.8" />
+        <rect x="48" y="51" width="4" height="7" fill="var(--border)" opacity="0.7" />
       </g>
     </>
   );
@@ -136,34 +141,42 @@ function WitheredWasteland() {
 function BleakBeach() {
   return (
     <>
-      <rect x="0" y="0" width="100" height="60" fill="var(--secondary)" />
-      <rect x="0" y="60" width="100" height="40" fill="var(--accent)" opacity="0.55" />
-      {/* Dim, light-starved sea */}
-      <g stroke="var(--chart-2)" strokeWidth="0.8" fill="none" opacity="0.6">
-        <path d="M0 45 Q 12 40, 24 45 T 48 45 T 72 45 T 100 45" />
-        <path d="M0 53 Q 12 48, 24 53 T 48 53 T 72 53 T 100 53" />
+      {/* Sky, sea, and sand as three clean horizontal bands so the scene
+          reads as a coastline at a glance, not a stack of loose shapes */}
+      <rect x="0" y="0" width="100" height="48" fill="var(--secondary)" />
+      <rect x="0" y="48" width="100" height="24" fill="var(--chart-2)" opacity="0.35" />
+      <rect x="0" y="72" width="100" height="28" fill="var(--accent)" opacity="0.55" />
+      {/* Dim, light-starved sea, waves sitting inside the sea band */}
+      <g stroke="var(--chart-2)" strokeWidth="0.8" fill="none" opacity="0.7">
+        <path d="M0 56 Q 12 51, 24 56 T 48 56 T 72 56 T 100 56" />
+        <path d="M0 64 Q 12 59, 24 64 T 48 64 T 72 64 T 100 64" />
       </g>
-      {/* Cliffside overlook */}
-      <g fill="var(--muted-foreground)" opacity="0.6">
-        <path d="M38 38 L54 22 L62 38 Z" />
-      </g>
-      {/* Beach huts */}
+      {/* Cliffside overlook, rooted at the shoreline on the left */}
+      <path
+        d="M2 72 L10 72 L22 30 L14 30 Z"
+        fill="var(--muted-foreground)"
+        opacity="0.55"
+      />
+      {/* Beach hut, sitting on the sand */}
       <g>
         <rect
-          x="18"
-          y="66"
-          width="10"
-          height="8"
+          x="24"
+          y="78"
+          width="11"
+          height="9"
           fill="var(--card)"
           stroke="var(--border)"
           strokeWidth="0.6"
         />
-        <path d="M17 66 L23 60 L29 66 Z" fill="var(--pill-craft)" opacity="0.7" />
+        <path d="M23 78 L29.5 71 L36 78 Z" fill="var(--pill-craft)" opacity="0.75" />
       </g>
-      {/* Pier reaching into the water */}
-      <g stroke="var(--border)" strokeWidth="1.6" opacity="0.7">
-        <line x1="65" y1="58" x2="85" y2="50" />
-        <line x1="70" y1="61" x2="90" y2="53" />
+      {/* Pier: a single tapering walkway from the sand out over the water,
+          not two crossed lines that read as an X instead of a structure */}
+      <path d="M58 82 L64 82 L88 54 L86 54 Z" fill="var(--border)" opacity="0.6" />
+      <g stroke="var(--border)" strokeWidth="0.5" opacity="0.5">
+        <line x1="60" y1="79" x2="63" y2="79" />
+        <line x1="68" y1="73" x2="71" y2="73" />
+        <line x1="76" y1="66" x2="79" y2="66" />
       </g>
     </>
   );
