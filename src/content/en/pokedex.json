@@ -609,13 +609,6 @@
     "habitat": "Smooth tall grass habitat — Rarity: Common"
   },
   {
-    "id": "poke-098",
-    "nationalNumber": 98,
-    "name": "Krabby",
-    "types": ["Water"],
-    "generation": 1
-  },
-  {
     "id": "poke-100",
     "nationalNumber": 100,
     "name": "Voltorb",
@@ -981,13 +974,6 @@
     "habitat": "Ideal habitat: Warm — specific area not documented in sources"
   },
   {
-    "id": "poke-152",
-    "nationalNumber": 152,
-    "name": "Chikorita",
-    "types": ["Grass"],
-    "generation": 2
-  },
-  {
     "id": "poke-155",
     "nationalNumber": 155,
     "name": "Cyndaquil",
@@ -1130,13 +1116,6 @@
     "generation": 2,
     "pokopiaNumber": 151,
     "habitat": "Ideal habitat: Warm — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
-  },
-  {
-    "id": "poke-175",
-    "nationalNumber": 175,
-    "name": "Togepi",
-    "types": ["Fairy"],
-    "generation": 2
   },
   {
     "id": "poke-179",
@@ -1300,13 +1279,6 @@
     "habitat": "Ideal habitat: Bright — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
   },
   {
-    "id": "poke-218",
-    "nationalNumber": 218,
-    "name": "Slugma",
-    "types": ["Fire"],
-    "generation": 2
-  },
-  {
     "id": "poke-222",
     "nationalNumber": 222,
     "name": "Corsola",
@@ -1459,13 +1431,6 @@
     "generation": 2,
     "pokopiaNumber": 298,
     "habitat": "Ideal habitat: Warm — specific area not documented in sources"
-  },
-  {
-    "id": "poke-252",
-    "nationalNumber": 252,
-    "name": "Treecko",
-    "types": ["Grass"],
-    "generation": 3
   },
   {
     "id": "poke-255",
@@ -1900,20 +1865,6 @@
     "habitat": "Ideal habitat: Humid — specific area not documented in sources"
   },
   {
-    "id": "poke-387",
-    "nationalNumber": 387,
-    "name": "Turtwig",
-    "types": ["Grass"],
-    "generation": 4
-  },
-  {
-    "id": "poke-390",
-    "nationalNumber": 390,
-    "name": "Chimchar",
-    "types": ["Fire"],
-    "generation": 4
-  },
-  {
     "id": "poke-393",
     "nationalNumber": 393,
     "name": "Piplup",
@@ -2304,20 +2255,6 @@
     "habitat": "Ideal habitat: Humid — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
   },
   {
-    "id": "poke-498",
-    "nationalNumber": 498,
-    "name": "Tepig",
-    "types": ["Fire"],
-    "generation": 5
-  },
-  {
-    "id": "poke-501",
-    "nationalNumber": 501,
-    "name": "Oshawott",
-    "types": ["Water"],
-    "generation": 5
-  },
-  {
     "id": "poke-529",
     "nationalNumber": 529,
     "name": "Drilbur",
@@ -2375,13 +2312,6 @@
     "habitat": "Ideal habitat: Bright — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
   },
   {
-    "id": "poke-540",
-    "nationalNumber": 540,
-    "name": "Sewaddle",
-    "types": ["Bug", "Grass"],
-    "generation": 5
-  },
-  {
     "id": "poke-568",
     "nationalNumber": 568,
     "name": "Trubbish",
@@ -2436,13 +2366,6 @@
     "habitat": "Ideal habitat: Bright — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
   },
   {
-    "id": "poke-585",
-    "nationalNumber": 585,
-    "name": "Deerling",
-    "types": ["Normal", "Grass"],
-    "generation": 5
-  },
-  {
     "id": "poke-592",
     "nationalNumber": 592,
     "name": "Frillish",
@@ -2468,13 +2391,6 @@
     "generation": 5,
     "basinNumber": 30,
     "area": "Bubbly Basin"
-  },
-  {
-    "id": "poke-595",
-    "nationalNumber": 595,
-    "name": "Joltik",
-    "types": ["Bug", "Electric"],
-    "generation": 5
   },
   {
     "id": "poke-607",
@@ -2558,20 +2474,6 @@
     "habitat": "Ideal habitat: Dry — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
   },
   {
-    "id": "poke-650",
-    "nationalNumber": 650,
-    "name": "Chespin",
-    "types": ["Grass"],
-    "generation": 6
-  },
-  {
-    "id": "poke-653",
-    "nationalNumber": 653,
-    "name": "Fennekin",
-    "types": ["Fire"],
-    "generation": 6
-  },
-  {
     "id": "poke-656",
     "nationalNumber": 656,
     "name": "Froakie",
@@ -2597,20 +2499,6 @@
     "generation": 6,
     "pokopiaNumber": 253,
     "habitat": "Ideal habitat: Humid — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
-  },
-  {
-    "id": "poke-659",
-    "nationalNumber": 659,
-    "name": "Bunnelby",
-    "types": ["Normal"],
-    "generation": 6
-  },
-  {
-    "id": "poke-672",
-    "nationalNumber": 672,
-    "name": "Skiddo",
-    "types": ["Grass"],
-    "generation": 6
   },
   {
     "id": "poke-686",
@@ -2766,13 +2654,6 @@
     "habitat": "Ideal habitat: Dark — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
   },
   {
-    "id": "poke-725",
-    "nationalNumber": 725,
-    "name": "Litten",
-    "types": ["Fire"],
-    "generation": 7
-  },
-  {
     "id": "poke-728",
     "nationalNumber": 728,
     "name": "Popplio",
@@ -2798,20 +2679,6 @@
     "generation": 7,
     "basinNumber": 36,
     "area": "Bubbly Basin"
-  },
-  {
-    "id": "poke-731",
-    "nationalNumber": 731,
-    "name": "Pikipek",
-    "types": ["Normal", "Flying"],
-    "generation": 7
-  },
-  {
-    "id": "poke-734",
-    "nationalNumber": 734,
-    "name": "Yungoos",
-    "types": ["Normal"],
-    "generation": 7
   },
   {
     "id": "poke-736",
@@ -2859,20 +2726,6 @@
     "area": "Bubbly Basin"
   },
   {
-    "id": "poke-749",
-    "nationalNumber": 749,
-    "name": "Mudbray",
-    "types": ["Ground"],
-    "generation": 7
-  },
-  {
-    "id": "poke-764",
-    "nationalNumber": 764,
-    "name": "Comfey",
-    "types": ["Fairy"],
-    "generation": 7
-  },
-  {
     "id": "poke-767",
     "nationalNumber": 767,
     "name": "Wimpod",
@@ -2918,13 +2771,6 @@
     "area": "Bubbly Basin"
   },
   {
-    "id": "poke-810",
-    "nationalNumber": 810,
-    "name": "Grookey",
-    "types": ["Grass"],
-    "generation": 8
-  },
-  {
     "id": "poke-813",
     "nationalNumber": 813,
     "name": "Scorbunny",
@@ -2950,13 +2796,6 @@
     "generation": 8,
     "pokopiaNumber": 190,
     "habitat": "Ideal habitat: Warm — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
-  },
-  {
-    "id": "poke-816",
-    "nationalNumber": 816,
-    "name": "Sobble",
-    "types": ["Water"],
-    "generation": 8
   },
   {
     "id": "poke-819",
@@ -3004,13 +2843,6 @@
     "habitat": "Ideal habitat: Bright — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
   },
   {
-    "id": "poke-831",
-    "nationalNumber": 831,
-    "name": "Wooloo",
-    "types": ["Normal"],
-    "generation": 8
-  },
-  {
     "id": "poke-833",
     "nationalNumber": 833,
     "name": "Chewtle",
@@ -3054,13 +2886,6 @@
     "generation": 8,
     "pokopiaNumber": 195,
     "habitat": "Ideal habitat: Warm — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
-  },
-  {
-    "id": "poke-840",
-    "nationalNumber": 840,
-    "name": "Applin",
-    "types": ["Grass", "Dragon"],
-    "generation": 8
   },
   {
     "id": "poke-845",
@@ -3152,41 +2977,6 @@
     "generation": 9,
     "pokopiaNumber": 265,
     "habitat": "Ideal habitat: Bright — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
-  },
-  {
-    "id": "poke-909",
-    "nationalNumber": 909,
-    "name": "Fuecoco",
-    "types": ["Fire"],
-    "generation": 9
-  },
-  {
-    "id": "poke-912",
-    "nationalNumber": 912,
-    "name": "Quaxly",
-    "types": ["Water"],
-    "generation": 9
-  },
-  {
-    "id": "poke-915",
-    "nationalNumber": 915,
-    "name": "Lechonk",
-    "types": ["Normal"],
-    "generation": 9
-  },
-  {
-    "id": "poke-917",
-    "nationalNumber": 917,
-    "name": "Tarountula",
-    "types": ["Bug"],
-    "generation": 9
-  },
-  {
-    "id": "poke-919",
-    "nationalNumber": 919,
-    "name": "Nymble",
-    "types": ["Bug"],
-    "generation": 9
   },
   {
     "id": "poke-921",

@@ -79,9 +79,17 @@ second pass (session 2) closed two of the biggest gaps flagged by session
 pushed Pokédex/recipes/collectibles coverage much further using the same
 rigor; a fourth pass (session 4, see "Sources consulted — session 4"
 below) closed the base Pokédex numbering gap and pushed Human Records
-further. What's still open is called out per-item below.
+further; a fifth pass (session 5) discovered a third Pokédex system
+(Event) and exhaustively confirmed a real source wall on Artifact
+locations and 30 gap Pokédex entries; a sixth pass (session 6, see
+"Sources consulted — session 6" below) found 2 new Human Records via a
+previously-unchecked Bulbapedia page, and removed those same 30 gap
+Pokédex entries after determining they were never actually sourced and
+are contradicted by a dedicated third-party "missing Pokémon" source.
+What's still open is called out per-item below.
 
-- **Pokédex: 382 entries** (up from 162), of which **300 carry a
+- **Pokédex: 352 entries** (382 as of session 5, -30 in session 6 — see
+  below; up from 162 originally), of which **300 carry a
   `pokopiaNumber`** — every slot in Bulbapedia's `List of Pokémon by
 Pokédex number in Pokémon Pokopia` (the base 300-entry dex) is now
   filled, up from 80/117 at the end of session 3. Session 4 re-fetched
@@ -129,18 +137,35 @@ habitat` category + confirmed area list) in a Next.js RSC data chunk
   Basin-exclusive), session 5 resolved **2**: Sableye and Feebas turned
   out to belong to a **third, previously-undocumented Pokopia dex
   system** — see "Pokédex — session 5 (Event Pokédex discovery)" below.
-  The other **30 remain an honest, unresolved gap** after a genuine,
-  multi-source attempt in session 5 (see that section) — whatever
-  originally justified adding them doesn't include any dex number found
-  so far, in any of the game's three known Pokédex systems. The **50
-  Basin-exclusive entries** (`basinNumber`, no `pokopiaNumber`) are also
-  unchanged this session — Basin coverage wasn't revisited beyond a
-  quick sanity check that the existing 50 still matches Bulbapedia's
-  Basin list structurally. `habitat` is now confirmed for **301 of 382**
-  entries (up from 81/162) — the 220 new entries plus the 81 already
-  confirmed as of session 3. Session 3's original context on the Basin
-  dex and the 76-species Serebii habitat pass is preserved below for
-  provenance.
+  The other **30 were removed entirely in session 6** after an audit of
+  their *legitimacy*, not just their numbering — see "Pokédex — session 6
+  (the 30 gap entries removed)" below for the full account. Short version:
+  these 30 (Krabby, Chikorita, Togepi, Slugma, Treecko, Turtwig, Chimchar,
+  Tepig, Oshawott, Sewaddle, Deerling, Joltik, Chespin, Fennekin, Bunnelby,
+  Skiddo, Litten, Pikipek, Yungoos, Mudbray, Comfey, Grookey, Sobble,
+  Wooloo, Applin, Fuecoco, Quaxly, Lechonk, Tarountula, Nymble) were added
+  in session 1's original scaffold as bare stubs (`id`/`nationalNumber`/
+  `name`/`types`/`generation` only, no `habitat`, `note`, or citation of
+  any kind) — before this repo's sourcing discipline existed. Session 6
+  found they have **zero support anywhere**: not in any of the 4
+  independent full-catalog dex sources session 5 already exhausted, not in
+  this repo's own sourced area-walkthrough content (checked fresh this
+  session, zero name matches), and a dedicated third-party "missing
+  Pokémon" article (TheGamer) explicitly confirms at least 15 of the 30
+  (Togepi, Applin, and 13 starter-line species) as **not** in the game.
+  Given a guess that was never actually sourced, once contradicted rather
+  than just unconfirmed, is exactly the kind of entry this repo's
+  "honest gap over guessed value" rule says to remove, all 30 were deleted
+  from both locales' `pokedex.json` rather than kept as placeholders. The
+  **50 Basin-exclusive entries** (`basinNumber`, no `pokopiaNumber`) are
+  unchanged — Basin coverage wasn't revisited beyond a quick sanity check
+  that the existing 50 still matches Bulbapedia's Basin list structurally.
+  `habitat` is confirmed for **301 of 352** entries (the 220 session-4
+  entries plus the 81 already confirmed as of session 3) — the removal of
+  30 always-habitat-less entries in session 6 raised the *proportion* with
+  `habitat` even though the raw numerator didn't change. Session 3's
+  original context on the Basin dex and the 76-species Serebii habitat
+  pass is preserved below for provenance.
 
 - **Pokédex (session 3 context, preserved):** session 3 added 45 brand
   new entries, all 50 species from Bulbapedia's `List of Pokémon by
@@ -249,10 +274,11 @@ Special`, etc.) — recipe _names_ stay English in both locales, matching
   turned out to have data Game8 lacked, no source found so far tracks
   *where* a Lost Relic is found — only what it is. This is now a
   well-documented dead end, not an unexplored lead.
-  **154 Human Records** (up from 55 as of session 3 — see "Human Records
-  — session 4" below for the full story of that jump and why this file's
-  old "126 total" estimate has been dropped rather than kept as a target),
-  and **44 Highlight Reel photos** (up from 8; Game8's list numbers 44
+  **156 Human Records** (154 as of session 4, +2 from session 6's
+  Bulbapedia find — see "Human Records — session 4" below for the full
+  story of the 55→154 jump and why this file's old "126 total" estimate
+  has been dropped rather than kept as a target, and "Human Records —
+  session 6" below for the +2), and **44 Highlight Reel photos** (up from 8; Game8's list numbers 44
   entries as of session 3, still not confirmed as the game's true total,
   and not revisited in session 4). One existing entry got a genuine
   correction in passing back in session 3: "Dear Douglas"'s `area` went
@@ -365,23 +391,35 @@ previously-undocumented in-game "Event Pokédex" and now carry
 `eventNumber` — see "Pokédex — session 5" above for the full story,
 including a genuine cross-source discrepancy on Feebas's exact number
 that's documented in its `note` rather than silently resolved. The other
-**30 remain genuinely unresolved** after six independent checks across
-four sites in session 5 turned up nothing — this looks like a real wall,
-not a shallow attempt; the next person picking this up should look for a
-*type* of source not yet tried (e.g. a datamine/patch-notes community
-resource) rather than re-checking Serebii/pokopiawiki/pokopiadex/
-pokopiamap again. Wooper's still-missing habitat (its Serebii page 404s
-under every slug tried, per session 3) is a smaller, separate gap.
-`x`/`y` map-pin placement for the 220 species session 4 added is also
-still open: none of them have a pin, since neither Bulbapedia's table nor
-pokopiawiki.com's dataset gives schematic-map coordinates, only a
-named-area list.
+**30 were removed in session 6**, not left as a gap — see "Pokédex —
+session 6" above. Session 5's six independent checks across four sites
+had already found zero trace of them in any of the game's three Pokédex
+systems; session 6 went further and checked whether they were confirmed
+to be *in the game at all* (as opposed to just unnumbered), and found the
+opposite: zero mentions in this repo's own sourced walkthrough content,
+plus a dedicated TheGamer "missing Pokémon" article that explicitly names
+Togepi and Applin as absent and states only 6 non-Kanto starters (Torchic,
+Piplup, Rowlet, Froakie, Scorbunny, Sprigatito — none of which were among
+the 30) made it into the game at all. That combination — no original
+sourcing, an exhaustive negative search, and explicit third-party
+contradiction — crossed the line from "unresolved gap" to "shaky addition
+that should be removed," per this repo's own "honest gap over guessed
+value" rule. If a genuinely new source ever turns up naming any of these
+30 as confirmed-in-Pokopia, re-add it with that citation rather than
+assuming session 6 was wrong to remove it. Wooper's still-missing habitat
+(its Serebii page 404s under every slug tried, per session 3) is a
+smaller, separate gap. `x`/`y` map-pin placement for the 220 species
+session 4 added is also still open: none of them have a pin, since
+neither Bulbapedia's table nor pokopiawiki.com's dataset gives
+schematic-map coordinates, only a named-area list.
 
-On Human Records specifically (session 4): 154 individually verified
+On Human Records specifically (session 4 + 6): 156 individually verified
 records is a strong number, but "still growing" is the honest framing,
 not "complete" — Game8's page is still explicitly marked
-work-in-progress, and Serebii's own page doesn't claim to be exhaustive
-either.
+work-in-progress, Serebii's own page doesn't claim to be exhaustive
+either, and Bulbapedia's own `Human Records` / `Human Records (Basin)`
+pages (checked for the first time in session 6, see below) contributed 2
+more previously-unlisted entries on top of Game8 and Serebii.
 
 On Artifacts specifically (session 5): the `serebii.net/pokemonpokopia/
 lostrelics.shtml` lead flagged at the end of session 4 was checked and
@@ -557,6 +595,81 @@ pokopiadex.com's, which 404s under that path) plus its `/pokedex` page —
 all four sources agree on the Event dex's 7-species membership and
 confirm zero of the other 30 species appear anywhere in any of these
 sites' Pokopia coverage.
+
+### Sources consulted — session 6 (Bulbapedia Human Records + the 30 gap Pokédex entries' legitimacy)
+
+**Human Records — session 6:** Bulbapedia turned out to have its own
+`Human_Records` and `Human_Records_(Basin)` pages — a lead no prior
+session had checked (all four prior Human Records passes went to Game8
+and/or Serebii only). Fetched both, then re-fetched both as raw wikitext
+(`action=raw`) for the two ambiguous cases below rather than trusting a
+single summarizing fetch. 121 entries on the main page + 34 on the Basin
+page = 155 distinct names, diffed against the existing 154-record
+collection with the same accent/case/punctuation-insensitive normalizer
+used in session 4. 8 near-misses came back on the first pass; 6 were
+confirmed via `difflib` fuzzy-matching to be the same records the
+collection already had under a slightly different spelling (Bulbapedia
+itself has typos/variants like "Artificial Hot Spring**s** Now Open!" vs.
+the collection's "...Spring Now Open!", "Ophthalmology" vs. "Opthalmology",
+"Career Monthly (Vol. 11)" vs. "(Vol. 111)", "Bird Pokémon Monthly" vs.
+"...Montly", "Poké Week (Issue 122)" vs. "PokéWeek..." — a spacing
+difference — and "Kanto Monthly" vs. "Kanto Montly") — these were treated
+as the same record, not added. The remaining 2 — **"Comfy Living
+(Vol. 30)"** (Bubbly Basin, reward "Mermaid outfit" per Bulbapedia) and
+**"PokéWeek (Issue 46)"** (Dream Island) — were confirmed as genuinely
+distinct via the raw wikitext (the collection already has Comfy Living
+Vol. 2/11/36/866 and PokéWeek Issues 37/122/146, so a 5th/4th volume/issue
+number is plausible, not a likely typo of an existing one) and added as
+`col-rec-155`/`col-rec-156`, area `Bubbly Basin` / `Dream Island -
+Starmie` (matching the existing convention for other Basin-DLC records
+that are physically found in Dream Island, e.g. the pre-existing
+PokéWeek #37/#146). New total: **156 Human Records**, still an honest
+"confirmed so far," not a claimed ceiling — same framing as session 4.
+
+**The 30 remaining gap Pokédex entries — a legitimacy audit, not a
+numbering search:** session 5 had already confirmed these 30 don't appear
+in any of 4 independent dex-enumeration sources; session 6's task was
+different — verify each species is genuinely confirmed to be *in Pokopia
+at all*, since all 30 were originally added in session 1's initial
+scaffold commit (`030ee42`) as bare stub entries (`id`/`nationalNumber`/
+`name`/`types`/`generation` only — no `habitat`, `note`, `area`, or
+citation of any kind, confirmed by inspecting that commit directly) before
+this repo's sourcing discipline existed. Checked and found:
+(1) `grep -rniE` for all 30 names against every file in
+`src/content/{es,en}/areas/*.md` — **zero matches**, so no area-walkthrough
+mention (the assumed original justification) actually exists in this
+repo's own sourced content. (2) A targeted web search surfaced
+`thegamer.com/pokemon-pokopia-missing-starters-complete-pokedex/` ("These
+Pokemon Are Still Missing From Pokemon Pokopia," Kaitlyn Peterson, Mar 26
+2026) — a dedicated article about species absent from the game, a *type*
+of source not tried in session 5. Fetched and cross-verified with a
+verbatim-quote pass: it explicitly names **Togepi** ("Togepi's absence
+hasn't gone unnoticed") and **Applin** as confirmed missing, and states
+"Beyond the Kanto starters, the only others that made the cut were
+Torchic, Piplup, Rowlet, Froakie, Scorbunny, and Sprigatito" — an
+exhaustive list of the non-Kanto starters that *are* in the game, which by
+construction excludes the 13 starter-line species on the gap list
+(Chikorita, Treecko, Turtwig, Chimchar, Tepig, Oshawott, Chespin, Fennekin,
+Litten, Grookey, Sobble, Fuecoco, Quaxly) — Grookey additionally shows up
+in the article's own comment section as a reader-named "not in the game
+yet" example. That's 15 of the 30 explicitly contradicted by name or by
+exhaustive-list construction. (3) One contradictory source was found and
+discounted: `pokopia.center`'s "complete Pokédex" listicle claims several
+of these 30 (including Togepi) ARE in the game, but on inspection it gives
+no dex numbers at all, cites no source, and its own disclaimer identifies
+it as an "independent, unofficial fan site" — a generic SEO listicle, not
+a structured primary source, and it directly conflicts with Bulbapedia's
+authoritative 300-row numbered table (already fetched in full in session 4
+and used as this repo's ground truth for `pokopiaNumber`) and with
+Serebii's site-wide 367-row dex dropdown (session 5) — both of which
+would show these species if they were really in the main dex. Given zero
+supporting evidence across every structured source this repo trusts,
+explicit contradiction for half the list from a dedicated third-party
+"missing Pokémon" piece, and the entries' own complete lack of original
+sourcing since session 1, all **30 were removed** from both locales'
+`pokedex.json` rather than kept as unresolved placeholders — see the
+Pokédex bullet above for the reasoning tied to this repo's "honest gap
+over guessed value" rule.
 
 ## Design & a11y
 
