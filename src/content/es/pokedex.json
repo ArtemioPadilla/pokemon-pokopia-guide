@@ -112,6 +112,24 @@
     "habitat": "Hábitat Comida Pío-Pío de Lujo — Rareza: Común"
   },
   {
+    "id": "poke-023",
+    "nationalNumber": 23,
+    "name": "Ekans",
+    "types": ["Veneno"],
+    "generation": 1,
+    "pokopiaNumber": 146,
+    "habitat": "Hábitat ideal: Oscuro — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-024",
+    "nationalNumber": 24,
+    "name": "Arbok",
+    "types": ["Veneno"],
+    "generation": 1,
+    "pokopiaNumber": 147,
+    "habitat": "Hábitat ideal: Oscuro — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
     "id": "poke-025",
     "nationalNumber": 25,
     "name": "Pikachu",
@@ -121,6 +139,51 @@
     "habitat": "Hábitat Set de Picnic — Rareza: Raro (confirmado en Palette Town, Cloud Island)"
   },
   {
+    "id": "poke-026",
+    "nationalNumber": 26,
+    "name": "Raichu",
+    "types": ["Eléctrico"],
+    "generation": 1,
+    "pokopiaNumber": 80,
+    "habitat": "Hábitat ideal: Luminoso — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-035",
+    "nationalNumber": 35,
+    "name": "Clefairy",
+    "types": ["Hada"],
+    "generation": 1,
+    "pokopiaNumber": 149,
+    "habitat": "Hábitat ideal: Oscuro — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-036",
+    "nationalNumber": 36,
+    "name": "Clefable",
+    "types": ["Hada"],
+    "generation": 1,
+    "pokopiaNumber": 150,
+    "habitat": "Hábitat ideal: Oscuro — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-037",
+    "nationalNumber": 37,
+    "name": "Vulpix",
+    "types": ["Fuego"],
+    "generation": 1,
+    "pokopiaNumber": 207,
+    "habitat": "Hábitat ideal: Cálido — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-038",
+    "nationalNumber": 38,
+    "name": "Ninetales",
+    "types": ["Fuego"],
+    "generation": 1,
+    "pokopiaNumber": 208,
+    "habitat": "Hábitat ideal: Cálido — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
     "id": "poke-039",
     "nationalNumber": 39,
     "name": "Jigglypuff",
@@ -128,6 +191,33 @@
     "generation": 1,
     "pokopiaNumber": 152,
     "habitat": "Escenario de Tocón en el Jardín de Flores o Escenario de Recital (hábitat) — Rareza: Común"
+  },
+  {
+    "id": "poke-040",
+    "nationalNumber": 40,
+    "name": "Wigglytuff",
+    "types": ["Normal", "Hada"],
+    "generation": 1,
+    "pokopiaNumber": 153,
+    "habitat": "Hábitat ideal: Luminoso — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-041",
+    "nationalNumber": 41,
+    "name": "Zubat",
+    "types": ["Veneno", "Volador"],
+    "generation": 1,
+    "pokopiaNumber": 81,
+    "habitat": "Hábitat ideal: Oscuro — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-042",
+    "nationalNumber": 42,
+    "name": "Golbat",
+    "types": ["Veneno", "Volador"],
+    "generation": 1,
+    "pokopiaNumber": 82,
+    "habitat": "Hábitat ideal: Oscuro — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
   },
   {
     "id": "poke-043",
@@ -193,6 +283,24 @@
     "habitat": "Hierba Alta Iluminada o Banco Iluminado (hábitat) — Rareza: Raro"
   },
   {
+    "id": "poke-050",
+    "nationalNumber": 50,
+    "name": "Diglett",
+    "types": ["Tierra"],
+    "generation": 1,
+    "pokopiaNumber": 154,
+    "habitat": "Hábitat ideal: Oscuro — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-051",
+    "nationalNumber": 51,
+    "name": "Dugtrio",
+    "types": ["Tierra"],
+    "generation": 1,
+    "pokopiaNumber": 155,
+    "habitat": "Hábitat ideal: Oscuro — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
     "id": "poke-052",
     "nationalNumber": 52,
     "name": "Meowth",
@@ -200,6 +308,15 @@
     "generation": 1,
     "pokopiaNumber": 84,
     "habitat": "Lugar de Descanso o Trabajando en la Caja Registradora (hábitat) — Rareza: Común"
+  },
+  {
+    "id": "poke-053",
+    "nationalNumber": 53,
+    "name": "Persian",
+    "types": ["Normal"],
+    "generation": 1,
+    "pokopiaNumber": 85,
+    "habitat": "Hábitat ideal: Fresco — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
   },
   {
     "id": "poke-054",
@@ -211,6 +328,15 @@
     "habitat": "Hábitat Ducha de Aguas Termales — Rareza: Común"
   },
   {
+    "id": "poke-055",
+    "nationalNumber": 55,
+    "name": "Golduck",
+    "types": ["Agua"],
+    "generation": 1,
+    "pokopiaNumber": 87,
+    "habitat": "Hábitat ideal: Húmedo — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
     "id": "poke-058",
     "nationalNumber": 58,
     "name": "Growlithe",
@@ -218,6 +344,33 @@
     "generation": 1,
     "pokopiaNumber": 88,
     "habitat": "Desorden Perpetuo o Preparación de Comida de Resort (hábitat) — Rareza: Común"
+  },
+  {
+    "id": "poke-059",
+    "nationalNumber": 59,
+    "name": "Arcanine",
+    "types": ["Fuego"],
+    "generation": 1,
+    "pokopiaNumber": 89,
+    "habitat": "Hábitat ideal: Cálido — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-060",
+    "nationalNumber": 60,
+    "name": "Poliwag",
+    "types": ["Agua"],
+    "generation": 1,
+    "pokopiaNumber": 209,
+    "habitat": "Hábitat ideal: Húmedo — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-061",
+    "nationalNumber": 61,
+    "name": "Poliwhirl",
+    "types": ["Agua"],
+    "generation": 1,
+    "pokopiaNumber": 210,
+    "habitat": "Hábitat ideal: Húmedo — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
   },
   {
     "id": "poke-062",
@@ -239,6 +392,24 @@
     "habitat": "Oleada de Poder Psíquico o Mesa de Adivina (hábitat) — Rareza: Común"
   },
   {
+    "id": "poke-064",
+    "nationalNumber": 64,
+    "name": "Kadabra",
+    "types": ["Psíquico"],
+    "generation": 1,
+    "pokopiaNumber": 214,
+    "habitat": "Hábitat ideal: Oscuro — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-065",
+    "nationalNumber": 65,
+    "name": "Alakazam",
+    "types": ["Psíquico"],
+    "generation": 1,
+    "pokopiaNumber": 215,
+    "habitat": "Hábitat ideal: Oscuro — confirmado en Sparkling Skylands, Cloud Island"
+  },
+  {
     "id": "poke-066",
     "nationalNumber": 66,
     "name": "Machop",
@@ -246,6 +417,24 @@
     "generation": 1,
     "pokopiaNumber": 156,
     "habitat": "Hábitat Hierba Alta a la Sombra de una Roca — Rareza: Común (confirmado en Palette Town, Cloud Island)"
+  },
+  {
+    "id": "poke-067",
+    "nationalNumber": 67,
+    "name": "Machoke",
+    "types": ["Lucha"],
+    "generation": 1,
+    "pokopiaNumber": 157,
+    "habitat": "Hábitat ideal: Luminoso — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-068",
+    "nationalNumber": 68,
+    "name": "Machamp",
+    "types": ["Lucha"],
+    "generation": 1,
+    "pokopiaNumber": 158,
+    "habitat": "Hábitat ideal: Luminoso — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
   },
   {
     "id": "poke-069",
@@ -284,6 +473,24 @@
     "habitat": "Hábitat Hierba Alta — Rareza: Común (confirmado en Palette Town, Cloud Island)"
   },
   {
+    "id": "poke-075",
+    "nationalNumber": 75,
+    "name": "Graveler",
+    "types": ["Roca", "Tierra"],
+    "generation": 1,
+    "pokopiaNumber": 160,
+    "habitat": "Hábitat ideal: Oscuro — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-076",
+    "nationalNumber": 76,
+    "name": "Golem",
+    "types": ["Roca", "Tierra"],
+    "generation": 1,
+    "pokopiaNumber": 161,
+    "habitat": "Hábitat ideal: Oscuro — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
     "id": "poke-079",
     "nationalNumber": 79,
     "name": "Slowpoke",
@@ -320,6 +527,33 @@
     "habitat": "Centro de Basureros (Raro) o Rincón de Minijuegos (Común) (hábitat)"
   },
   {
+    "id": "poke-083",
+    "nationalNumber": 83,
+    "name": "Farfetch'd",
+    "types": ["Normal", "Volador"],
+    "generation": 1,
+    "pokopiaNumber": 90,
+    "habitat": "Hábitat ideal: Cálido — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-088",
+    "nationalNumber": 88,
+    "name": "Grimer",
+    "types": ["Veneno"],
+    "generation": 1,
+    "pokopiaNumber": 91,
+    "habitat": "Hábitat ideal: Oscuro — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-089",
+    "nationalNumber": 89,
+    "name": "Muk",
+    "types": ["Veneno"],
+    "generation": 1,
+    "pokopiaNumber": 92,
+    "habitat": "Hábitat ideal: Oscuro — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
     "id": "poke-090",
     "nationalNumber": 90,
     "name": "Shellder",
@@ -348,6 +582,24 @@
     "habitat": "Hábitat Estudio Tenebroso — Rareza: Común"
   },
   {
+    "id": "poke-093",
+    "nationalNumber": 93,
+    "name": "Haunter",
+    "types": ["Fantasma", "Veneno"],
+    "generation": 1,
+    "pokopiaNumber": 94,
+    "habitat": "Hábitat ideal: Oscuro — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-094",
+    "nationalNumber": 94,
+    "name": "Gengar",
+    "types": ["Fantasma", "Veneno"],
+    "generation": 1,
+    "pokopiaNumber": 95,
+    "habitat": "Hábitat ideal: Oscuro — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
     "id": "poke-095",
     "nationalNumber": 95,
     "name": "Onix",
@@ -373,6 +625,15 @@
     "habitat": "Banco de Parque o Jugando a los Piratas (hábitat) — Rareza: Común"
   },
   {
+    "id": "poke-101",
+    "nationalNumber": 101,
+    "name": "Electrode",
+    "types": ["Eléctrico"],
+    "generation": 1,
+    "pokopiaNumber": 97,
+    "habitat": "Hábitat ideal: Luminoso — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
     "id": "poke-102",
     "nationalNumber": 102,
     "name": "Exeggcute",
@@ -382,6 +643,15 @@
     "habitat": "Ambiente Tropical o Playa a la Sombra (hábitat) — Rareza: Común"
   },
   {
+    "id": "poke-103",
+    "nationalNumber": 103,
+    "name": "Exeggutor",
+    "types": ["Planta", "Psíquico"],
+    "generation": 1,
+    "pokopiaNumber": 99,
+    "habitat": "Hábitat ideal: Luminoso — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
     "id": "poke-104",
     "nationalNumber": 104,
     "name": "Cubone",
@@ -389,6 +659,24 @@
     "generation": 1,
     "pokopiaNumber": 32,
     "habitat": "Hábitat Tumba con Flores — Rareza: Común"
+  },
+  {
+    "id": "poke-105",
+    "nationalNumber": 105,
+    "name": "Marowak",
+    "types": ["Tierra"],
+    "generation": 1,
+    "pokopiaNumber": 33,
+    "habitat": "Hábitat ideal: Seco — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-106",
+    "nationalNumber": 106,
+    "name": "Hitmonlee",
+    "types": ["Lucha"],
+    "generation": 1,
+    "pokopiaNumber": 35,
+    "habitat": "Hábitat ideal: Luminoso — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
   },
   {
     "id": "poke-107",
@@ -401,6 +689,42 @@
     "x": 72,
     "y": 30,
     "pokopiaNumber": 36
+  },
+  {
+    "id": "poke-109",
+    "nationalNumber": 109,
+    "name": "Koffing",
+    "types": ["Veneno"],
+    "generation": 1,
+    "pokopiaNumber": 38,
+    "habitat": "Hábitat ideal: Oscuro — confirmado en Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-110",
+    "nationalNumber": 110,
+    "name": "Weezing",
+    "types": ["Veneno"],
+    "generation": 1,
+    "pokopiaNumber": 39,
+    "habitat": "Hábitat ideal: Oscuro — confirmado en Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-113",
+    "nationalNumber": 113,
+    "name": "Chansey",
+    "types": ["Normal"],
+    "generation": 1,
+    "pokopiaNumber": 101,
+    "habitat": "Hábitat ideal: Luminoso — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-114",
+    "nationalNumber": 114,
+    "name": "Tangela",
+    "types": ["Planta"],
+    "generation": 1,
+    "pokopiaNumber": 40,
+    "habitat": "Hábitat ideal: Luminoso — confirmado en Palette Town, Cloud Island"
   },
   {
     "id": "poke-116",
@@ -441,6 +765,69 @@
     "area": "Bubbly Basin"
   },
   {
+    "id": "poke-122",
+    "nationalNumber": 122,
+    "name": "Mr. Mime",
+    "types": ["Psíquico", "Hada"],
+    "generation": 1,
+    "pokopiaNumber": 217,
+    "habitat": "Hábitat ideal: Luminoso — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-123",
+    "nationalNumber": 123,
+    "name": "Scyther",
+    "types": ["Bicho", "Volador"],
+    "generation": 1,
+    "pokopiaNumber": 42,
+    "habitat": "Hábitat ideal: Luminoso — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-125",
+    "nationalNumber": 125,
+    "name": "Electabuzz",
+    "types": ["Eléctrico"],
+    "generation": 1,
+    "pokopiaNumber": 104,
+    "habitat": "Hábitat ideal: Luminoso — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-126",
+    "nationalNumber": 126,
+    "name": "Magmar",
+    "types": ["Fuego"],
+    "generation": 1,
+    "pokopiaNumber": 163,
+    "habitat": "Hábitat ideal: Cálido — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-127",
+    "nationalNumber": 127,
+    "name": "Pinsir",
+    "types": ["Bicho"],
+    "generation": 1,
+    "pokopiaNumber": 44,
+    "habitat": "Hábitat ideal: Luminoso — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-129",
+    "nationalNumber": 129,
+    "name": "Magikarp",
+    "types": ["Agua"],
+    "generation": 1,
+    "pokopiaNumber": 45,
+    "habitat": "Hábitat ideal: Húmedo — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-130",
+    "nationalNumber": 130,
+    "name": "Gyarados",
+    "types": ["Agua", "Volador"],
+    "generation": 1,
+    "pokopiaNumber": 46,
+    "habitat": "Hábitat ideal: Húmedo — confirmado en Sparkling Skylands, Cloud Island"
+  },
+  {
     "id": "poke-131",
     "nationalNumber": 131,
     "name": "Lapras",
@@ -448,6 +835,15 @@
     "generation": 1,
     "pokopiaNumber": 106,
     "habitat": "Hábitat Costa Tropical — Rareza: Común"
+  },
+  {
+    "id": "poke-132",
+    "nationalNumber": 132,
+    "name": "Ditto",
+    "types": ["Normal"],
+    "generation": 1,
+    "pokopiaNumber": 47,
+    "habitat": "Hábitat ideal: Luminoso — área específica no documentada en las fuentes"
   },
   {
     "id": "poke-133",
@@ -459,6 +855,51 @@
     "habitat": "Hábitat Parterre Bonito — Rareza: Común"
   },
   {
+    "id": "poke-134",
+    "nationalNumber": 134,
+    "name": "Vaporeon",
+    "types": ["Agua"],
+    "generation": 1,
+    "pokopiaNumber": 281,
+    "habitat": "Hábitat ideal: Húmedo — confirmado en Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-135",
+    "nationalNumber": 135,
+    "name": "Jolteon",
+    "types": ["Eléctrico"],
+    "generation": 1,
+    "pokopiaNumber": 282,
+    "habitat": "Hábitat ideal: Luminoso — confirmado en Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-136",
+    "nationalNumber": 136,
+    "name": "Flareon",
+    "types": ["Fuego"],
+    "generation": 1,
+    "pokopiaNumber": 283,
+    "habitat": "Hábitat ideal: Cálido — confirmado en Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-137",
+    "nationalNumber": 137,
+    "name": "Porygon",
+    "types": ["Normal"],
+    "generation": 1,
+    "pokopiaNumber": 218,
+    "habitat": "Hábitat ideal: Luminoso — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-142",
+    "nationalNumber": 142,
+    "name": "Aerodactyl",
+    "types": ["Roca", "Volador"],
+    "generation": 1,
+    "pokopiaNumber": 271,
+    "habitat": "Hábitat ideal: Seco — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
     "id": "poke-143",
     "nationalNumber": 143,
     "name": "Snorlax",
@@ -468,6 +909,33 @@
     "habitat": "Snorlax Dormitando a la Sombra de un Árbol o Antigüedades de Toda la Vida (hábitat) — Rareza: Común (confirmado en Palette Town, Cloud Island)"
   },
   {
+    "id": "poke-144",
+    "nationalNumber": 144,
+    "name": "Articuno",
+    "types": ["Hielo", "Volador"],
+    "generation": 1,
+    "pokopiaNumber": 294,
+    "habitat": "Hábitat ideal: Fresco — área específica no documentada en las fuentes"
+  },
+  {
+    "id": "poke-145",
+    "nationalNumber": 145,
+    "name": "Zapdos",
+    "types": ["Eléctrico", "Volador"],
+    "generation": 1,
+    "pokopiaNumber": 295,
+    "habitat": "Hábitat ideal: Luminoso — área específica no documentada en las fuentes"
+  },
+  {
+    "id": "poke-146",
+    "nationalNumber": 146,
+    "name": "Moltres",
+    "types": ["Fuego", "Volador"],
+    "generation": 1,
+    "pokopiaNumber": 296,
+    "habitat": "Hábitat ideal: Cálido — área específica no documentada en las fuentes"
+  },
+  {
     "id": "poke-147",
     "nationalNumber": 147,
     "name": "Dratini",
@@ -475,6 +943,42 @@
     "generation": 1,
     "pokopiaNumber": 221,
     "habitat": "Parterre Esponjoso Húmedo o Baño Sencillo (hábitat) — Rareza: Común"
+  },
+  {
+    "id": "poke-148",
+    "nationalNumber": 148,
+    "name": "Dragonair",
+    "types": ["Dragón"],
+    "generation": 1,
+    "pokopiaNumber": 222,
+    "habitat": "Hábitat ideal: Húmedo — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-149",
+    "nationalNumber": 149,
+    "name": "Dragonite",
+    "types": ["Dragón", "Volador"],
+    "generation": 1,
+    "pokopiaNumber": 223,
+    "habitat": "Hábitat ideal: Húmedo — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-150",
+    "nationalNumber": 150,
+    "name": "Mewtwo",
+    "types": ["Psíquico"],
+    "generation": 1,
+    "pokopiaNumber": 299,
+    "habitat": "Hábitat ideal: Oscuro — área específica no documentada en las fuentes"
+  },
+  {
+    "id": "poke-151",
+    "nationalNumber": 151,
+    "name": "Mew",
+    "types": ["Psíquico"],
+    "generation": 1,
+    "pokopiaNumber": 300,
+    "habitat": "Hábitat ideal: Cálido — área específica no documentada en las fuentes"
   },
   {
     "id": "poke-152",
@@ -491,6 +995,24 @@
     "generation": 2,
     "pokopiaNumber": 224,
     "habitat": "Hábitat Base Secreta en Tubo de Hormigón — Rareza: Común"
+  },
+  {
+    "id": "poke-156",
+    "nationalNumber": 156,
+    "name": "Quilava",
+    "types": ["Fuego"],
+    "generation": 2,
+    "pokopiaNumber": 225,
+    "habitat": "Hábitat ideal: Cálido — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-157",
+    "nationalNumber": 157,
+    "name": "Typhlosion",
+    "types": ["Fuego"],
+    "generation": 2,
+    "pokopiaNumber": 226,
+    "habitat": "Hábitat ideal: Cálido — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
   },
   {
     "id": "poke-158",
@@ -529,6 +1051,42 @@
     "habitat": "Hierba Alta Elevada o Parterre Bonito o Cama Suavemente Iluminada (hábitat) — Rareza: Común"
   },
   {
+    "id": "poke-164",
+    "nationalNumber": 164,
+    "name": "Noctowl",
+    "types": ["Normal", "Volador"],
+    "generation": 2,
+    "pokopiaNumber": 49,
+    "habitat": "Hábitat ideal: Oscuro — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-167",
+    "nationalNumber": 167,
+    "name": "Spinarak",
+    "types": ["Bicho", "Veneno"],
+    "generation": 2,
+    "pokopiaNumber": 109,
+    "habitat": "Hábitat ideal: Húmedo — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-168",
+    "nationalNumber": 168,
+    "name": "Ariados",
+    "types": ["Bicho", "Veneno"],
+    "generation": 2,
+    "pokopiaNumber": 110,
+    "habitat": "Hábitat ideal: Húmedo — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-169",
+    "nationalNumber": 169,
+    "name": "Crobat",
+    "types": ["Veneno", "Volador"],
+    "generation": 2,
+    "pokopiaNumber": 83,
+    "habitat": "Hábitat ideal: Oscuro — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
     "id": "poke-170",
     "nationalNumber": 170,
     "name": "Chinchou",
@@ -556,11 +1114,56 @@
     "habitat": "Hábitat Set de Picnic — Rareza: Común (confirmado en Yermo Marchito, Cloud Island)"
   },
   {
+    "id": "poke-173",
+    "nationalNumber": 173,
+    "name": "Cleffa",
+    "types": ["Hada"],
+    "generation": 2,
+    "pokopiaNumber": 148,
+    "habitat": "Hábitat ideal: Oscuro — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-174",
+    "nationalNumber": 174,
+    "name": "Igglybuff",
+    "types": ["Normal", "Hada"],
+    "generation": 2,
+    "pokopiaNumber": 151,
+    "habitat": "Hábitat ideal: Cálido — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
     "id": "poke-175",
     "nationalNumber": 175,
     "name": "Togepi",
     "types": ["Hada"],
     "generation": 2
+  },
+  {
+    "id": "poke-179",
+    "nationalNumber": 179,
+    "name": "Mareep",
+    "types": ["Eléctrico"],
+    "generation": 2,
+    "pokopiaNumber": 111,
+    "habitat": "Hábitat ideal: Luminoso — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-180",
+    "nationalNumber": 180,
+    "name": "Flaaffy",
+    "types": ["Eléctrico"],
+    "generation": 2,
+    "pokopiaNumber": 112,
+    "habitat": "Hábitat ideal: Luminoso — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-181",
+    "nationalNumber": 181,
+    "name": "Ampharos",
+    "types": ["Eléctrico"],
+    "generation": 2,
+    "pokopiaNumber": 113,
+    "habitat": "Hábitat ideal: Luminoso — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
   },
   {
     "id": "poke-182",
@@ -581,6 +1184,15 @@
     "habitat": "Hierba Alta Amarilla Húmeda (Raro) o Muelle (Común) (hábitat)"
   },
   {
+    "id": "poke-184",
+    "nationalNumber": 184,
+    "name": "Azumarill",
+    "types": ["Agua", "Hada"],
+    "generation": 2,
+    "pokopiaNumber": 116,
+    "habitat": "Hábitat ideal: Húmedo — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
     "id": "poke-185",
     "nationalNumber": 185,
     "name": "Sudowoodo",
@@ -590,12 +1202,39 @@
     "habitat": "Hierba Alta Roja a la Sombra de un Árbol (Raro) o Fiesta en Casa (Común) (hábitat)"
   },
   {
+    "id": "poke-186",
+    "nationalNumber": 186,
+    "name": "Politoed",
+    "types": ["Agua"],
+    "generation": 2,
+    "pokopiaNumber": 212,
+    "habitat": "Hábitat ideal: Húmedo — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
     "id": "poke-194",
     "nationalNumber": 194,
     "name": "Wooper",
     "types": ["Agua", "Tierra"],
     "generation": 2,
     "pokopiaNumber": 117
+  },
+  {
+    "id": "poke-196",
+    "nationalNumber": 196,
+    "name": "Espeon",
+    "types": ["Psíquico"],
+    "generation": 2,
+    "pokopiaNumber": 284,
+    "habitat": "Hábitat ideal: Luminoso — confirmado en Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-197",
+    "nationalNumber": 197,
+    "name": "Umbreon",
+    "types": ["Siniestro"],
+    "generation": 2,
+    "pokopiaNumber": 285,
+    "habitat": "Hábitat ideal: Oscuro — confirmado en Palette Town, Cloud Island"
   },
   {
     "id": "poke-198",
@@ -616,6 +1255,24 @@
     "habitat": "Hierba Alta Costera (Muy raro) o Cama con Peluche (Raro) o Estanque de Pesca (Raro) (hábitat)"
   },
   {
+    "id": "poke-200",
+    "nationalNumber": 200,
+    "name": "Misdreavus",
+    "types": ["Fantasma"],
+    "generation": 2,
+    "pokopiaNumber": 227,
+    "habitat": "Hábitat ideal: Oscuro — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-203",
+    "nationalNumber": 203,
+    "name": "Girafarig",
+    "types": ["Normal", "Psíquico"],
+    "generation": 2,
+    "pokopiaNumber": 229,
+    "habitat": "Hábitat ideal: Cálido — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
     "id": "poke-208",
     "nationalNumber": 208,
     "name": "Steelix",
@@ -623,6 +1280,24 @@
     "generation": 2,
     "pokopiaNumber": 31,
     "habitat": "Hábitat Construcción de Hierro Tintineante — Rareza: Común"
+  },
+  {
+    "id": "poke-212",
+    "nationalNumber": 212,
+    "name": "Scizor",
+    "types": ["Bicho", "Acero"],
+    "generation": 2,
+    "pokopiaNumber": 43,
+    "habitat": "Hábitat ideal: Luminoso — confirmado en Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-214",
+    "nationalNumber": 214,
+    "name": "Heracross",
+    "types": ["Bicho", "Lucha"],
+    "generation": 2,
+    "pokopiaNumber": 50,
+    "habitat": "Hábitat ideal: Luminoso — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
   },
   {
     "id": "poke-218",
@@ -651,6 +1326,96 @@
     "area": "Bubbly Basin"
   },
   {
+    "id": "poke-233",
+    "nationalNumber": 233,
+    "name": "Porygon2",
+    "types": ["Normal"],
+    "generation": 2,
+    "pokopiaNumber": 219,
+    "habitat": "Hábitat ideal: Luminoso — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-235",
+    "nationalNumber": 235,
+    "name": "Smeargle Decorator",
+    "types": ["Normal"],
+    "generation": 2,
+    "pokopiaNumber": 119,
+    "habitat": "Hábitat ideal: Luminoso — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-236",
+    "nationalNumber": 236,
+    "name": "Tyrogue",
+    "types": ["Lucha"],
+    "generation": 2,
+    "pokopiaNumber": 34,
+    "habitat": "Hábitat ideal: Luminoso — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-237",
+    "nationalNumber": 237,
+    "name": "Hitmontop",
+    "types": ["Lucha"],
+    "generation": 2,
+    "pokopiaNumber": 37,
+    "habitat": "Hábitat ideal: Luminoso — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-239",
+    "nationalNumber": 239,
+    "name": "Elekid",
+    "types": ["Eléctrico"],
+    "generation": 2,
+    "pokopiaNumber": 103,
+    "habitat": "Hábitat ideal: Luminoso — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-240",
+    "nationalNumber": 240,
+    "name": "Magby",
+    "types": ["Fuego"],
+    "generation": 2,
+    "pokopiaNumber": 162,
+    "habitat": "Hábitat ideal: Cálido — confirmado en Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-242",
+    "nationalNumber": 242,
+    "name": "Blissey",
+    "types": ["Normal"],
+    "generation": 2,
+    "pokopiaNumber": 102,
+    "habitat": "Hábitat ideal: Luminoso — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-243",
+    "nationalNumber": 243,
+    "name": "Raikou",
+    "types": ["Eléctrico"],
+    "generation": 2,
+    "pokopiaNumber": 290,
+    "habitat": "Hábitat ideal: Luminoso — área específica no documentada en las fuentes"
+  },
+  {
+    "id": "poke-244",
+    "nationalNumber": 244,
+    "name": "Entei",
+    "types": ["Fuego"],
+    "generation": 2,
+    "pokopiaNumber": 291,
+    "habitat": "Hábitat ideal: Cálido — área específica no documentada en las fuentes"
+  },
+  {
+    "id": "poke-245",
+    "nationalNumber": 245,
+    "name": "Suicune",
+    "types": ["Agua"],
+    "generation": 2,
+    "pokopiaNumber": 292,
+    "habitat": "Hábitat ideal: Húmedo — área específica no documentada en las fuentes"
+  },
+  {
     "id": "poke-246",
     "nationalNumber": 246,
     "name": "Larvitar",
@@ -658,6 +1423,42 @@
     "generation": 2,
     "pokopiaNumber": 169,
     "habitat": "Hábitat Lugar de Descanso Musgoso — Rareza: Común"
+  },
+  {
+    "id": "poke-247",
+    "nationalNumber": 247,
+    "name": "Pupitar",
+    "types": ["Roca", "Tierra"],
+    "generation": 2,
+    "pokopiaNumber": 170,
+    "habitat": "Hábitat ideal: Oscuro — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-248",
+    "nationalNumber": 248,
+    "name": "Tyranitar",
+    "types": ["Roca", "Siniestro"],
+    "generation": 2,
+    "pokopiaNumber": 171,
+    "habitat": "Hábitat ideal: Oscuro — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-249",
+    "nationalNumber": 249,
+    "name": "Lugia",
+    "types": ["Psíquico", "Volador"],
+    "generation": 2,
+    "pokopiaNumber": 297,
+    "habitat": "Hábitat ideal: Húmedo — área específica no documentada en las fuentes"
+  },
+  {
+    "id": "poke-250",
+    "nationalNumber": 250,
+    "name": "Ho-Oh",
+    "types": ["Fuego", "Volador"],
+    "generation": 2,
+    "pokopiaNumber": 298,
+    "habitat": "Hábitat ideal: Cálido — área específica no documentada en las fuentes"
   },
   {
     "id": "poke-252",
@@ -674,6 +1475,24 @@
     "generation": 3,
     "pokopiaNumber": 120,
     "habitat": "Comida Pío-Pío o Preparación de Comida de Resort (hábitat) — Rareza: Común"
+  },
+  {
+    "id": "poke-256",
+    "nationalNumber": 256,
+    "name": "Combusken",
+    "types": ["Fuego", "Lucha"],
+    "generation": 3,
+    "pokopiaNumber": 121,
+    "habitat": "Hábitat ideal: Cálido — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-257",
+    "nationalNumber": 257,
+    "name": "Blaziken",
+    "types": ["Fuego", "Lucha"],
+    "generation": 3,
+    "pokopiaNumber": 122,
+    "habitat": "Hábitat ideal: Cálido — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
   },
   {
     "id": "poke-258",
@@ -703,6 +1522,33 @@
     "area": "Bubbly Basin"
   },
   {
+    "id": "poke-270",
+    "nationalNumber": 270,
+    "name": "Lotad",
+    "types": ["Agua", "Planta"],
+    "generation": 3,
+    "pokopiaNumber": 172,
+    "habitat": "Hábitat ideal: Húmedo — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-271",
+    "nationalNumber": 271,
+    "name": "Lombre",
+    "types": ["Agua", "Planta"],
+    "generation": 3,
+    "pokopiaNumber": 173,
+    "habitat": "Hábitat ideal: Húmedo — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-272",
+    "nationalNumber": 272,
+    "name": "Ludicolo",
+    "types": ["Agua", "Planta"],
+    "generation": 3,
+    "pokopiaNumber": 174,
+    "habitat": "Hábitat ideal: Húmedo — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
     "id": "poke-278",
     "nationalNumber": 278,
     "name": "Wingull",
@@ -710,6 +1556,15 @@
     "generation": 3,
     "pokopiaNumber": 123,
     "habitat": "Hierba Alta Amarilla Elevada o Parterre Ventoso (hábitat) — Rareza: Común"
+  },
+  {
+    "id": "poke-279",
+    "nationalNumber": 279,
+    "name": "Pelipper",
+    "types": ["Agua", "Volador"],
+    "generation": 3,
+    "pokopiaNumber": 124,
+    "habitat": "Hábitat ideal: Húmedo — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
   },
   {
     "id": "poke-280",
@@ -721,11 +1576,119 @@
     "habitat": "Hábitat Zona de Estudio — Rareza: Común"
   },
   {
+    "id": "poke-281",
+    "nationalNumber": 281,
+    "name": "Kirlia",
+    "types": ["Psíquico", "Hada"],
+    "generation": 3,
+    "pokopiaNumber": 232,
+    "habitat": "Hábitat ideal: Luminoso — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-282",
+    "nationalNumber": 282,
+    "name": "Gardevoir",
+    "types": ["Psíquico", "Hada"],
+    "generation": 3,
+    "pokopiaNumber": 233,
+    "habitat": "Hábitat ideal: Luminoso — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-296",
+    "nationalNumber": 296,
+    "name": "Makuhita",
+    "types": ["Lucha"],
+    "generation": 3,
+    "pokopiaNumber": 125,
+    "habitat": "Hábitat ideal: Luminoso — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-297",
+    "nationalNumber": 297,
+    "name": "Hariyama",
+    "types": ["Lucha"],
+    "generation": 3,
+    "pokopiaNumber": 126,
+    "habitat": "Hábitat ideal: Luminoso — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-298",
+    "nationalNumber": 298,
+    "name": "Azurill",
+    "types": ["Normal", "Hada"],
+    "generation": 3,
+    "pokopiaNumber": 114,
+    "habitat": "Hábitat ideal: Húmedo — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
     "id": "poke-302",
     "nationalNumber": 302,
     "name": "Sableye",
     "types": ["Siniestro", "Fantasma"],
     "generation": 3
+  },
+  {
+    "id": "poke-303",
+    "nationalNumber": 303,
+    "name": "Mawile",
+    "types": ["Acero", "Hada"],
+    "generation": 3,
+    "pokopiaNumber": 175,
+    "habitat": "Hábitat ideal: Luminoso — confirmado en Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-311",
+    "nationalNumber": 311,
+    "name": "Plusle",
+    "types": ["Eléctrico"],
+    "generation": 3,
+    "pokopiaNumber": 235,
+    "habitat": "Hábitat ideal: Luminoso — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-312",
+    "nationalNumber": 312,
+    "name": "Minun",
+    "types": ["Eléctrico"],
+    "generation": 3,
+    "pokopiaNumber": 236,
+    "habitat": "Hábitat ideal: Luminoso — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-313",
+    "nationalNumber": 313,
+    "name": "Volbeat",
+    "types": ["Bicho"],
+    "generation": 3,
+    "pokopiaNumber": 51,
+    "habitat": "Hábitat ideal: Oscuro — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-314",
+    "nationalNumber": 314,
+    "name": "Illumise",
+    "types": ["Bicho"],
+    "generation": 3,
+    "pokopiaNumber": 52,
+    "habitat": "Hábitat ideal: Oscuro — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-316",
+    "nationalNumber": 316,
+    "name": "Gulpin",
+    "types": ["Veneno"],
+    "generation": 3,
+    "pokopiaNumber": 53,
+    "habitat": "Hábitat ideal: Húmedo — confirmado en Yermo Marchito, Cloud Island"
+  },
+  {
+    "id": "poke-317",
+    "nationalNumber": 317,
+    "name": "Swalot",
+    "types": ["Veneno"],
+    "generation": 3,
+    "pokopiaNumber": 54,
+    "habitat": "Hábitat ideal: Húmedo — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
   },
   {
     "id": "poke-318",
@@ -746,6 +1709,15 @@
     "area": "Bubbly Basin"
   },
   {
+    "id": "poke-324",
+    "nationalNumber": 324,
+    "name": "Torkoal",
+    "types": ["Fuego"],
+    "generation": 3,
+    "pokopiaNumber": 176,
+    "habitat": "Hábitat ideal: Cálido — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
     "id": "poke-328",
     "nationalNumber": 328,
     "name": "Trapinch",
@@ -753,6 +1725,60 @@
     "generation": 3,
     "pokopiaNumber": 237,
     "habitat": "Hábitat Hierba Alta Rosa — Rareza: Común"
+  },
+  {
+    "id": "poke-329",
+    "nationalNumber": 329,
+    "name": "Vibrava",
+    "types": ["Tierra", "Dragón"],
+    "generation": 3,
+    "pokopiaNumber": 238,
+    "habitat": "Hábitat ideal: Seco — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-330",
+    "nationalNumber": 330,
+    "name": "Flygon",
+    "types": ["Tierra", "Dragón"],
+    "generation": 3,
+    "pokopiaNumber": 239,
+    "habitat": "Hábitat ideal: Seco — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-331",
+    "nationalNumber": 331,
+    "name": "Cacnea",
+    "types": ["Planta"],
+    "generation": 3,
+    "pokopiaNumber": 55,
+    "habitat": "Hábitat ideal: Seco — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-332",
+    "nationalNumber": 332,
+    "name": "Cacturne",
+    "types": ["Planta", "Siniestro"],
+    "generation": 3,
+    "pokopiaNumber": 56,
+    "habitat": "Hábitat ideal: Seco — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-333",
+    "nationalNumber": 333,
+    "name": "Swablu",
+    "types": ["Normal", "Volador"],
+    "generation": 3,
+    "pokopiaNumber": 240,
+    "habitat": "Hábitat ideal: Luminoso — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-334",
+    "nationalNumber": 334,
+    "name": "Altaria",
+    "types": ["Dragón", "Volador"],
+    "generation": 3,
+    "pokopiaNumber": 241,
+    "habitat": "Hábitat ideal: Luminoso — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
   },
   {
     "id": "poke-339",
@@ -798,6 +1824,33 @@
     "generation": 3
   },
   {
+    "id": "poke-355",
+    "nationalNumber": 355,
+    "name": "Duskull",
+    "types": ["Fantasma"],
+    "generation": 3,
+    "pokopiaNumber": 242,
+    "habitat": "Hábitat ideal: Oscuro — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-356",
+    "nationalNumber": 356,
+    "name": "Dusclops",
+    "types": ["Fantasma"],
+    "generation": 3,
+    "pokopiaNumber": 243,
+    "habitat": "Hábitat ideal: Oscuro — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-359",
+    "nationalNumber": 359,
+    "name": "Absol",
+    "types": ["Siniestro"],
+    "generation": 3,
+    "pokopiaNumber": 127,
+    "habitat": "Hábitat ideal: Oscuro — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
     "id": "poke-370",
     "nationalNumber": 370,
     "name": "Luvdisc",
@@ -814,6 +1867,33 @@
     "generation": 3,
     "pokopiaNumber": 245,
     "habitat": "Hábitat Parada de Descanso Ciclista — Rareza: Común"
+  },
+  {
+    "id": "poke-375",
+    "nationalNumber": 375,
+    "name": "Metang",
+    "types": ["Acero", "Psíquico"],
+    "generation": 3,
+    "pokopiaNumber": 246,
+    "habitat": "Hábitat ideal: Fresco — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-376",
+    "nationalNumber": 376,
+    "name": "Metagross",
+    "types": ["Acero", "Psíquico"],
+    "generation": 3,
+    "pokopiaNumber": 247,
+    "habitat": "Hábitat ideal: Fresco — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-382",
+    "nationalNumber": 382,
+    "name": "Kyogre",
+    "types": ["Agua"],
+    "generation": 3,
+    "pokopiaNumber": 289,
+    "habitat": "Hábitat ideal: Húmedo — área específica no documentada en las fuentes"
   },
   {
     "id": "poke-387",
@@ -839,6 +1919,42 @@
     "habitat": "Hábitat Hierba Alta Amarilla Húmeda — Rareza: Común"
   },
   {
+    "id": "poke-394",
+    "nationalNumber": 394,
+    "name": "Prinplup",
+    "types": ["Agua"],
+    "generation": 4,
+    "pokopiaNumber": 129,
+    "habitat": "Hábitat ideal: Húmedo — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-395",
+    "nationalNumber": 395,
+    "name": "Empoleon",
+    "types": ["Agua", "Acero"],
+    "generation": 4,
+    "pokopiaNumber": 130,
+    "habitat": "Hábitat ideal: Húmedo — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-401",
+    "nationalNumber": 401,
+    "name": "Kricketot",
+    "types": ["Bicho"],
+    "generation": 4,
+    "pokopiaNumber": 177,
+    "habitat": "Hábitat ideal: Oscuro — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-402",
+    "nationalNumber": 402,
+    "name": "Kricketune",
+    "types": ["Bicho"],
+    "generation": 4,
+    "pokopiaNumber": 178,
+    "habitat": "Hábitat ideal: Oscuro — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
     "id": "poke-408",
     "nationalNumber": 408,
     "name": "Cranidos",
@@ -848,6 +1964,33 @@
     "habitat": "Hábitat Exhibición del Fósil Cráneo — Rareza: Común"
   },
   {
+    "id": "poke-409",
+    "nationalNumber": 409,
+    "name": "Rampardos",
+    "types": ["Roca"],
+    "generation": 4,
+    "pokopiaNumber": 273,
+    "habitat": "Hábitat ideal: Seco — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-410",
+    "nationalNumber": 410,
+    "name": "Shieldon",
+    "types": ["Roca", "Acero"],
+    "generation": 4,
+    "pokopiaNumber": 274,
+    "habitat": "Hábitat ideal: Seco — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-411",
+    "nationalNumber": 411,
+    "name": "Bastiodon",
+    "types": ["Roca", "Acero"],
+    "generation": 4,
+    "pokopiaNumber": 275,
+    "habitat": "Hábitat ideal: Seco — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
     "id": "poke-415",
     "nationalNumber": 415,
     "name": "Combee",
@@ -855,6 +1998,15 @@
     "generation": 4,
     "pokopiaNumber": 57,
     "habitat": "Hábitat Parterre Bonito — Rareza: Común"
+  },
+  {
+    "id": "poke-416",
+    "nationalNumber": 416,
+    "name": "Vespiquen",
+    "types": ["Bicho", "Volador"],
+    "generation": 4,
+    "pokopiaNumber": 58,
+    "habitat": "Hábitat ideal: Luminoso — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
   },
   {
     "id": "poke-418",
@@ -875,6 +2027,62 @@
     "area": "Bubbly Basin"
   },
   {
+    "id": "poke-422",
+    "nationalNumber": 422,
+    "name": "Shellos",
+    "types": ["Agua"],
+    "generation": 4,
+    "pokopiaNumber": 59,
+    "note": "Shellos también tiene documentada una variante de color East Sea que comparte este número Pokopia.",
+    "habitat": "Hábitat ideal: Húmedo — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-423",
+    "nationalNumber": 423,
+    "name": "Gastrodon",
+    "types": ["Agua", "Tierra"],
+    "generation": 4,
+    "pokopiaNumber": 60,
+    "note": "Gastrodon también tiene documentada una variante de color East Sea que comparte este número Pokopia.",
+    "habitat": "Hábitat ideal: Húmedo — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-425",
+    "nationalNumber": 425,
+    "name": "Drifloon",
+    "types": ["Fantasma", "Volador"],
+    "generation": 4,
+    "pokopiaNumber": 61,
+    "habitat": "Hábitat ideal: Cálido — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-426",
+    "nationalNumber": 426,
+    "name": "Drifblim",
+    "types": ["Fantasma", "Volador"],
+    "generation": 4,
+    "pokopiaNumber": 62,
+    "habitat": "Hábitat ideal: Cálido — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-429",
+    "nationalNumber": 429,
+    "name": "Mismagius",
+    "types": ["Fantasma"],
+    "generation": 4,
+    "pokopiaNumber": 228,
+    "habitat": "Hábitat ideal: Oscuro — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-430",
+    "nationalNumber": 430,
+    "name": "Honchkrow",
+    "types": ["Siniestro", "Volador"],
+    "generation": 4,
+    "pokopiaNumber": 168,
+    "habitat": "Hábitat ideal: Oscuro — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
     "id": "poke-438",
     "nationalNumber": 438,
     "name": "Bonsly",
@@ -882,6 +2090,33 @@
     "generation": 4,
     "pokopiaNumber": 165,
     "habitat": "Hábitat Hierba Alta Roja a la Sombra de un Árbol — Rareza: Común"
+  },
+  {
+    "id": "poke-439",
+    "nationalNumber": 439,
+    "name": "Mime Jr.",
+    "types": ["Psíquico", "Hada"],
+    "generation": 4,
+    "pokopiaNumber": 216,
+    "habitat": "Hábitat ideal: Luminoso — área específica no documentada en las fuentes"
+  },
+  {
+    "id": "poke-440",
+    "nationalNumber": 440,
+    "name": "Happiny",
+    "types": ["Normal"],
+    "generation": 4,
+    "pokopiaNumber": 100,
+    "habitat": "Hábitat ideal: Luminoso — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-441",
+    "nationalNumber": 441,
+    "name": "Chatot",
+    "types": ["Normal", "Volador"],
+    "generation": 4,
+    "pokopiaNumber": 179,
+    "habitat": "Hábitat ideal: Cálido — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
   },
   {
     "id": "poke-446",
@@ -900,6 +2135,15 @@
     "generation": 4,
     "pokopiaNumber": 180,
     "habitat": "Hierba Alta Roja o Boxeo al Ritmo (hábitat) — Rareza: Común"
+  },
+  {
+    "id": "poke-448",
+    "nationalNumber": 448,
+    "name": "Lucario",
+    "types": ["Lucha", "Acero"],
+    "generation": 4,
+    "pokopiaNumber": 181,
+    "habitat": "Hábitat ideal: Oscuro — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
   },
   {
     "id": "poke-456",
@@ -939,6 +2183,78 @@
     "habitat": "Hábitat Banco con Vegetación — Rareza: Común (confirmado en Cloud Island)"
   },
   {
+    "id": "poke-466",
+    "nationalNumber": 466,
+    "name": "Electivire",
+    "types": ["Eléctrico"],
+    "generation": 4,
+    "pokopiaNumber": 105,
+    "habitat": "Hábitat ideal: Luminoso — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-467",
+    "nationalNumber": 467,
+    "name": "Magmortar",
+    "types": ["Fuego"],
+    "generation": 4,
+    "pokopiaNumber": 164,
+    "habitat": "Hábitat ideal: Cálido — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-470",
+    "nationalNumber": 470,
+    "name": "Leafeon",
+    "types": ["Planta"],
+    "generation": 4,
+    "pokopiaNumber": 286,
+    "habitat": "Hábitat ideal: Luminoso — confirmado en Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-471",
+    "nationalNumber": 471,
+    "name": "Glaceon",
+    "types": ["Hielo"],
+    "generation": 4,
+    "pokopiaNumber": 287,
+    "habitat": "Hábitat ideal: Fresco — confirmado en Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-474",
+    "nationalNumber": 474,
+    "name": "Porygon-Z",
+    "types": ["Normal"],
+    "generation": 4,
+    "pokopiaNumber": 220,
+    "habitat": "Hábitat ideal: Luminoso — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-475",
+    "nationalNumber": 475,
+    "name": "Gallade",
+    "types": ["Psíquico", "Lucha"],
+    "generation": 4,
+    "pokopiaNumber": 234,
+    "habitat": "Hábitat ideal: Luminoso — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-477",
+    "nationalNumber": 477,
+    "name": "Dusknoir",
+    "types": ["Fantasma"],
+    "generation": 4,
+    "pokopiaNumber": 244,
+    "habitat": "Hábitat ideal: Oscuro — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-479",
+    "nationalNumber": 479,
+    "name": "Stereo Rotom",
+    "types": ["Eléctrico", "Normal"],
+    "generation": 4,
+    "pokopiaNumber": 182,
+    "habitat": "Hábitat ideal: Luminoso — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
     "id": "poke-489",
     "nationalNumber": 489,
     "name": "Phione",
@@ -966,6 +2282,24 @@
     "habitat": "Hábitat Parque Infantil — Rareza: Común"
   },
   {
+    "id": "poke-496",
+    "nationalNumber": 496,
+    "name": "Servine",
+    "types": ["Planta"],
+    "generation": 5,
+    "pokopiaNumber": 249,
+    "habitat": "Hábitat ideal: Húmedo — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-497",
+    "nationalNumber": 497,
+    "name": "Serperior",
+    "types": ["Planta"],
+    "generation": 5,
+    "pokopiaNumber": 250,
+    "habitat": "Hábitat ideal: Húmedo — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
     "id": "poke-498",
     "nationalNumber": 498,
     "name": "Tepig",
@@ -980,6 +2314,33 @@
     "generation": 5
   },
   {
+    "id": "poke-529",
+    "nationalNumber": 529,
+    "name": "Drilbur",
+    "types": ["Tierra"],
+    "generation": 5,
+    "pokopiaNumber": 63,
+    "habitat": "Hábitat ideal: Oscuro — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-530",
+    "nationalNumber": 530,
+    "name": "Excadrill",
+    "types": ["Tierra", "Acero"],
+    "generation": 5,
+    "pokopiaNumber": 64,
+    "habitat": "Hábitat ideal: Oscuro — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-531",
+    "nationalNumber": 531,
+    "name": "Audino",
+    "types": ["Normal"],
+    "generation": 5,
+    "pokopiaNumber": 131,
+    "habitat": "Hábitat ideal: Luminoso — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
     "id": "poke-532",
     "nationalNumber": 532,
     "name": "Timburr",
@@ -992,11 +2353,83 @@
     "pokopiaNumber": 65
   },
   {
+    "id": "poke-533",
+    "nationalNumber": 533,
+    "name": "Gurdurr",
+    "types": ["Lucha"],
+    "generation": 5,
+    "pokopiaNumber": 66,
+    "habitat": "Hábitat ideal: Luminoso — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-534",
+    "nationalNumber": 534,
+    "name": "Conkeldurr",
+    "types": ["Lucha"],
+    "generation": 5,
+    "pokopiaNumber": 67,
+    "habitat": "Hábitat ideal: Luminoso — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
     "id": "poke-540",
     "nationalNumber": 540,
     "name": "Sewaddle",
     "types": ["Bicho", "Planta"],
     "generation": 5
+  },
+  {
+    "id": "poke-568",
+    "nationalNumber": 568,
+    "name": "Trubbish",
+    "types": ["Veneno"],
+    "generation": 5,
+    "pokopiaNumber": 132,
+    "habitat": "Hábitat ideal: Húmedo — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-569",
+    "nationalNumber": 569,
+    "name": "Garbodor",
+    "types": ["Veneno"],
+    "generation": 5,
+    "pokopiaNumber": 133,
+    "habitat": "Hábitat ideal: Húmedo — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-570",
+    "nationalNumber": 570,
+    "name": "Zorua",
+    "types": ["Siniestro"],
+    "generation": 5,
+    "pokopiaNumber": 134,
+    "habitat": "Hábitat ideal: Oscuro — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-571",
+    "nationalNumber": 571,
+    "name": "Zoroark",
+    "types": ["Siniestro"],
+    "generation": 5,
+    "pokopiaNumber": 135,
+    "habitat": "Hábitat ideal: Oscuro — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-572",
+    "nationalNumber": 572,
+    "name": "Minccino",
+    "types": ["Normal"],
+    "generation": 5,
+    "pokopiaNumber": 136,
+    "habitat": "Hábitat ideal: Luminoso — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-573",
+    "nationalNumber": 573,
+    "name": "Cinccino",
+    "types": ["Normal"],
+    "generation": 5,
+    "pokopiaNumber": 137,
+    "habitat": "Hábitat ideal: Luminoso — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
   },
   {
     "id": "poke-585",
@@ -1040,6 +2473,33 @@
     "generation": 5
   },
   {
+    "id": "poke-607",
+    "nationalNumber": 607,
+    "name": "Litwick",
+    "types": ["Fantasma", "Fuego"],
+    "generation": 5,
+    "pokopiaNumber": 68,
+    "habitat": "Hábitat ideal: Cálido — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-608",
+    "nationalNumber": 608,
+    "name": "Lampent",
+    "types": ["Fantasma", "Fuego"],
+    "generation": 5,
+    "pokopiaNumber": 69,
+    "habitat": "Hábitat ideal: Cálido — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-609",
+    "nationalNumber": 609,
+    "name": "Chandelure",
+    "types": ["Fantasma", "Fuego"],
+    "generation": 5,
+    "pokopiaNumber": 70,
+    "habitat": "Hábitat ideal: Cálido — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
     "id": "poke-610",
     "nationalNumber": 610,
     "name": "Axew",
@@ -1049,6 +2509,24 @@
     "habitat": "Lugar de Trabajo del Leñador o Manualidades Acogedoras de Troncos (hábitat) — Rareza: Común"
   },
   {
+    "id": "poke-611",
+    "nationalNumber": 611,
+    "name": "Fraxure",
+    "types": ["Dragón"],
+    "generation": 5,
+    "pokopiaNumber": 72,
+    "habitat": "Hábitat ideal: Oscuro — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-612",
+    "nationalNumber": 612,
+    "name": "Haxorus",
+    "types": ["Dragón"],
+    "generation": 5,
+    "pokopiaNumber": 73,
+    "habitat": "Hábitat ideal: Oscuro — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
     "id": "poke-618",
     "nationalNumber": 618,
     "name": "Stunfisk",
@@ -1056,6 +2534,24 @@
     "generation": 5,
     "basinNumber": 31,
     "area": "Bubbly Basin"
+  },
+  {
+    "id": "poke-636",
+    "nationalNumber": 636,
+    "name": "Larvesta",
+    "types": ["Bicho", "Fuego"],
+    "generation": 5,
+    "pokopiaNumber": 183,
+    "habitat": "Hábitat ideal: Seco — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-637",
+    "nationalNumber": 637,
+    "name": "Volcarona",
+    "types": ["Bicho", "Fuego"],
+    "generation": 5,
+    "pokopiaNumber": 184,
+    "habitat": "Hábitat ideal: Seco — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
   },
   {
     "id": "poke-650",
@@ -1079,6 +2575,24 @@
     "generation": 6,
     "pokopiaNumber": 251,
     "habitat": "Hábitat Hierba Alta Rosa Húmeda — Rareza: Común"
+  },
+  {
+    "id": "poke-657",
+    "nationalNumber": 657,
+    "name": "Frogadier",
+    "types": ["Agua"],
+    "generation": 6,
+    "pokopiaNumber": 252,
+    "habitat": "Hábitat ideal: Húmedo — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-658",
+    "nationalNumber": 658,
+    "name": "Greninja",
+    "types": ["Agua", "Siniestro"],
+    "generation": 6,
+    "pokopiaNumber": 253,
+    "habitat": "Hábitat ideal: Húmedo — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
   },
   {
     "id": "poke-659",
@@ -1113,6 +2627,51 @@
     "area": "Bubbly Basin"
   },
   {
+    "id": "poke-696",
+    "nationalNumber": 696,
+    "name": "Tyrunt",
+    "types": ["Roca", "Dragón"],
+    "generation": 6,
+    "pokopiaNumber": 276,
+    "habitat": "Hábitat ideal: Seco — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-697",
+    "nationalNumber": 697,
+    "name": "Tyrantrum",
+    "types": ["Roca", "Dragón"],
+    "generation": 6,
+    "pokopiaNumber": 277,
+    "habitat": "Hábitat ideal: Seco — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-698",
+    "nationalNumber": 698,
+    "name": "Amaura",
+    "types": ["Roca", "Hielo"],
+    "generation": 6,
+    "pokopiaNumber": 278,
+    "habitat": "Hábitat ideal: Fresco — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-699",
+    "nationalNumber": 699,
+    "name": "Aurorus",
+    "types": ["Roca", "Hielo"],
+    "generation": 6,
+    "pokopiaNumber": 279,
+    "habitat": "Hábitat ideal: Fresco — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-700",
+    "nationalNumber": 700,
+    "name": "Sylveon",
+    "types": ["Hada"],
+    "generation": 6,
+    "pokopiaNumber": 288,
+    "habitat": "Hábitat ideal: Cálido — confirmado en Palette Town, Cloud Island"
+  },
+  {
     "id": "poke-702",
     "nationalNumber": 702,
     "name": "Dedenne",
@@ -1131,6 +2690,51 @@
     "habitat": "Parterre a la Sombra de un Árbol o Lugar de la Danza Lluvia (hábitat) — Rareza: Común"
   },
   {
+    "id": "poke-705",
+    "nationalNumber": 705,
+    "name": "Sliggoo",
+    "types": ["Dragón"],
+    "generation": 6,
+    "pokopiaNumber": 75,
+    "habitat": "Hábitat ideal: Húmedo — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-706",
+    "nationalNumber": 706,
+    "name": "Goodra",
+    "types": ["Dragón"],
+    "generation": 6,
+    "pokopiaNumber": 76,
+    "habitat": "Hábitat ideal: Húmedo — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-714",
+    "nationalNumber": 714,
+    "name": "Noibat",
+    "types": ["Volador", "Dragón"],
+    "generation": 6,
+    "pokopiaNumber": 255,
+    "habitat": "Hábitat ideal: Oscuro — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-715",
+    "nationalNumber": 715,
+    "name": "Noivern",
+    "types": ["Volador", "Dragón"],
+    "generation": 6,
+    "pokopiaNumber": 256,
+    "habitat": "Hábitat ideal: Oscuro — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-721",
+    "nationalNumber": 721,
+    "name": "Volcanion",
+    "types": ["Fuego", "Agua"],
+    "generation": 6,
+    "pokopiaNumber": 293,
+    "habitat": "Hábitat ideal: Cálido — área específica no documentada en las fuentes"
+  },
+  {
     "id": "poke-722",
     "nationalNumber": 722,
     "name": "Rowlet",
@@ -1138,6 +2742,24 @@
     "generation": 7,
     "pokopiaNumber": 185,
     "habitat": "Hábitat Campo de Verduras Frescas — Rareza: Común (confirmado en Palette Town, Cloud Island)"
+  },
+  {
+    "id": "poke-723",
+    "nationalNumber": 723,
+    "name": "Dartrix",
+    "types": ["Planta", "Volador"],
+    "generation": 7,
+    "pokopiaNumber": 186,
+    "habitat": "Hábitat ideal: Oscuro — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-724",
+    "nationalNumber": 724,
+    "name": "Decidueye",
+    "types": ["Planta", "Fantasma"],
+    "generation": 7,
+    "pokopiaNumber": 187,
+    "habitat": "Hábitat ideal: Oscuro — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
   },
   {
     "id": "poke-725",
@@ -1186,6 +2808,33 @@
     "name": "Yungoos",
     "types": ["Normal"],
     "generation": 7
+  },
+  {
+    "id": "poke-736",
+    "nationalNumber": 736,
+    "name": "Grubbin",
+    "types": ["Bicho"],
+    "generation": 7,
+    "pokopiaNumber": 138,
+    "habitat": "Hábitat ideal: Luminoso — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-737",
+    "nationalNumber": 737,
+    "name": "Charjabug",
+    "types": ["Bicho", "Eléctrico"],
+    "generation": 7,
+    "pokopiaNumber": 139,
+    "habitat": "Hábitat ideal: Luminoso — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-738",
+    "nationalNumber": 738,
+    "name": "Vikavolt",
+    "types": ["Bicho", "Eléctrico"],
+    "generation": 7,
+    "pokopiaNumber": 140,
+    "habitat": "Hábitat ideal: Luminoso — confirmado en Palette Town, Cloud Island"
   },
   {
     "id": "poke-747",
@@ -1238,6 +2887,15 @@
     "area": "Bubbly Basin"
   },
   {
+    "id": "poke-778",
+    "nationalNumber": 778,
+    "name": "Mimikyu",
+    "types": ["Fantasma", "Hada"],
+    "generation": 7,
+    "pokopiaNumber": 141,
+    "habitat": "Hábitat ideal: Oscuro — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
     "id": "poke-779",
     "nationalNumber": 779,
     "name": "Bruxish",
@@ -1272,6 +2930,24 @@
     "habitat": "Hábitat Hierba Alta Roja — Rareza: Común"
   },
   {
+    "id": "poke-814",
+    "nationalNumber": 814,
+    "name": "Raboot",
+    "types": ["Fuego"],
+    "generation": 8,
+    "pokopiaNumber": 189,
+    "habitat": "Hábitat ideal: Cálido — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-815",
+    "nationalNumber": 815,
+    "name": "Cinderace",
+    "types": ["Fuego"],
+    "generation": 8,
+    "pokopiaNumber": 190,
+    "habitat": "Hábitat ideal: Cálido — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
     "id": "poke-816",
     "nationalNumber": 816,
     "name": "Sobble",
@@ -1286,6 +2962,42 @@
     "generation": 8,
     "pokopiaNumber": 191,
     "habitat": "Hábitat Hierba Alta a la Sombra de un Árbol — Rareza: Común (confirmado en Palette Town, Cloud Island)"
+  },
+  {
+    "id": "poke-820",
+    "nationalNumber": 820,
+    "name": "Greedent Cook",
+    "types": ["Normal"],
+    "generation": 8,
+    "pokopiaNumber": 192,
+    "habitat": "Hábitat ideal: Cálido — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-821",
+    "nationalNumber": 821,
+    "name": "Rookidee",
+    "types": ["Volador"],
+    "generation": 8,
+    "pokopiaNumber": 257,
+    "habitat": "Hábitat ideal: Luminoso — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-822",
+    "nationalNumber": 822,
+    "name": "Corvisquire",
+    "types": ["Volador"],
+    "generation": 8,
+    "pokopiaNumber": 258,
+    "habitat": "Hábitat ideal: Luminoso — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-823",
+    "nationalNumber": 823,
+    "name": "Corviknight",
+    "types": ["Volador", "Acero"],
+    "generation": 8,
+    "pokopiaNumber": 259,
+    "habitat": "Hábitat ideal: Luminoso — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
   },
   {
     "id": "poke-831",
@@ -1322,11 +3034,57 @@
     "habitat": "Hábitat Paso a Nivel — Rareza: Común"
   },
   {
+    "id": "poke-838",
+    "nationalNumber": 838,
+    "name": "Carkol",
+    "types": ["Roca", "Fuego"],
+    "generation": 8,
+    "pokopiaNumber": 194,
+    "habitat": "Hábitat ideal: Cálido — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-839",
+    "nationalNumber": 839,
+    "name": "Coalossal",
+    "types": ["Roca", "Fuego"],
+    "generation": 8,
+    "pokopiaNumber": 195,
+    "habitat": "Hábitat ideal: Cálido — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
     "id": "poke-840",
     "nationalNumber": 840,
     "name": "Applin",
     "types": ["Planta", "Dragón"],
     "generation": 8
+  },
+  {
+    "id": "poke-845",
+    "nationalNumber": 845,
+    "name": "Cramorant",
+    "types": ["Volador", "Agua"],
+    "generation": 8,
+    "pokopiaNumber": 77,
+    "habitat": "Hábitat ideal: Húmedo — confirmado en Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-848",
+    "nationalNumber": 848,
+    "name": "Toxel",
+    "types": ["Eléctrico", "Veneno"],
+    "generation": 8,
+    "pokopiaNumber": 196,
+    "habitat": "Hábitat ideal: Húmedo — confirmado en Crestas Rocosas, Cloud Island"
+  },
+  {
+    "id": "poke-849",
+    "nationalNumber": 849,
+    "name": "Toxtricity",
+    "types": ["Eléctrico", "Veneno"],
+    "generation": 8,
+    "pokopiaNumber": 197,
+    "note": "Toxtricity también tiene documentada una Low Key Form que comparte este número Pokopia.",
+    "habitat": "Hábitat ideal: Húmedo — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
   },
   {
     "id": "poke-871",
@@ -1338,6 +3096,33 @@
     "area": "Bubbly Basin"
   },
   {
+    "id": "poke-885",
+    "nationalNumber": 885,
+    "name": "Dreepy",
+    "types": ["Dragón", "Fantasma"],
+    "generation": 8,
+    "pokopiaNumber": 260,
+    "habitat": "Hábitat ideal: Húmedo — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-886",
+    "nationalNumber": 886,
+    "name": "Drakloak",
+    "types": ["Dragón", "Fantasma"],
+    "generation": 8,
+    "pokopiaNumber": 261,
+    "habitat": "Hábitat ideal: Húmedo — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-887",
+    "nationalNumber": 887,
+    "name": "Dragapult",
+    "types": ["Dragón", "Fantasma"],
+    "generation": 8,
+    "pokopiaNumber": 262,
+    "habitat": "Hábitat ideal: Húmedo — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
     "id": "poke-906",
     "nationalNumber": 906,
     "name": "Sprigatito",
@@ -1345,6 +3130,24 @@
     "generation": 9,
     "pokopiaNumber": 263,
     "habitat": "Hierba Alta Rosa a la Sombra de un Árbol o Mesa de Interrogatorio (hábitat) — Rareza: Común"
+  },
+  {
+    "id": "poke-907",
+    "nationalNumber": 907,
+    "name": "Floragato",
+    "types": ["Planta"],
+    "generation": 9,
+    "pokopiaNumber": 264,
+    "habitat": "Hábitat ideal: Luminoso — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-908",
+    "nationalNumber": 908,
+    "name": "Meowscarada",
+    "types": ["Planta", "Siniestro"],
+    "generation": 9,
+    "pokopiaNumber": 265,
+    "habitat": "Hábitat ideal: Luminoso — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
   },
   {
     "id": "poke-909",
@@ -1382,6 +3185,123 @@
     "generation": 9
   },
   {
+    "id": "poke-921",
+    "nationalNumber": 921,
+    "name": "Pawmi",
+    "types": ["Eléctrico"],
+    "generation": 9,
+    "pokopiaNumber": 142,
+    "habitat": "Hábitat ideal: Luminoso — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-922",
+    "nationalNumber": 922,
+    "name": "Pawmo",
+    "types": ["Eléctrico", "Lucha"],
+    "generation": 9,
+    "pokopiaNumber": 143,
+    "habitat": "Hábitat ideal: Luminoso — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-923",
+    "nationalNumber": 923,
+    "name": "Pawmot",
+    "types": ["Eléctrico", "Lucha"],
+    "generation": 9,
+    "pokopiaNumber": 144,
+    "habitat": "Hábitat ideal: Luminoso — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-926",
+    "nationalNumber": 926,
+    "name": "Fidough",
+    "types": ["Hada"],
+    "generation": 9,
+    "pokopiaNumber": 198,
+    "habitat": "Hábitat ideal: Cálido — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-927",
+    "nationalNumber": 927,
+    "name": "Dachsbun",
+    "types": ["Hada"],
+    "generation": 9,
+    "pokopiaNumber": 199,
+    "habitat": "Hábitat ideal: Cálido — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-935",
+    "nationalNumber": 935,
+    "name": "Charcadet",
+    "types": ["Fuego"],
+    "generation": 9,
+    "pokopiaNumber": 200,
+    "habitat": "Hábitat ideal: Cálido — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-936",
+    "nationalNumber": 936,
+    "name": "Armarouge",
+    "types": ["Fuego", "Psíquico"],
+    "generation": 9,
+    "pokopiaNumber": 201,
+    "habitat": "Hábitat ideal: Cálido — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-937",
+    "nationalNumber": 937,
+    "name": "Ceruledge",
+    "types": ["Fuego", "Fantasma"],
+    "generation": 9,
+    "pokopiaNumber": 202,
+    "habitat": "Hábitat ideal: Cálido — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-940",
+    "nationalNumber": 940,
+    "name": "Wattrel",
+    "types": ["Eléctrico", "Volador"],
+    "generation": 9,
+    "pokopiaNumber": 266,
+    "habitat": "Hábitat ideal: Luminoso — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-941",
+    "nationalNumber": 941,
+    "name": "Kilowattrel",
+    "types": ["Eléctrico", "Volador"],
+    "generation": 9,
+    "pokopiaNumber": 267,
+    "habitat": "Hábitat ideal: Luminoso — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-957",
+    "nationalNumber": 957,
+    "name": "Tinkatink",
+    "types": ["Hada", "Acero"],
+    "generation": 9,
+    "pokopiaNumber": 268,
+    "habitat": "Hábitat ideal: Luminoso — confirmado en Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-958",
+    "nationalNumber": 958,
+    "name": "Tinkatuff",
+    "types": ["Hada", "Acero"],
+    "generation": 9,
+    "pokopiaNumber": 269,
+    "habitat": "Hábitat ideal: Luminoso — confirmado en Palette Town, Cloud Island, Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands"
+  },
+  {
+    "id": "poke-959",
+    "nationalNumber": 959,
+    "name": "Tinkaton Supervisor",
+    "types": ["Hada", "Acero"],
+    "generation": 9,
+    "pokopiaNumber": 270,
+    "habitat": "Hábitat ideal: Luminoso — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
     "id": "poke-960",
     "nationalNumber": 960,
     "name": "Wiglett",
@@ -1400,6 +3320,24 @@
     "area": "Bubbly Basin"
   },
   {
+    "id": "poke-969",
+    "nationalNumber": 969,
+    "name": "Glimmet",
+    "types": ["Roca", "Veneno"],
+    "generation": 9,
+    "pokopiaNumber": 203,
+    "habitat": "Hábitat ideal: Oscuro — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-970",
+    "nationalNumber": 970,
+    "name": "Glimmora",
+    "types": ["Roca", "Veneno"],
+    "generation": 9,
+    "pokopiaNumber": 204,
+    "habitat": "Hábitat ideal: Oscuro — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
     "id": "poke-976",
     "nationalNumber": 976,
     "name": "Veluza",
@@ -1407,5 +3345,51 @@
     "generation": 9,
     "basinNumber": 48,
     "area": "Bubbly Basin"
+  },
+  {
+    "id": "poke-978",
+    "nationalNumber": 978,
+    "name": "Tatsugiri",
+    "types": ["Dragón", "Agua"],
+    "generation": 9,
+    "pokopiaNumber": 145,
+    "note": "Tatsugiri tiene tres formas documentadas (Curly, Droopy, Stretchy) que comparten este número Pokopia; aquí se usa Curly como forma representativa.",
+    "habitat": "Hábitat ideal: Húmedo — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-980",
+    "nationalNumber": 980,
+    "name": "Clodsire",
+    "types": ["Veneno", "Tierra"],
+    "generation": 9,
+    "pokopiaNumber": 118,
+    "habitat": "Hábitat ideal: Húmedo — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-981",
+    "nationalNumber": 981,
+    "name": "Farigiraf",
+    "types": ["Normal", "Psíquico"],
+    "generation": 9,
+    "pokopiaNumber": 230,
+    "habitat": "Hábitat ideal: Cálido — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-999",
+    "nationalNumber": 999,
+    "name": "Gimmighoul",
+    "types": ["Fantasma"],
+    "generation": 9,
+    "pokopiaNumber": 205,
+    "habitat": "Hábitat ideal: Oscuro — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-1000",
+    "nationalNumber": 1000,
+    "name": "Gholdengo",
+    "types": ["Acero", "Fantasma"],
+    "generation": 9,
+    "pokopiaNumber": 206,
+    "habitat": "Hábitat ideal: Luminoso — confirmado en Yermo Marchito, Playa Sombría, Crestas Rocosas, Sparkling Skylands, Palette Town, Cloud Island"
   }
 ]

@@ -77,11 +77,71 @@ partial and every gap is marked in the content itself, not hidden. A
 second pass (session 2) closed two of the biggest gaps flagged by session
 1; a third pass (session 3, see "Sources consulted — session 3" below)
 pushed Pokédex/recipes/collectibles coverage much further using the same
-rigor. What's still open is called out per-item below.
+rigor; a fourth pass (session 4, see "Sources consulted — session 4"
+below) closed the base Pokédex numbering gap and pushed Human Records
+further. What's still open is called out per-item below.
 
-- **Pokédex: 162 of 300 species** (up from 117 — session 3 added 45 brand
+- **Pokédex: 382 entries** (up from 162), of which **300 carry a
+  `pokopiaNumber`** — every slot in Bulbapedia's `List of Pokémon by
+Pokédex number in Pokémon Pokopia` (the base 300-entry dex) is now
+  filled, up from 80/117 at the end of session 3. Session 4 re-fetched
+  that list fresh (never trust memory) as raw HTML, parsed via
+  `pandas.read_html` (308 rows: 300 unique `pokopiaNumber` slots plus 8
+  extra rows for variant forms sharing a number with a base form — e.g.
+  Tangrowth/Tangrowth Professor, Pikachu/Pikachu Pale, Shellos West
+  Sea/East Sea — matching the existing precedent set by the already-in-
+  collection Tangrowth/Pikachu/Snorlax entries), then diffed it against
+  the collection by `nationalNumber`. That diff surfaced an important
+  correction to the old "138 missing" estimate in this file: only **80**
+  of the pre-session-4 162 entries actually matched a row in the real
+  300-row table — the other 82 (50 Basin-exclusive + 32 no-number "gap"
+  entries) don't appear in it at all, so the true main-dex gap was **220
+  species, not 138**. All 220 were added. Types and generation came
+  straight from the same Bulbapedia table (generation derived from each
+  species' standard national-dex range, e.g. 810–905 → Gen 8); **all 220
+  also got `habitat`** (not bare-number-only) from a second source —
+  pokopiawiki.com/pokedex embeds a complete per-species dataset (`ideal
+habitat` category + confirmed area list) in a Next.js RSC data chunk
+  covering every one of the 300 main-dex slots, extracted programmatically
+  rather than through a summarizing fetch. This source's reliability was
+  spot-checked against lore already independently documented in this file
+  before session 4 ever touched it — its data for Pokopia number 79 names
+  "Peakychu" and for 108 names "Mosslax" (both already referenced in the
+  Rocky Ridges/Bleak Beach walkthrough sections above), and for 192 names
+  "Greedent Cook" (matching this file's existing "Chef Dente" callout) —
+  three independent hits, which is why it was trusted for bulk habitat
+  data rather than re-verified per species. `area` was deliberately left
+  unset on all 220 new entries, same convention as session 3's habitat
+  pass: `habitat`'s text lists the confirmed area(s) instead. Five of the
+  220 (Shellos, Gastrodon, Tatsugiri, Toxtricity, plus the pre-existing
+  Tangrowth/Pikachu/Snorlax) share their Pokopia number with an alternate
+  form documented in a `note`, e.g. Tatsugiri's Curly/Droopy/Stretchy
+  forms. Three keep an unusual full name because Bulbapedia's table lists
+  no separate plain-species row at that number: Smeargle Decorator (#119),
+  Greedent Cook (#192), Tinkaton Supervisor (#270) — these read as
+  genuinely named job-styled Pokémon unique to Pokopia, not a parsing
+  artifact. Number 182, "Stereo Rotom," is a distinct in-game Rotom form
+  with non-standard Electric/Normal typing (not the usual Electric/Ghost)
+  — confirmed independently by both Bulbapedia and pokopiawiki, so kept
+  as-is rather than "corrected" to plain Rotom typing.
+
+  The **32 base-dex "gap" entries** (no `pokopiaNumber`, not
+  Basin-exclusive) are **unchanged** — none of them appear in the
+  re-fetched 300-row table either, so they remain an honest, unresolved
+  gap; whatever originally justified adding them (an area-walkthrough
+  mention, most likely) doesn't include a dex number. The **50
+  Basin-exclusive entries** (`basinNumber`, no `pokopiaNumber`) are also
+  unchanged this session — Basin coverage wasn't revisited beyond a
+  quick sanity check that the existing 50 still matches Bulbapedia's
+  Basin list structurally. `habitat` is now confirmed for **301 of 382**
+  entries (up from 81/162) — the 220 new entries plus the 81 already
+  confirmed as of session 3. Session 3's original context on the Basin
+  dex and the 76-species Serebii habitat pass is preserved below for
+  provenance.
+
+- **Pokédex (session 3 context, preserved):** session 3 added 45 brand
   new entries, all 50 species from Bulbapedia's `List of Pokémon by
-Pokédex (Basin) number in Pokémon Pokopia`, fetched in full). That page
+Pokédex (Basin) number in Pokémon Pokopia`, fetched in full. That page
   is a genuinely separate numbering system from the base 300-entry
   Pokopia Pokédex (confirmed by its own intro line: "the Pokémon in this
   Pokédex are found within Bubbly Basin"), so it got its own schema field,
@@ -92,24 +152,9 @@ Pokédex (Basin) number in Pokémon Pokopia`, fetched in full). That page
   1's speculation that Krabby and Feebas were also Basin-exclusive turned
   out to be **wrong** once the real list was fetched — neither appears in
   it — a good example of why this guide's culture insists on fetching the
-  actual source rather than reasoning from a plausible guess. The
-  remaining **32 base-dex entries still have no `pokopiaNumber`** for the
-  same honest reason as before. `pokopiaNumber` itself is unchanged at
-  **80 of the (original) 117** — session 3 didn't revisit already-checked
-  numbers. `habitat` is now confirmed for **81 of 162** entries (up from
-  3): the 76 species that got `pokopiaNumber` in session 2 but no habitat
-  yet were fetched individually from Serebii's per-species Pokopia pages
-  (`pokemonpokopia/pokedex/<name>.shtml`, which lists exact habitat
-  structure name(s), rarity, and which of the 6 base areas + Cloud Island
-  each species appears in) — 76 of 77 succeeded; Wooper's page 404s under
-  every slug tried and was left as an honest gap rather than guessed. Two
-  more (Corsola, Shellder) got habitat text straight from the area
-  markdown's existing sourced claim about their shared Bubbly Basin
-  habitat. `area` was deliberately left unset on the 76 (most are
-  confirmed in all 6 base areas at once, so no single area is accurate;
-  a handful confirmed in only 2 areas — e.g. Pikachu in Palette Town +
-  Cloud Island — still don't reduce to one, so `habitat`'s text notes the
-  narrower area list instead of forcing the `area` field).
+  actual source rather than reasoning from a plausible guess. `habitat`
+  was confirmed for 81 of 162 entries at the time (see the Serebii
+  per-species pull described in "Sources consulted — session 3" below).
 - **Areas: all 6 now have real, sourced content beyond a one-line stub.**
   Withered Wasteland's walkthrough (session 1, Bulbapedia Part 2) was the
   quality bar; Bleak Beach, Rocky Ridges, Sparkling Skylands, and Palette
@@ -246,18 +291,19 @@ Special`, etc.) — recipe _names_ stay English in both locales, matching
   unlocks and says so explicitly per entry — don't conflate the two axes.
   Not revisited this session.
 
-If you're picking this project back up next: 138 of the 300 base-dex
-species still don't exist as entries at all (162 do, including the 45 new
-Bubbly Basin ones) — session 3 didn't attempt wholesale new-species
-expansion beyond the Basin dex pull, since that needs Pokopia-specific
-confirmation per species (not just "this Pokémon exists," which is
-trivially true for all 300+ real Pokémon) and the remaining ones are
-scattered rather than conveniently listed the way the Basin dex was. The
-32 still-gap base-dex entries (no `pokopiaNumber`, not Basin-exclusive
-either) are the next most tractable target if a similarly authoritative
-numbered source turns up. Wooper's missing habitat and the Bubbly Basin
-species still lacking habitat (all but Corsola/Shellder among the 45) are
-smaller, well-scoped remaining gaps in the data already in the repo.
+If you're picking this project back up next: the base 300-entry Pokopia
+Pokédex is now **fully numbered** (300/300 `pokopiaNumber` slots filled)
+and every one of those 300 has a `habitat`, so the next Pokédex gap isn't
+"missing species" anymore — it's the **32 still-unnumbered "gap" entries**
+(no `pokopiaNumber`, not Basin-exclusive either; unchanged since session 3,
+still not found in either Bulbapedia numbered list) and Wooper's still-
+missing habitat (its Serebii page 404s under every slug tried, per session
+3). A dedicated pass on those 32 — perhaps starting from whatever
+originally justified adding them without a number — is the next most
+tractable target. `x`/`y` map-pin placement for the 220 species session 4
+added is a smaller, well-scoped remaining gap: none of them have a pin,
+since neither Bulbapedia's table nor pokopiawiki.com's dataset gives
+schematic-map coordinates, only a named-area list.
 
 On Human Records specifically (session 4): 154 individually verified
 records is a strong number, but "still growing" is the honest framing,
@@ -361,6 +407,38 @@ homepage nav, not records content) — ruled out rather than silently
 skipped. pokopiawiki.com has no records page under any guessed path
 (`/records`, `/human-records`, `/guides/human-records`, `/collectibles`,
 `/artifacts` — all 404).
+### Sources consulted — session 4 (base Pokédex completion)
+
+**Base Pokédex numbering:** Bulbapedia's `List of Pokémon by Pokédex
+number in Pokémon Pokopia`, re-fetched fresh this session (never trusted
+from memory/prior sessions) as raw HTML and parsed with
+`pandas.read_html` — 308 rows, which is 300 unique `pokopiaNumber` slots
+plus 8 rows for alternate forms sharing a slot with a base form (verified
+by checking the parsed row count and duplicate-number list against the
+page's own numbering, same discipline as session 3's Frillish/Jellicent
+catch). Diffed against the collection by `nationalNumber`, which is what
+surfaced the corrected gap size (220, not the previously-recorded 138 —
+see the Pokédex bullet above for the full explanation).
+
+**Habitat + area confirmation for the 220 additions:** pokopiawiki.com's
+`/pokedex` page, which server-renders a complete per-species dataset
+(`ideal_habitat` category + confirmed area list + classification) inside
+a Next.js RSC data chunk (`self.__next_f.push([1,"..."])` in the raw
+HTML) — extracted by concatenating those chunks, unescaping the JS string,
+and parsing the embedded `initialPokemon` JSON array directly (363
+entries: all 300 main-dex slots + 47 Basin-prefixed + 6 "E-"-prefixed).
+Matched to Bulbapedia's 220 missing species by numeric id (=
+`pokopiaNumber`); every one of the 220 had a match, so all 220 got
+`habitat`, not just a bare number. This source's reliability was
+cross-checked against lore already independently documented in this file
+by earlier sessions, before session 4 ever fetched it: pokopiawiki's data
+for Pokopia number 79 names "Peakychu" and for 108 names "Mosslax" (both
+already cited in the Rocky Ridges/Bleak Beach walkthrough content above,
+sourced back in session 2 from Nintendo Life/GameRant), and for 192 names
+"Greedent Cook" (matching this file's pre-existing "Chef Dente" callout,
+also session 2) — three independent hits on facts this session didn't
+already know, which is why the dataset was trusted in bulk rather than
+re-verified species-by-species.
 
 ## Design & a11y
 

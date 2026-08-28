@@ -112,6 +112,24 @@
     "habitat": "Luxury chirp-chirp meal habitat — Rarity: Common"
   },
   {
+    "id": "poke-023",
+    "nationalNumber": 23,
+    "name": "Ekans",
+    "types": ["Poison"],
+    "generation": 1,
+    "pokopiaNumber": 146,
+    "habitat": "Ideal habitat: Dark — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-024",
+    "nationalNumber": 24,
+    "name": "Arbok",
+    "types": ["Poison"],
+    "generation": 1,
+    "pokopiaNumber": 147,
+    "habitat": "Ideal habitat: Dark — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
     "id": "poke-025",
     "nationalNumber": 25,
     "name": "Pikachu",
@@ -121,6 +139,51 @@
     "habitat": "Picnic Set habitat — Rarity: Rare (confirmed in Palette Town, Cloud Island)"
   },
   {
+    "id": "poke-026",
+    "nationalNumber": 26,
+    "name": "Raichu",
+    "types": ["Electric"],
+    "generation": 1,
+    "pokopiaNumber": 80,
+    "habitat": "Ideal habitat: Bright — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-035",
+    "nationalNumber": 35,
+    "name": "Clefairy",
+    "types": ["Fairy"],
+    "generation": 1,
+    "pokopiaNumber": 149,
+    "habitat": "Ideal habitat: Dark — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-036",
+    "nationalNumber": 36,
+    "name": "Clefable",
+    "types": ["Fairy"],
+    "generation": 1,
+    "pokopiaNumber": 150,
+    "habitat": "Ideal habitat: Dark — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-037",
+    "nationalNumber": 37,
+    "name": "Vulpix",
+    "types": ["Fire"],
+    "generation": 1,
+    "pokopiaNumber": 207,
+    "habitat": "Ideal habitat: Warm — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-038",
+    "nationalNumber": 38,
+    "name": "Ninetales",
+    "types": ["Fire"],
+    "generation": 1,
+    "pokopiaNumber": 208,
+    "habitat": "Ideal habitat: Warm — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
     "id": "poke-039",
     "nationalNumber": 39,
     "name": "Jigglypuff",
@@ -128,6 +191,33 @@
     "generation": 1,
     "pokopiaNumber": 152,
     "habitat": "Flower garden stump stage or Recital stage habitat — Rarity: Common"
+  },
+  {
+    "id": "poke-040",
+    "nationalNumber": 40,
+    "name": "Wigglytuff",
+    "types": ["Normal", "Fairy"],
+    "generation": 1,
+    "pokopiaNumber": 153,
+    "habitat": "Ideal habitat: Bright — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-041",
+    "nationalNumber": 41,
+    "name": "Zubat",
+    "types": ["Poison", "Flying"],
+    "generation": 1,
+    "pokopiaNumber": 81,
+    "habitat": "Ideal habitat: Dark — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-042",
+    "nationalNumber": 42,
+    "name": "Golbat",
+    "types": ["Poison", "Flying"],
+    "generation": 1,
+    "pokopiaNumber": 82,
+    "habitat": "Ideal habitat: Dark — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
   },
   {
     "id": "poke-043",
@@ -193,6 +283,24 @@
     "habitat": "Illuminated tall grass or Illuminated bench habitat — Rarity: Rare"
   },
   {
+    "id": "poke-050",
+    "nationalNumber": 50,
+    "name": "Diglett",
+    "types": ["Ground"],
+    "generation": 1,
+    "pokopiaNumber": 154,
+    "habitat": "Ideal habitat: Dark — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-051",
+    "nationalNumber": 51,
+    "name": "Dugtrio",
+    "types": ["Ground"],
+    "generation": 1,
+    "pokopiaNumber": 155,
+    "habitat": "Ideal habitat: Dark — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
     "id": "poke-052",
     "nationalNumber": 52,
     "name": "Meowth",
@@ -200,6 +308,15 @@
     "generation": 1,
     "pokopiaNumber": 84,
     "habitat": "Resting spot or Working the register habitat — Rarity: Common"
+  },
+  {
+    "id": "poke-053",
+    "nationalNumber": 53,
+    "name": "Persian",
+    "types": ["Normal"],
+    "generation": 1,
+    "pokopiaNumber": 85,
+    "habitat": "Ideal habitat: Cool — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
   },
   {
     "id": "poke-054",
@@ -211,6 +328,15 @@
     "habitat": "Hot-spring shower habitat — Rarity: Common"
   },
   {
+    "id": "poke-055",
+    "nationalNumber": 55,
+    "name": "Golduck",
+    "types": ["Water"],
+    "generation": 1,
+    "pokopiaNumber": 87,
+    "habitat": "Ideal habitat: Humid — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
     "id": "poke-058",
     "nationalNumber": 58,
     "name": "Growlithe",
@@ -218,6 +344,33 @@
     "generation": 1,
     "pokopiaNumber": 88,
     "habitat": "Perpetual mess or Resort meal prep habitat — Rarity: Common"
+  },
+  {
+    "id": "poke-059",
+    "nationalNumber": 59,
+    "name": "Arcanine",
+    "types": ["Fire"],
+    "generation": 1,
+    "pokopiaNumber": 89,
+    "habitat": "Ideal habitat: Warm — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-060",
+    "nationalNumber": 60,
+    "name": "Poliwag",
+    "types": ["Water"],
+    "generation": 1,
+    "pokopiaNumber": 209,
+    "habitat": "Ideal habitat: Humid — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-061",
+    "nationalNumber": 61,
+    "name": "Poliwhirl",
+    "types": ["Water"],
+    "generation": 1,
+    "pokopiaNumber": 210,
+    "habitat": "Ideal habitat: Humid — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
   },
   {
     "id": "poke-062",
@@ -239,6 +392,24 @@
     "habitat": "Surging psychic power or Fortune-teller's table habitat — Rarity: Common"
   },
   {
+    "id": "poke-064",
+    "nationalNumber": 64,
+    "name": "Kadabra",
+    "types": ["Psychic"],
+    "generation": 1,
+    "pokopiaNumber": 214,
+    "habitat": "Ideal habitat: Dark — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-065",
+    "nationalNumber": 65,
+    "name": "Alakazam",
+    "types": ["Psychic"],
+    "generation": 1,
+    "pokopiaNumber": 215,
+    "habitat": "Ideal habitat: Dark — confirmed in Sparkling Skylands, Cloud Island"
+  },
+  {
     "id": "poke-066",
     "nationalNumber": 66,
     "name": "Machop",
@@ -246,6 +417,24 @@
     "generation": 1,
     "pokopiaNumber": 156,
     "habitat": "Boulder-shaded Tall Grass habitat — Rarity: Common (confirmed in Palette Town, Cloud Island)"
+  },
+  {
+    "id": "poke-067",
+    "nationalNumber": 67,
+    "name": "Machoke",
+    "types": ["Fighting"],
+    "generation": 1,
+    "pokopiaNumber": 157,
+    "habitat": "Ideal habitat: Bright — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-068",
+    "nationalNumber": 68,
+    "name": "Machamp",
+    "types": ["Fighting"],
+    "generation": 1,
+    "pokopiaNumber": 158,
+    "habitat": "Ideal habitat: Bright — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
   },
   {
     "id": "poke-069",
@@ -284,6 +473,24 @@
     "habitat": "Tall Grass habitat — Rarity: Common (confirmed in Palette Town, Cloud Island)"
   },
   {
+    "id": "poke-075",
+    "nationalNumber": 75,
+    "name": "Graveler",
+    "types": ["Rock", "Ground"],
+    "generation": 1,
+    "pokopiaNumber": 160,
+    "habitat": "Ideal habitat: Dark — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-076",
+    "nationalNumber": 76,
+    "name": "Golem",
+    "types": ["Rock", "Ground"],
+    "generation": 1,
+    "pokopiaNumber": 161,
+    "habitat": "Ideal habitat: Dark — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
     "id": "poke-079",
     "nationalNumber": 79,
     "name": "Slowpoke",
@@ -320,6 +527,33 @@
     "habitat": "Trash can central (Rare) or Mini Game Corner (Common) habitat"
   },
   {
+    "id": "poke-083",
+    "nationalNumber": 83,
+    "name": "Farfetch'd",
+    "types": ["Normal", "Flying"],
+    "generation": 1,
+    "pokopiaNumber": 90,
+    "habitat": "Ideal habitat: Warm — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-088",
+    "nationalNumber": 88,
+    "name": "Grimer",
+    "types": ["Poison"],
+    "generation": 1,
+    "pokopiaNumber": 91,
+    "habitat": "Ideal habitat: Dark — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-089",
+    "nationalNumber": 89,
+    "name": "Muk",
+    "types": ["Poison"],
+    "generation": 1,
+    "pokopiaNumber": 92,
+    "habitat": "Ideal habitat: Dark — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
     "id": "poke-090",
     "nationalNumber": 90,
     "name": "Shellder",
@@ -348,6 +582,24 @@
     "habitat": "Spooky study habitat — Rarity: Common"
   },
   {
+    "id": "poke-093",
+    "nationalNumber": 93,
+    "name": "Haunter",
+    "types": ["Ghost", "Poison"],
+    "generation": 1,
+    "pokopiaNumber": 94,
+    "habitat": "Ideal habitat: Dark — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-094",
+    "nationalNumber": 94,
+    "name": "Gengar",
+    "types": ["Ghost", "Poison"],
+    "generation": 1,
+    "pokopiaNumber": 95,
+    "habitat": "Ideal habitat: Dark — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
     "id": "poke-095",
     "nationalNumber": 95,
     "name": "Onix",
@@ -373,6 +625,15 @@
     "habitat": "Park bench or Playing pirate habitat — Rarity: Common"
   },
   {
+    "id": "poke-101",
+    "nationalNumber": 101,
+    "name": "Electrode",
+    "types": ["Electric"],
+    "generation": 1,
+    "pokopiaNumber": 97,
+    "habitat": "Ideal habitat: Bright — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
     "id": "poke-102",
     "nationalNumber": 102,
     "name": "Exeggcute",
@@ -382,6 +643,15 @@
     "habitat": "Tropical vibes or Shaded beach habitat — Rarity: Common"
   },
   {
+    "id": "poke-103",
+    "nationalNumber": 103,
+    "name": "Exeggutor",
+    "types": ["Grass", "Psychic"],
+    "generation": 1,
+    "pokopiaNumber": 99,
+    "habitat": "Ideal habitat: Bright — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
     "id": "poke-104",
     "nationalNumber": 104,
     "name": "Cubone",
@@ -389,6 +659,24 @@
     "generation": 1,
     "pokopiaNumber": 32,
     "habitat": "Grave with flowers habitat — Rarity: Common"
+  },
+  {
+    "id": "poke-105",
+    "nationalNumber": 105,
+    "name": "Marowak",
+    "types": ["Ground"],
+    "generation": 1,
+    "pokopiaNumber": 33,
+    "habitat": "Ideal habitat: Dry — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-106",
+    "nationalNumber": 106,
+    "name": "Hitmonlee",
+    "types": ["Fighting"],
+    "generation": 1,
+    "pokopiaNumber": 35,
+    "habitat": "Ideal habitat: Bright — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
   },
   {
     "id": "poke-107",
@@ -401,6 +689,42 @@
     "x": 72,
     "y": 30,
     "pokopiaNumber": 36
+  },
+  {
+    "id": "poke-109",
+    "nationalNumber": 109,
+    "name": "Koffing",
+    "types": ["Poison"],
+    "generation": 1,
+    "pokopiaNumber": 38,
+    "habitat": "Ideal habitat: Dark — confirmed in Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-110",
+    "nationalNumber": 110,
+    "name": "Weezing",
+    "types": ["Poison"],
+    "generation": 1,
+    "pokopiaNumber": 39,
+    "habitat": "Ideal habitat: Dark — confirmed in Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-113",
+    "nationalNumber": 113,
+    "name": "Chansey",
+    "types": ["Normal"],
+    "generation": 1,
+    "pokopiaNumber": 101,
+    "habitat": "Ideal habitat: Bright — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-114",
+    "nationalNumber": 114,
+    "name": "Tangela",
+    "types": ["Grass"],
+    "generation": 1,
+    "pokopiaNumber": 40,
+    "habitat": "Ideal habitat: Bright — confirmed in Palette Town, Cloud Island"
   },
   {
     "id": "poke-116",
@@ -441,6 +765,69 @@
     "area": "Bubbly Basin"
   },
   {
+    "id": "poke-122",
+    "nationalNumber": 122,
+    "name": "Mr. Mime",
+    "types": ["Psychic", "Fairy"],
+    "generation": 1,
+    "pokopiaNumber": 217,
+    "habitat": "Ideal habitat: Bright — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-123",
+    "nationalNumber": 123,
+    "name": "Scyther",
+    "types": ["Bug", "Flying"],
+    "generation": 1,
+    "pokopiaNumber": 42,
+    "habitat": "Ideal habitat: Bright — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-125",
+    "nationalNumber": 125,
+    "name": "Electabuzz",
+    "types": ["Electric"],
+    "generation": 1,
+    "pokopiaNumber": 104,
+    "habitat": "Ideal habitat: Bright — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-126",
+    "nationalNumber": 126,
+    "name": "Magmar",
+    "types": ["Fire"],
+    "generation": 1,
+    "pokopiaNumber": 163,
+    "habitat": "Ideal habitat: Warm — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-127",
+    "nationalNumber": 127,
+    "name": "Pinsir",
+    "types": ["Bug"],
+    "generation": 1,
+    "pokopiaNumber": 44,
+    "habitat": "Ideal habitat: Bright — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-129",
+    "nationalNumber": 129,
+    "name": "Magikarp",
+    "types": ["Water"],
+    "generation": 1,
+    "pokopiaNumber": 45,
+    "habitat": "Ideal habitat: Humid — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-130",
+    "nationalNumber": 130,
+    "name": "Gyarados",
+    "types": ["Water", "Flying"],
+    "generation": 1,
+    "pokopiaNumber": 46,
+    "habitat": "Ideal habitat: Humid — confirmed in Sparkling Skylands, Cloud Island"
+  },
+  {
     "id": "poke-131",
     "nationalNumber": 131,
     "name": "Lapras",
@@ -448,6 +835,15 @@
     "generation": 1,
     "pokopiaNumber": 106,
     "habitat": "Tropical seaside habitat — Rarity: Common"
+  },
+  {
+    "id": "poke-132",
+    "nationalNumber": 132,
+    "name": "Ditto",
+    "types": ["Normal"],
+    "generation": 1,
+    "pokopiaNumber": 47,
+    "habitat": "Ideal habitat: Bright — specific area not documented in sources"
   },
   {
     "id": "poke-133",
@@ -459,6 +855,51 @@
     "habitat": "Pretty flower bed habitat — Rarity: Common"
   },
   {
+    "id": "poke-134",
+    "nationalNumber": 134,
+    "name": "Vaporeon",
+    "types": ["Water"],
+    "generation": 1,
+    "pokopiaNumber": 281,
+    "habitat": "Ideal habitat: Humid — confirmed in Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-135",
+    "nationalNumber": 135,
+    "name": "Jolteon",
+    "types": ["Electric"],
+    "generation": 1,
+    "pokopiaNumber": 282,
+    "habitat": "Ideal habitat: Bright — confirmed in Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-136",
+    "nationalNumber": 136,
+    "name": "Flareon",
+    "types": ["Fire"],
+    "generation": 1,
+    "pokopiaNumber": 283,
+    "habitat": "Ideal habitat: Warm — confirmed in Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-137",
+    "nationalNumber": 137,
+    "name": "Porygon",
+    "types": ["Normal"],
+    "generation": 1,
+    "pokopiaNumber": 218,
+    "habitat": "Ideal habitat: Bright — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-142",
+    "nationalNumber": 142,
+    "name": "Aerodactyl",
+    "types": ["Rock", "Flying"],
+    "generation": 1,
+    "pokopiaNumber": 271,
+    "habitat": "Ideal habitat: Dry — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
     "id": "poke-143",
     "nationalNumber": 143,
     "name": "Snorlax",
@@ -468,6 +909,33 @@
     "habitat": "Tree-shaded snoozing Snorlax or Good old-fashioned antiques habitat — Rarity: Common (confirmed in Palette Town, Cloud Island)"
   },
   {
+    "id": "poke-144",
+    "nationalNumber": 144,
+    "name": "Articuno",
+    "types": ["Ice", "Flying"],
+    "generation": 1,
+    "pokopiaNumber": 294,
+    "habitat": "Ideal habitat: Cool — specific area not documented in sources"
+  },
+  {
+    "id": "poke-145",
+    "nationalNumber": 145,
+    "name": "Zapdos",
+    "types": ["Electric", "Flying"],
+    "generation": 1,
+    "pokopiaNumber": 295,
+    "habitat": "Ideal habitat: Bright — specific area not documented in sources"
+  },
+  {
+    "id": "poke-146",
+    "nationalNumber": 146,
+    "name": "Moltres",
+    "types": ["Fire", "Flying"],
+    "generation": 1,
+    "pokopiaNumber": 296,
+    "habitat": "Ideal habitat: Warm — specific area not documented in sources"
+  },
+  {
     "id": "poke-147",
     "nationalNumber": 147,
     "name": "Dratini",
@@ -475,6 +943,42 @@
     "generation": 1,
     "pokopiaNumber": 221,
     "habitat": "Hydrated fluffy flower bed or Simple bathroom habitat — Rarity: Common"
+  },
+  {
+    "id": "poke-148",
+    "nationalNumber": 148,
+    "name": "Dragonair",
+    "types": ["Dragon"],
+    "generation": 1,
+    "pokopiaNumber": 222,
+    "habitat": "Ideal habitat: Humid — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-149",
+    "nationalNumber": 149,
+    "name": "Dragonite",
+    "types": ["Dragon", "Flying"],
+    "generation": 1,
+    "pokopiaNumber": 223,
+    "habitat": "Ideal habitat: Humid — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-150",
+    "nationalNumber": 150,
+    "name": "Mewtwo",
+    "types": ["Psychic"],
+    "generation": 1,
+    "pokopiaNumber": 299,
+    "habitat": "Ideal habitat: Dark — specific area not documented in sources"
+  },
+  {
+    "id": "poke-151",
+    "nationalNumber": 151,
+    "name": "Mew",
+    "types": ["Psychic"],
+    "generation": 1,
+    "pokopiaNumber": 300,
+    "habitat": "Ideal habitat: Warm — specific area not documented in sources"
   },
   {
     "id": "poke-152",
@@ -491,6 +995,24 @@
     "generation": 2,
     "pokopiaNumber": 224,
     "habitat": "Concrete pipe secret base habitat — Rarity: Common"
+  },
+  {
+    "id": "poke-156",
+    "nationalNumber": 156,
+    "name": "Quilava",
+    "types": ["Fire"],
+    "generation": 2,
+    "pokopiaNumber": 225,
+    "habitat": "Ideal habitat: Warm — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-157",
+    "nationalNumber": 157,
+    "name": "Typhlosion",
+    "types": ["Fire"],
+    "generation": 2,
+    "pokopiaNumber": 226,
+    "habitat": "Ideal habitat: Warm — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
   },
   {
     "id": "poke-158",
@@ -529,6 +1051,42 @@
     "habitat": "Elevated tall grass or Pretty flower bed or Gently lit bed habitat — Rarity: Common"
   },
   {
+    "id": "poke-164",
+    "nationalNumber": 164,
+    "name": "Noctowl",
+    "types": ["Normal", "Flying"],
+    "generation": 2,
+    "pokopiaNumber": 49,
+    "habitat": "Ideal habitat: Dark — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-167",
+    "nationalNumber": 167,
+    "name": "Spinarak",
+    "types": ["Bug", "Poison"],
+    "generation": 2,
+    "pokopiaNumber": 109,
+    "habitat": "Ideal habitat: Humid — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-168",
+    "nationalNumber": 168,
+    "name": "Ariados",
+    "types": ["Bug", "Poison"],
+    "generation": 2,
+    "pokopiaNumber": 110,
+    "habitat": "Ideal habitat: Humid — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-169",
+    "nationalNumber": 169,
+    "name": "Crobat",
+    "types": ["Poison", "Flying"],
+    "generation": 2,
+    "pokopiaNumber": 83,
+    "habitat": "Ideal habitat: Dark — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
     "id": "poke-170",
     "nationalNumber": 170,
     "name": "Chinchou",
@@ -556,11 +1114,56 @@
     "habitat": "Picnic Set habitat — Rarity: Common (confirmed in Withered Wasteland, Cloud Island)"
   },
   {
+    "id": "poke-173",
+    "nationalNumber": 173,
+    "name": "Cleffa",
+    "types": ["Fairy"],
+    "generation": 2,
+    "pokopiaNumber": 148,
+    "habitat": "Ideal habitat: Dark — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-174",
+    "nationalNumber": 174,
+    "name": "Igglybuff",
+    "types": ["Normal", "Fairy"],
+    "generation": 2,
+    "pokopiaNumber": 151,
+    "habitat": "Ideal habitat: Warm — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
     "id": "poke-175",
     "nationalNumber": 175,
     "name": "Togepi",
     "types": ["Fairy"],
     "generation": 2
+  },
+  {
+    "id": "poke-179",
+    "nationalNumber": 179,
+    "name": "Mareep",
+    "types": ["Electric"],
+    "generation": 2,
+    "pokopiaNumber": 111,
+    "habitat": "Ideal habitat: Bright — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-180",
+    "nationalNumber": 180,
+    "name": "Flaaffy",
+    "types": ["Electric"],
+    "generation": 2,
+    "pokopiaNumber": 112,
+    "habitat": "Ideal habitat: Bright — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-181",
+    "nationalNumber": 181,
+    "name": "Ampharos",
+    "types": ["Electric"],
+    "generation": 2,
+    "pokopiaNumber": 113,
+    "habitat": "Ideal habitat: Bright — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
   },
   {
     "id": "poke-182",
@@ -581,6 +1184,15 @@
     "habitat": "Hydrated yellow tall grass (Rare) or Dock (Common) habitat"
   },
   {
+    "id": "poke-184",
+    "nationalNumber": 184,
+    "name": "Azumarill",
+    "types": ["Water", "Fairy"],
+    "generation": 2,
+    "pokopiaNumber": 116,
+    "habitat": "Ideal habitat: Humid — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
     "id": "poke-185",
     "nationalNumber": 185,
     "name": "Sudowoodo",
@@ -590,12 +1202,39 @@
     "habitat": "Tree-shaded red tall grass (Rare) or House party (Common) habitat"
   },
   {
+    "id": "poke-186",
+    "nationalNumber": 186,
+    "name": "Politoed",
+    "types": ["Water"],
+    "generation": 2,
+    "pokopiaNumber": 212,
+    "habitat": "Ideal habitat: Humid — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
     "id": "poke-194",
     "nationalNumber": 194,
     "name": "Wooper",
     "types": ["Water", "Ground"],
     "generation": 2,
     "pokopiaNumber": 117
+  },
+  {
+    "id": "poke-196",
+    "nationalNumber": 196,
+    "name": "Espeon",
+    "types": ["Psychic"],
+    "generation": 2,
+    "pokopiaNumber": 284,
+    "habitat": "Ideal habitat: Bright — confirmed in Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-197",
+    "nationalNumber": 197,
+    "name": "Umbreon",
+    "types": ["Dark"],
+    "generation": 2,
+    "pokopiaNumber": 285,
+    "habitat": "Ideal habitat: Dark — confirmed in Palette Town, Cloud Island"
   },
   {
     "id": "poke-198",
@@ -616,6 +1255,24 @@
     "habitat": "Seaside Tall Grass (Very Rare) or Bed with a plush (Rare) or Fishing pond (Rare) habitat"
   },
   {
+    "id": "poke-200",
+    "nationalNumber": 200,
+    "name": "Misdreavus",
+    "types": ["Ghost"],
+    "generation": 2,
+    "pokopiaNumber": 227,
+    "habitat": "Ideal habitat: Dark — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-203",
+    "nationalNumber": 203,
+    "name": "Girafarig",
+    "types": ["Normal", "Psychic"],
+    "generation": 2,
+    "pokopiaNumber": 229,
+    "habitat": "Ideal habitat: Warm — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
     "id": "poke-208",
     "nationalNumber": 208,
     "name": "Steelix",
@@ -623,6 +1280,24 @@
     "generation": 2,
     "pokopiaNumber": 31,
     "habitat": "Clink-clang iron construction habitat — Rarity: Common"
+  },
+  {
+    "id": "poke-212",
+    "nationalNumber": 212,
+    "name": "Scizor",
+    "types": ["Bug", "Steel"],
+    "generation": 2,
+    "pokopiaNumber": 43,
+    "habitat": "Ideal habitat: Bright — confirmed in Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-214",
+    "nationalNumber": 214,
+    "name": "Heracross",
+    "types": ["Bug", "Fighting"],
+    "generation": 2,
+    "pokopiaNumber": 50,
+    "habitat": "Ideal habitat: Bright — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
   },
   {
     "id": "poke-218",
@@ -651,6 +1326,96 @@
     "area": "Bubbly Basin"
   },
   {
+    "id": "poke-233",
+    "nationalNumber": 233,
+    "name": "Porygon2",
+    "types": ["Normal"],
+    "generation": 2,
+    "pokopiaNumber": 219,
+    "habitat": "Ideal habitat: Bright — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-235",
+    "nationalNumber": 235,
+    "name": "Smeargle Decorator",
+    "types": ["Normal"],
+    "generation": 2,
+    "pokopiaNumber": 119,
+    "habitat": "Ideal habitat: Bright — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-236",
+    "nationalNumber": 236,
+    "name": "Tyrogue",
+    "types": ["Fighting"],
+    "generation": 2,
+    "pokopiaNumber": 34,
+    "habitat": "Ideal habitat: Bright — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-237",
+    "nationalNumber": 237,
+    "name": "Hitmontop",
+    "types": ["Fighting"],
+    "generation": 2,
+    "pokopiaNumber": 37,
+    "habitat": "Ideal habitat: Bright — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-239",
+    "nationalNumber": 239,
+    "name": "Elekid",
+    "types": ["Electric"],
+    "generation": 2,
+    "pokopiaNumber": 103,
+    "habitat": "Ideal habitat: Bright — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-240",
+    "nationalNumber": 240,
+    "name": "Magby",
+    "types": ["Fire"],
+    "generation": 2,
+    "pokopiaNumber": 162,
+    "habitat": "Ideal habitat: Warm — confirmed in Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-242",
+    "nationalNumber": 242,
+    "name": "Blissey",
+    "types": ["Normal"],
+    "generation": 2,
+    "pokopiaNumber": 102,
+    "habitat": "Ideal habitat: Bright — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-243",
+    "nationalNumber": 243,
+    "name": "Raikou",
+    "types": ["Electric"],
+    "generation": 2,
+    "pokopiaNumber": 290,
+    "habitat": "Ideal habitat: Bright — specific area not documented in sources"
+  },
+  {
+    "id": "poke-244",
+    "nationalNumber": 244,
+    "name": "Entei",
+    "types": ["Fire"],
+    "generation": 2,
+    "pokopiaNumber": 291,
+    "habitat": "Ideal habitat: Warm — specific area not documented in sources"
+  },
+  {
+    "id": "poke-245",
+    "nationalNumber": 245,
+    "name": "Suicune",
+    "types": ["Water"],
+    "generation": 2,
+    "pokopiaNumber": 292,
+    "habitat": "Ideal habitat: Humid — specific area not documented in sources"
+  },
+  {
     "id": "poke-246",
     "nationalNumber": 246,
     "name": "Larvitar",
@@ -658,6 +1423,42 @@
     "generation": 2,
     "pokopiaNumber": 169,
     "habitat": "Mossy rest spot habitat — Rarity: Common"
+  },
+  {
+    "id": "poke-247",
+    "nationalNumber": 247,
+    "name": "Pupitar",
+    "types": ["Rock", "Ground"],
+    "generation": 2,
+    "pokopiaNumber": 170,
+    "habitat": "Ideal habitat: Dark — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-248",
+    "nationalNumber": 248,
+    "name": "Tyranitar",
+    "types": ["Rock", "Dark"],
+    "generation": 2,
+    "pokopiaNumber": 171,
+    "habitat": "Ideal habitat: Dark — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-249",
+    "nationalNumber": 249,
+    "name": "Lugia",
+    "types": ["Psychic", "Flying"],
+    "generation": 2,
+    "pokopiaNumber": 297,
+    "habitat": "Ideal habitat: Humid — specific area not documented in sources"
+  },
+  {
+    "id": "poke-250",
+    "nationalNumber": 250,
+    "name": "Ho-Oh",
+    "types": ["Fire", "Flying"],
+    "generation": 2,
+    "pokopiaNumber": 298,
+    "habitat": "Ideal habitat: Warm — specific area not documented in sources"
   },
   {
     "id": "poke-252",
@@ -674,6 +1475,24 @@
     "generation": 3,
     "pokopiaNumber": 120,
     "habitat": "Chirp-chirp meal or Resort meal prep habitat — Rarity: Common"
+  },
+  {
+    "id": "poke-256",
+    "nationalNumber": 256,
+    "name": "Combusken",
+    "types": ["Fire", "Fighting"],
+    "generation": 3,
+    "pokopiaNumber": 121,
+    "habitat": "Ideal habitat: Warm — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-257",
+    "nationalNumber": 257,
+    "name": "Blaziken",
+    "types": ["Fire", "Fighting"],
+    "generation": 3,
+    "pokopiaNumber": 122,
+    "habitat": "Ideal habitat: Warm — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
   },
   {
     "id": "poke-258",
@@ -703,6 +1522,33 @@
     "area": "Bubbly Basin"
   },
   {
+    "id": "poke-270",
+    "nationalNumber": 270,
+    "name": "Lotad",
+    "types": ["Water", "Grass"],
+    "generation": 3,
+    "pokopiaNumber": 172,
+    "habitat": "Ideal habitat: Humid — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-271",
+    "nationalNumber": 271,
+    "name": "Lombre",
+    "types": ["Water", "Grass"],
+    "generation": 3,
+    "pokopiaNumber": 173,
+    "habitat": "Ideal habitat: Humid — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-272",
+    "nationalNumber": 272,
+    "name": "Ludicolo",
+    "types": ["Water", "Grass"],
+    "generation": 3,
+    "pokopiaNumber": 174,
+    "habitat": "Ideal habitat: Humid — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
     "id": "poke-278",
     "nationalNumber": 278,
     "name": "Wingull",
@@ -710,6 +1556,15 @@
     "generation": 3,
     "pokopiaNumber": 123,
     "habitat": "Elevated yellow tall grass or Windy Flower Bed habitat — Rarity: Common"
+  },
+  {
+    "id": "poke-279",
+    "nationalNumber": 279,
+    "name": "Pelipper",
+    "types": ["Water", "Flying"],
+    "generation": 3,
+    "pokopiaNumber": 124,
+    "habitat": "Ideal habitat: Humid — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
   },
   {
     "id": "poke-280",
@@ -721,11 +1576,119 @@
     "habitat": "Study Area habitat — Rarity: Common"
   },
   {
+    "id": "poke-281",
+    "nationalNumber": 281,
+    "name": "Kirlia",
+    "types": ["Psychic", "Fairy"],
+    "generation": 3,
+    "pokopiaNumber": 232,
+    "habitat": "Ideal habitat: Bright — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-282",
+    "nationalNumber": 282,
+    "name": "Gardevoir",
+    "types": ["Psychic", "Fairy"],
+    "generation": 3,
+    "pokopiaNumber": 233,
+    "habitat": "Ideal habitat: Bright — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-296",
+    "nationalNumber": 296,
+    "name": "Makuhita",
+    "types": ["Fighting"],
+    "generation": 3,
+    "pokopiaNumber": 125,
+    "habitat": "Ideal habitat: Bright — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-297",
+    "nationalNumber": 297,
+    "name": "Hariyama",
+    "types": ["Fighting"],
+    "generation": 3,
+    "pokopiaNumber": 126,
+    "habitat": "Ideal habitat: Bright — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-298",
+    "nationalNumber": 298,
+    "name": "Azurill",
+    "types": ["Normal", "Fairy"],
+    "generation": 3,
+    "pokopiaNumber": 114,
+    "habitat": "Ideal habitat: Humid — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
     "id": "poke-302",
     "nationalNumber": 302,
     "name": "Sableye",
     "types": ["Dark", "Ghost"],
     "generation": 3
+  },
+  {
+    "id": "poke-303",
+    "nationalNumber": 303,
+    "name": "Mawile",
+    "types": ["Steel", "Fairy"],
+    "generation": 3,
+    "pokopiaNumber": 175,
+    "habitat": "Ideal habitat: Bright — confirmed in Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-311",
+    "nationalNumber": 311,
+    "name": "Plusle",
+    "types": ["Electric"],
+    "generation": 3,
+    "pokopiaNumber": 235,
+    "habitat": "Ideal habitat: Bright — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-312",
+    "nationalNumber": 312,
+    "name": "Minun",
+    "types": ["Electric"],
+    "generation": 3,
+    "pokopiaNumber": 236,
+    "habitat": "Ideal habitat: Bright — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-313",
+    "nationalNumber": 313,
+    "name": "Volbeat",
+    "types": ["Bug"],
+    "generation": 3,
+    "pokopiaNumber": 51,
+    "habitat": "Ideal habitat: Dark — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-314",
+    "nationalNumber": 314,
+    "name": "Illumise",
+    "types": ["Bug"],
+    "generation": 3,
+    "pokopiaNumber": 52,
+    "habitat": "Ideal habitat: Dark — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-316",
+    "nationalNumber": 316,
+    "name": "Gulpin",
+    "types": ["Poison"],
+    "generation": 3,
+    "pokopiaNumber": 53,
+    "habitat": "Ideal habitat: Humid — confirmed in Withered Wasteland, Cloud Island"
+  },
+  {
+    "id": "poke-317",
+    "nationalNumber": 317,
+    "name": "Swalot",
+    "types": ["Poison"],
+    "generation": 3,
+    "pokopiaNumber": 54,
+    "habitat": "Ideal habitat: Humid — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
   },
   {
     "id": "poke-318",
@@ -746,6 +1709,15 @@
     "area": "Bubbly Basin"
   },
   {
+    "id": "poke-324",
+    "nationalNumber": 324,
+    "name": "Torkoal",
+    "types": ["Fire"],
+    "generation": 3,
+    "pokopiaNumber": 176,
+    "habitat": "Ideal habitat: Warm — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
     "id": "poke-328",
     "nationalNumber": 328,
     "name": "Trapinch",
@@ -753,6 +1725,60 @@
     "generation": 3,
     "pokopiaNumber": 237,
     "habitat": "Pink tall grass habitat — Rarity: Common"
+  },
+  {
+    "id": "poke-329",
+    "nationalNumber": 329,
+    "name": "Vibrava",
+    "types": ["Ground", "Dragon"],
+    "generation": 3,
+    "pokopiaNumber": 238,
+    "habitat": "Ideal habitat: Dry — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-330",
+    "nationalNumber": 330,
+    "name": "Flygon",
+    "types": ["Ground", "Dragon"],
+    "generation": 3,
+    "pokopiaNumber": 239,
+    "habitat": "Ideal habitat: Dry — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-331",
+    "nationalNumber": 331,
+    "name": "Cacnea",
+    "types": ["Grass"],
+    "generation": 3,
+    "pokopiaNumber": 55,
+    "habitat": "Ideal habitat: Dry — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-332",
+    "nationalNumber": 332,
+    "name": "Cacturne",
+    "types": ["Grass", "Dark"],
+    "generation": 3,
+    "pokopiaNumber": 56,
+    "habitat": "Ideal habitat: Dry — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-333",
+    "nationalNumber": 333,
+    "name": "Swablu",
+    "types": ["Normal", "Flying"],
+    "generation": 3,
+    "pokopiaNumber": 240,
+    "habitat": "Ideal habitat: Bright — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-334",
+    "nationalNumber": 334,
+    "name": "Altaria",
+    "types": ["Dragon", "Flying"],
+    "generation": 3,
+    "pokopiaNumber": 241,
+    "habitat": "Ideal habitat: Bright — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
   },
   {
     "id": "poke-339",
@@ -798,6 +1824,33 @@
     "generation": 3
   },
   {
+    "id": "poke-355",
+    "nationalNumber": 355,
+    "name": "Duskull",
+    "types": ["Ghost"],
+    "generation": 3,
+    "pokopiaNumber": 242,
+    "habitat": "Ideal habitat: Dark — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-356",
+    "nationalNumber": 356,
+    "name": "Dusclops",
+    "types": ["Ghost"],
+    "generation": 3,
+    "pokopiaNumber": 243,
+    "habitat": "Ideal habitat: Dark — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-359",
+    "nationalNumber": 359,
+    "name": "Absol",
+    "types": ["Dark"],
+    "generation": 3,
+    "pokopiaNumber": 127,
+    "habitat": "Ideal habitat: Dark — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
     "id": "poke-370",
     "nationalNumber": 370,
     "name": "Luvdisc",
@@ -814,6 +1867,33 @@
     "generation": 3,
     "pokopiaNumber": 245,
     "habitat": "Cycling rest stop habitat — Rarity: Common"
+  },
+  {
+    "id": "poke-375",
+    "nationalNumber": 375,
+    "name": "Metang",
+    "types": ["Steel", "Psychic"],
+    "generation": 3,
+    "pokopiaNumber": 246,
+    "habitat": "Ideal habitat: Cool — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-376",
+    "nationalNumber": 376,
+    "name": "Metagross",
+    "types": ["Steel", "Psychic"],
+    "generation": 3,
+    "pokopiaNumber": 247,
+    "habitat": "Ideal habitat: Cool — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-382",
+    "nationalNumber": 382,
+    "name": "Kyogre",
+    "types": ["Water"],
+    "generation": 3,
+    "pokopiaNumber": 289,
+    "habitat": "Ideal habitat: Humid — specific area not documented in sources"
   },
   {
     "id": "poke-387",
@@ -839,6 +1919,42 @@
     "habitat": "Hydrated yellow tall grass habitat — Rarity: Common"
   },
   {
+    "id": "poke-394",
+    "nationalNumber": 394,
+    "name": "Prinplup",
+    "types": ["Water"],
+    "generation": 4,
+    "pokopiaNumber": 129,
+    "habitat": "Ideal habitat: Humid — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-395",
+    "nationalNumber": 395,
+    "name": "Empoleon",
+    "types": ["Water", "Steel"],
+    "generation": 4,
+    "pokopiaNumber": 130,
+    "habitat": "Ideal habitat: Humid — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-401",
+    "nationalNumber": 401,
+    "name": "Kricketot",
+    "types": ["Bug"],
+    "generation": 4,
+    "pokopiaNumber": 177,
+    "habitat": "Ideal habitat: Dark — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-402",
+    "nationalNumber": 402,
+    "name": "Kricketune",
+    "types": ["Bug"],
+    "generation": 4,
+    "pokopiaNumber": 178,
+    "habitat": "Ideal habitat: Dark — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
     "id": "poke-408",
     "nationalNumber": 408,
     "name": "Cranidos",
@@ -848,6 +1964,33 @@
     "habitat": "Skull Fossil display habitat — Rarity: Common"
   },
   {
+    "id": "poke-409",
+    "nationalNumber": 409,
+    "name": "Rampardos",
+    "types": ["Rock"],
+    "generation": 4,
+    "pokopiaNumber": 273,
+    "habitat": "Ideal habitat: Dry — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-410",
+    "nationalNumber": 410,
+    "name": "Shieldon",
+    "types": ["Rock", "Steel"],
+    "generation": 4,
+    "pokopiaNumber": 274,
+    "habitat": "Ideal habitat: Dry — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-411",
+    "nationalNumber": 411,
+    "name": "Bastiodon",
+    "types": ["Rock", "Steel"],
+    "generation": 4,
+    "pokopiaNumber": 275,
+    "habitat": "Ideal habitat: Dry — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
     "id": "poke-415",
     "nationalNumber": 415,
     "name": "Combee",
@@ -855,6 +1998,15 @@
     "generation": 4,
     "pokopiaNumber": 57,
     "habitat": "Pretty flower bed habitat — Rarity: Common"
+  },
+  {
+    "id": "poke-416",
+    "nationalNumber": 416,
+    "name": "Vespiquen",
+    "types": ["Bug", "Flying"],
+    "generation": 4,
+    "pokopiaNumber": 58,
+    "habitat": "Ideal habitat: Bright — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
   },
   {
     "id": "poke-418",
@@ -875,6 +2027,62 @@
     "area": "Bubbly Basin"
   },
   {
+    "id": "poke-422",
+    "nationalNumber": 422,
+    "name": "Shellos",
+    "types": ["Water"],
+    "generation": 4,
+    "pokopiaNumber": 59,
+    "note": "Shellos also has a documented East Sea color form sharing this Pokopia number.",
+    "habitat": "Ideal habitat: Humid — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-423",
+    "nationalNumber": 423,
+    "name": "Gastrodon",
+    "types": ["Water", "Ground"],
+    "generation": 4,
+    "pokopiaNumber": 60,
+    "note": "Gastrodon also has a documented East Sea color form sharing this Pokopia number.",
+    "habitat": "Ideal habitat: Humid — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-425",
+    "nationalNumber": 425,
+    "name": "Drifloon",
+    "types": ["Ghost", "Flying"],
+    "generation": 4,
+    "pokopiaNumber": 61,
+    "habitat": "Ideal habitat: Warm — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-426",
+    "nationalNumber": 426,
+    "name": "Drifblim",
+    "types": ["Ghost", "Flying"],
+    "generation": 4,
+    "pokopiaNumber": 62,
+    "habitat": "Ideal habitat: Warm — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-429",
+    "nationalNumber": 429,
+    "name": "Mismagius",
+    "types": ["Ghost"],
+    "generation": 4,
+    "pokopiaNumber": 228,
+    "habitat": "Ideal habitat: Dark — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-430",
+    "nationalNumber": 430,
+    "name": "Honchkrow",
+    "types": ["Dark", "Flying"],
+    "generation": 4,
+    "pokopiaNumber": 168,
+    "habitat": "Ideal habitat: Dark — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
     "id": "poke-438",
     "nationalNumber": 438,
     "name": "Bonsly",
@@ -882,6 +2090,33 @@
     "generation": 4,
     "pokopiaNumber": 165,
     "habitat": "Tree-shaded red tall grass habitat — Rarity: Common"
+  },
+  {
+    "id": "poke-439",
+    "nationalNumber": 439,
+    "name": "Mime Jr.",
+    "types": ["Psychic", "Fairy"],
+    "generation": 4,
+    "pokopiaNumber": 216,
+    "habitat": "Ideal habitat: Bright — specific area not documented in sources"
+  },
+  {
+    "id": "poke-440",
+    "nationalNumber": 440,
+    "name": "Happiny",
+    "types": ["Normal"],
+    "generation": 4,
+    "pokopiaNumber": 100,
+    "habitat": "Ideal habitat: Bright — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-441",
+    "nationalNumber": 441,
+    "name": "Chatot",
+    "types": ["Normal", "Flying"],
+    "generation": 4,
+    "pokopiaNumber": 179,
+    "habitat": "Ideal habitat: Warm — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
   },
   {
     "id": "poke-446",
@@ -900,6 +2135,15 @@
     "generation": 4,
     "pokopiaNumber": 180,
     "habitat": "Red tall grass or Box to the rhythm habitat — Rarity: Common"
+  },
+  {
+    "id": "poke-448",
+    "nationalNumber": 448,
+    "name": "Lucario",
+    "types": ["Fighting", "Steel"],
+    "generation": 4,
+    "pokopiaNumber": 181,
+    "habitat": "Ideal habitat: Dark — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
   },
   {
     "id": "poke-456",
@@ -939,6 +2183,78 @@
     "habitat": "Bench with greenery habitat — Rarity: Common (confirmed in Cloud Island)"
   },
   {
+    "id": "poke-466",
+    "nationalNumber": 466,
+    "name": "Electivire",
+    "types": ["Electric"],
+    "generation": 4,
+    "pokopiaNumber": 105,
+    "habitat": "Ideal habitat: Bright — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-467",
+    "nationalNumber": 467,
+    "name": "Magmortar",
+    "types": ["Fire"],
+    "generation": 4,
+    "pokopiaNumber": 164,
+    "habitat": "Ideal habitat: Warm — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-470",
+    "nationalNumber": 470,
+    "name": "Leafeon",
+    "types": ["Grass"],
+    "generation": 4,
+    "pokopiaNumber": 286,
+    "habitat": "Ideal habitat: Bright — confirmed in Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-471",
+    "nationalNumber": 471,
+    "name": "Glaceon",
+    "types": ["Ice"],
+    "generation": 4,
+    "pokopiaNumber": 287,
+    "habitat": "Ideal habitat: Cool — confirmed in Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-474",
+    "nationalNumber": 474,
+    "name": "Porygon-Z",
+    "types": ["Normal"],
+    "generation": 4,
+    "pokopiaNumber": 220,
+    "habitat": "Ideal habitat: Bright — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-475",
+    "nationalNumber": 475,
+    "name": "Gallade",
+    "types": ["Psychic", "Fighting"],
+    "generation": 4,
+    "pokopiaNumber": 234,
+    "habitat": "Ideal habitat: Bright — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-477",
+    "nationalNumber": 477,
+    "name": "Dusknoir",
+    "types": ["Ghost"],
+    "generation": 4,
+    "pokopiaNumber": 244,
+    "habitat": "Ideal habitat: Dark — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-479",
+    "nationalNumber": 479,
+    "name": "Stereo Rotom",
+    "types": ["Electric", "Normal"],
+    "generation": 4,
+    "pokopiaNumber": 182,
+    "habitat": "Ideal habitat: Bright — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
     "id": "poke-489",
     "nationalNumber": 489,
     "name": "Phione",
@@ -966,6 +2282,24 @@
     "habitat": "Playland habitat — Rarity: Common"
   },
   {
+    "id": "poke-496",
+    "nationalNumber": 496,
+    "name": "Servine",
+    "types": ["Grass"],
+    "generation": 5,
+    "pokopiaNumber": 249,
+    "habitat": "Ideal habitat: Humid — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-497",
+    "nationalNumber": 497,
+    "name": "Serperior",
+    "types": ["Grass"],
+    "generation": 5,
+    "pokopiaNumber": 250,
+    "habitat": "Ideal habitat: Humid — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
     "id": "poke-498",
     "nationalNumber": 498,
     "name": "Tepig",
@@ -980,6 +2314,33 @@
     "generation": 5
   },
   {
+    "id": "poke-529",
+    "nationalNumber": 529,
+    "name": "Drilbur",
+    "types": ["Ground"],
+    "generation": 5,
+    "pokopiaNumber": 63,
+    "habitat": "Ideal habitat: Dark — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-530",
+    "nationalNumber": 530,
+    "name": "Excadrill",
+    "types": ["Ground", "Steel"],
+    "generation": 5,
+    "pokopiaNumber": 64,
+    "habitat": "Ideal habitat: Dark — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-531",
+    "nationalNumber": 531,
+    "name": "Audino",
+    "types": ["Normal"],
+    "generation": 5,
+    "pokopiaNumber": 131,
+    "habitat": "Ideal habitat: Bright — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
     "id": "poke-532",
     "nationalNumber": 532,
     "name": "Timburr",
@@ -992,11 +2353,83 @@
     "pokopiaNumber": 65
   },
   {
+    "id": "poke-533",
+    "nationalNumber": 533,
+    "name": "Gurdurr",
+    "types": ["Fighting"],
+    "generation": 5,
+    "pokopiaNumber": 66,
+    "habitat": "Ideal habitat: Bright — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-534",
+    "nationalNumber": 534,
+    "name": "Conkeldurr",
+    "types": ["Fighting"],
+    "generation": 5,
+    "pokopiaNumber": 67,
+    "habitat": "Ideal habitat: Bright — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
     "id": "poke-540",
     "nationalNumber": 540,
     "name": "Sewaddle",
     "types": ["Bug", "Grass"],
     "generation": 5
+  },
+  {
+    "id": "poke-568",
+    "nationalNumber": 568,
+    "name": "Trubbish",
+    "types": ["Poison"],
+    "generation": 5,
+    "pokopiaNumber": 132,
+    "habitat": "Ideal habitat: Humid — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-569",
+    "nationalNumber": 569,
+    "name": "Garbodor",
+    "types": ["Poison"],
+    "generation": 5,
+    "pokopiaNumber": 133,
+    "habitat": "Ideal habitat: Humid — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-570",
+    "nationalNumber": 570,
+    "name": "Zorua",
+    "types": ["Dark"],
+    "generation": 5,
+    "pokopiaNumber": 134,
+    "habitat": "Ideal habitat: Dark — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-571",
+    "nationalNumber": 571,
+    "name": "Zoroark",
+    "types": ["Dark"],
+    "generation": 5,
+    "pokopiaNumber": 135,
+    "habitat": "Ideal habitat: Dark — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-572",
+    "nationalNumber": 572,
+    "name": "Minccino",
+    "types": ["Normal"],
+    "generation": 5,
+    "pokopiaNumber": 136,
+    "habitat": "Ideal habitat: Bright — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-573",
+    "nationalNumber": 573,
+    "name": "Cinccino",
+    "types": ["Normal"],
+    "generation": 5,
+    "pokopiaNumber": 137,
+    "habitat": "Ideal habitat: Bright — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
   },
   {
     "id": "poke-585",
@@ -1040,6 +2473,33 @@
     "generation": 5
   },
   {
+    "id": "poke-607",
+    "nationalNumber": 607,
+    "name": "Litwick",
+    "types": ["Ghost", "Fire"],
+    "generation": 5,
+    "pokopiaNumber": 68,
+    "habitat": "Ideal habitat: Warm — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-608",
+    "nationalNumber": 608,
+    "name": "Lampent",
+    "types": ["Ghost", "Fire"],
+    "generation": 5,
+    "pokopiaNumber": 69,
+    "habitat": "Ideal habitat: Warm — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-609",
+    "nationalNumber": 609,
+    "name": "Chandelure",
+    "types": ["Ghost", "Fire"],
+    "generation": 5,
+    "pokopiaNumber": 70,
+    "habitat": "Ideal habitat: Warm — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
     "id": "poke-610",
     "nationalNumber": 610,
     "name": "Axew",
@@ -1049,6 +2509,24 @@
     "habitat": "Lumberjack's workplace or Cozy log handicrafts habitat — Rarity: Common"
   },
   {
+    "id": "poke-611",
+    "nationalNumber": 611,
+    "name": "Fraxure",
+    "types": ["Dragon"],
+    "generation": 5,
+    "pokopiaNumber": 72,
+    "habitat": "Ideal habitat: Dark — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-612",
+    "nationalNumber": 612,
+    "name": "Haxorus",
+    "types": ["Dragon"],
+    "generation": 5,
+    "pokopiaNumber": 73,
+    "habitat": "Ideal habitat: Dark — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
     "id": "poke-618",
     "nationalNumber": 618,
     "name": "Stunfisk",
@@ -1056,6 +2534,24 @@
     "generation": 5,
     "basinNumber": 31,
     "area": "Bubbly Basin"
+  },
+  {
+    "id": "poke-636",
+    "nationalNumber": 636,
+    "name": "Larvesta",
+    "types": ["Bug", "Fire"],
+    "generation": 5,
+    "pokopiaNumber": 183,
+    "habitat": "Ideal habitat: Dry — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-637",
+    "nationalNumber": 637,
+    "name": "Volcarona",
+    "types": ["Bug", "Fire"],
+    "generation": 5,
+    "pokopiaNumber": 184,
+    "habitat": "Ideal habitat: Dry — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
   },
   {
     "id": "poke-650",
@@ -1079,6 +2575,24 @@
     "generation": 6,
     "pokopiaNumber": 251,
     "habitat": "Hydrated pink tall grass habitat — Rarity: Common"
+  },
+  {
+    "id": "poke-657",
+    "nationalNumber": 657,
+    "name": "Frogadier",
+    "types": ["Water"],
+    "generation": 6,
+    "pokopiaNumber": 252,
+    "habitat": "Ideal habitat: Humid — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-658",
+    "nationalNumber": 658,
+    "name": "Greninja",
+    "types": ["Water", "Dark"],
+    "generation": 6,
+    "pokopiaNumber": 253,
+    "habitat": "Ideal habitat: Humid — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
   },
   {
     "id": "poke-659",
@@ -1113,6 +2627,51 @@
     "area": "Bubbly Basin"
   },
   {
+    "id": "poke-696",
+    "nationalNumber": 696,
+    "name": "Tyrunt",
+    "types": ["Rock", "Dragon"],
+    "generation": 6,
+    "pokopiaNumber": 276,
+    "habitat": "Ideal habitat: Dry — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-697",
+    "nationalNumber": 697,
+    "name": "Tyrantrum",
+    "types": ["Rock", "Dragon"],
+    "generation": 6,
+    "pokopiaNumber": 277,
+    "habitat": "Ideal habitat: Dry — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-698",
+    "nationalNumber": 698,
+    "name": "Amaura",
+    "types": ["Rock", "Ice"],
+    "generation": 6,
+    "pokopiaNumber": 278,
+    "habitat": "Ideal habitat: Cool — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-699",
+    "nationalNumber": 699,
+    "name": "Aurorus",
+    "types": ["Rock", "Ice"],
+    "generation": 6,
+    "pokopiaNumber": 279,
+    "habitat": "Ideal habitat: Cool — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-700",
+    "nationalNumber": 700,
+    "name": "Sylveon",
+    "types": ["Fairy"],
+    "generation": 6,
+    "pokopiaNumber": 288,
+    "habitat": "Ideal habitat: Warm — confirmed in Palette Town, Cloud Island"
+  },
+  {
     "id": "poke-702",
     "nationalNumber": 702,
     "name": "Dedenne",
@@ -1131,6 +2690,51 @@
     "habitat": "Tree-shaded flower bed or Rain Dance site habitat — Rarity: Common"
   },
   {
+    "id": "poke-705",
+    "nationalNumber": 705,
+    "name": "Sliggoo",
+    "types": ["Dragon"],
+    "generation": 6,
+    "pokopiaNumber": 75,
+    "habitat": "Ideal habitat: Humid — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-706",
+    "nationalNumber": 706,
+    "name": "Goodra",
+    "types": ["Dragon"],
+    "generation": 6,
+    "pokopiaNumber": 76,
+    "habitat": "Ideal habitat: Humid — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-714",
+    "nationalNumber": 714,
+    "name": "Noibat",
+    "types": ["Flying", "Dragon"],
+    "generation": 6,
+    "pokopiaNumber": 255,
+    "habitat": "Ideal habitat: Dark — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-715",
+    "nationalNumber": 715,
+    "name": "Noivern",
+    "types": ["Flying", "Dragon"],
+    "generation": 6,
+    "pokopiaNumber": 256,
+    "habitat": "Ideal habitat: Dark — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-721",
+    "nationalNumber": 721,
+    "name": "Volcanion",
+    "types": ["Fire", "Water"],
+    "generation": 6,
+    "pokopiaNumber": 293,
+    "habitat": "Ideal habitat: Warm — specific area not documented in sources"
+  },
+  {
     "id": "poke-722",
     "nationalNumber": 722,
     "name": "Rowlet",
@@ -1138,6 +2742,24 @@
     "generation": 7,
     "pokopiaNumber": 185,
     "habitat": "Fresh Veggie Field habitat — Rarity: Common (confirmed in Palette Town, Cloud Island)"
+  },
+  {
+    "id": "poke-723",
+    "nationalNumber": 723,
+    "name": "Dartrix",
+    "types": ["Grass", "Flying"],
+    "generation": 7,
+    "pokopiaNumber": 186,
+    "habitat": "Ideal habitat: Dark — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-724",
+    "nationalNumber": 724,
+    "name": "Decidueye",
+    "types": ["Grass", "Ghost"],
+    "generation": 7,
+    "pokopiaNumber": 187,
+    "habitat": "Ideal habitat: Dark — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
   },
   {
     "id": "poke-725",
@@ -1186,6 +2808,33 @@
     "name": "Yungoos",
     "types": ["Normal"],
     "generation": 7
+  },
+  {
+    "id": "poke-736",
+    "nationalNumber": 736,
+    "name": "Grubbin",
+    "types": ["Bug"],
+    "generation": 7,
+    "pokopiaNumber": 138,
+    "habitat": "Ideal habitat: Bright — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-737",
+    "nationalNumber": 737,
+    "name": "Charjabug",
+    "types": ["Bug", "Electric"],
+    "generation": 7,
+    "pokopiaNumber": 139,
+    "habitat": "Ideal habitat: Bright — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-738",
+    "nationalNumber": 738,
+    "name": "Vikavolt",
+    "types": ["Bug", "Electric"],
+    "generation": 7,
+    "pokopiaNumber": 140,
+    "habitat": "Ideal habitat: Bright — confirmed in Palette Town, Cloud Island"
   },
   {
     "id": "poke-747",
@@ -1238,6 +2887,15 @@
     "area": "Bubbly Basin"
   },
   {
+    "id": "poke-778",
+    "nationalNumber": 778,
+    "name": "Mimikyu",
+    "types": ["Ghost", "Fairy"],
+    "generation": 7,
+    "pokopiaNumber": 141,
+    "habitat": "Ideal habitat: Dark — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
     "id": "poke-779",
     "nationalNumber": 779,
     "name": "Bruxish",
@@ -1272,6 +2930,24 @@
     "habitat": "Red tall grass habitat — Rarity: Common"
   },
   {
+    "id": "poke-814",
+    "nationalNumber": 814,
+    "name": "Raboot",
+    "types": ["Fire"],
+    "generation": 8,
+    "pokopiaNumber": 189,
+    "habitat": "Ideal habitat: Warm — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-815",
+    "nationalNumber": 815,
+    "name": "Cinderace",
+    "types": ["Fire"],
+    "generation": 8,
+    "pokopiaNumber": 190,
+    "habitat": "Ideal habitat: Warm — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
     "id": "poke-816",
     "nationalNumber": 816,
     "name": "Sobble",
@@ -1286,6 +2962,42 @@
     "generation": 8,
     "pokopiaNumber": 191,
     "habitat": "Tree-shaded tall grass habitat — Rarity: Common (confirmed in Palette Town, Cloud Island)"
+  },
+  {
+    "id": "poke-820",
+    "nationalNumber": 820,
+    "name": "Greedent Cook",
+    "types": ["Normal"],
+    "generation": 8,
+    "pokopiaNumber": 192,
+    "habitat": "Ideal habitat: Warm — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-821",
+    "nationalNumber": 821,
+    "name": "Rookidee",
+    "types": ["Flying"],
+    "generation": 8,
+    "pokopiaNumber": 257,
+    "habitat": "Ideal habitat: Bright — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-822",
+    "nationalNumber": 822,
+    "name": "Corvisquire",
+    "types": ["Flying"],
+    "generation": 8,
+    "pokopiaNumber": 258,
+    "habitat": "Ideal habitat: Bright — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-823",
+    "nationalNumber": 823,
+    "name": "Corviknight",
+    "types": ["Flying", "Steel"],
+    "generation": 8,
+    "pokopiaNumber": 259,
+    "habitat": "Ideal habitat: Bright — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
   },
   {
     "id": "poke-831",
@@ -1322,11 +3034,57 @@
     "habitat": "Railroad crossing habitat — Rarity: Common"
   },
   {
+    "id": "poke-838",
+    "nationalNumber": 838,
+    "name": "Carkol",
+    "types": ["Rock", "Fire"],
+    "generation": 8,
+    "pokopiaNumber": 194,
+    "habitat": "Ideal habitat: Warm — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-839",
+    "nationalNumber": 839,
+    "name": "Coalossal",
+    "types": ["Rock", "Fire"],
+    "generation": 8,
+    "pokopiaNumber": 195,
+    "habitat": "Ideal habitat: Warm — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
     "id": "poke-840",
     "nationalNumber": 840,
     "name": "Applin",
     "types": ["Grass", "Dragon"],
     "generation": 8
+  },
+  {
+    "id": "poke-845",
+    "nationalNumber": 845,
+    "name": "Cramorant",
+    "types": ["Flying", "Water"],
+    "generation": 8,
+    "pokopiaNumber": 77,
+    "habitat": "Ideal habitat: Humid — confirmed in Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-848",
+    "nationalNumber": 848,
+    "name": "Toxel",
+    "types": ["Electric", "Poison"],
+    "generation": 8,
+    "pokopiaNumber": 196,
+    "habitat": "Ideal habitat: Humid — confirmed in Rocky Ridges, Cloud Island"
+  },
+  {
+    "id": "poke-849",
+    "nationalNumber": 849,
+    "name": "Toxtricity",
+    "types": ["Electric", "Poison"],
+    "generation": 8,
+    "pokopiaNumber": 197,
+    "note": "Toxtricity also has a documented Low Key Form sharing this Pokopia number.",
+    "habitat": "Ideal habitat: Humid — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
   },
   {
     "id": "poke-871",
@@ -1338,6 +3096,33 @@
     "area": "Bubbly Basin"
   },
   {
+    "id": "poke-885",
+    "nationalNumber": 885,
+    "name": "Dreepy",
+    "types": ["Dragon", "Ghost"],
+    "generation": 8,
+    "pokopiaNumber": 260,
+    "habitat": "Ideal habitat: Humid — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-886",
+    "nationalNumber": 886,
+    "name": "Drakloak",
+    "types": ["Dragon", "Ghost"],
+    "generation": 8,
+    "pokopiaNumber": 261,
+    "habitat": "Ideal habitat: Humid — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-887",
+    "nationalNumber": 887,
+    "name": "Dragapult",
+    "types": ["Dragon", "Ghost"],
+    "generation": 8,
+    "pokopiaNumber": 262,
+    "habitat": "Ideal habitat: Humid — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
     "id": "poke-906",
     "nationalNumber": 906,
     "name": "Sprigatito",
@@ -1345,6 +3130,24 @@
     "generation": 9,
     "pokopiaNumber": 263,
     "habitat": "Tree-shaded pink tall grass or Interrogation desk habitat — Rarity: Common"
+  },
+  {
+    "id": "poke-907",
+    "nationalNumber": 907,
+    "name": "Floragato",
+    "types": ["Grass"],
+    "generation": 9,
+    "pokopiaNumber": 264,
+    "habitat": "Ideal habitat: Bright — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-908",
+    "nationalNumber": 908,
+    "name": "Meowscarada",
+    "types": ["Grass", "Dark"],
+    "generation": 9,
+    "pokopiaNumber": 265,
+    "habitat": "Ideal habitat: Bright — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
   },
   {
     "id": "poke-909",
@@ -1382,6 +3185,123 @@
     "generation": 9
   },
   {
+    "id": "poke-921",
+    "nationalNumber": 921,
+    "name": "Pawmi",
+    "types": ["Electric"],
+    "generation": 9,
+    "pokopiaNumber": 142,
+    "habitat": "Ideal habitat: Bright — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-922",
+    "nationalNumber": 922,
+    "name": "Pawmo",
+    "types": ["Electric", "Fighting"],
+    "generation": 9,
+    "pokopiaNumber": 143,
+    "habitat": "Ideal habitat: Bright — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-923",
+    "nationalNumber": 923,
+    "name": "Pawmot",
+    "types": ["Electric", "Fighting"],
+    "generation": 9,
+    "pokopiaNumber": 144,
+    "habitat": "Ideal habitat: Bright — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-926",
+    "nationalNumber": 926,
+    "name": "Fidough",
+    "types": ["Fairy"],
+    "generation": 9,
+    "pokopiaNumber": 198,
+    "habitat": "Ideal habitat: Warm — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-927",
+    "nationalNumber": 927,
+    "name": "Dachsbun",
+    "types": ["Fairy"],
+    "generation": 9,
+    "pokopiaNumber": 199,
+    "habitat": "Ideal habitat: Warm — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-935",
+    "nationalNumber": 935,
+    "name": "Charcadet",
+    "types": ["Fire"],
+    "generation": 9,
+    "pokopiaNumber": 200,
+    "habitat": "Ideal habitat: Warm — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-936",
+    "nationalNumber": 936,
+    "name": "Armarouge",
+    "types": ["Fire", "Psychic"],
+    "generation": 9,
+    "pokopiaNumber": 201,
+    "habitat": "Ideal habitat: Warm — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-937",
+    "nationalNumber": 937,
+    "name": "Ceruledge",
+    "types": ["Fire", "Ghost"],
+    "generation": 9,
+    "pokopiaNumber": 202,
+    "habitat": "Ideal habitat: Warm — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-940",
+    "nationalNumber": 940,
+    "name": "Wattrel",
+    "types": ["Electric", "Flying"],
+    "generation": 9,
+    "pokopiaNumber": 266,
+    "habitat": "Ideal habitat: Bright — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-941",
+    "nationalNumber": 941,
+    "name": "Kilowattrel",
+    "types": ["Electric", "Flying"],
+    "generation": 9,
+    "pokopiaNumber": 267,
+    "habitat": "Ideal habitat: Bright — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-957",
+    "nationalNumber": 957,
+    "name": "Tinkatink",
+    "types": ["Fairy", "Steel"],
+    "generation": 9,
+    "pokopiaNumber": 268,
+    "habitat": "Ideal habitat: Bright — confirmed in Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-958",
+    "nationalNumber": 958,
+    "name": "Tinkatuff",
+    "types": ["Fairy", "Steel"],
+    "generation": 9,
+    "pokopiaNumber": 269,
+    "habitat": "Ideal habitat: Bright — confirmed in Palette Town, Cloud Island, Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands"
+  },
+  {
+    "id": "poke-959",
+    "nationalNumber": 959,
+    "name": "Tinkaton Supervisor",
+    "types": ["Fairy", "Steel"],
+    "generation": 9,
+    "pokopiaNumber": 270,
+    "habitat": "Ideal habitat: Bright — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
     "id": "poke-960",
     "nationalNumber": 960,
     "name": "Wiglett",
@@ -1400,6 +3320,24 @@
     "area": "Bubbly Basin"
   },
   {
+    "id": "poke-969",
+    "nationalNumber": 969,
+    "name": "Glimmet",
+    "types": ["Rock", "Poison"],
+    "generation": 9,
+    "pokopiaNumber": 203,
+    "habitat": "Ideal habitat: Dark — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-970",
+    "nationalNumber": 970,
+    "name": "Glimmora",
+    "types": ["Rock", "Poison"],
+    "generation": 9,
+    "pokopiaNumber": 204,
+    "habitat": "Ideal habitat: Dark — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
     "id": "poke-976",
     "nationalNumber": 976,
     "name": "Veluza",
@@ -1407,5 +3345,51 @@
     "generation": 9,
     "basinNumber": 48,
     "area": "Bubbly Basin"
+  },
+  {
+    "id": "poke-978",
+    "nationalNumber": 978,
+    "name": "Tatsugiri",
+    "types": ["Dragon", "Water"],
+    "generation": 9,
+    "pokopiaNumber": 145,
+    "note": "Tatsugiri has three documented forms (Curly, Droopy, Stretchy) sharing this Pokopia number; Curly is used as the representative form here.",
+    "habitat": "Ideal habitat: Humid — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-980",
+    "nationalNumber": 980,
+    "name": "Clodsire",
+    "types": ["Poison", "Ground"],
+    "generation": 9,
+    "pokopiaNumber": 118,
+    "habitat": "Ideal habitat: Humid — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-981",
+    "nationalNumber": 981,
+    "name": "Farigiraf",
+    "types": ["Normal", "Psychic"],
+    "generation": 9,
+    "pokopiaNumber": 230,
+    "habitat": "Ideal habitat: Warm — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-999",
+    "nationalNumber": 999,
+    "name": "Gimmighoul",
+    "types": ["Ghost"],
+    "generation": 9,
+    "pokopiaNumber": 205,
+    "habitat": "Ideal habitat: Dark — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
+  },
+  {
+    "id": "poke-1000",
+    "nationalNumber": 1000,
+    "name": "Gholdengo",
+    "types": ["Steel", "Ghost"],
+    "generation": 9,
+    "pokopiaNumber": 206,
+    "habitat": "Ideal habitat: Bright — confirmed in Withered Wasteland, Bleak Beach, Rocky Ridges, Sparkling Skylands, Palette Town, Cloud Island"
   }
 ]
