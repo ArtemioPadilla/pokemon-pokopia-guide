@@ -5,7 +5,9 @@ import SectionHead from '@/components/common/SectionHead.astro';
 import ErrorBoundary from '@/components/islands/ErrorBoundary';
 import SetCurrentAreaButton from '@/components/islands/SetCurrentAreaButton';
 import { useTranslations, localizedHref } from '@/i18n/utils';
+import { withBase } from '@/lib/href';
 import { PILL_STYLE } from '@/lib/pills';
+import { getAreaMapKey } from '@/lib/areaMapKey';
 import type { Locale } from '@/i18n/ui';
 
 interface Props {
@@ -15,6 +17,42 @@ interface Props {
 const { locale, area } = Astro.props;
 const t = useTranslations(locale);
 const { Content } = await render(area);
+
+// Real, sourced in-game imagery for the 4 areas where one was found (see
+// AreaMapBackground.tsx and CLAUDE.md's "Coverage TODO" for sourcing/
+// licensing notes) — Withered Wasteland and Bleak Beach have no such asset,
+// so they get no hero image here rather than a misleading substitute.
+const HERO_IMAGE: Record<string, { file: string; alt: { en: string; es: string } }> = {
+  'rocky-ridges': {
+    file: 'rocky-ridges.webp',
+    alt: {
+      en: "In-game overworld map of Rocky Ridges (Bulbapedia's location art)",
+      es: 'Mapa del mundo real de Crestas Rocosas (arte de ubicación de Bulbapedia)',
+    },
+  },
+  'sparkling-skylands': {
+    file: 'sparkling-skylands.webp',
+    alt: {
+      en: "In-game overworld map of Sparkling Skylands (Bulbapedia's location art)",
+      es: 'Mapa del mundo real de Sparkling Skylands (arte de ubicación de Bulbapedia)',
+    },
+  },
+  'palette-town': {
+    file: 'palette-town.webp',
+    alt: {
+      en: 'In-game screenshot of Palette Town (Serebii.net)',
+      es: 'Captura de pantalla del juego de Palette Town (Serebii.net)',
+    },
+  },
+  'bubbly-basin': {
+    file: 'bubbly-basin.webp',
+    alt: {
+      en: 'In-game screenshot of Bubbly Basin (Serebii.net)',
+      es: 'Captura de pantalla del juego de Bubbly Basin (Serebii.net)',
+    },
+  },
+};
+const hero = HERO_IMAGE[getAreaMapKey(area.data.title)];
 ---
 
 <BaseLayout title={`${area.data.title} · ${t('site.name')}`} lang={locale}>
@@ -48,6 +86,17 @@ const { Content } = await render(area);
         ))
       }
     </div>
+    {
+      hero && (
+        <img
+          src={withBase(`/area-maps/${hero.file}`)}
+          alt={hero.alt[locale]}
+          loading="lazy"
+          class="mb-6 w-full rounded-xl border border-border object-cover"
+          style="aspect-ratio: 16 / 9"
+        />
+      )
+    }
     <div class="prose-guide">
       <Content />
     </div>
