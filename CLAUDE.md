@@ -65,39 +65,78 @@ not invented.
 This is a ~5-month-old game with thin, scattered source material compared
 to a 20-year-old classic. Per the task brief's explicit guidance
 ("prioritize accuracy over exhaustiveness"), coverage is deliberately
-partial and every gap is marked in the content itself, not hidden:
+partial and every gap is marked in the content itself, not hidden. A second
+pass (session 2, see "Sources consulted — session 2" below) closed two of
+the biggest gaps flagged by session 1; what's still open is called out
+per-item below.
 
-- **Pokédex: 117 of 300 species**, not all 300. Species #1–31's
-  `pokopiaNumber` (in-game Pokopia-Dex number) is directly sourced from
-  Bulbapedia's numbered listing. Species without a `pokopiaNumber` use only
-  independently-verifiable National Dex facts (species/types/generation) —
-  their exact in-game Pokopia number was not available from any source
-  fetched this session. `habitat` is set only for the handful of species
-  (Bulbasaur, Timburr, Hitmonchan) whose habitat is confirmed in the Part 2
-  walkthrough; every other entry's habitat renders the honest
-  "not yet verified" label instead of a fabricated guess.
-- **Areas: Withered Wasteland has a detailed, sourced walkthrough section
-  (Part 2 of Bulbapedia's walkthrough series). The other 5 areas are
-  stubs** — confirmed facts only (former city, one or two sourced details),
-  each explicitly marked "TODO" for anyone extending this guide with
-  better sources.
-- **Recipes: 17 of 600+**, all individually sourced (Serebii's crafting
-  page + Bulbapedia's recipe list) rather than a representative-but-invented
-  sample.
+- **Pokédex: 117 of 300 species** (unchanged — this pass didn't add new
+  species entries, only filled in the number field on existing ones).
+  `pokopiaNumber` is now confirmed for **80 of the 117** entries (up from
+  31), sourced from Bulbapedia's `List of Pokémon by Pokédex number in
+  Pokémon Pokopia` — fetched in full (all 300 rows) and cross-verified
+  against independent, non-wiki sources at multiple points across the
+  range (Serebii's per-species Pokopia pages, pokopiawiki.com,
+  pokopiamap.com, pokopiadex.com, VideoGamesChronicle, Game8) before being
+  applied, including an exact match against the 31 numbers session 1 had
+  already verified. The remaining **37 entries have no `pokopiaNumber`**
+  because their National Dex number does not appear anywhere in that
+  300-row list — whether they're absent from the base Pokopia Dex
+  entirely, or (a handful, e.g. Popplio, Krabby, Buizel, Feebas) belong to
+  the Expansion Pass's separate 50-entry `List of Pokémon by Pokédex
+  (Basin) number` instead, was not run down this session; either way, a
+  guessed number would be worse than the honest gap, so none was added.
+  One pre-existing data bug was fixed in passing: the entry with
+  `nationalNumber: 921` was labeled "Wiglett," but 921 is Pawmi's real
+  National Dex number, not Wiglett's (960) — corrected to 960 in both
+  locales; it has no `pokopiaNumber` either way since 960 isn't in the
+  base-300 list. `habitat` was intentionally left untouched this pass —
+  the brief scoped this session to the number field, and adding habitat
+  text without the same cross-verification rigor risked exactly the kind
+  of unverified-but-plausible content this guide avoids. It's still set
+  only for Bulbasaur, Timburr, and Hitmonchan.
+- **Areas: all 6 now have real, sourced content beyond a one-line stub.**
+  Withered Wasteland's walkthrough (session 1, Bulbapedia Part 2) was the
+  quality bar; Bleak Beach, Rocky Ridges, Sparkling Skylands, and Palette
+  Town now each have an opening-quest section (named quest, Professor
+  Tangrowth's role or confirmed absence, recruited Pokémon, and habitats/
+  materials) sourced from Bulbapedia's `Walkthrough:Pokémon Pokopia` Parts
+  8–26, cross-referenced against Nintendo Life, GameRant, GameSpot, and
+  Vandal's guides for quest names and details Bulbapedia's summary didn't
+  spell out (e.g. Mosslax/Peakychu, Chef Dente, Tinkmaster). Bubbly Basin
+  (the Expansion Pass area) went from "requires Dive from a befriended
+  Pokémon" to a sourced access sequence (Manaphy teaches Dive; Popplio
+  must accompany you through the gate) plus its first confirmed Pokémon
+  (Corsola, Shellder, Staryu, Horsea) and scale (50 species / 36 habitats),
+  via Bulbapedia's `Bubbly Basin (DLC)` page, Nintendo Life, and GameSpot.
+  Every area page still ends with an explicit "Still unconfirmed" note
+  instead of a blanket "TODO" — none of the 5 has its full Pokémon roster
+  or its own Environment Level milestone table verified yet, and Bubbly
+  Basin in particular still needs the other ~46 of its 50 species mapped
+  to habitats.
+- **Recipes: 17 of 600+**, unchanged this session — all individually
+  sourced (Serebii's crafting page + Bulbapedia's recipe list) rather than
+  a representative-but-invented sample.
 - **Collectibles: 26 of 83 Artifacts / 126 Records / an unknown total of
-  Highlight Reel photos** — all real, named items from Game8's guides, not
-  placeholder names. Several `area` values honestly read "not specified in
-  available sources" or "not yet located" rather than guessing.
+  Highlight Reel photos**, unchanged this session — all real, named items
+  from Game8's guides, not placeholder names. Several `area` values
+  honestly read "not specified in available sources" or "not yet located"
+  rather than guessing.
 - **Milestones**: Environment Level is a **per-area** stat (confirmed by
   Serebii — "environment level in each area"), not a single global 1–10
   scale. The milestones list mixes area-level-gated and Pokédex-count-gated
   unlocks and says so explicitly per entry — don't conflate the two axes.
+  Not revisited this session.
 
-If you're picking this project back up: search for "Pokémon Pokopia
-Pokédex complete list" and "Pokémon Pokopia walkthrough Bleak Beach /
-Rocky Ridges / Sparkling Skylands" first — those are the two biggest gaps.
+If you're picking this project back up next: the Bubbly Basin-specific
+Pokédex list (`List of Pokémon by Pokédex (Basin) number in Pokémon
+Pokopia` on Bulbapedia) is the natural next pull — it would both fill in
+Bubbly Basin's remaining species/habitat gap and possibly explain some of
+the 37 still-unnumbered base-dex entries. After that, `habitat` for the 49
+newly-numbered species (this session deliberately didn't touch it) is the
+next-highest-value gap.
 
-### Sources consulted this session
+### Sources consulted — session 1
 
 Bulbapedia (`Pokémon Pokopia`, `Professor Tangrowth`, `Ditto (Pokopia)`,
 `List of Pokémon by Pokopia Pokédex number`, `List of recipes in Pokémon
@@ -105,6 +144,29 @@ Pokopia`, `Walkthrough:Pokémon Pokopia/Part 2`), Serebii.net
 (`/pokemonpokopia/crafting.shtml`), Game8.co (Pokédex hub, Ancient
 Artifacts list, Human Records list, Highlight Reel list), Nintendo Life
 (review), RPGFan (review), IGN (review, via search summary).
+
+### Sources consulted — session 2 (Pokédex 32–300 + the 5 stub areas)
+
+**Pokédex numbers:** Bulbapedia's `List of Pokémon by Pokédex number in
+Pokémon Pokopia` (primary source, fetched in full: all 300 rows).
+Cross-checks: Serebii.net's per-species Pokopia pages (`Timburr` →
+Pokopia #65), pokopiawiki.com and pokopia.gamertw.com (`Sprigatito` →
+#263), pokopiadex.com (`Aerodactyl` → #271, via its own URL slug),
+VideoGamesChronicle (`Lugia` → #297), and Game8/Serebii/pokopiawiki/
+pokopiamap/pokopia.gamertw agreeing on `Gholdengo` → #206, `Farigiraf` →
+#230, and `Beldum` → #245.
+
+**The 5 areas:** Bulbapedia's `Walkthrough:Pokémon Pokopia` index and
+Parts 8 (Rocky Ridges), 12 (Bleak Beach), 18 (Sparkling Skylands), and 26
+(Palette Town); Bulbapedia's `Bubbly Basin (DLC)` page. Supplementary
+quest/NPC detail (via search snippets — direct fetch was blocked by
+robots/403 on some of these): Nintendo Life's "Brighten Things Up"
+(Bleak Beach/Mosslax), "Time To Party" (Rocky Ridges/Chef Dente), and
+"Rebuild The Huge Building" (Sparkling Skylands/Tinkmaster) guides;
+GameRant (Mosslax/Peakychu quest steps); GameSpot ("Time to Party" mood
+mechanics, Tinkmaster/Mewtwo, Bubbly Basin's new Pokémon list); Game8
+(Chef Dente's identity as a Greedent); VideoGamesChronicle and Nintendo
+Life (Manaphy teaches Dive, Popplio required for the Bubbly Basin gate).
 
 ## Design & a11y
 

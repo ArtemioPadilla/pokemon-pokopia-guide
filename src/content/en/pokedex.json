@@ -3,7 +3,10 @@
     "id": "poke-001",
     "nationalNumber": 1,
     "name": "Bulbasaur",
-    "types": ["Grass", "Poison"],
+    "types": [
+      "Grass",
+      "Poison"
+    ],
     "generation": 1,
     "pokopiaNumber": 1,
     "area": "Withered Wasteland",
@@ -16,7 +19,10 @@
     "id": "poke-002",
     "nationalNumber": 2,
     "name": "Ivysaur",
-    "types": ["Grass", "Poison"],
+    "types": [
+      "Grass",
+      "Poison"
+    ],
     "generation": 1,
     "pokopiaNumber": 2
   },
@@ -24,7 +30,10 @@
     "id": "poke-003",
     "nationalNumber": 3,
     "name": "Venusaur",
-    "types": ["Grass", "Poison"],
+    "types": [
+      "Grass",
+      "Poison"
+    ],
     "generation": 1,
     "pokopiaNumber": 3
   },
@@ -32,7 +41,9 @@
     "id": "poke-004",
     "nationalNumber": 4,
     "name": "Charmander",
-    "types": ["Fire"],
+    "types": [
+      "Fire"
+    ],
     "generation": 1,
     "pokopiaNumber": 4
   },
@@ -40,7 +51,9 @@
     "id": "poke-005",
     "nationalNumber": 5,
     "name": "Charmeleon",
-    "types": ["Fire"],
+    "types": [
+      "Fire"
+    ],
     "generation": 1,
     "pokopiaNumber": 5
   },
@@ -48,7 +61,10 @@
     "id": "poke-006",
     "nationalNumber": 6,
     "name": "Charizard",
-    "types": ["Fire", "Flying"],
+    "types": [
+      "Fire",
+      "Flying"
+    ],
     "generation": 1,
     "pokopiaNumber": 6
   },
@@ -56,7 +72,9 @@
     "id": "poke-007",
     "nationalNumber": 7,
     "name": "Squirtle",
-    "types": ["Water"],
+    "types": [
+      "Water"
+    ],
     "generation": 1,
     "pokopiaNumber": 7
   },
@@ -64,7 +82,9 @@
     "id": "poke-008",
     "nationalNumber": 8,
     "name": "Wartortle",
-    "types": ["Water"],
+    "types": [
+      "Water"
+    ],
     "generation": 1,
     "pokopiaNumber": 8
   },
@@ -72,7 +92,9 @@
     "id": "poke-009",
     "nationalNumber": 9,
     "name": "Blastoise",
-    "types": ["Water"],
+    "types": [
+      "Water"
+    ],
     "generation": 1,
     "pokopiaNumber": 9
   },
@@ -80,7 +102,10 @@
     "id": "poke-016",
     "nationalNumber": 16,
     "name": "Pidgey",
-    "types": ["Normal", "Flying"],
+    "types": [
+      "Normal",
+      "Flying"
+    ],
     "generation": 1,
     "pokopiaNumber": 10
   },
@@ -88,7 +113,10 @@
     "id": "poke-017",
     "nationalNumber": 17,
     "name": "Pidgeotto",
-    "types": ["Normal", "Flying"],
+    "types": [
+      "Normal",
+      "Flying"
+    ],
     "generation": 1,
     "pokopiaNumber": 11
   },
@@ -96,7 +124,10 @@
     "id": "poke-018",
     "nationalNumber": 18,
     "name": "Pidgeot",
-    "types": ["Normal", "Flying"],
+    "types": [
+      "Normal",
+      "Flying"
+    ],
     "generation": 1,
     "pokopiaNumber": 12
   },
@@ -104,7 +135,10 @@
     "id": "poke-043",
     "nationalNumber": 43,
     "name": "Oddish",
-    "types": ["Grass", "Poison"],
+    "types": [
+      "Grass",
+      "Poison"
+    ],
     "generation": 1,
     "pokopiaNumber": 13
   },
@@ -112,7 +146,10 @@
     "id": "poke-044",
     "nationalNumber": 44,
     "name": "Gloom",
-    "types": ["Grass", "Poison"],
+    "types": [
+      "Grass",
+      "Poison"
+    ],
     "generation": 1,
     "pokopiaNumber": 14
   },
@@ -120,7 +157,10 @@
     "id": "poke-045",
     "nationalNumber": 45,
     "name": "Vileplume",
-    "types": ["Grass", "Poison"],
+    "types": [
+      "Grass",
+      "Poison"
+    ],
     "generation": 1,
     "pokopiaNumber": 15
   },
@@ -128,7 +168,9 @@
     "id": "poke-182",
     "nationalNumber": 182,
     "name": "Bellossom",
-    "types": ["Grass"],
+    "types": [
+      "Grass"
+    ],
     "generation": 2,
     "pokopiaNumber": 16
   },
@@ -136,7 +178,10 @@
     "id": "poke-046",
     "nationalNumber": 46,
     "name": "Paras",
-    "types": ["Bug", "Grass"],
+    "types": [
+      "Bug",
+      "Grass"
+    ],
     "generation": 1,
     "pokopiaNumber": 17
   },
@@ -144,7 +189,10 @@
     "id": "poke-047",
     "nationalNumber": 47,
     "name": "Parasect",
-    "types": ["Bug", "Grass"],
+    "types": [
+      "Bug",
+      "Grass"
+    ],
     "generation": 1,
     "pokopiaNumber": 18
   },
@@ -152,7 +200,10 @@
     "id": "poke-048",
     "nationalNumber": 48,
     "name": "Venonat",
-    "types": ["Bug", "Poison"],
+    "types": [
+      "Bug",
+      "Poison"
+    ],
     "generation": 1,
     "pokopiaNumber": 19
   },
@@ -160,7 +211,10 @@
     "id": "poke-049",
     "nationalNumber": 49,
     "name": "Venomoth",
-    "types": ["Bug", "Poison"],
+    "types": [
+      "Bug",
+      "Poison"
+    ],
     "generation": 1,
     "pokopiaNumber": 20
   },
@@ -168,7 +222,10 @@
     "id": "poke-069",
     "nationalNumber": 69,
     "name": "Bellsprout",
-    "types": ["Grass", "Poison"],
+    "types": [
+      "Grass",
+      "Poison"
+    ],
     "generation": 1,
     "pokopiaNumber": 21
   },
@@ -176,7 +233,10 @@
     "id": "poke-070",
     "nationalNumber": 70,
     "name": "Weepinbell",
-    "types": ["Grass", "Poison"],
+    "types": [
+      "Grass",
+      "Poison"
+    ],
     "generation": 1,
     "pokopiaNumber": 22
   },
@@ -184,7 +244,10 @@
     "id": "poke-071",
     "nationalNumber": 71,
     "name": "Victreebel",
-    "types": ["Grass", "Poison"],
+    "types": [
+      "Grass",
+      "Poison"
+    ],
     "generation": 1,
     "pokopiaNumber": 23
   },
@@ -192,7 +255,10 @@
     "id": "poke-079",
     "nationalNumber": 79,
     "name": "Slowpoke",
-    "types": ["Water", "Psychic"],
+    "types": [
+      "Water",
+      "Psychic"
+    ],
     "generation": 1,
     "pokopiaNumber": 24
   },
@@ -200,7 +266,10 @@
     "id": "poke-080",
     "nationalNumber": 80,
     "name": "Slowbro",
-    "types": ["Water", "Psychic"],
+    "types": [
+      "Water",
+      "Psychic"
+    ],
     "generation": 1,
     "pokopiaNumber": 25
   },
@@ -208,7 +277,10 @@
     "id": "poke-199",
     "nationalNumber": 199,
     "name": "Slowking",
-    "types": ["Water", "Psychic"],
+    "types": [
+      "Water",
+      "Psychic"
+    ],
     "generation": 2,
     "pokopiaNumber": 26
   },
@@ -216,7 +288,10 @@
     "id": "poke-081",
     "nationalNumber": 81,
     "name": "Magnemite",
-    "types": ["Electric", "Steel"],
+    "types": [
+      "Electric",
+      "Steel"
+    ],
     "generation": 1,
     "pokopiaNumber": 27
   },
@@ -224,7 +299,10 @@
     "id": "poke-082",
     "nationalNumber": 82,
     "name": "Magneton",
-    "types": ["Electric", "Steel"],
+    "types": [
+      "Electric",
+      "Steel"
+    ],
     "generation": 1,
     "pokopiaNumber": 28
   },
@@ -232,7 +310,10 @@
     "id": "poke-462",
     "nationalNumber": 462,
     "name": "Magnezone",
-    "types": ["Electric", "Steel"],
+    "types": [
+      "Electric",
+      "Steel"
+    ],
     "generation": 4,
     "pokopiaNumber": 29
   },
@@ -240,7 +321,10 @@
     "id": "poke-095",
     "nationalNumber": 95,
     "name": "Onix",
-    "types": ["Rock", "Ground"],
+    "types": [
+      "Rock",
+      "Ground"
+    ],
     "generation": 1,
     "pokopiaNumber": 30
   },
@@ -248,7 +332,10 @@
     "id": "poke-208",
     "nationalNumber": 208,
     "name": "Steelix",
-    "types": ["Steel", "Ground"],
+    "types": [
+      "Steel",
+      "Ground"
+    ],
     "generation": 2,
     "pokopiaNumber": 31
   },
@@ -256,612 +343,856 @@
     "id": "poke-532",
     "nationalNumber": 532,
     "name": "Timburr",
-    "types": ["Fighting"],
+    "types": [
+      "Fighting"
+    ],
     "generation": 5,
     "area": "Withered Wasteland",
     "habitat": "Boulder-shaded Tall Grass, behind the Pokémon Center",
     "x": 58,
-    "y": 24
+    "y": 24,
+    "pokopiaNumber": 65
   },
   {
     "id": "poke-107",
     "nationalNumber": 107,
     "name": "Hitmonchan",
-    "types": ["Fighting"],
+    "types": [
+      "Fighting"
+    ],
     "generation": 1,
     "area": "Withered Wasteland",
     "habitat": "Exercise Resting Spot (punching bag + bench)",
     "x": 72,
-    "y": 30
+    "y": 30,
+    "pokopiaNumber": 36
   },
   {
     "id": "poke-062",
     "nationalNumber": 62,
     "name": "Poliwrath",
-    "types": ["Water", "Fighting"],
+    "types": [
+      "Water",
+      "Fighting"
+    ],
     "generation": 1,
-    "note": "Fulfilling Poliwrath’s request unlocks the Crystal Ball recipe."
+    "note": "Fulfilling Poliwrath’s request unlocks the Crystal Ball recipe.",
+    "pokopiaNumber": 211
   },
   {
     "id": "poke-465",
     "nationalNumber": 465,
     "name": "Tangrowth",
-    "types": ["Grass"],
+    "types": [
+      "Grass"
+    ],
     "generation": 4,
-    "note": "The standard (non-Professor) Tangrowth is the only species that requires Nintendo Switch Online to encounter — it only appears via Cloud Island play."
+    "note": "The standard (non-Professor) Tangrowth is the only species that requires Nintendo Switch Online to encounter — it only appears via Cloud Island play.",
+    "pokopiaNumber": 41
   },
   {
     "id": "poke-025",
     "nationalNumber": 25,
     "name": "Pikachu",
-    "types": ["Electric"],
-    "generation": 1
+    "types": [
+      "Electric"
+    ],
+    "generation": 1,
+    "pokopiaNumber": 79
   },
   {
     "id": "poke-039",
     "nationalNumber": 39,
     "name": "Jigglypuff",
-    "types": ["Normal", "Fairy"],
-    "generation": 1
+    "types": [
+      "Normal",
+      "Fairy"
+    ],
+    "generation": 1,
+    "pokopiaNumber": 152
   },
   {
     "id": "poke-052",
     "nationalNumber": 52,
     "name": "Meowth",
-    "types": ["Normal"],
-    "generation": 1
+    "types": [
+      "Normal"
+    ],
+    "generation": 1,
+    "pokopiaNumber": 84
   },
   {
     "id": "poke-054",
     "nationalNumber": 54,
     "name": "Psyduck",
-    "types": ["Water"],
-    "generation": 1
+    "types": [
+      "Water"
+    ],
+    "generation": 1,
+    "pokopiaNumber": 86
   },
   {
     "id": "poke-058",
     "nationalNumber": 58,
     "name": "Growlithe",
-    "types": ["Fire"],
-    "generation": 1
+    "types": [
+      "Fire"
+    ],
+    "generation": 1,
+    "pokopiaNumber": 88
   },
   {
     "id": "poke-063",
     "nationalNumber": 63,
     "name": "Abra",
-    "types": ["Psychic"],
-    "generation": 1
+    "types": [
+      "Psychic"
+    ],
+    "generation": 1,
+    "pokopiaNumber": 213
   },
   {
     "id": "poke-066",
     "nationalNumber": 66,
     "name": "Machop",
-    "types": ["Fighting"],
-    "generation": 1
+    "types": [
+      "Fighting"
+    ],
+    "generation": 1,
+    "pokopiaNumber": 156
   },
   {
     "id": "poke-074",
     "nationalNumber": 74,
     "name": "Geodude",
-    "types": ["Rock", "Ground"],
-    "generation": 1
+    "types": [
+      "Rock",
+      "Ground"
+    ],
+    "generation": 1,
+    "pokopiaNumber": 159
   },
   {
     "id": "poke-092",
     "nationalNumber": 92,
     "name": "Gastly",
-    "types": ["Ghost", "Poison"],
-    "generation": 1
+    "types": [
+      "Ghost",
+      "Poison"
+    ],
+    "generation": 1,
+    "pokopiaNumber": 93
   },
   {
     "id": "poke-098",
     "nationalNumber": 98,
     "name": "Krabby",
-    "types": ["Water"],
+    "types": [
+      "Water"
+    ],
     "generation": 1
   },
   {
     "id": "poke-100",
     "nationalNumber": 100,
     "name": "Voltorb",
-    "types": ["Electric"],
-    "generation": 1
+    "types": [
+      "Electric"
+    ],
+    "generation": 1,
+    "pokopiaNumber": 96
   },
   {
     "id": "poke-102",
     "nationalNumber": 102,
     "name": "Exeggcute",
-    "types": ["Grass", "Psychic"],
-    "generation": 1
+    "types": [
+      "Grass",
+      "Psychic"
+    ],
+    "generation": 1,
+    "pokopiaNumber": 98
   },
   {
     "id": "poke-104",
     "nationalNumber": 104,
     "name": "Cubone",
-    "types": ["Ground"],
-    "generation": 1
+    "types": [
+      "Ground"
+    ],
+    "generation": 1,
+    "pokopiaNumber": 32
   },
   {
     "id": "poke-131",
     "nationalNumber": 131,
     "name": "Lapras",
-    "types": ["Water", "Ice"],
-    "generation": 1
+    "types": [
+      "Water",
+      "Ice"
+    ],
+    "generation": 1,
+    "pokopiaNumber": 106
   },
   {
     "id": "poke-133",
     "nationalNumber": 133,
     "name": "Eevee",
-    "types": ["Normal"],
-    "generation": 1
+    "types": [
+      "Normal"
+    ],
+    "generation": 1,
+    "pokopiaNumber": 280
   },
   {
     "id": "poke-143",
     "nationalNumber": 143,
     "name": "Snorlax",
-    "types": ["Normal"],
-    "generation": 1
+    "types": [
+      "Normal"
+    ],
+    "generation": 1,
+    "pokopiaNumber": 108
   },
   {
     "id": "poke-147",
     "nationalNumber": 147,
     "name": "Dratini",
-    "types": ["Dragon"],
-    "generation": 1
+    "types": [
+      "Dragon"
+    ],
+    "generation": 1,
+    "pokopiaNumber": 221
   },
   {
     "id": "poke-152",
     "nationalNumber": 152,
     "name": "Chikorita",
-    "types": ["Grass"],
+    "types": [
+      "Grass"
+    ],
     "generation": 2
   },
   {
     "id": "poke-155",
     "nationalNumber": 155,
     "name": "Cyndaquil",
-    "types": ["Fire"],
-    "generation": 2
+    "types": [
+      "Fire"
+    ],
+    "generation": 2,
+    "pokopiaNumber": 224
   },
   {
     "id": "poke-158",
     "nationalNumber": 158,
     "name": "Totodile",
-    "types": ["Water"],
+    "types": [
+      "Water"
+    ],
     "generation": 2
   },
   {
     "id": "poke-163",
     "nationalNumber": 163,
     "name": "Hoothoot",
-    "types": ["Normal", "Flying"],
-    "generation": 2
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "generation": 2,
+    "pokopiaNumber": 48
   },
   {
     "id": "poke-172",
     "nationalNumber": 172,
     "name": "Pichu",
-    "types": ["Electric"],
-    "generation": 2
+    "types": [
+      "Electric"
+    ],
+    "generation": 2,
+    "pokopiaNumber": 78
   },
   {
     "id": "poke-175",
     "nationalNumber": 175,
     "name": "Togepi",
-    "types": ["Fairy"],
+    "types": [
+      "Fairy"
+    ],
     "generation": 2
   },
   {
     "id": "poke-183",
     "nationalNumber": 183,
     "name": "Marill",
-    "types": ["Water", "Fairy"],
-    "generation": 2
+    "types": [
+      "Water",
+      "Fairy"
+    ],
+    "generation": 2,
+    "pokopiaNumber": 115
   },
   {
     "id": "poke-185",
     "nationalNumber": 185,
     "name": "Sudowoodo",
-    "types": ["Rock"],
-    "generation": 2
+    "types": [
+      "Rock"
+    ],
+    "generation": 2,
+    "pokopiaNumber": 166
   },
   {
     "id": "poke-194",
     "nationalNumber": 194,
     "name": "Wooper",
-    "types": ["Water", "Ground"],
-    "generation": 2
+    "types": [
+      "Water",
+      "Ground"
+    ],
+    "generation": 2,
+    "pokopiaNumber": 117
   },
   {
     "id": "poke-198",
     "nationalNumber": 198,
     "name": "Murkrow",
-    "types": ["Dark", "Flying"],
-    "generation": 2
+    "types": [
+      "Dark",
+      "Flying"
+    ],
+    "generation": 2,
+    "pokopiaNumber": 167
   },
   {
     "id": "poke-218",
     "nationalNumber": 218,
     "name": "Slugma",
-    "types": ["Fire"],
+    "types": [
+      "Fire"
+    ],
     "generation": 2
   },
   {
     "id": "poke-246",
     "nationalNumber": 246,
     "name": "Larvitar",
-    "types": ["Rock", "Ground"],
-    "generation": 2
+    "types": [
+      "Rock",
+      "Ground"
+    ],
+    "generation": 2,
+    "pokopiaNumber": 169
   },
   {
     "id": "poke-252",
     "nationalNumber": 252,
     "name": "Treecko",
-    "types": ["Grass"],
+    "types": [
+      "Grass"
+    ],
     "generation": 3
   },
   {
     "id": "poke-255",
     "nationalNumber": 255,
     "name": "Torchic",
-    "types": ["Fire"],
-    "generation": 3
+    "types": [
+      "Fire"
+    ],
+    "generation": 3,
+    "pokopiaNumber": 120
   },
   {
     "id": "poke-258",
     "nationalNumber": 258,
     "name": "Mudkip",
-    "types": ["Water"],
+    "types": [
+      "Water"
+    ],
     "generation": 3
   },
   {
     "id": "poke-278",
     "nationalNumber": 278,
     "name": "Wingull",
-    "types": ["Water", "Flying"],
-    "generation": 3
+    "types": [
+      "Water",
+      "Flying"
+    ],
+    "generation": 3,
+    "pokopiaNumber": 123
   },
   {
     "id": "poke-280",
     "nationalNumber": 280,
     "name": "Ralts",
-    "types": ["Psychic", "Fairy"],
-    "generation": 3
+    "types": [
+      "Psychic",
+      "Fairy"
+    ],
+    "generation": 3,
+    "pokopiaNumber": 231
   },
   {
     "id": "poke-302",
     "nationalNumber": 302,
     "name": "Sableye",
-    "types": ["Dark", "Ghost"],
+    "types": [
+      "Dark",
+      "Ghost"
+    ],
     "generation": 3
   },
   {
     "id": "poke-328",
     "nationalNumber": 328,
     "name": "Trapinch",
-    "types": ["Ground"],
-    "generation": 3
+    "types": [
+      "Ground"
+    ],
+    "generation": 3,
+    "pokopiaNumber": 237
   },
   {
     "id": "poke-349",
     "nationalNumber": 349,
     "name": "Feebas",
-    "types": ["Water"],
+    "types": [
+      "Water"
+    ],
     "generation": 3
   },
   {
     "id": "poke-374",
     "nationalNumber": 374,
     "name": "Beldum",
-    "types": ["Steel", "Psychic"],
-    "generation": 3
+    "types": [
+      "Steel",
+      "Psychic"
+    ],
+    "generation": 3,
+    "pokopiaNumber": 245
   },
   {
     "id": "poke-387",
     "nationalNumber": 387,
     "name": "Turtwig",
-    "types": ["Grass"],
+    "types": [
+      "Grass"
+    ],
     "generation": 4
   },
   {
     "id": "poke-390",
     "nationalNumber": 390,
     "name": "Chimchar",
-    "types": ["Fire"],
+    "types": [
+      "Fire"
+    ],
     "generation": 4
   },
   {
     "id": "poke-393",
     "nationalNumber": 393,
     "name": "Piplup",
-    "types": ["Water"],
-    "generation": 4
+    "types": [
+      "Water"
+    ],
+    "generation": 4,
+    "pokopiaNumber": 128
   },
   {
     "id": "poke-408",
     "nationalNumber": 408,
     "name": "Cranidos",
-    "types": ["Rock"],
-    "generation": 4
+    "types": [
+      "Rock"
+    ],
+    "generation": 4,
+    "pokopiaNumber": 272
   },
   {
     "id": "poke-415",
     "nationalNumber": 415,
     "name": "Combee",
-    "types": ["Bug", "Flying"],
-    "generation": 4
+    "types": [
+      "Bug",
+      "Flying"
+    ],
+    "generation": 4,
+    "pokopiaNumber": 57
   },
   {
     "id": "poke-418",
     "nationalNumber": 418,
     "name": "Buizel",
-    "types": ["Water"],
+    "types": [
+      "Water"
+    ],
     "generation": 4
   },
   {
     "id": "poke-438",
     "nationalNumber": 438,
     "name": "Bonsly",
-    "types": ["Rock"],
-    "generation": 4
+    "types": [
+      "Rock"
+    ],
+    "generation": 4,
+    "pokopiaNumber": 165
   },
   {
     "id": "poke-446",
     "nationalNumber": 446,
     "name": "Munchlax",
-    "types": ["Normal"],
-    "generation": 4
+    "types": [
+      "Normal"
+    ],
+    "generation": 4,
+    "pokopiaNumber": 107
   },
   {
     "id": "poke-447",
     "nationalNumber": 447,
     "name": "Riolu",
-    "types": ["Fighting"],
-    "generation": 4
+    "types": [
+      "Fighting"
+    ],
+    "generation": 4,
+    "pokopiaNumber": 180
   },
   {
     "id": "poke-495",
     "nationalNumber": 495,
     "name": "Snivy",
-    "types": ["Grass"],
-    "generation": 5
+    "types": [
+      "Grass"
+    ],
+    "generation": 5,
+    "pokopiaNumber": 248
   },
   {
     "id": "poke-498",
     "nationalNumber": 498,
     "name": "Tepig",
-    "types": ["Fire"],
+    "types": [
+      "Fire"
+    ],
     "generation": 5
   },
   {
     "id": "poke-501",
     "nationalNumber": 501,
     "name": "Oshawott",
-    "types": ["Water"],
+    "types": [
+      "Water"
+    ],
     "generation": 5
   },
   {
     "id": "poke-540",
     "nationalNumber": 540,
     "name": "Sewaddle",
-    "types": ["Bug", "Grass"],
+    "types": [
+      "Bug",
+      "Grass"
+    ],
     "generation": 5
   },
   {
     "id": "poke-585",
     "nationalNumber": 585,
     "name": "Deerling",
-    "types": ["Normal", "Grass"],
+    "types": [
+      "Normal",
+      "Grass"
+    ],
     "generation": 5
   },
   {
     "id": "poke-595",
     "nationalNumber": 595,
     "name": "Joltik",
-    "types": ["Bug", "Electric"],
+    "types": [
+      "Bug",
+      "Electric"
+    ],
     "generation": 5
   },
   {
     "id": "poke-610",
     "nationalNumber": 610,
     "name": "Axew",
-    "types": ["Dragon"],
-    "generation": 5
+    "types": [
+      "Dragon"
+    ],
+    "generation": 5,
+    "pokopiaNumber": 71
   },
   {
     "id": "poke-650",
     "nationalNumber": 650,
     "name": "Chespin",
-    "types": ["Grass"],
+    "types": [
+      "Grass"
+    ],
     "generation": 6
   },
   {
     "id": "poke-653",
     "nationalNumber": 653,
     "name": "Fennekin",
-    "types": ["Fire"],
+    "types": [
+      "Fire"
+    ],
     "generation": 6
   },
   {
     "id": "poke-656",
     "nationalNumber": 656,
     "name": "Froakie",
-    "types": ["Water"],
-    "generation": 6
+    "types": [
+      "Water"
+    ],
+    "generation": 6,
+    "pokopiaNumber": 251
   },
   {
     "id": "poke-659",
     "nationalNumber": 659,
     "name": "Bunnelby",
-    "types": ["Normal"],
+    "types": [
+      "Normal"
+    ],
     "generation": 6
   },
   {
     "id": "poke-672",
     "nationalNumber": 672,
     "name": "Skiddo",
-    "types": ["Grass"],
+    "types": [
+      "Grass"
+    ],
     "generation": 6
   },
   {
     "id": "poke-702",
     "nationalNumber": 702,
     "name": "Dedenne",
-    "types": ["Electric", "Fairy"],
-    "generation": 6
+    "types": [
+      "Electric",
+      "Fairy"
+    ],
+    "generation": 6,
+    "pokopiaNumber": 254
   },
   {
     "id": "poke-704",
     "nationalNumber": 704,
     "name": "Goomy",
-    "types": ["Dragon"],
-    "generation": 6
+    "types": [
+      "Dragon"
+    ],
+    "generation": 6,
+    "pokopiaNumber": 74
   },
   {
     "id": "poke-722",
     "nationalNumber": 722,
     "name": "Rowlet",
-    "types": ["Grass", "Flying"],
-    "generation": 7
+    "types": [
+      "Grass",
+      "Flying"
+    ],
+    "generation": 7,
+    "pokopiaNumber": 185
   },
   {
     "id": "poke-725",
     "nationalNumber": 725,
     "name": "Litten",
-    "types": ["Fire"],
+    "types": [
+      "Fire"
+    ],
     "generation": 7
   },
   {
     "id": "poke-728",
     "nationalNumber": 728,
     "name": "Popplio",
-    "types": ["Water"],
+    "types": [
+      "Water"
+    ],
     "generation": 7
   },
   {
     "id": "poke-731",
     "nationalNumber": 731,
     "name": "Pikipek",
-    "types": ["Normal", "Flying"],
+    "types": [
+      "Normal",
+      "Flying"
+    ],
     "generation": 7
   },
   {
     "id": "poke-734",
     "nationalNumber": 734,
     "name": "Yungoos",
-    "types": ["Normal"],
+    "types": [
+      "Normal"
+    ],
     "generation": 7
   },
   {
     "id": "poke-749",
     "nationalNumber": 749,
     "name": "Mudbray",
-    "types": ["Ground"],
+    "types": [
+      "Ground"
+    ],
     "generation": 7
   },
   {
     "id": "poke-764",
     "nationalNumber": 764,
     "name": "Comfey",
-    "types": ["Fairy"],
+    "types": [
+      "Fairy"
+    ],
     "generation": 7
   },
   {
     "id": "poke-810",
     "nationalNumber": 810,
     "name": "Grookey",
-    "types": ["Grass"],
+    "types": [
+      "Grass"
+    ],
     "generation": 8
   },
   {
     "id": "poke-813",
     "nationalNumber": 813,
     "name": "Scorbunny",
-    "types": ["Fire"],
-    "generation": 8
+    "types": [
+      "Fire"
+    ],
+    "generation": 8,
+    "pokopiaNumber": 188
   },
   {
     "id": "poke-816",
     "nationalNumber": 816,
     "name": "Sobble",
-    "types": ["Water"],
+    "types": [
+      "Water"
+    ],
     "generation": 8
   },
   {
     "id": "poke-819",
     "nationalNumber": 819,
     "name": "Skwovet",
-    "types": ["Normal"],
-    "generation": 8
+    "types": [
+      "Normal"
+    ],
+    "generation": 8,
+    "pokopiaNumber": 191
   },
   {
     "id": "poke-831",
     "nationalNumber": 831,
     "name": "Wooloo",
-    "types": ["Normal"],
+    "types": [
+      "Normal"
+    ],
     "generation": 8
   },
   {
     "id": "poke-837",
     "nationalNumber": 837,
     "name": "Rolycoly",
-    "types": ["Rock"],
-    "generation": 8
+    "types": [
+      "Rock"
+    ],
+    "generation": 8,
+    "pokopiaNumber": 193
   },
   {
     "id": "poke-840",
     "nationalNumber": 840,
     "name": "Applin",
-    "types": ["Grass", "Dragon"],
+    "types": [
+      "Grass",
+      "Dragon"
+    ],
     "generation": 8
   },
   {
     "id": "poke-906",
     "nationalNumber": 906,
     "name": "Sprigatito",
-    "types": ["Grass"],
-    "generation": 9
+    "types": [
+      "Grass"
+    ],
+    "generation": 9,
+    "pokopiaNumber": 263
   },
   {
     "id": "poke-909",
     "nationalNumber": 909,
     "name": "Fuecoco",
-    "types": ["Fire"],
+    "types": [
+      "Fire"
+    ],
     "generation": 9
   },
   {
     "id": "poke-912",
     "nationalNumber": 912,
     "name": "Quaxly",
-    "types": ["Water"],
+    "types": [
+      "Water"
+    ],
     "generation": 9
   },
   {
     "id": "poke-915",
     "nationalNumber": 915,
     "name": "Lechonk",
-    "types": ["Normal"],
+    "types": [
+      "Normal"
+    ],
     "generation": 9
   },
   {
     "id": "poke-917",
     "nationalNumber": 917,
     "name": "Tarountula",
-    "types": ["Bug"],
+    "types": [
+      "Bug"
+    ],
     "generation": 9
   },
   {
     "id": "poke-919",
     "nationalNumber": 919,
     "name": "Nymble",
-    "types": ["Bug"],
+    "types": [
+      "Bug"
+    ],
     "generation": 9
   },
   {
-    "id": "poke-921",
-    "nationalNumber": 921,
+    "id": "poke-960",
+    "nationalNumber": 960,
     "name": "Wiglett",
-    "types": ["Water"],
+    "types": [
+      "Water"
+    ],
     "generation": 9
   }
 ]
