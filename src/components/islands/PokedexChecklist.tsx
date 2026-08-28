@@ -5,6 +5,7 @@ import ProgressBar from './ProgressBar';
 import ChecklistItem from './ChecklistItem';
 import ViewToggle, { type ChecklistView } from './ViewToggle';
 import AreaMap, { type AreaMapPin } from './AreaMap';
+import { typeBadgeClass } from '@/lib/pokemonTypes';
 
 interface PokedexItem {
   id: string;
@@ -115,8 +116,15 @@ export default function PokedexChecklist({
                         {item.pokopiaNumber ? ` · Pokopia #${item.pokopiaNumber}` : ''}
                       </span>
                       {item.name}
-                      <span className="ml-1.5 text-xs text-muted-foreground">
-                        ({item.types.join('/')})
+                      <span className="ml-1.5 inline-flex gap-1 align-middle">
+                        {item.types.map((t) => (
+                          <span
+                            key={t}
+                            className={`rounded-full border px-1.5 py-0.5 font-mono text-[10px] uppercase tracking-wide ${typeBadgeClass(t)}`}
+                          >
+                            {t}
+                          </span>
+                        ))}
                       </span>
                       <span className="mt-0.5 block text-xs text-muted-foreground">
                         {item.habitat ?? habitatUnknownLabel}

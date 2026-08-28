@@ -78,6 +78,29 @@
        contrast script results in CLAUDE.md. */
     --pill-quest: light-dark(oklch(0.4 0.14 235), oklch(0.72 0.13 230));
     --pill-craft: light-dark(oklch(0.46 0.15 55), oklch(0.78 0.15 65));
+    /* Pokédex type badges — one token per canonical Pokémon type, hue chosen
+       to evoke the type's traditional color (fire=red-orange, water=blue,
+       etc.) while L is solved per-theme for ≥4.5:1 against both --background
+       and --card (computed with the same OKLCH→sRGB WCAG script as every
+       other token here, not eyeballed — see CLAUDE.md "Design & a11y"). */
+    --type-normal: light-dark(oklch(0.544 0.06 107.9), oklch(0.6 0.06 107.9));
+    --type-fire: light-dark(oklch(0.56 0.16 51.6), oklch(0.616 0.16 51.6));
+    --type-water: light-dark(oklch(0.552 0.14 265.5), oklch(0.608 0.14 265.5));
+    --type-electric: light-dark(oklch(0.546 0.15 93.7), oklch(0.602 0.15 93.7));
+    --type-grass: light-dark(oklch(0.534 0.16 136.6), oklch(0.588 0.16 136.6));
+    --type-ice: light-dark(oklch(0.536 0.09 196), oklch(0.592 0.09 196));
+    --type-fighting: light-dark(oklch(0.564 0.15 28.2), oklch(0.62 0.15 28.2));
+    --type-poison: light-dark(oklch(0.566 0.15 327.7), oklch(0.622 0.15 327.7));
+    --type-ground: light-dark(oklch(0.548 0.11 89.8), oklch(0.604 0.11 89.8));
+    --type-flying: light-dark(oklch(0.558 0.13 294.1), oklch(0.614 0.13 294.1));
+    --type-psychic: light-dark(oklch(0.57 0.18 5.6), oklch(0.626 0.18 5.6));
+    --type-bug: light-dark(oklch(0.538 0.15 116), oklch(0.594 0.15 116));
+    --type-rock: light-dark(oklch(0.546 0.11 95.9), oklch(0.602 0.11 95.9));
+    --type-ghost: light-dark(oklch(0.558 0.11 300.1), oklch(0.612 0.11 300.1));
+    --type-dragon: light-dark(oklch(0.566 0.2 287.3), oklch(0.62 0.2 287.3));
+    --type-dark: light-dark(oklch(0.55 0.05 55.2), oklch(0.606 0.05 55.2));
+    --type-steel: light-dark(oklch(0.55 0.05 285.6), oklch(0.606 0.05 285.6));
+    --type-fairy: light-dark(oklch(0.562 0.12 5.2), oklch(0.618 0.12 5.2));
     --chart-1: light-dark(oklch(0.6 0.16 145), oklch(0.78 0.17 145));
     --chart-2: light-dark(oklch(0.62 0.12 220), oklch(0.72 0.13 220));
     --chart-3: light-dark(oklch(0.72 0.15 80), oklch(0.8 0.15 75));
@@ -108,6 +131,24 @@
   --color-destructive-foreground: var(--destructive-foreground);
   --color-pill-quest: var(--pill-quest);
   --color-pill-craft: var(--pill-craft);
+  --color-type-normal: var(--type-normal);
+  --color-type-fire: var(--type-fire);
+  --color-type-water: var(--type-water);
+  --color-type-electric: var(--type-electric);
+  --color-type-grass: var(--type-grass);
+  --color-type-ice: var(--type-ice);
+  --color-type-fighting: var(--type-fighting);
+  --color-type-poison: var(--type-poison);
+  --color-type-ground: var(--type-ground);
+  --color-type-flying: var(--type-flying);
+  --color-type-psychic: var(--type-psychic);
+  --color-type-bug: var(--type-bug);
+  --color-type-rock: var(--type-rock);
+  --color-type-ghost: var(--type-ghost);
+  --color-type-dragon: var(--type-dragon);
+  --color-type-dark: var(--type-dark);
+  --color-type-steel: var(--type-steel);
+  --color-type-fairy: var(--type-fairy);
   --color-border: var(--border);
   --color-input: var(--input);
   --color-ring: var(--ring);
