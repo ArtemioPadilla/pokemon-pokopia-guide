@@ -125,6 +125,36 @@ Pokédex (Basin) number in Pokémon Pokopia`, fetched in full). That page
   or its own Environment Level milestone table verified yet, and Bubbly
   Basin in particular still needs the other ~46 of its 50 species mapped
   to habitats.
+- **Area map imagery: real, sourced in-game art now used for 4 of 6 areas.**
+  Session 3 replaced the hand-drawn SVG schematics with real imagery
+  wherever a genuine, usable source asset could be found (the site owner
+  explicitly accepted the copyright tradeoff of hosting real game imagery —
+  see `src/components/islands/AreaMapBackground.tsx`'s file header for the
+  full reasoning). **Rocky Ridges** and **Sparkling Skylands** use the
+  actual in-game overworld map screenshot from each area's Bulbapedia
+  location infobox (`File:Rocky_Ridges_map_Pokopia.png` /
+  `File:Sparkling_Skylands_Map_Pokopia.png`, downloaded from
+  `archives.bulbagarden.net` and re-encoded to WebP) — a genuine top-down
+  layout, confirmed via the "Location" infobox field (Bulbapedia's standard
+  place for an in-game region-map capture, not fan art). Rocky Ridges'
+  existing collectibles pins (`col-rec-08`, `col-rec-09`) were repositioned
+  onto real walkable terrain in that image. **Palette Town** and **Bubbly
+  Basin** use a real Serebii.net gameplay screenshot (`serebii.net/
+pokemonpokopia/locations/<slug>.jpg`) as a decorative hero image on their
+  area detail page — neither has an in-game overview map available
+  anywhere this guide could find, and neither has any pinned Pokédex/
+  Collectibles entry yet, so the screenshot makes no locational claim.
+  **Withered Wasteland** and **Bleak Beach** keep the hand-drawn SVG: both
+  have real, sourced pins, but the only real imagery found for them was
+  narrow, UI-cluttered gameplay screenshots centered on the player
+  character — swapping one of those in behind multiple pins at different
+  in-world spots would have been _less_ honest than the schematic, since a
+  single narrow shot can't show where those spots are relative to each
+  other. Bulbapedia's location infobox for these two only has the
+  pre-Pokopia classic Kanto region map (Fuchsia/Vermilion City), which is
+  the wrong game entirely and wasn't used. All 6 areas are now mapped in
+  `src/lib/areaMapKey.ts`, so image swap-ins for the remaining two are a
+  drop-in once/if a real overview map turns up for them.
 - **Recipes: 880 of 600+** (up from 17 — the "600+" estimate itself was
   conservative; Serebii's crafting page alone lists 883 rows across its 7
   categories once fully parsed). Session 3 fetched that page's raw HTML

@@ -124,8 +124,8 @@
     "name": "Artificial Hot Spring Now Open!",
     "area": "Rocky Ridges",
     "note": "Newspaper",
-    "x": 60,
-    "y": 60
+    "x": 72,
+    "y": 58
   },
   {
     "id": "col-rec-09",
@@ -133,8 +133,8 @@
     "name": "You've Been Selected!",
     "area": "Rocky Ridges",
     "note": "Letter",
-    "x": 30,
-    "y": 40
+    "x": 40,
+    "y": 78
   },
   {
     "id": "col-rec-10",

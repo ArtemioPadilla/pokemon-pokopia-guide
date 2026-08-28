@@ -1,16 +1,39 @@
+import { withBase } from '@/lib/href';
+
 /**
- * Hand-authored, stylized/schematic SVG backgrounds for the area maps — NOT
- * game screenshots (none exist as source assets for this guide, and reusing
- * real capture art would be a copyright risk anyway). Every shape uses this
- * site's own design tokens (`var(--primary)`, `var(--chart-2)`, etc. from
- * `src/styles/global.css`) so the maps stay theme-aware for free and never
- * introduce a color the rest of the site doesn't already use. Decorative
- * only — always rendered inside an `aria-hidden="true"` <svg> by AreaMap.
+ * Area map backgrounds. Session 3 switched from all-hand-drawn schematics to
+ * REAL in-game imagery wherever a genuine, usable source asset exists — the
+ * site owner explicitly accepted the copyright tradeoff of hosting real game
+ * imagery over hand-drawn SVG placeholders (see CLAUDE.md's "Coverage TODO"
+ * for the sourcing/licensing notes on each file in `public/area-maps/`):
  *
- * Only areas with at least one sourced, placeable Pokédex/Collectibles entry
- * get bespoke art (see areaMapKey.ts); anything else renders the generic
- * `default` case rather than a fabricated illustration of a place this guide
- * hasn't verified any detail about.
+ * - **Rocky Ridges** and **Sparkling Skylands** use the actual in-game
+ *   overworld map screenshot from each area's Bulbapedia location infobox
+ *   (`File:Rocky_Ridges_map_Pokopia.png` / `File:Sparkling_Skylands_Map_Pokopia.png`)
+ *   — a genuine top-down layout, so pins placed against it are geographically
+ *   honest, not guessed.
+ * - **Palette Town** and **Bubbly Basin** use a real Serebii.net gameplay
+ *   screenshot of the area. Neither has an in-game overview map available
+ *   anywhere this guide could find, and neither area has any sourced,
+ *   pinnable Pokédex/Collectibles entry yet — so the screenshot is
+ *   decorative scene-setting only, not a claim about where anything is.
+ * - **Withered Wasteland** and **Bleak Beach** keep the earlier hand-drawn
+ *   SVG schematic. Both have real, sourced pins (Pokédex and/or
+ *   Collectibles entries with precise habitat text), but no real top-down
+ *   overview map or wide establishing shot of the *whole* area turned up in
+ *   sourcing — only narrow, UI-cluttered gameplay screenshots centered on
+ *   the player character, one small slice of the area at a time. Swapping
+ *   those in behind multiple pins at different in-world spots would be
+ *   *less* honest than the schematic, not more, since a single narrow shot
+ *   can't actually show where those spots are relative to each other. Every
+ *   shape still uses this site's own design tokens (`var(--primary)`,
+ *   `var(--chart-2)`, etc. from `src/styles/global.css`) so it stays
+ *   theme-aware for free.
+ *
+ * Decorative only — always rendered inside an `aria-hidden="true"` <svg> by
+ * AreaMap. Anything without a mapped key (see areaMapKey.ts) renders the
+ * generic `default` case rather than a fabricated illustration of a place
+ * this guide hasn't verified any detail about.
  */
 export default function AreaMapBackground({ areaKey }: { areaKey: string }) {
   switch (areaKey) {
@@ -19,10 +42,35 @@ export default function AreaMapBackground({ areaKey }: { areaKey: string }) {
     case 'bleak-beach':
       return <BleakBeach />;
     case 'rocky-ridges':
-      return <RockyRidges />;
+      return <RealImage file="rocky-ridges.webp" />;
+    case 'sparkling-skylands':
+      return <RealImage file="sparkling-skylands.webp" />;
+    case 'palette-town':
+      return <RealImage file="palette-town.webp" />;
+    case 'bubbly-basin':
+      return <RealImage file="bubbly-basin.webp" />;
     default:
       return <Unknown />;
   }
+}
+
+/**
+ * A real, sourced raster image stretched to fill the map's 0–100 viewBox —
+ * `preserveAspectRatio="none"` matches how the hand-drawn schematics below
+ * already fill the same box, so both kinds of background behave identically
+ * inside AreaMap's fixed-aspect-ratio container.
+ */
+function RealImage({ file }: { file: string }) {
+  return (
+    <image
+      href={withBase(`/area-maps/${file}`)}
+      x="0"
+      y="0"
+      width="100"
+      height="100"
+      preserveAspectRatio="none"
+    />
+  );
 }
 
 function WitheredWasteland() {
@@ -117,50 +165,6 @@ function BleakBeach() {
         <line x1="65" y1="58" x2="85" y2="50" />
         <line x1="70" y1="61" x2="90" y2="53" />
       </g>
-    </>
-  );
-}
-
-function RockyRidges() {
-  return (
-    <>
-      <rect x="0" y="0" width="100" height="100" fill="var(--muted)" />
-      {/* Ash haze */}
-      <g fill="var(--muted-foreground)" opacity="0.25">
-        <ellipse cx="25" cy="14" rx="18" ry="6" />
-        <ellipse cx="70" cy="10" rx="16" ry="5" />
-      </g>
-      {/* Layered ridge silhouettes */}
-      <path
-        d="M0 55 L20 32 L34 46 L50 20 L68 44 L84 28 L100 50 L100 100 L0 100 Z"
-        fill="var(--muted-foreground)"
-        opacity="0.35"
-      />
-      <path
-        d="M0 68 L18 52 L36 64 L58 46 L78 62 L100 50 L100 100 L0 100 Z"
-        fill="var(--muted-foreground)"
-        opacity="0.5"
-      />
-      {/* Artificial hot spring */}
-      <g>
-        <circle cx="60" cy="60" r="9" fill="var(--chart-2)" opacity="0.65" />
-        <circle cx="60" cy="60" r="9" fill="none" stroke="var(--border)" strokeWidth="0.6" />
-        <path
-          d="M56 49 q 2 -4 0 -7 M64 49 q 2 -4 0 -7"
-          stroke="var(--muted-foreground)"
-          strokeWidth="0.7"
-          fill="none"
-          opacity="0.6"
-        />
-      </g>
-      {/* Mountain path */}
-      <path
-        d="M30 100 C 28 85, 34 70, 30 55"
-        stroke="var(--border)"
-        strokeWidth="3.2"
-        fill="none"
-        opacity="0.5"
-      />
     </>
   );
 }
