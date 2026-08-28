@@ -147,7 +147,8 @@ describe('PokedexChecklist', () => {
     expect(screen.getByRole('checkbox', { name: /Bulbasaur/ })).toBeChecked();
   });
 
-  it('falls back to the "habitat unknown" label when habitat is not set', async () => {
+  it('falls back to the "habitat unknown" label when habitat is not set, shown in the detail panel on hover', async () => {
+    const user = userEvent.setup();
     const { default: PokedexChecklist } = await import('./PokedexChecklist');
     render(
       <PokedexChecklist
@@ -157,7 +158,11 @@ describe('PokedexChecklist', () => {
         habitatUnknownLabel="Habitat not verified"
       />,
     );
-    expect(screen.getAllByText('Habitat not verified').length).toBeGreaterThan(0);
+
+    await user.hover(screen.getByRole('checkbox', { name: /Pikachu/ }));
+    expect(screen.getByText('Habitat not verified')).toBeInTheDocument();
+
+    await user.hover(screen.getByRole('checkbox', { name: /Bulbasaur/ }));
     expect(screen.getByText('Pretty Flower Bed')).toBeInTheDocument();
   });
 });

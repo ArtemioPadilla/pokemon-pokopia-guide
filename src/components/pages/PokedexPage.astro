@@ -40,6 +40,7 @@ const pokedex = (await getLocalized('pokedex', locale))
         client:load
         items={pokedex}
         progressLabel={t('pokedex.progress')}
+        deviceTitle={t('pokedex.deviceTitle')}
         genLabel={t('pokedex.gen')}
         habitatUnknownLabel={t('pokedex.habitatUnknown')}
         listLabel={t('map.list')}
@@ -48,6 +49,8 @@ const pokedex = (await getLocalized('pokedex', locale))
         mapNote={t('map.note')}
         checkedSuffix={t('map.checkedSuffix')}
         uncheckedSuffix={t('map.uncheckedSuffix')}
+        searchPlaceholder={t('pokedex.search')}
+        hoverHintLabel={t('pokedex.hoverHint')}
       />
     </ErrorBoundary>
   </main>
