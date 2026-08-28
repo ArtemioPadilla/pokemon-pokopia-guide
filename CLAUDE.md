@@ -282,8 +282,31 @@ Special`, etc.) — recipe _names_ stay English in both locales, matching
   pokopiamap.com, and pokopiadex.com all 404 on every guessed
   lost-relics/artifacts URL path. Unlike Human Records, where Serebii
   turned out to have data Game8 lacked, no source found so far tracks
-  *where* a Lost Relic is found — only what it is. This is now a
-  well-documented dead end, not an unexplored lead.
+  *where* a Lost Relic is found — only what it is. **Session 7 found why:**
+  a GameFAQs community guide's dedicated Relics page
+  (`gamefaqs.gamespot.com/switch-2/559184-pokemon-pokopia/faqs/82556/relics`)
+  states outright that relics "come from the shiny Treasure spots
+  throughout the game world" — i.e. random drops from generic, unnamed
+  "Shiny Spot"/Dowsing Machine treasure points scattered across the whole
+  map, plus occasional Gimmighoul trade rewards — not items sitting at
+  fixed, nameable locations. Bulbapedia's patch notes corroborate this
+  independently (a note about the Dowsing Machine's detection range on
+  Dream Islands). Active communities (r/Pokopia, 300+-comment threads
+  asking "how many are there / what do you do with these") back this up
+  by omission: none discuss find-locations, only what to do with relics
+  once found, consistent with players treating them as random pickups
+  rather than something with a farmable spot. **This changes what "0%
+  area coverage" means**: it's not an unfilled field, it's that the field
+  doesn't apply — no source has *ever* claimed a fixed location for any of
+  these 89 items, because the game doesn't have one. `area` is left as
+  "Not specified in available sources" rather than invented as "Random"
+  everywhere, since a handful of relics may still turn out to have a
+  fixed spot nobody's documented yet — but the search for a missed
+  location-mapping source can stop; the honest expectation is that there
+  isn't one to find. (GameFAQs' Relics page does have real, useful
+  session-7-fetched data this guide doesn't yet use: 37 Large Relics each
+  named with which Pokémon-habitat unlock they tie to — a "what it's used
+  for" angle, not a location, and a candidate for a future pass.)
   **156 Human Records** (154 as of session 4, +2 from session 6's
   Bulbapedia find — see "Human Records — session 4" below for the full
   story of the 55→154 jump and why this file's old "126 total" estimate
